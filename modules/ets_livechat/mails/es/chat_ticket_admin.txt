@@ -1,0 +1,2 @@
+Ticket {subject} was created from this chat
+{mail_content}

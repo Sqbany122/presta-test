@@ -1,0 +1,134 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.search-widget {
+  z-index: 1;
+  margin: 35px 0px;
+  width: 100%; }
+  .search-widget form {
+    position: relative; }
+    .search-widget form input[type=text] {
+      border: 2px solid #333b48;
+      padding: 10px 50px 10px 10px;
+      max-width: 570px;
+      width: 100%;
+      background: white;
+      color: #414141;
+      font-weight: 300;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -o-border-radius: 2px;
+      border-radius: 2px; }
+      .search-widget form input[type=text]:focus {
+        outline: 3px #3387f2 solid;
+        color: #414141;
+        background: white; }
+        .search-widget form input[type=text]:focus + button {
+          background: #3387f2; }
+      .rtl .search-widget form input[type=text] {
+        padding: 10px 10px 10px 50px; }
+      .search-widget form input[type=text]::-webkit-input-placeholder {
+        color: rgba(65, 65, 65, 0.5);
+        text-indent: 0.625rem; }
+      .search-widget form input[type=text]::-moz-placeholder {
+        color: rgba(65, 65, 65, 0.5);
+        text-indent: 0.625rem; }
+      .search-widget form input[type=text]:-moz-placeholder {
+        color: rgba(65, 65, 65, 0.5);
+        text-indent: 0.625rem; }
+      .search-widget form input[type=text]:-ms-input-placeholder {
+        color: rgba(65, 65, 65, 0.5);
+        text-indent: 0.625rem; }
+    .search-widget form button[type=submit] {
+      position: absolute;
+      background: #333b48;
+      border: none;
+      bottom: 0.1875rem;
+      color: white;
+      padding: 0px;
+      font-size: 1.1875rem;
+      width: 2.4375rem;
+      height: 2.4375rem;
+      right: 0.1875rem;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -o-border-radius: 2px;
+      border-radius: 2px; }
+      .rtl .search-widget form button[type=submit] {
+        left: 0.1875rem;
+        right: auto; }
+      .search-widget form button[type=submit]:hover {
+        background: #3387f2; }
+  .search-widget.popup-over {
+    margin-right: 0; }
+    .rtl .search-widget.popup-over {
+      margin-left: 0;
+      margin-right: inherit; }
+    .search-widget.popup-over a.popup-title {
+      display: none; }
+  .search-widget .popup-content {
+    background: none;
+    border: none;
+    min-width: 100%;
+    padding: 0;
+    z-index: 99;
+    display: block;
+    position: inherit; }
+
+#checkout #search_widget {
+  display: none;
+  /* Not ideal solution by allows to reuse same hooks/templates */ }
+
+#pagenotfound .page-content #search_widget {
+  width: 100%; }
+
+.page-not-found .search-widget form {
+  display: block;
+  text-align: center; }
+
+/*** Responsive part ***/
+@media (max-width: 991px) {
+  .search-widget {
+    margin: 0; }
+    .search-widget .popup-over a .popup-title {
+      padding: 0; } }
+@media (max-width: 767px) {
+  .search-widget .popup-content {
+    width: 17.5rem;
+    left: 0px;
+    right: auto; }
+
+  .rtl .search-widget .popup-content {
+    right: 0px;
+    left: auto; } }
+@media (max-width: 575px) {
+  .search-widget {
+    float: none;
+    display: inline-block;
+    margin-bottom: 0; }
+    .search-widget .popup-content {
+      width: 16.5rem; }
+    .search-widget form input[type="text"] {
+      min-width: 100%; } }
+
+/*# sourceMappingURL=search-widget.css.map */

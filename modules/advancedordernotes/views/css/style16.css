@@ -1,0 +1,88 @@
+#create_category_wrapper, #edit_category_wrapper  { 
+
+	width:800px ;
+	display: block;
+	min-height:300px;
+	position:fixed;
+	z-index:999;
+	background-color: #fff;
+	left:50%;
+	margin-left:-400px;
+	top:50px;
+	border-radius:5px;
+	border:1px solid #ccc;
+ }
+ .button_active {
+color: #fff !important;
+background-color: #00aff0 !important;
+border-color: #008abd !important;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+font-size:14px !important; 
+}
+.button_active:hover{ opacity: 0.8 }
+#publish_time_edit select{ width:auto !important; }
+.dn{ display:none !important; }
+ul li { list-style-type: none !important }
+#post_category_list label{ text-align: left ; line-height: 22px;  font-weight: normal; font-size:12px; font-family:Arial; word-wrap: break-word;  }
+ #post_category_list { margin-left: 0; padding-left:0; }
+ #post_category_list   input[type=checkbox], input[type=radio] {
+	border: 1px solid #bbb;
+	background: #fff;
+	color: #555;
+	clear: none;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 0;
+	height: 16px;
+	margin: -4px 4px 0 0;
+	outline: 0;
+	padding: 0!important;
+	text-align: center;
+	vertical-align: middle;
+	width: 16px;
+	min-width: 16px;
+
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	-webkit-transition: .05s border-color ease-in-out;
+	transition: .05s border-color ease-in-out;
+
+}
+
+#form-featuredimage .mce-toolbar-grp { display:none !important; }
+#form-featuredimage .mce-container iframe { height:235px !important; }
+
+
+.db{ display:block !important;}
+
+
+
+.order_overlay { position: fixed; width:100% !important; height:100% !important; background-color: #000; opacity: 0.5; height:100% !important; z-index:9999; top:0; left:0; display: none}
+.order_info { display: none ; position:absolute !important; z-index:999999; background-color:#fff !important; top:100px; width:90%; left:5%; min-height: 200px; border:1px solid #ccc !important; border-radius:5px; box-shadow: 2px 2px 2px #ccc; }
+
+
+
+
+
+
+
+
+
+.order_close {
+  display: block;
+  position: absolute !important;
+  width: 33px;
+  height: 31px;
+  right: -15px;
+  top: -15px;
+  background-image: url('../img/close.png');
+}
+
+
+
+
+
+
+
+

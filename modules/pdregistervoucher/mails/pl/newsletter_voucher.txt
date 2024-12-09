@@ -1,0 +1,16 @@
+
+[{shop_url}] 
+
+Witaj, 
+
+Dziękujemy za {title_sub}, mamy przyjemność
+zaoferować Państwu następujący kupon rabatowy: {discount} 
+
+{amount_text} amount_wt_sign}
+{minimum_amount_text} {min_amount_wt_sign}
+{quantity_text} {quantity_wt_text}
+Kupon rabatowy może być użyty w ciągu {valid} dni
+{free_delivery}
+
+{shop_name} [{shop_url}]
+

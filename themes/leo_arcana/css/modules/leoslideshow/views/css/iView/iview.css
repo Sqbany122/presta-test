@@ -1,0 +1,273 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* The slider */
+.iviewSlider {
+  overflow: hidden;
+}
+
+/* The timer in the Slider */
+.iview-timer {
+  position: absolute;
+  z-index: 100;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.iview-timer div {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* The Preloader in the Slider */
+#iview-preloader {
+  position: absolute;
+  z-index: 1000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: #000 1px solid;
+  padding: 1px;
+  width: 100px;
+  height: 3px;
+}
+#iview-preloader div {
+  float: left;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  height: 3px;
+  background: #000;
+  width: 0px;
+}
+
+/* The strips and boxes in the Slider */
+.iview-strip {
+  display: block;
+  position: absolute;
+  z-index: 5;
+}
+
+.iview-block {
+  display: block;
+  position: absolute;
+  z-index: 5;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.iview-directionNav a {
+  position: absolute;
+  top: 50%;
+  z-index: 9;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: #222;
+  color: #FFF;
+  text-align: center;
+  font-size: 0px;
+  -webkit-transition: left 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+}
+.iview-directionNav a:before {
+  content: "";
+  font-family: "FontAwesome";
+  font-size: 20px;
+  line-height: 50px;
+}
+.iview-directionNav a.iview-prevNav {
+  left: -50px;
+}
+.iview-directionNav a.iview-prevNav:before {
+  content: "\f177";
+}
+.iview-directionNav a.iview-nextNav {
+  right: -50px;
+}
+.iview-directionNav a.iview-nextNav:before {
+  content: "\f178";
+}
+.iview-directionNav a:hover {
+  background: #d1be8f;
+}
+
+.iview.iview-hover .iview-directionNav a.iview-prevNav {
+  left: 0;
+}
+.iview.iview-hover .iview-directionNav a.iview-nextNav {
+  right: 0;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.iview-controlNav div.iview-items {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.iview-controlNav div.iview-items ul li {
+  display: inline-block;
+  position: relative;
+}
+.iview-controlNav div.iview-items ul li a.iview-control {
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-indent: -9999px;
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.iview-controlNav div.iview-items ul li a.iview-control.active, .iview-controlNav div.iview-items ul li a.iview-control:hover {
+  background-color: #d1be8f;
+}
+.iview-controlNav div.iview-items.customHtmlBullet {
+  padding: 0px;
+  height: 96px;
+  width: 100%;
+  background: #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: left;
+  z-index: 3;
+}
+.iview-controlNav div.iview-items.customHtmlBullet ul li {
+  width: 33%;
+  height: 96px;
+  float: left;
+  padding: 0;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control {
+  padding: 20px 25px 20px 16%;
+  float: left;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+  background: none;
+  text-transform: uppercase;
+  border-left: 1px solid #DDD;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  text-indent: inherit;
+  margin: 0;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active, .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover {
+  background: #fafafa;
+  cursor: pointer;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active:after, .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover:after {
+  font-family: "FontAwesome";
+  content: "\f0d8";
+  position: absolute;
+  top: -33px;
+  right: auto;
+  left: 50%;
+  margin-left: -10px;
+  font-size: 40px;
+  color: #fafafa;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active span, .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover span {
+  background-color: #d1be8f;
+  color: white;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control h5 {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "ralewayregular", sans-serif;
+  line-height: 20px;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control span {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  background: #eaeaea;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  color: #333333;
+  display: inline-block;
+  text-align: center;
+  font-family: "ralewaysemibold", sans-serif;
+  font-size: 18px;
+  margin: 0 18px 0 0;
+  float: left;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control p {
+  margin: 0;
+  color: #555555;
+}
+
+/* The video show in the Slider */
+.iview-video-show {
+  background: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 101;
+}
+.iview-video-show .iview-video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.iview-video-show .iview-video-container a.iview-video-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #222;
+  color: #FFF;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  line-height: 29px;
+  font-size: 22px;
+  font-weight: bold;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+.iview-video-show .iview-video-container a.iview-video-close:hover {
+  background: #444;
+}

@@ -1,0 +1,5 @@
+####################################
+# 1.2.4                            #
+####################################
+
+BO:  Fixed a problem where if home phone was empty but had spaces in string it would be displayed in address instead of mobile phone

@@ -1,0 +1,111 @@
+/**
+ * 2009-2017 Blue Train Lukasz Kowalczyk / PrestaCafe
+ *
+ * NOTICE OF LICENSE
+ *
+ * Lukasz Kowalczyk is the owner of the copyright of this module.
+ * All rights of any kind, which are not expressly granted in this
+ * License, are entirely and exclusively reserved to and by Lukasz
+ * Kowalczyk.
+ *
+ * You may not rent, lease, transfer, modify or create derivative
+ * works based on this module.
+ *
+ * @author    Lukasz Kowalczyk <lkowalczyk@prestacafe.pl>
+ * @copyright Lukasz Kowalczyk
+ * @license   LICENSE.txt
+ */
+
+#content .tab-pane:first-child .panel {
+	border-top-left-radius: 0;
+}
+
+.prestacafenewpayu-header .text-branded,
+.prestacafenewpayu-content .text-branded {
+	color: #00aff0;
+}
+
+.prestacafenewpayu-header h4,
+.prestacafenewpayu-content h4,
+.prestacafenewpayu-content h5 {
+	margin: 2px 0;
+	color: #00aff0;
+	font-size: 1.8em;
+}
+
+.prestacafenewpayu-header h4 {
+	margin-top: 5px;
+}
+
+.prestacafenewpayu-header .col-md-6 {
+	margin-top: 18px;
+}
+
+.prestacafenewpayu-content h4 {
+	margin-bottom: 10px;
+}
+
+.prestacafenewpayu-content h5 {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+.prestacafenewpayu-content h6 {
+	font-size: 1.3em;
+	margin: 1px 0 4px 0;
+}
+
+.prestacafenewpayu-header > .col-md-4 {
+	height: 65px;
+	vertical-align: middle;
+	border-left: 1px solid #ddd;
+}
+
+.prestacafenewpayu-header > .col-md-4:first-child {
+	border-left: none;
+}
+
+.prestacafenewpayu-header #create-account-btn {
+	margin-top: 14px;
+}
+
+.prestacafenewpayu-content dd + dt {
+	margin-top: 5px;
+}
+
+.prestacafenewpayu-content ul {
+	padding-left: 15px;
+}
+
+.prestacafenewpayu-content .ul-spaced li {
+	margin-bottom: 5px;
+}
+
+/* PS 1.5 tabs */
+
+#prestacafe_tabs {
+	margin-bottom: -2.5em;
+}
+
+.ps15.nav-tabs li {
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid #CCCED7;
+}
+
+.ps15.nav-tabs li.active {
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid #CCCED7;
+	background: #EBEDF4;
+}
+
+.ps15.tab-content .tab-pane {
+	display: none;
+}
+
+.ps15.tab-content .tab-pane.active {
+	display: block;
+}

@@ -1,0 +1,33 @@
+[/{shop_url}] 
+
+Witaj {firstname} {lastname},
+
+Dziękujemy za utworzenie konta klienta na stronie {shop_name}. 
+
+Oto twoje dane logowania:
+
+ADRES E-MAIL: {email}
+
+HASŁO: {passwd} 	
+	 
+
+Ważne wskazówki dotyczące bezpieczeństwa:
+
+* Zawsze trzymaj dane do Twojego konta w bezpiecznym miejscu.
+
+* Nigdy nie ujawniaj nikomu swojego loginu i hasła.
+
+* Regularnie zmieniaj swoje hasło.
+
+* Jeśli podejrzewasz, że ktoś używa Twojego konta nielegalnie,
+prosimy o natychmiastowe poinformowanie nas o tym.
+
+Możesz teraz składać zamówienia w naszym sklepie: {shop_name}
+[/{shop_url}] 
+
+
+    Salon Jeździecki Pegaz
+    ul.Zamkowa 2, 62-310 Pyzdry
+    Telefon: 507 822 351, 507 822 367
+    E-mail: zamowienia@pegazshop.pl
+

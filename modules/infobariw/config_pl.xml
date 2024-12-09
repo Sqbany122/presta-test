@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>infobariw</name>
+	<displayName><![CDATA[Info bar]]></displayName>
+	<version><![CDATA[2.0.2]]></version>
+	<description><![CDATA[Expandable infobar to tob or bottom of the page | Email: info@presta-apps.com]]></description>
+	<author><![CDATA[Presta-Apps Solutions]]></author>
+	<tab><![CDATA[others]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

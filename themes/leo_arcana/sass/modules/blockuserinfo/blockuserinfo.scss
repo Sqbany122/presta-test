@@ -1,0 +1,12 @@
+@import "compass";
+@import "theme_variables";
+
+#topbar{
+	.header_user_info {
+		.header_info{
+			padding: 20px 0;
+			@include rtl-float-left();
+			a{color: $theme-color-default;}
+		}
+	}
+}

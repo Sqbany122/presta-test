@@ -1,0 +1,24 @@
+{
+    "name": "redicon/rediconpaypo",
+    "description": "Pediconpaypo API",
+    "type": "library",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        
+    },
+    "require-dev": {
+    },
+
+    "autoload": {
+        "psr-4": {
+            "PrestaShop\\Module\\Rediconpaypo\\": "api/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "scripts": {
+
+    }
+}

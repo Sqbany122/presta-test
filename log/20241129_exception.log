@@ -1,0 +1,259 @@
+*ERROR* 	2024/11/29 - 00:28:30: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/29 - 00:28:35: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/29 - 00:28:48: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/29 - 00:29:25: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/29 - 06:40:16: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:16: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:16: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:17: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:23: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:23: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:24: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:24: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:25: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:25: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:25: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:26: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:26: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:27: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:27: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:27: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:27: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:28: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 06:40:28: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/29 - 09:50:40: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/29 - 09:50:51: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php

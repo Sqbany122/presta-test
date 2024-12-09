@@ -1,0 +1,12 @@
+*ERROR* 	2018/01/09 - 14:00:52: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 14:00:54: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 20:49:16: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 20:49:20: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 20:49:21: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 20:49:21: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 20:49:21: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 20:49:21: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 20:49:22: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 20:49:22: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 20:49:34: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/09 - 20:51:16: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php

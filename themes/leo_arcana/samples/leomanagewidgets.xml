@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataSample>                                                   
+    <fields objectName="LeoManageWidgetGroup" objectFile="LeoManageWidgetGroup.php" searchField="id_shop">
+    </fields>
+    <sql><![CDATA[CREATE TABLE IF NOT EXISTS `PREFIX_leomanagewidget_backup` (
+  `id_leomanagewidget` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_group` int(10) unsigned NOT NULL,
+  `id_shop` int(10) unsigned NOT NULL,
+  `position` int(10) unsigned NOT NULL DEFAULT '0',
+  `active` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `key_widget` int(10) unsigned NOT NULL,
+  `params` text,
+  PRIMARY KEY (`id_leomanagewidget`,`id_shop`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leomanagewidget_column` (
+  `id_column` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_group` int(10) unsigned NOT NULL,
+  `id_shop` int(10) unsigned NOT NULL,
+  `position` int(10) unsigned NOT NULL DEFAULT '0',
+  `active` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `params` text,
+  PRIMARY KEY (`id_column`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leomanagewidget_content` (
+  `id_content` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_column` int(10) unsigned NOT NULL,
+  `id_shop` int(10) unsigned NOT NULL,
+  `position` int(10) unsigned NOT NULL DEFAULT '0',
+  `active` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `key_widget` int(10) unsigned NOT NULL,
+  `module_name` varchar(64) NOT NULL,
+  `hook_name` varchar(64) NOT NULL,
+  `type` int(1) unsigned DEFAULT NULL,
+  `params` text,
+  PRIMARY KEY (`id_content`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leomanagewidget_group` (
+  `id_leomanagewidget_group` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_shop` int(10) unsigned NOT NULL,
+  `position` int(10) unsigned NOT NULL DEFAULT '0',
+  `active` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `hook_name` varchar(64) NOT NULL,
+  `type` int(1) unsigned DEFAULT NULL,
+  `params` text,
+  PRIMARY KEY (`id_leomanagewidget_group`,`id_shop`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+]]></sql>
+    <hooks>
+        <hook module="leomanagewidgets" hook="displayRightColumn" position="5" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayLeftColumn" position="1" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayHome" position="1" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayHeader" position="31" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayTop" position="9" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayRightColumnProduct" position="3" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayFooterProduct" position="1" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayFooter" position="1" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayProductTabContent" position="2" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayTopColumn" position="1" exceptions=","/>
+        <hook module="leomanagewidgets" hook="actionShopDataDuplication" position="2" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displaySlideshow" position="1" exceptions=","/>
+        <hook module="leomanagewidgets" hook="topNavigation" position="2" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayBottom" position="1" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayContentBottom" position="1" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayFootNav" position="1" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayFooterTop" position="1" exceptions=","/>
+        <hook module="leomanagewidgets" hook="displayFooterBottom" position="1" exceptions=","/>
+    </hooks>
+</dataSample>

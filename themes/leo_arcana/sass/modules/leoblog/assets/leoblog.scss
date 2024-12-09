@@ -1,0 +1,185 @@
+@import "compass";
+@import "theme_variables";
+
+/* blog listing */
+
+.blogs-container{
+  background: $white;
+  padding: 0 15px 20px;
+  .title_block {
+    color: $theme-color-secondary;
+    font-family: $font-family-base;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: $main-border;
+    margin: 0 0 10px;
+    padding: 20px 0px;
+  }
+  .category-image {
+    img {
+      @include rtl-padding-right(10px);
+    }
+  }
+  .blog-item{
+    margin-bottom: 20px;
+  }
+  .blog-image{
+    margin-bottom: 20px;
+    img{max-width: 100%;}
+  }
+
+  .title{
+    text-transform: none;
+  }
+
+  .blog-shortinfo{
+    margin-bottom: 20px;
+  }
+  .blog-meta{
+    margin-bottom: 20px;
+    overflow: hidden;
+    > span{
+      span{color: $theme-color-secondary; font-weight: bold;}
+    }
+  }
+}
+.blog-tags, .extra-blogs , .blog-comments, .social-share{
+  padding-bottom: 15px;
+}
+
+.extra-blogs ul li {
+  padding: 6px 0;
+  border-bottom: $main_border;
+}
+
+.blog-video-code .inner{
+  background: #DDD;
+  padding: 12px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+/* Blog Detail */
+.blog-detail{
+  .blog-title{
+    font-family: $font-family-base;
+    color: #272727;
+    font-size: 26px;
+  }
+  .blog-meta{
+    margin-bottom: 10px;
+  }
+  .blog-image{
+    margin-bottom: 20px;
+  }
+}
+
+/* categories menu display on left or right sidebar */
+
+#categories_blog_menu{
+  li {
+    position: relative;
+    a {
+      display: block;
+      &:hover {
+        span {
+          color: $theme-color-default;
+        }
+      }
+    }
+    span{
+      &.grower {
+        display: block;
+        position: absolute;
+        @include rtl-right(0);
+        top: 10px;
+        cursor: pointer;
+        font-family: $font-icon;
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+        z-index: 999;
+          &.OPEN,
+          &.CLOSE {
+            &:before {
+              content: "-";
+              display: block;
+              vertical-align: middle;
+              width: 25px;
+              height: 25px;
+              color: $theme-color-secondary;
+              line-height: 25px;
+              text-align: center;
+            }
+          }
+          &.CLOSE:before {
+            content: "+";
+            color: $theme-color-secondary;
+          }
+      }
+    }
+    li{
+      a{
+        font-weight: normal;
+        color: #777777;
+        &:before {
+          content: "\f105";
+          font-family: $font-icon;
+          line-height: 29px;
+          @include rtl-padding-right(8px);
+          @include rtl-float-left();
+          top: 0;
+        }
+      }
+    }
+  }
+}
+/* comment */
+.comment-item{
+  padding: 12px 0;
+  img{
+    @include rtl-padding-right(12px);
+  }
+} 
+.comment-wrap{
+  overflow:hidden;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #E5E5E5;
+  padding: 20px;
+  position: relative;
+  @include transition(all 0.3s ease-out 0s);
+  .comment-meta{
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 11px;
+    margin: -20px -20px 10px;
+    padding: 10px 20px;
+    > span { 
+      font-weight:bold; 
+      span{ font-weight:normal; }
+    }
+  }
+}
+
+.blog-social{
+  .social-wrap > div { float: left; }
+  .social-heading{ padding-right:12px; }
+}
+
+.comment-link{
+  background: none repeat scroll 0 0 #F4F4F4;
+  display: block;
+  font-weight: bold;
+  padding: 10px 20px;
+  @include rtl-margin(-11px, -20px, -10px, 0);
+  @include rtl-border-left(1px solid #E5E5E5);
+  @include rtl-float-right();
+}
+
+.ipts-captcha {
+  img{
+    @include rtl-float-left();
+    @include rtl-padding(0,12px,0,0);
+  }
+  input{
+    width: 100px;
+  }
+}

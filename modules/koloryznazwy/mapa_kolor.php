@@ -1,0 +1,20 @@
+<?php
+
+$GLOBALS['KOLORYZNAZWY']['czarn'] = '#000000';
+$GLOBALS['KOLORYZNAZWY']['srebrn'] = '#C0C0C0';
+$GLOBALS['KOLORYZNAZWY']['szar'] = '#808080';
+$GLOBALS['KOLORYZNAZWY']['biał'] = '#FFFFFF';
+$GLOBALS['KOLORYZNAZWY']['bordow'] = '#800000';
+$GLOBALS['KOLORYZNAZWY']['czerwon'] = '#FF0000';
+$GLOBALS['KOLORYZNAZWY']['fioletow'] = '#800080';
+$GLOBALS['KOLORYZNAZWY']['fuksj'] = '#FF00FF';
+$GLOBALS['KOLORYZNAZWY']['zielion'] = '#008000';
+$GLOBALS['KOLORYZNAZWY']['wapno'] = '#00FF00';
+$GLOBALS['KOLORYZNAZWY']['oliwk'] = '#808000';
+$GLOBALS['KOLORYZNAZWY']['żółt'] = '#FFFF00';
+$GLOBALS['KOLORYZNAZWY']['granat'] = '#000080';
+$GLOBALS['KOLORYZNAZWY']['niebiesk'] = '#0000FF';
+$GLOBALS['KOLORYZNAZWY']['zielonomodr'] = '#008080';
+$GLOBALS['KOLORYZNAZWY']['aqua'] = '#00FFFF';
+
+?>

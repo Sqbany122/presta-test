@@ -1,0 +1,19 @@
+*ERROR* 	2023/11/24 - 10:35:52: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 10:35:58: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 10:36:06: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 10:38:00: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 10:38:09: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 10:38:31: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 10:39:50: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 10:43:38: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 10:53:24: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 10:53:31: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 13:38:17: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 20:43:19: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/11/24 - 20:43:21: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/11/24 - 20:43:21: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/11/24 - 23:56:16: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 23:56:19: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 23:56:38: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 23:56:40: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/24 - 23:56:41: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php

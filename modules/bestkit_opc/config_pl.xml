@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>bestkit_opc</name>
+	<displayName><![CDATA[One Step Checkout / One Page Checkout]]></displayName>
+	<version><![CDATA[1.6.7]]></version>
+	<description><![CDATA[One Step Checkout extension transforms your clumsy checkout service into the fast all-in-one form, that requires minimum time and effort to fill in. Package for Prestashop v.1.6.x]]></description>
+	<author><![CDATA[best-kit.com]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

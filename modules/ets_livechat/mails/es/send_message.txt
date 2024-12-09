@@ -1,0 +1,2 @@
+{message}
+You can respond us directly by replying to this email or go to {shop_name} to continue chatting with us

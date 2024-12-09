@@ -1,0 +1,154 @@
+v3.2.2 @ 21.11.2019
+- uzupełniono kontext sklepu brakującymi obiektami powodującymi konflikt podczas crona
+
+v3.2.1 @ 12.11.2019
+- poprawiono wyświetlanie się mapy punktów odbioru
+
+v3.2.0 @ 29.10.2019
+- zmodernizowano wybór punktu z mapy dla pobrań - wyświetlane są tylko punkty pobraniowe
+
+v3.1.2 @ 29.10.2019
+- poprawiono błąd z walidacją pola id_dispatch_order podczas zapytania CRON
+
+v3.1.1 @ 14.10.2019
+- dodano opcję pobierania zawsze pełnej kwoty zamówienia jako kwota pobrania
+
+v3.1.0 @ 01.10.2019
+- uwzględniono kwotę wpłąconą przez klienta jako kwotę zmniejszającą wartość pobrania
+- poprawiono aktualizację statusu zamówienia przy zmianie statusu przesyłki
+- zaktualizowano licencje
+
+v3.0.1 @ 26.08.2019
+- dodano pobieranie kwoty faktycznie wyliczonej do zapłaty przez klienta w zamówieniu jako kwota pobrania gdy klient powinien zapłacić więcej (kompatybilność z modułami dodającymi dodatkowe opłaty do zamówień)
+
+v3.0.0 @ 02.08.2019
+- dodano odbiór w punkcie dpd z wyborem z mapy!
+
+v2.5.5 @ 02.08.2019
+- dodano wyświetlanie id statusów w celu wyświetlania konkretnej informacji, który status jest błędnie skonfigurowany
+
+v2.5.4 @ 29.07.2019
+- dodano opcję łączenia opisów przesyłek i podziału go na 3 części tak by jak najwięcej tekstu mieściło się na etykiecie
+
+v2.5.3 @ 25.07.2019
+- dodano kolumnę pobranie do listy przesyłek
+- dodano wyświetlanie pól ref2 i ref3 w zawartości przesyłek na liście DPD > Przesyłki
+- poprawiono działanie crona w kwestii sprawdzania statusów przesyłek
+
+v2.5.2 @ 22.07.2019
+- dodano opcjonalną walidację długości pól opisowych na etykiecie 27 znaków dla przesyłek krajowych 36 dla zagranicznych
+
+v2.5.1 @ 22.07.2019
+- poprawiono błędy SQL wprowadzone wraz z ostatnią aktualizacją
+- zmniejszono linię rozdzielającą zamówienia do 3px
+
+v2.5.0 @ 21.07.2019
+- dodano nowe tagi do opisów przesyłek:
+-- {ebay_id} - id zamówienia na ebay (jeśli dotyczy)
+-- {amazon_id} - id zamówienia na Amazon (jeśli dotyczy)
+- dodano nową kolumnę eBay or Amazon, dzięki której można filtrować po zamówieniach eBay / Amazon
+- dodano nową kolumnę eBay Amazon ID, w której wyświetla się identyfikator zamówienai w eBay lub Amazon
+
+v2.4.0 @ 18.07.2019
+- dodano nowe opisy przesyłek
+- dodano możliwość masowej zmiany statusów zamówień powiązanych z wybranymi przesyłkami w zakładce DPD > Przesyłki
+- rozdzielono w wyraźny sposób zamówienia na liście zamówień DPD > Zamówienia
+- dodano możliwość automatycznego pobierania etykiet po utworzeniu przesyłki
+
+v2.3.1 @ 17.07.2019
+- zaktualizowano listę statusów przesyłek
+
+v2.3.0 @ 16.07.2019
+- dodano możliwość filtrowania zamówień po statusach
+- dodano obsługę zamówień z modułu Amazon Marketplace
+- dodano nowe tagi do opisów przesyłek
+
+v2.2.1 @ 13.06.2019
+- poprawiono aktualizację statusów za pomocą cron'a
+
+v2.2.0 @ 07.06.2019
+- dodano pobieranie aktualnych statusów przesyłek za pomocą CRONa
+- poprawa synchronizacji listy statusów zamówień
+
+v2.1.0 @ 13.05.2019
+- dodano tłumaczenie tytułu maila intransit z poziomu konfiguracji
+- dodano wyświetlanie wiadomości do zamówienia na szybkiej liście zamówień w formie wykrzyknika oraz komunikatu przy dodawaniu przesyłki
+- usunięto przestarzałe funkcje generujace ostrzeżenia na najnowszym PHP
+
+v2.0.0 @ 02.05.2019
+- dodano obsługę api DPDInfoServices
+- dodano statusy przesyłek z funkcją automatycznego sprawdzania statusu bezpośrednio z api DPD
+- dodano opis funkcji automatycznego sprawdzania statusów przesyłek
+- dodano opcję Przywracanie ostatnio wybranego punktu przez klienta
+- dodano opcję Pokazuj wybór punktu odbioru poniżej listy przewoźników
+- dodano opcję Ukryj ostrzeżenie o niewybranym punkcie w zamówieniach jeśli dane zamówienie nie ma przypisanego szablonu z usługą odbioru w punkcie
+- dodano opcję Podczep się pod szablon maila z potwierdzeniem zamówienia
+- dodano opcję Dodaj informację o wybranym punkcie w wiadomości klienta
+- dodano opcję Ukryj niepowiązane szablony w zamówieniach
+- dodano opcję Ukryj panel wysyłki w zamówieniach bez przypisanych szablonów
+- dodano walidację czasu odbioru przesyłek przez kuriera przy zamawianiu kuriera
+- przebudowano ekran konfiguracji modułu
+
+v1.3.3 @ 1.05.2019
+- dodano wsparcie dla modułu trackmultiplecarriers z addons4presta
+
+v1.3.2 @ 15.04.2019
+- poprawiono tworzenie przesyłek z adresem zawierającym znak apostrofa lub cudzysłowiu
+
+v1.3.1 @ 02.04.2019
+- dodano fix dla button w ps15
+- dodano domyślny filtr daty na 7 dni wstecz dla listy zamówień o ile nie ustawiono inaczej
+
+v1.3.0 @ 19.02.2019
+- dodano filtr daty utworzenia przesyłki na liście przesyłek
+- dodano rozwijanie i zwijanie filtrów na liście przesyłek i zamówień
+- poprawiono funkcję tłumaczącą dla starszych wersji presty
+- poprawa zapisywania wybranego punktu w starszych wersjach presty
+- poprawiono funkcję liczącą wagę zamówienia uwzględniając narzuty ustawiane przez kombinacje produktów.
+- aktualizacja licencji
+
+v1.2.0 @ 30.12.2018
+- przystosowano moduł do płatności Arena.pl od Seigi
+- ps15 - przenoszenie modułu w podglądzie zamówienia
+- ps15 - poprawne wyświetlanie elementów pogrupowanych w szczegółach przesyłki
+- ps15 - przywrócono możliwość filtrów i masowych działań w zakładce z zamówieniami
+- ps15 - poprawa wywoływania funkcji tooltip
+- ps15 - poprawki wyglądu modułu
+- ps15 - poprawa wyświetlanych elementów w zakładce Zamówienia
+- ps15 - poprawa wyświetlania modułu wyboru daty i czasu dla filtrów
+- ps15 - przywrócono działanie filtrów w zakładce Przesyłki
+- ps15 - przywrócono działanie zakładki z zamawianiem kuriera
+- poprawna walidacja kodu kraju odbiorcy dla danych usług
+- poprawa sprawdzania błędnych przesyłek podczas masowego dodawania
+
+v1.1.2 @ 27.09.2018
+- poprawiono błąd z pobieraniem stałej kwoty pobrania i waluty z ustawień szablonu
+
+v1.1.1 @ 24.08.2018
+- poprawiono błąd z metodą setMedia dla php > 7.1 i presty > 1.7.4.0
+
+v1.1.0 @ 28.06.2018
+- dodano możliwość zarządzania domyślnymi adresami odbioru przesyłek dla kuriera (inne niż adres nadawcy) z możliwością definiowania dowolnej ich liczby
+- dodano możliwość wyboru adresu odbioru dla kuriera w postaci dynamicznej listy adresów
+- dodano możliwość śledzenia przesyłek na podstawie zlecenia odbioru (po kliknięciu na nr zlecenia odbioru)
+- dodano możliwość ustawiania wybranych przesyłek jako wysłane (tj. sztuczne ustawienie danej przesyłki tak by moduł myślał, że do niej został już zamówiony kurier, w efekcie zamawiamy kuriera zawsze do faktycznej listy przesyłek)
+- dodano filtr na liście przesyłek - adres odbioru przez kuriera
+- wprowadzono odpowiednie zaokrąglenia dla automatycznie wyliczanych wymiarów i wag przesyłek
+- przetłumaczono niektóre komunikaty błędów
+- poprawiono funkcję walidującą kod pocztowy dla przesyłek zagranicznych
+- usunięto niepotrzebne pliki
+- dodano brakujące tłumaczenia
+
+v1.0.4 @ 09.05.2018
+- poprawiono walidację numerów telefonów dla przesyłek zagranicznych
+
+v1.0.3 @ 11.04.2018
+- dodano obsługę modułu płatności PayU, płatność przelewem oraz płatność za pobraniem z synchronizacji zamówień Allegro BaseLinker
+- dodano możliwość tworzenia dowolnej przesyłki z szablonu w podglądzie danego zamówienia
+
+v1.0.2 @ 05.04.2018
+- dodano możliwość powiązywania usuniętych przewoźników
+- poprawiono wyświetlanie konfiguracji wydruku protokołów
+
+v1.0.0 @ 29.03.2018
+- pierwsza oficjalna wersja bazująca na Integracji z Inpost w wersji 2.8.1 (zawierająca wszystkie jej super opcje!)

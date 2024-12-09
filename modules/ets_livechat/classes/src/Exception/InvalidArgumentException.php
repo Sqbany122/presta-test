@@ -1,0 +1,20 @@
+<?php
+/**
+ * 2007-2017 Hybridauth
+ *
+ *  @author Hybridauth <https://hybridauth.github.io>
+ *  @copyright  2009-2017 Hybridauth
+ *  @license    https://hybridauth.github.io/license.html
+ *  International Registered Trademark & Property of Hybridauth
+ */
+
+namespace Hybridauth\Exception;
+
+/**
+ * InvalidArgumentException
+ *
+ * Exception thrown if an argument is not of the expected type.
+ */
+class InvalidArgumentException extends RuntimeException implements ExceptionInterface
+{
+}

@@ -1,0 +1,15 @@
+
+[{shop_url}]
+
+The PrestaCafe PayU module found a cart for which a payment
+has not been created in the database. Please check the store
+log for more error messages.
+
+Cart ID: {id_cart}
+Order ID: {id_order}
+Transaction ID: {payu_payment_id}
+PayU order ID: {payu_order_id}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]
+

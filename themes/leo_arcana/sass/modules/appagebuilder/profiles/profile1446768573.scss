@@ -1,0 +1,69 @@
+@import "compass";
+@import "theme_variables";
+
+
+/**************************
+		Home page 3 
+***************************/
+/* Layout Mod */
+body{
+    &.layout-boxed-md{
+        #page{  
+        	.plist-deal {
+        		.product-block {
+        			.functional-buttons {
+        				> div{
+        					&.cart .btn{
+        						padding: 15px 9px 16px;
+        					}
+        				}
+        			}
+        		}
+        	}
+        	.leo-more-cdown ul{
+        		li{
+        			margin-bottom: 5px;
+        		}
+        	}
+        }    
+    }
+    &.layout-boxed-lg{
+        #page{  
+           
+        }
+    }
+} 
+/* Header */
+#leo-megamenu {
+	background: $white;
+	border-top: $main-border;
+	.navbar-nav {
+		> li{
+			> a{color: $theme-color-secondary;}
+		}
+	}
+}
+/* Widget */
+.manufacturers_block{
+	&.block{margin-bottom: 0;}
+}
+
+/* Responsive */
+@media (max-width: $screen-md-max) and (min-width: 1024px) { // max 1199px and min 1024px
+	.block-right-module{
+		min-height: 150px;
+	}
+}
+@media (max-width: $screen-xs-max + 1) { // max 768px
+	/*Megamenu*/
+	#leo-megamenu{
+		.navbar-nav{
+			> li > a{
+				padding: 16px 18px;
+			}
+		}
+	}
+}
+@media (max-width: $screen-xs-max) { // max 767px
+	.navbar-header .navbar-toggle{background: #222;}
+}

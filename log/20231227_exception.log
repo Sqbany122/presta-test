@@ -1,0 +1,2 @@
+*ERROR* 	2023/12/27 - 11:55:31: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/12/27 - 19:39:15: Property OrderDetail->product_price is empty at line 917 in file classes/ObjectModel.php

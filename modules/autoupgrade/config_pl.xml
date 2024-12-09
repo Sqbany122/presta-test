@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>autoupgrade</name>
+	<displayName><![CDATA[Aktualizacja 1 kliknięciem]]></displayName>
+	<version><![CDATA[4.5.1]]></version>
+	<description><![CDATA[Zapewnia zautomatyzowany spos&oacute;b aktualizacji swojego sklepu do najnowszej wersji PrestaShop.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

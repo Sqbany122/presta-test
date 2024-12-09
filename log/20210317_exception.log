@@ -1,0 +1,122 @@
+*ERROR* 	2021/03/17 - 07:16:58: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 07:17:04: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 07:17:07: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 07:17:13: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 07:19:06: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 09:02:47: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 11:59:28: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 14:15:56: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 14:52:33: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:34: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:34: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:35: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:35: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:35: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:36: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:36: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:37: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:37: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:38: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:38: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:38: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:38: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:38: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:39: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:40: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:40: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:40: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:41: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:41: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:41: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:41: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:41: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:41: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:42: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:42: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:43: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:43: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:43: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:43: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:44: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:44: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:44: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:44: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:45: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:45: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:45: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:46: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:46: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:47: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:48: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:49: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:49: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:49: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:50: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:50: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:51: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:51: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:51: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:51: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:51: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:51: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:51: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:52: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:52: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:52: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:52: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:53: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:53: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:54: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:55: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:56: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:56: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:57: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:57: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:57: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:57: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:58: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:58: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:58: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:58: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:59: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:59: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:52:59: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:01: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:02: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:02: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:03: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:03: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:04: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:04: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:05: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:05: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:05: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:05: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:05: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:05: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:06: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:07: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:07: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:07: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:07: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:07: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:07: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:08: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:09: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:09: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:09: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:10: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:10: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:10: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:10: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 14:53:12: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 15:05:33: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 15:05:34: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 15:05:35: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2021/03/17 - 17:27:42: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 17:27:58: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 17:32:16: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 21:51:15: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 21:51:46: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 21:52:35: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/03/17 - 21:56:22: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php

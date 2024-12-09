@@ -1,0 +1,41 @@
+.carousel-control{
+  z-index: 10;
+  height: 24px;
+  background: #f9f9f9 !important;
+  @include opacity(1);
+  line-height: 1; 
+  top: -70px;
+  font-size: 0px;
+  text-align: center;
+  line-height: 24px;
+  &:before{
+    content: "\f178";
+    font-family: $font-icon;
+    color: $carousel-control-color;
+    font-size: $carousel-control-font-size;
+    text-shadow: $carousel-text-shadow;
+  }
+  &.left{
+    left: auto;
+    right: 50px;
+    margin-right: 10px;
+    &:before{
+      content: "\f177";
+    }
+  }
+  &:hover{
+    background: $theme-color-default !important;
+    &:before{color: $white;}
+  }
+}
+
+//@mixin button-variant-outline($color, $background, $border, $colorhover, $bghover, $borderhover ) {
+.btn-inverse{
+  @include button-variant-outline($white, $theme-color-default, $theme-color-default, $text-color, $nocolor , $border-color );
+} 
+.btn-outline{
+  @include button-variant-outline($white, $theme-color-secondary , $theme-color-secondary , $white, $theme-color-default, $theme-color-default );
+}
+.btn{
+  @include border-radius(0);
+}

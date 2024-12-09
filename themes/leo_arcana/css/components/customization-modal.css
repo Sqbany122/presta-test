@@ -1,0 +1,38 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.customization-modal .modal-content {
+  border-radius: 0;
+  border: 1px solid #f6f6f6; }
+  .customization-modal .modal-content .modal-body {
+    padding-top: 0; }
+    .customization-modal .modal-content .modal-body .product-customization-line {
+      padding-bottom: 0.9375rem;
+      padding-top: 0.9375rem;
+      border-bottom: 1px solid #f6f6f6; }
+      .customization-modal .modal-content .modal-body .product-customization-line .label {
+        font-weight: bold;
+        text-align: right; }
+      .customization-modal .modal-content .modal-body .product-customization-line:last-child {
+        padding-bottom: 0;
+        border-bottom: 0; }
+
+/*# sourceMappingURL=customization-modal.css.map */

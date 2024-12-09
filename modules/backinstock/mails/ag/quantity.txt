@@ -1,0 +1,1 @@
+ Below shown is the product that you have requested to be updated upon.  {current_price} {product_name}{best_seller_product}{related_product_content}To unsubscribe. Click here

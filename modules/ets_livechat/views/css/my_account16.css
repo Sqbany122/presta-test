@@ -1,0 +1,68 @@
+#my-account ul.myaccount-link-list li {
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+#chat-info-link span.ss_icon_group i,
+#chat-tickets-link span.ss_icon_group i,
+#chat-history-link span.ss_icon_group i {
+    position: static!important;
+    border: none!important;
+    left: auto!important;
+    margin-top: 0!important;
+    padding-top: 0!important;
+}
+#chat-info-link span.ss_icon_group,
+#chat-tickets-link span.ss_icon_group,
+#chat-history-link span.ss_icon_group {
+    position: absolute;
+    left: 0;
+    padding: 0!important;
+    margin-left: 0!important;
+    font-size: 30px!important;
+    border: none!important;
+    overflow: visible!important;
+}
+.lc_tickets, .lc_ticket_wapper {
+    padding: 0;
+}
+
+#module-ets_livechat-form .panel {
+    box-shadow: none;
+}
+.lc_rate_ticket .star:before {
+    content: "\f006";
+    font-family: Fontawesome;
+    display: inline-block;
+}
+.lc_rate_ticket .star_on:before {
+    content: "\f005";
+}
+.lc_rate_ticket .star_content > div {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 2px;
+}
+.lc_ticket_wapper .lc_rate_ticket .star_content span {
+    background: transparent;
+}
+#module-ets_livechat-ticket .footer_links {
+    display: none;
+}
+.lc_ticket_detail .ticket-list-messages .lc_msg.is_employee .lc_sender {
+    top: -5px;
+}
+.lc_block_support_top_nav span.tit {
+    color: #fff;
+        line-height: 38px;
+}
+.lc_block_support_top_nav {
+    margin-left: 0;
+}
+
+
+
+
+

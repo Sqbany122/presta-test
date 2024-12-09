@@ -1,0 +1,18 @@
+.defaultForm.form-horizontal::after{
+  content: "© 2019 United Parcel Service of America, Inc. \A UPS, the UPS brandmark and the color brown are trademarks of United Parcel Service of America, Inc. All rights reserved.";
+  white-space: pre;
+  text-align: center;
+  display: inherit;
+}
+.form-horizontal.clearfix::after{
+  content: "© 2019 United Parcel Service of America, Inc. \A UPS, the UPS brandmark and the color brown are trademarks of United Parcel Service of America, Inc. All rights reserved.";
+  white-space: pre;
+  text-align: center;
+  display: inherit;
+}
+form#configuration_form.form-horizontal:after{
+  content: "© 2019 United Parcel Service of America, Inc. \A UPS, the UPS brandmark and the color brown are trademarks of United Parcel Service of America, Inc. All rights reserved.";
+  white-space: pre;
+  text-align: center;
+  display: inherit;
+}

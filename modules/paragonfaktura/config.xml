@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>paragonfaktura</name>
+            <displayName><![CDATA[Faktura lub paragon]]></displayName>
+            <version><![CDATA[1]]></version>
+            <description><![CDATA[Ten moduł umożliwia podjęcie przez klienta wyboru dokumentu do składanego zam&oacute;wienia.]]></description>
+            <author><![CDATA[Createin.pl]]></author>
+            <tab><![CDATA[billing_invoicing]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+        </module>

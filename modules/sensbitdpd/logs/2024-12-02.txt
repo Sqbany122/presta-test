@@ -1,0 +1,3535 @@
+
+
+/****************** 2024-12-02 09:44:54 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "4.000000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d7386e65c2_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Agrestowa 19",
+                    "city": "Ka\u017amierz",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "beata.cegiela@gmail.com",
+                    "name": "Beata Cegiela",
+                    "phone": "538307872",
+                    "postalCode": "64530"
+                },
+                "ref1": "Zam\u00f3wienie: 11279-2024 ID: 88066 ",
+                "ref2": "Zam\u00f3wienie: 11279-2024 ID: 88066 ",
+                "ref3": "",
+                "reference": "674d7386e65c2",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939853724,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867855953,
+                    "Reference": "674d7386e65c2",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954556749,
+                                "Reference": "674d7386e65c2_1",
+                                "Waybill": "1006337568547U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 09:44:58 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006337568547U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 09:45:27 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "4.000000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d73a78f04c_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "P\u00f3\u0142wiejska 31",
+                    "city": "Gniezno",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "dandil1@go2.pl",
+                    "name": "Angelika Przybylska",
+                    "phone": "664722622",
+                    "postalCode": "62200"
+                },
+                "ref1": "Zam\u00f3wienie: 11282-2024 ID: 88069 ",
+                "ref2": "Zam\u00f3wienie: 11282-2024 ID: 88069 ",
+                "ref3": "",
+                "reference": "674d73a78f04c",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": {
+                    "cod": {
+                        "amount": "593.5",
+                        "currency": "PLN"
+                    }
+                }
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939854833,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867857092,
+                    "Reference": "674d73a78f04c",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954557947,
+                                "Reference": "674d73a78f04c_1",
+                                "Waybill": "1006337670053U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 09:45:30 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006337670053U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 09:46:19 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "2.5000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d73db48f9c_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "\u017bwirki i Wigury 4",
+                    "city": "My\u015blenice",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "alka.konieczka@gmail.com",
+                    "name": "Alicja Konieczka",
+                    "phone": "796118769",
+                    "postalCode": "32400"
+                },
+                "ref1": "Zam\u00f3wienie: 11328-2024 ID: 88115 ",
+                "ref2": "Zam\u00f3wienie: 11328-2024 ID: 88115 ",
+                "ref3": "",
+                "reference": "674d73db48f9c",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939856557,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867858870,
+                    "Reference": "674d73db48f9c",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954559834,
+                                "Reference": "674d73db48f9c_1",
+                                "Waybill": "1006337828757U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 09:46:21 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006337828757U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 09:46:56 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "4.0000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d740012307_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Czeczota  14",
+                    "city": "Warszawa",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "siedleckak@gmail.com",
+                    "name": "Kasia  Hajbos",
+                    "phone": "609229272",
+                    "postalCode": "02607"
+                },
+                "ref1": "Zam\u00f3wienie: 11326-2024 ID: 88113 ",
+                "ref2": "Zam\u00f3wienie: 11326-2024 ID: 88113 ",
+                "ref3": "",
+                "reference": "674d740012307",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939857614,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867860068,
+                    "Reference": "674d740012307",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954561135,
+                                "Reference": "674d740012307_1",
+                                "Waybill": "1006337949285U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 09:46:58 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006337949285U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 09:51:45 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "2.000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d752166ddd_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "JASPISOWA  10\/40",
+                    "city": "LUBLIN",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "dudek.magda@tlen.pl",
+                    "name": "Magdalena Dudek",
+                    "phone": "500163160",
+                    "postalCode": "20583"
+                },
+                "ref1": "Zam\u00f3wienie: 11339-2024 ID: 88126 ",
+                "ref2": "Zam\u00f3wienie: 11339-2024 ID: 88126 ",
+                "ref3": "",
+                "reference": "674d752166ddd",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939866280,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867868540,
+                    "Reference": "674d752166ddd",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954570206,
+                                "Reference": "674d752166ddd_1",
+                                "Waybill": "1006338756062U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 09:51:48 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006338756062U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 09:57:55 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "3.0",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d769336b1c_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Ul. Byczynska 2\/3",
+                    "city": "Kluczbork",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "owandzioch@o2.pl",
+                    "name": "Aleksandra Wandzioch",
+                    "phone": "882309248",
+                    "postalCode": "46200"
+                },
+                "ref1": "Zam\u00f3wienie: 11330-2024 ID: 88117 ",
+                "ref2": "Zam\u00f3wienie: 11330-2024 ID: 88117 ",
+                "ref3": "",
+                "reference": "674d769336b1c",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939877894,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867879880,
+                    "Reference": "674d769336b1c",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954582571,
+                                "Reference": "674d769336b1c_1",
+                                "Waybill": "1006339839720U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 09:57:57 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006339839720U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 09:59:27 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "5.0000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d76efcc485_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Siedlnica  166",
+                    "city": "Wschowa",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "dangol4@wp.pl",
+                    "name": "Katarzyna Kosi\u0144ska",
+                    "phone": "785210663",
+                    "postalCode": "67400"
+                },
+                "ref1": "Zam\u00f3wienie: 11367-2024 ID: 88154 ",
+                "ref2": "Zam\u00f3wienie: 11367-2024 ID: 88154 ",
+                "ref3": "",
+                "reference": "674d76efcc485",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939880730,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867882656,
+                    "Reference": "674d76efcc485",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954585555,
+                                "Reference": "674d76efcc485_1",
+                                "Waybill": "1006340093201U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 09:59:30 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006340093201U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:00:00 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "4.000000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d7710c3487_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Unruga  150B",
+                    "city": "Krak\u00f3w",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "karolina.k.kowalczewska@gmail.com",
+                    "name": "Karolina Kowalczewska",
+                    "phone": "515174324",
+                    "postalCode": "30394"
+                },
+                "ref1": "Zam\u00f3wienie: 11369-2024 ID: 88156 ",
+                "ref2": "Zam\u00f3wienie: 11369-2024 ID: 88156 ",
+                "ref3": "",
+                "reference": "674d7710c3487",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939881681,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867883580,
+                    "Reference": "674d7710c3487",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954586531,
+                                "Reference": "674d7710c3487_1",
+                                "Waybill": "1006340181712U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:00:03 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006340181712U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:03:02 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "0.800000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d77c634a36_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Kowanowo 1F",
+                    "city": "Kowanowo",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "asia.gierusz@poczta.onet.pl",
+                    "name": "Joanna Dziamska",
+                    "phone": "723917500",
+                    "postalCode": "64600"
+                },
+                "ref1": "Zam\u00f3wienie: 11348-2024 ID: 88135 ",
+                "ref2": "Zam\u00f3wienie: 11348-2024 ID: 88135 ",
+                "ref3": "",
+                "reference": "674d77c634a36",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939887587,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867889469,
+                    "Reference": "674d77c634a36",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954592874,
+                                "Reference": "674d77c634a36_1",
+                                "Waybill": "1006340731837U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:03:04 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006340731837U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:04:42 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "4.000000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d782aa30f3_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "3 Maja 44 Arek Bike Center",
+                    "city": "Ustro\u0144",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "justynaszczepanska4@gmail.com",
+                    "name": "Justyna Szczepa\u0144ska",
+                    "phone": "485128397",
+                    "postalCode": "43450"
+                },
+                "ref1": "Zam\u00f3wienie: 11353-2024 ID: 88140 ",
+                "ref2": "Zam\u00f3wienie: 11353-2024 ID: 88140 ",
+                "ref3": "",
+                "reference": "674d782aa30f3",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939890803,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867892571,
+                    "Reference": "674d782aa30f3",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954596128,
+                                "Reference": "674d782aa30f3_1",
+                                "Waybill": "1006341028266U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:04:46 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006341028266U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:05:12 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "5.000000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d7848bdb48_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Wiejska  2",
+                    "city": "Wilkowice",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "sandra-wilczkowiak@wp.pl",
+                    "name": "Sandra Wilczkowiak",
+                    "phone": "607391995",
+                    "postalCode": "64115"
+                },
+                "ref1": "Zam\u00f3wienie: 11296-2024 ID: 88083 ",
+                "ref2": "Zam\u00f3wienie: 11296-2024 ID: 88083 ",
+                "ref3": "",
+                "reference": "674d7848bdb48",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939891838,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867893461,
+                    "Reference": "674d7848bdb48",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954597095,
+                                "Reference": "674d7848bdb48_1",
+                                "Waybill": "1006341114983U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:05:15 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006341114983U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:09:54 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "4.00000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d7962e0e69_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Krasi\u0144skiego 67\/91",
+                    "city": "Warszawa",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "1magdalena.rozwadowska@gmail.com",
+                    "name": "Magdalena Rozwadowska",
+                    "phone": "501181708",
+                    "postalCode": "01755"
+                },
+                "ref1": "Zam\u00f3wienie: 11340-2024 ID: 88127 ",
+                "ref2": "Zam\u00f3wienie: 11340-2024 ID: 88127 ",
+                "ref3": "",
+                "reference": "674d7962e0e69",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939900103,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867901560,
+                    "Reference": "674d7962e0e69",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954605849,
+                                "Reference": "674d7962e0e69_1",
+                                "Waybill": "1006341906377U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:09:57 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006341906377U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:19:55 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "4.0000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d7bbba9e9c_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Grochowska  207\/89",
+                    "city": "Warszawa",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "al.karasiewicz@gmail.com",
+                    "name": "Aleksandra Karasiewicz",
+                    "phone": "510103181",
+                    "postalCode": "04077"
+                },
+                "ref1": "Zam\u00f3wienie: 11305-2024 ID: 88092 ",
+                "ref2": "Zam\u00f3wienie: 11305-2024 ID: 88092 ",
+                "ref3": "",
+                "reference": "674d7bbba9e9c",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939918955,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867920107,
+                    "Reference": "674d7bbba9e9c",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954625715,
+                                "Reference": "674d7bbba9e9c_1",
+                                "Waybill": "1006343663873U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:19:58 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006343663873U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:22:11 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "3.00000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d7c43a092b_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Opie\u0144skiego 4c\/73 ",
+                    "city": "Pozna\u0144",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "anna.bula90@gmail.com",
+                    "name": "Anna Bu\u0142a",
+                    "phone": "783199004",
+                    "postalCode": "60685"
+                },
+                "ref1": "Zam\u00f3wienie: 11307-2024 ID: 88094 ",
+                "ref2": "Zam\u00f3wienie: 11307-2024 ID: 88094 ",
+                "ref3": "",
+                "reference": "674d7c43a092b",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939923160,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867924172,
+                    "Reference": "674d7c43a092b",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954630075,
+                                "Reference": "674d7c43a092b_1",
+                                "Waybill": "1006344050460U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:22:14 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006344050460U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:24:10 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "5.0",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d7cba18b4d_1"
+                    },
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "2.0",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d7cba18b4d_2"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Szkolna  8b ",
+                    "city": "My\u015blenice ",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "only.me.moni@gmail.com",
+                    "name": "Zofia  Gurbisz  ",
+                    "phone": "601082359",
+                    "postalCode": "32400"
+                },
+                "ref1": "Zam\u00f3wienie: 11318-2024 ID: 88105 ",
+                "ref2": "Zam\u00f3wienie: 11318-2024 ID: 88105 ",
+                "ref3": "",
+                "reference": "674d7cba18b4d",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939926757,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867927769,
+                    "Reference": "674d7cba18b4d",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954633919,
+                                "Reference": "674d7cba18b4d_1",
+                                "Waybill": "1006344397150U"
+                            },
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954633920,
+                                "Reference": "674d7cba18b4d_2",
+                                "Waybill": "1006344397270U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:24:13 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006344397150U"
+                    },
+                    {
+                        "waybill": "1006344397270U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:36:33 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "1.60000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d7fa1b74c4_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Chrostowo Zalesie 12",
+                    "city": "Czernice Borowe ",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "eburska@o2.pl",
+                    "name": "Ania Dzieli\u0144ska",
+                    "phone": "500741768",
+                    "postalCode": "06415"
+                },
+                "ref1": "Zam\u00f3wienie: 11632-2024 ID: 88419 ",
+                "ref2": "Zam\u00f3wienie: 11632-2024 ID: 88419 ",
+                "ref3": "",
+                "reference": "674d7fa1b74c4",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": {
+                    "cod": {
+                        "amount": "165.2",
+                        "currency": "PLN"
+                    }
+                }
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939949851,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867950650,
+                    "Reference": "674d7fa1b74c4",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954658653,
+                                "Reference": "674d7fa1b74c4_1",
+                                "Waybill": "1006346556294U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:36:36 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006346556294U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:46:53 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "0.500000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d820d13ceb_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Ksi\u0119\u017cycowa 15 15",
+                    "city": "Tarnowiec",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "marrybluexo@gmail.com",
+                    "name": "Martyna \u015awierk",
+                    "phone": "698813433",
+                    "postalCode": "33112"
+                },
+                "ref1": "Zam\u00f3wienie: 11597-2024 ID: 88384 ",
+                "ref2": "Zam\u00f3wienie: 11597-2024 ID: 88384 ",
+                "ref3": "",
+                "reference": "674d820d13ceb",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939968951,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867969808,
+                    "Reference": "674d820d13ceb",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954679125,
+                                "Reference": "674d820d13ceb_1",
+                                "Waybill": "1006348340396U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:46:56 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006348340396U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 10:49:40 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "6.0000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d82b4bdc61_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "pod lasem 36",
+                    "city": "Wilczyn",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "smakuch@o2.pl",
+                    "name": "Seweryn Makuch",
+                    "phone": "668168303",
+                    "postalCode": "55120"
+                },
+                "ref1": "Zam\u00f3wienie: 11317-2024 ID: 88104 ",
+                "ref2": "Zam\u00f3wienie: 11317-2024 ID: 88104 ",
+                "ref3": "",
+                "reference": "674d82b4bdc61",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 939973782,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 867974554,
+                    "Reference": "674d82b4bdc61",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954684320,
+                                "Reference": "674d82b4bdc61_1",
+                                "Waybill": "1006348800375U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 10:49:42 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006348800375U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 11:04:20 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "6.00000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d8624419d1_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Szkolna  8b ",
+                    "city": "My\u015blenice ",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "only.me.moni@gmail.com",
+                    "name": "Zofia  Gurbisz  ",
+                    "phone": "601082359",
+                    "postalCode": "32400"
+                },
+                "ref1": "Zam\u00f3wienie: 11318-2024 ID: 88105 ",
+                "ref2": "Zam\u00f3wienie: 11318-2024 ID: 88105 ",
+                "ref3": "",
+                "reference": "674d8624419d1",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940001050,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868001554,
+                    "Reference": "674d8624419d1",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954713321,
+                                "Reference": "674d8624419d1_1",
+                                "Waybill": "1006351341169U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 11:04:23 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006351341169U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 11:18:48 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "3.000000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d898895f00_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Koszykowa  49A\/lu6",
+                    "city": "Warszawa",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "adzikk92@gmail.com",
+                    "name": "Ada Snochowska",
+                    "phone": "799222239",
+                    "postalCode": "00659"
+                },
+                "ref1": "Zam\u00f3wienie: 11425-2024 ID: 88212 ",
+                "ref2": "Zam\u00f3wienie: 11425-2024 ID: 88212 ",
+                "ref3": "",
+                "reference": "674d898895f00",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": {
+                    "cod": {
+                        "amount": "352.65",
+                        "currency": "PLN"
+                    }
+                }
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940028185,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868028042,
+                    "Reference": "674d898895f00",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954741766,
+                                "Reference": "674d898895f00_1",
+                                "Waybill": "1006353837860U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 11:18:51 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006353837860U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 11:19:51 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "0.500000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d89c734a32_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Niwka Stara 10B",
+                    "city": "Puszczykowo",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "szyperskaeweluna@gmail.com",
+                    "name": "Ewelina Szyperska",
+                    "phone": "691419680",
+                    "postalCode": "62040"
+                },
+                "ref1": "Zam\u00f3wienie: 11445-2024 ID: 88232 ",
+                "ref2": "Zam\u00f3wienie: 11445-2024 ID: 88232 ",
+                "ref3": "",
+                "reference": "674d89c734a32",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": {
+                    "cod": {
+                        "amount": "55.6",
+                        "currency": "PLN"
+                    }
+                }
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940030007,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868029797,
+                    "Reference": "674d89c734a32",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954743658,
+                                "Reference": "674d89c734a32_1",
+                                "Waybill": "1006354005931U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 11:19:54 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006354005931U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 11:42:28 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "2.0",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d8f14eb3f6_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "G\u0142\u00f3wna 66, 66",
+                    "city": "Lipie",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "ma.kiepura@op.pl",
+                    "name": "Ma\u0142gorzata Kiepura",
+                    "phone": "516123305",
+                    "postalCode": "42165"
+                },
+                "ref1": "Zam\u00f3wienie: 11607-2024 ID: 88394 ",
+                "ref2": "Zam\u00f3wienie: 11607-2024 ID: 88394 ",
+                "ref3": "",
+                "reference": "674d8f14eb3f6",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": {
+                    "cod": {
+                        "amount": "301",
+                        "currency": "PLN"
+                    }
+                }
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940070127,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868070837,
+                    "Reference": "674d8f14eb3f6",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954788040,
+                                "Reference": "674d8f14eb3f6_1",
+                                "Waybill": "1006357922979U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 11:42:32 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006357922979U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 11:43:10 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "2.00000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d8f3e60fe2_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Ul. Pawia 69",
+                    "city": "Lublin",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "dorotaozimek7@gmail.com",
+                    "name": "Dorota Ozimek",
+                    "phone": "696771988",
+                    "postalCode": "20343"
+                },
+                "ref1": "Zam\u00f3wienie: 11606-2024 ID: 88393 ",
+                "ref2": "Zam\u00f3wienie: 11606-2024 ID: 88393 ",
+                "ref3": "",
+                "reference": "674d8f3e60fe2",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940071216,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868071897,
+                    "Reference": "674d8f3e60fe2",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954789199,
+                                "Reference": "674d8f3e60fe2_1",
+                                "Waybill": "1006358024830U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 11:43:13 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006358024830U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 11:45:47 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "3.000000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d8fdb5ff2a_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Woronicza  33b\/280",
+                    "city": "Warszawa",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "vero.zlobecka@gmail.com",
+                    "name": "Weronika Marona",
+                    "phone": "692091963",
+                    "postalCode": "02640"
+                },
+                "ref1": "Zam\u00f3wienie: 11497-2024 ID: 88284 ",
+                "ref2": "Zam\u00f3wienie: 11497-2024 ID: 88284 ",
+                "ref3": "",
+                "reference": "674d8fdb5ff2a",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940075752,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868076483,
+                    "Reference": "674d8fdb5ff2a",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954794110,
+                                "Reference": "674d8fdb5ff2a_1",
+                                "Waybill": "1006358425019U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 11:45:50 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006358425019U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 11:48:48 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "0.500000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d90907b479_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Czeresniowa 4",
+                    "city": "Mrocza",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "doniaaleksandra@wp.pl",
+                    "name": "Aleksandra Polewczynska",
+                    "phone": "515179265",
+                    "postalCode": "89115"
+                },
+                "ref1": "Zam\u00f3wienie: 11521-2024 ID: 88308 ",
+                "ref2": "Zam\u00f3wienie: 11521-2024 ID: 88308 ",
+                "ref3": "",
+                "reference": "674d90907b479",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": {
+                    "cod": {
+                        "amount": "73",
+                        "currency": "PLN"
+                    }
+                }
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940080978,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868081668,
+                    "Reference": "674d90907b479",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954799613,
+                                "Reference": "674d90907b479_1",
+                                "Waybill": "1006358910982U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 11:48:54 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006358910982U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 11:50:20 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "1.3",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d90ec91976_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Podgaj  16a",
+                    "city": "Z\u0142otniki kujawskie",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "kamiladabrowska10@wp.pl",
+                    "name": "Kamila  Wolska ",
+                    "phone": "667360074",
+                    "postalCode": "88180"
+                },
+                "ref1": "Zam\u00f3wienie: 11549-2024 ID: 88336 ",
+                "ref2": "Zam\u00f3wienie: 11549-2024 ID: 88336 ",
+                "ref3": "",
+                "reference": "674d90ec91976",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940083930,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868084565,
+                    "Reference": "674d90ec91976",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954802732,
+                                "Reference": "674d90ec91976_1",
+                                "Waybill": "1006359188394U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 11:50:23 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006359188394U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 11:52:54 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "3.000000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d9186cdbb9_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "ul .\u015aw. Micha\u0142a 15 ",
+                    "city": "Jelonek",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "ania.kaja@wp.pl",
+                    "name": "Anna Kaja",
+                    "phone": "504631780",
+                    "postalCode": "62002"
+                },
+                "ref1": "Zam\u00f3wienie: 11398-2024 ID: 88185 ",
+                "ref2": "Zam\u00f3wienie: 11398-2024 ID: 88185 ",
+                "ref3": "",
+                "reference": "674d9186cdbb9",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940088105,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868088669,
+                    "Reference": "674d9186cdbb9",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954807183,
+                                "Reference": "674d9186cdbb9_1",
+                                "Waybill": "1006359586142U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 11:53:04 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006359586142U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 12:06:44 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "2.000000",
+                        "content": "art.je\u017adzieckie",
+                        "reference": "674d94c429fdf_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Maszyce ul. Brzeziny 5",
+                    "city": "Smardzowice",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "adek01918@gmail.com",
+                    "name": "Adrian Ma\u015blej",
+                    "phone": "795503537",
+                    "postalCode": "32077"
+                },
+                "ref1": "Zam\u00f3wienie: 11539-2024 ID: 88326 ",
+                "ref2": "Zam\u00f3wienie: 11539-2024 ID: 88326 ",
+                "ref3": "",
+                "reference": "674d94c429fdf",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940111566,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868111492,
+                    "Reference": "674d94c429fdf",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954831728,
+                                "Reference": "674d94c429fdf_1",
+                                "Waybill": "1006361758491U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 12:06:47 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006361758491U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 12:10:32 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "1.90000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d95a8444af_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Po\u0142ini\u0144ska 12",
+                    "city": "Rzesz\u00f3w",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "justyna@pakhurt.pl",
+                    "name": "Justyna Kudela",
+                    "phone": "509265065",
+                    "postalCode": "35082"
+                },
+                "ref1": "Zam\u00f3wienie: 11331-2024 ID: 88118 ",
+                "ref2": "Zam\u00f3wienie: 11331-2024 ID: 88118 ",
+                "ref3": "",
+                "reference": "674d95a8444af",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940117915,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868117622,
+                    "Reference": "674d95a8444af",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954838314,
+                                "Reference": "674d95a8444af_1",
+                                "Waybill": "1006362360473U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 12:10:36 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006362360473U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 12:27:33 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "8.0000",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d99a530c6f_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Fabryczna 14\/ pok\u00f3j 3",
+                    "city": "Wroc\u0142aw",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "iza.wojdyla@gmail.com",
+                    "name": "Izabela Dyrda",
+                    "phone": "733738122",
+                    "postalCode": "53609"
+                },
+                "ref1": "Zam\u00f3wienie: 11384-2024 ID: 88171 ",
+                "ref2": "Zam\u00f3wienie: 11384-2024 ID: 88171 ",
+                "ref3": "",
+                "reference": "674d99a530c6f",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940146232,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868145864,
+                    "Reference": "674d99a530c6f",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954868657,
+                                "Reference": "674d99a530c6f_1",
+                                "Waybill": "1006365022764U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 12:27:36 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006365022764U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 12:44:49 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "4.0",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d9db1533c1_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "R\u00f3wnia 99A",
+                    "city": "Ustrzyki Dolne",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "kajka.hrabal@gmail.com",
+                    "name": "Kaja Zoszczak",
+                    "phone": "726557468",
+                    "postalCode": "38700"
+                },
+                "ref1": "Zam\u00f3wienie: 11582-2024 ID: 88369 ",
+                "ref2": "Zam\u00f3wienie: 11582-2024 ID: 88369 ",
+                "ref3": "",
+                "reference": "674d9db1533c1",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940175969,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868175412,
+                    "Reference": "674d9db1533c1",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954900465,
+                                "Reference": "674d9db1533c1_1",
+                                "Waybill": "1006367867328U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 12:44:56 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006367867328U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+
+
+/****************** 2024-12-02 12:47:10 *******/
+Action: generatePackagesNumbersV4
+{
+    "openUMLFeV3": {
+        "packages": [
+            {
+                "parcels": [
+                    {
+                        "sizeX": "0.000000",
+                        "sizeY": "0.000000",
+                        "sizeZ": "0.000000",
+                        "weight": "1.60",
+                        "content": "art. je\u017adzieckie",
+                        "reference": "674d9e3e79c3f_1"
+                    }
+                ],
+                "payerType": "SENDER",
+                "receiver": {
+                    "address": "Akacjowa 31",
+                    "city": "Niest\u0119powo",
+                    "company": "",
+                    "countryCode": "PL",
+                    "email": "weronikawiczling16@gmail.com",
+                    "name": "Weronika Wiczling",
+                    "phone": "517710616",
+                    "postalCode": "83331"
+                },
+                "ref1": "Zam\u00f3wienie: 11311-2024 ID: 88098 ",
+                "ref2": "Zam\u00f3wienie: 11311-2024 ID: 88098 ",
+                "ref3": "",
+                "reference": "674d9e3e79c3f",
+                "sender": {
+                    "address": "Zamkowa 2",
+                    "city": "Pyzdry",
+                    "company": "Pegazshop Sp. z o.o.",
+                    "countryCode": "PL",
+                    "email": "zamowienia@pegazshop.pl",
+                    "name": "Pegaz Shop",
+                    "phone": "507 822 367",
+                    "postalCode": "62310",
+                    "fid": "350861"
+                },
+                "services": []
+            }
+        ]
+    },
+    "pkgNumsGenerationPolicyV1": "ALL_OR_NOTHING",
+    "langCode": "PL",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:
+{
+    "return": {
+        "Status": "OK",
+        "SessionId": 940180829,
+        "Packages": {
+            "Package": [
+                {
+                    "Status": "OK",
+                    "PackageId": 868180337,
+                    "Reference": "674d9e3e79c3f",
+                    "Parcels": {
+                        "Parcel": [
+                            {
+                                "Status": "OK",
+                                "ParcelId": 954905712,
+                                "Reference": "674d9e3e79c3f_1",
+                                "Waybill": "1006368322080U"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
+
+/****************** 2024-12-02 12:47:14 *******/
+Action: generateSpedLabelsV4
+{
+    "dpdServicesParamsV1": {
+        "policy": "STOP_ON_FIRST_ERROR",
+        "session": {
+            "packages": {
+                "parcels": [
+                    {
+                        "waybill": "1006368322080U"
+                    }
+                ]
+            },
+            "sessionType": "DOMESTIC"
+        }
+    },
+    "outputDocFormatV1": "PDF",
+    "outputDocPageFormatV1": "LBL_PRINTER",
+    "outputLabelType": "BIC3",
+    "authDataV1": {
+        "login": "35086101",
+        "masterFid": "350861",
+        "password": "*******"
+    }
+}
+Response:

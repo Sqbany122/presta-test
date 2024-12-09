@@ -1,0 +1,28 @@
+// footer.scss
+@import "vars/footer.vars";
+
+.footer-container{
+	.powered {
+		position: relative;
+	    color: $theme-color-tertiary;
+	    font-size: 13px;
+	    border-top: 1px solid #e9e9e9;
+    	padding: 30px 0 20px;
+    	> div{padding: 0;}
+    	a {
+		    color: $theme-color-tertiary;
+		    padding: 0 5px;
+		    @include rtl-text-align-left();
+		}
+	}
+	.footer-block{
+		ul{
+			li{
+				padding: 8px 0px;
+			}
+		}
+	}
+	.copyright{
+		span{color: $theme-color-default;}
+	}
+}

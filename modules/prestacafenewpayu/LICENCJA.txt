@@ -1,0 +1,35 @@
+Umowa licencyjna oprogramowania “Moduł PayU 2 dla Prestashop” firmy Blue Train Łukasz Kowalczyk
+
+§ 1 Definicje
+
+1. Adres internetowy – adres domenowy serwisu internetowego.
+2. Prestashop – skrypt sklepu internetowego udostępniany pod adresem internetowym http://www.prestashop.com
+3. Oprogramowanie – Moduł PayU 2 dla Prestashop udostępniany za pośrednictwem strony internetowej
+   http://www.prestacafe.pl.
+4. Instalacja sklepu internetowego - pojedyncza instalacja skryptu Prestashop, w jednym folderze i korzystająca z jednej
+   bazy danych, mogąca obsługiwać wiele sklepów w ramach funkcjonalności multistore.
+
+§ 2 Warunki licencji
+
+1. Autorem Oprogramowania jest firma Blue Train Łukasz Kowalczyk z siedzibą przy ul. Grunwaldzkiej 15A w Grodzisku
+   Mazowieckim, REGON 142662774, NIP 1132007347.
+2. Oprogramowanie podlega ochronie prawnej na mocy ustawy z dnia 4.02.1994 r. o prawach autorskich i prawach pokrewnych
+   (Dz. U. 1994, Nr 24, poz. 83).
+3. Prawo własności oraz prawa autorskie dotyczące Oprogramowania oraz wszelkich kopii Oprogramowania stanowią własność
+   firmy Blue Train Łukasz Kowalczyk.
+4. Licencja na użytkowanie Oprogramowania udzielana jest na czas nieokreślony dla jednej instalacji sklepu
+   internetowego.
+5. Na podstawie niniejszej Umowy firma Blue Train Łukasz Kowalczyk udziela Licencjobiorcy niewyłącznej, odpłatnej
+   i nieprzenoszalnej na osoby trzecie Licencji na korzystanie z Oprogramowania i materiałów towarzyszących w zakresie
+   użytkowania określonym w niniejszej Umowie
+6. Nabycie licencji upoważnia Nabywcę do otrzymywania bezpłatnych aktualizacji oprogramowania w wersjach o oznaczeniu
+   1.x.x, gdzie x oznacza dowolną liczbę naturalną.
+7. W przypadku rezygnacji z Oprogramowania środki pieniężne nie zostaną zwrócone nabywcy.
+8. Zabrania się rozpowszechniania Oprogramowania bez zgody autora.
+9. Firma Blue Train Łukasz Kowalczyk nie ponosi odpowiedzialności za straty powstałe w wyniku użytkowania
+   Oprogramowania.
+10. Konsument nabywając Oprogramowanie w wersji elektronicznej (bez nośnika) wyraża zgodę na rozpoczęcie korzystania
+    z licencji na oprogramowanie przed upływem terminu do odstąpienia od umowy, októrym mowa w art. 7 ust. 1 Ustawy
+    z dnia 2 marca 2000r. o ochronie niektórych praw konsumentów oraz o odpowiedzialności za szkodę wyrządzoną przez
+    produkt niebezpieczny (Dz. U. z 2000r. Nr 22, poz. 271 ze zm.). W związku z powyższym konsumentowi nie przysługuje
+    prawo do odstąpienia od umowy, zgodnie z art. 10 ust. 3 pkt 1 tejże ustawy.

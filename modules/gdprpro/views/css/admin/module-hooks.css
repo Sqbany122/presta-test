@@ -1,0 +1,99 @@
+/**
+ * PrestaChamps
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Commercial License
+ * you can't distribute, modify or sell this code
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file
+ * If you need help please contact leo@prestachamps.com
+ *
+ * @author    PrestaChamps <zoli@prestachamps.com>
+ * @copyright PrestaChamps
+ * @license   commercial
+ */
+
+
+.module-item-panel {
+	position: relative;
+    padding-bottom: 0 !important;   
+	margin-top: 0 !important;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left
+}
+@media (min-width: 1200px) {
+	.module-item-panel {
+		width: calc(33.3333% - 10px);
+	}
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+	.module-item-panel {
+		width: calc(50% - 10px);
+	}
+}
+@media (max-width: 767px) {
+	.module-item-panel {
+		width: calc(100% - 10px);
+	}
+}
+
+.module-item-panel .panel-heading {
+	margin-bottom: 0 !important;
+}
+.module-item-panel .panel-collapse {
+	position: absolute;
+    z-index: 1;
+    background: white;
+    width: calc(100% + 2px);
+    left: -1px;
+    top: calc(100% - 1px);
+    border: 1px solid #dddddd;
+    box-shadow: 3px 3px 4px #b1b1b1;
+}
+.module-item-panel .translatable-field {
+	display: flex;
+    width: 100%;
+}
+.module-item-panel .translatable-field {
+	display: flex;
+    width: 100%;
+}
+.module-item-panel .translatable-field .col_input {
+	flex-grow: 1;
+}
+.module-item-panel .translatable-field .col_language {
+	width: auto;
+}
+
+
+/* 2022 - design fix for module hooks section for PS 1.7.8.X */
+
+#content.bootstrap .panel-success>.panel-heading{
+	background-color: #cce9d7;
+}
+
+#content.bootstrap .module-item-panel>.panel-heading{
+	padding: 0 10px;
+}
+
+#admin-gdpr-module-selector .btn-group button.btn.btn-success i{
+	width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    font-size: 16px;
+}
+
+#admin-gdpr-module-selector .btn-group a.btn.btn-default i{
+	width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    font-size: 16px;
+}
+
+#admin-gdpr-module-selector .btn-group a.btn.btn-default i{
+	display: inline-block;
+}

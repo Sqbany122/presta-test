@@ -1,0 +1,107 @@
+*ERROR* 	2024/07/31 - 00:42:53: Unknown method "updateTOSStatusAndGetPaymentsW6v3gotu" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:43:31: Unknown method "updateTOSStatusAndGetPayments' AND 2*3*8=6*8 AND '1vPQ'='1vPQ" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:43:31: Unknown method "updateTOSStatusAndGetPayments" AND 2*3*8=6*8 AND "OQ5w"="OQ5w" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:43:31: Unknown method "updateTOSStatusAndGetPayments%' AND 2*3*8=6*8 AND 'qGfM'!='qGfM%" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:43:31: Unknown method "-1 OR 2+700-700-1=0+0+0+1" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:43:31: Unknown method "-1 OR 3+700-700-1=0+0+0+1" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:43:32: Unknown method "updateTOSStatusAndGetPayments'||'" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:43:49: Unknown method "if(now()=sysdate(),sleep(15),0)" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:44:09: Unknown method "updateTOSStatusAndGetPayments0'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:44:42: Unknown method "updateTOSStatusAndGetPayments0"XOR(if(now()=sysdate(),sleep(15),0))XOR"Z" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:45:07: Unknown method "(select(0)from(select(sleep(15)))v)/*'+(select(0)from(select(sleep(15)))v)+'"+(select(0)from(select(sleep(15)))v)+"*/" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:45:26: Unknown method "updateTOSStatusAndGetPayments-1 waitfor delay '0:0:15' -- " at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:45:48: Unknown method "updateTOSStatusAndGetPaymentsFw4ca0Pi'; waitfor delay '0:0:15' -- " at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:46:08: Unknown method "updateTOSStatusAndGetPaymentsZQszqAO7' OR 28=(SELECT 28 FROM PG_SLEEP(15))--" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:46:27: Unknown method "updateTOSStatusAndGetPayments409YWp09') OR 83=(SELECT 83 FROM PG_SLEEP(15))--" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:46:44: Unknown method "updateTOSStatusAndGetPaymentsUQKWf6W2')) OR 414=(SELECT 414 FROM PG_SLEEP(15))--" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:47:16: Unknown method "updateTOSStatusAndGetPayments'||DBMS_PIPE.RECEIVE_MESSAGE(CHR(98)||CHR(98)||CHR(98),15)||'" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:47:16: Unknown method "updateTOSStatusAndGetPayments'"" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:47:16: Unknown method "updateTOSStatusAndGetPaymentsÀ§À¢%2527%2522'"" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:47:16: Unknown method "@@ziYoD" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:57:18: Unknown method "updateMessage1EPY5SAA" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:57:39: Unknown method "updateMessage' AND 2*3*8=6*8 AND 'woon'='woon" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:57:40: Unknown method "updateMessage" AND 2*3*8=6*8 AND "hoWI"="hoWI" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:57:40: Unknown method "updateMessage%' AND 2*3*8=6*8 AND 'nAkv'!='nAkv%" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:57:40: Unknown method "-1 OR 2+830-830-1=0+0+0+1" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:57:40: Unknown method "-1 OR 3+830-830-1=0+0+0+1" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:57:40: Unknown method "updateMessage'||'" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:58:00: Unknown method "if(now()=sysdate(),sleep(15),0)" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:58:19: Unknown method "updateMessage0'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:58:38: Unknown method "updateMessage0"XOR(if(now()=sysdate(),sleep(15),0))XOR"Z" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:58:56: Unknown method "(select(0)from(select(sleep(15)))v)/*'+(select(0)from(select(sleep(15)))v)+'"+(select(0)from(select(sleep(15)))v)+"*/" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:59:17: Unknown method "updateMessage-1 waitfor delay '0:0:15' -- " at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:59:38: Unknown method "updateMessagepeGHTCnc'; waitfor delay '0:0:15' -- " at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 00:59:59: Unknown method "updateMessagebU2NlV2A' OR 903=(SELECT 903 FROM PG_SLEEP(15))--" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 01:00:22: Unknown method "updateMessageXuhBJfGn') OR 248=(SELECT 248 FROM PG_SLEEP(15))--" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 01:00:43: Unknown method "updateMessageyjhP4SQh')) OR 509=(SELECT 509 FROM PG_SLEEP(15))--" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 01:01:01: Unknown method "updateMessage'||DBMS_PIPE.RECEIVE_MESSAGE(CHR(98)||CHR(98)||CHR(98),15)||'" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 01:01:02: Unknown method "updateMessage'"" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 01:01:02: Unknown method "updateMessageÀ§À¢%2527%2522'"" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 01:01:02: Unknown method "@@xdUfZ" at line 315 in file controllers/front/OrderOpcController.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:19: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:19: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:19: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:20: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:20: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:20: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:21: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:22: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:23: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 10:51:24: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/07/31 - 12:29:15: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/07/31 - 12:29:21: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/07/31 - 12:29:25: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php

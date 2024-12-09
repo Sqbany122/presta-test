@@ -1,0 +1,243 @@
+/*.vss_sc_ver15
+{
+	width: 100%;
+	color: #5A5A5A;
+}
+
+.vss-form-control-ver15
+{
+	height: 18px !important;
+	color: #5A5A5A !important;
+}
+.text-width{
+	height:26px !important;
+}
+.btn-primary{
+	    background-color: #008abd;
+	    border-color: #008abd;
+	    float:right;
+	    margin:10px;
+}
+#velsof_template_content_path_row
+{
+	display:none;
+}
+.btn-primary:hover{
+	background-color: #008abd;
+	    border-color: #008abd;
+}
+.velsof-tab-heading{
+	margin-top:5px;
+}
+.row{
+	margin-left:0px;
+}
+
+.vss-action-btn-ver15:hover
+{
+	text-decoration: none;
+}
+
+#tab_lang_translator input
+{
+	color: #5A5A5A;
+}
+
+#tab_lang_translator .row
+{
+	background: none;
+}
+
+.vss_scparent_ver15 .span1
+{
+	margin-left: 0px;
+}
+
+.vss-resolution-ver15
+{
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+label
+{
+	float: none;
+	width: auto;
+}
+
+.table
+{
+	width: auto !important;
+}
+
+#content .table tbody > tr > th
+{
+	padding: 4px 6px;
+	line-height: 1;
+}
+
+#content a
+{
+    color: #000;
+    outline: 0pt;
+}
+
+.widget-body .checkboxinline
+{
+	display: inline-block;
+}
+
+
+
+#content {
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    min-width: 320px;
+    min-height: 700px;
+    margin:0px !important;
+}
+
+#content > .table {
+	width: auto;
+}
+
+
+.topbuttons
+{
+        margin-left: 469px;
+        margin-right:50px;
+    padding-top: 10px;
+    float:right;
+    width: 235px;
+
+}
+#content .error{
+    border:none;
+    background: none;
+    display:block;
+    margin:0px;
+    min-height: 0px;
+    padding:0px;
+}
+.span6 input{
+    width:300px;
+}
+.span0 img{
+    padding-top: 10px;
+}
+.velsof-container #content
+{
+    padding:0px;
+    width:83.8% !important;
+}
+#menuVel{
+    height:700px;
+}
+.color-input{
+    width: 100%;
+}
+#menuVel
+{
+    width:224px !important;
+}
+#content .heading-mosaic{
+    
+}
+textarea
+{
+    width:820px !important;
+}
+#count_msz
+{
+    float:right;
+    margin-top:5px;
+    padding:0px 10px 10px 5px !important;
+}
+.topbuttons1
+{
+    margin-top: -4px;
+    margin-right: -28px;
+}
+.row{
+    background: none;
+}
+#velsof-pageviewer-close-btn
+{
+    position:absolute;
+    float:right !important;
+    top:-10px !important;
+    right:-10px !important;
+}
+#time_show
+{
+    z-index: 2;
+    padding:5px 10px 5px 10px !important;
+    
+}
+#header #menu li.submenu_size .title{
+	padding-bottom: 0px !important;
+}
+label{
+	text-align: left;
+}
+.box .content {
+	margin-left:10px;
+}
+#content .table
+{
+	margin-top:10px !important;
+}
+#date_from,#date_from_cus,#date_to,#date_to_cus
+{
+	width:94% !important;
+}
+#content .widget-head a span {
+    margin-top: -10px !important;
+}
+.ui-icon
+{
+	color:transparent;
+}
+.ui-datepicker-header
+{
+background:none !important;	
+}*/
+#general_form,#initial_form,#final_form,#analysis_form{
+        border: 1px solid #ccced7;
+    /* min-height: 404px; */
+    padding: 5px 10px 10px;
+    margin-left: 140px;
+    background-color: #ebedf4;
+}
+.productTabs {
+    /*margin-top: 5.7%;*/
+}
+#combinations-list{
+    width:100%;
+}
+#combinations-list tr td label{
+    text-align: left;
+}
+.active{
+    background: #ebedf4;
+    border-right: none !important;
+}
+.tab-page:hover{
+    cursor: pointer;
+}
+.tab_format{
+        position: absolute;
+    margin-top: 80px;
+}
+.cron_url_via_ssh {
+    color: #A7A7A7;
+    font-size: 13px;
+    font-weight: normal;
+}
+.cron_url {
+    color: #A7A7A7;
+    font-size: 13px;
+    font-weight: normal;
+}

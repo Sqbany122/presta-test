@@ -1,0 +1,55 @@
+<?php
+Class AuthController extends AuthControllerCore
+{
+
+	protected function sendConfirmationMail(Customer $customer)
+	{
+		if (!Configuration::get('PS_CUSTOMER_CREATION_EMAIL')) {
+			return true;
+		}
+	 
+		// nemo tut welcome coupon
+		 
+		$cartRuleObj = new CartRule();
+		$cartRuleObj->date_from = date('Y-m-d H:i:s');
+		$cartRuleObj->date_to = '2021-12-31 23:59:00';
+		$cartRuleObj->name[Configuration::get('PS_LANG_DEFAULT')] = '100 PLN do wykorzystania w PegazShop.pl';
+		$cartRuleObj->quantity = 1;
+		$code = Tools::passwdGen();
+		while (CartRule::cartRuleExists($code)) { // let's make sure there is no duplicate
+			$code = Tools::passwdGen();
+		}
+		$code = strtoupper($code);
+		$cartRuleObj->code = $code;
+		$cartRuleObj->quantity_per_user = 1;
+		$cartRuleObj->reduction_percent = 0;
+		$cartRuleObj->reduction_tax = 1;
+		$cartRuleObj->partial_use = 0;
+		$cartRuleObj->reduction_amount = 100;
+		$cartRuleObj->free_shipping = 0;
+		$cartRuleObj->active = 1;
+		$cartRuleObj->highlight = 1;
+		$cartRuleObj->minimum_amount = 400;
+		$cartRuleObj->minimum_amount_tax = 1;
+		$cartRuleObj->id_customer = $customer->id;
+		$cartRuleObj->add();
+		
+        return Mail::Send(
+            $this->context->language->id,
+            'account',
+            Mail::l('Welcome!'),
+            array(
+                '{firstname}' => $customer->firstname,
+                '{lastname}' => $customer->lastname,
+                '{email}' => $customer->email,
+                '{passwd}' => str_repeat('*', strlen(Tools::getValue('passwd'))),
+				'{coupon}' => $code,
+            ),
+            $customer->email,
+            $customer->firstname.' '.$customer->lastname
+        );
+		
+		
+	}
+
+}

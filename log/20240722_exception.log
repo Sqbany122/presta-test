@@ -1,0 +1,9 @@
+*ERROR* 	2024/07/22 - 08:31:42: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/07/22 - 09:35:35: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/07/22 - 20:52:18: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/07/22 - 20:52:23: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/07/22 - 20:52:27: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/07/22 - 20:52:35: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/07/22 - 20:53:57: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/07/22 - 20:55:29: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/07/22 - 20:55:33: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php

@@ -1,0 +1,12 @@
+.page-title::before{
+    content: '';
+    background-image: url('../../views/img/ups_logo_small.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 1.5em;
+    width: 1.5em;
+    margin-left: -8px;
+  }

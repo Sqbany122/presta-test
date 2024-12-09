@@ -1,0 +1,131 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.quickview .modal-dialog {
+  width: calc(100% - 30px); }
+.quickview .modal-header {
+  border: none;
+  padding: 0.625rem; }
+.quickview .modal-body .product-flags .product-flag.online-only {
+  right: 110px; }
+  .rtl .quickview .modal-body .product-flags .product-flag.online-only {
+    left: 110px;
+    right: auto; }
+.quickview .modal-body .product-flags .product-flag.new, .quickview .modal-body .product-flags .product-flag.discount {
+  left: 20px; }
+  .rtl .quickview .modal-body .product-flags .product-flag.new, .rtl .quickview .modal-body .product-flags .product-flag.discount {
+    right: 20px;
+    left: auto; }
+.quickview .modal-body .product-actions {
+  border-bottom: 0; }
+.quickview .modal-body .product-quantity .qty {
+  max-width: 120px; }
+.quickview .modal-body .product-quantity .add {
+  padding: 0;
+  border-top: none;
+  display: block;
+  margin-bottom: 20px; }
+  .quickview .modal-body .product-quantity .add .btn-primary {
+    width: auto; }
+.quickview .modal-body .product-quantity.product_action {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+.quickview .modal-footer {
+  border-top: 1px solid rgba(172, 170, 166, 0.3); }
+.quickview .layer {
+  display: none; }
+.quickview .product-cover img {
+  width: 95%; }
+.quickview .arrows-product-fake {
+  display: none; }
+.quickview .images-container {
+  position: relative;
+  z-index: 1;
+  text-align: center; }
+  .quickview .images-container .product-cover {
+    padding-right: 90px; }
+    .rtl .quickview .images-container .product-cover {
+      padding-left: 90px;
+      padding-right: inherit; }
+  .quickview .images-container .product-thumb-images {
+    position: absolute;
+    top: 20px;
+    width: 80px;
+    z-index: 9;
+    right: 0px; }
+    .rtl .quickview .images-container .product-thumb-images {
+      left: 0px;
+      right: auto; }
+.quickview .product-thumb-images {
+  position: relative; }
+  .quickview .product-thumb-images .thumb {
+    cursor: pointer;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .quickview .product-thumb-images .thumb.selected, .quickview .product-thumb-images .thumb:hover {
+      opacity: 1;
+      filter: alpha(opacity=100); }
+  .quickview .product-thumb-images .slick-list {
+    margin-left: 0px;
+    margin-right: 0px; }
+    .quickview .product-thumb-images .slick-list .slick-slide {
+      padding-left: 0px;
+      padding-right: 0px; }
+.quickview .slick-arrows .slick-arrow {
+  width: 100%;
+  margin: auto;
+  color: #FFFFFF;
+  background: #ffc600; }
+  .quickview .slick-arrows .slick-arrow:hover {
+    color: #FFFFFF;
+    background: #000000;
+    font-family: "FontAwesome"; }
+  .quickview .slick-arrows .slick-arrow.slick-next {
+    top: -10px;
+    left: 0;
+    right: 0;
+    bottom: auto; }
+    .quickview .slick-arrows .slick-arrow.slick-next:before {
+      content: "\f077"; }
+  .quickview .slick-arrows .slick-arrow.slick-prev {
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -30px; }
+    .quickview .slick-arrows .slick-arrow.slick-prev:before {
+      content: "\f078"; }
+.quickview .social-sharing {
+  margin: 0.625rem 1.25rem 0px 0.625rem;
+  text-align: center; }
+  .rtl .quickview .social-sharing {
+    margin: 0.625rem 0.625rem 0px 1.25rem; }
+
+/*# sourceMappingURL=quickview.css.map */

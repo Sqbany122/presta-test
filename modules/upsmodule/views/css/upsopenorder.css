@@ -1,0 +1,30 @@
+.control-label.col-lg-2.label-right {
+    text-align: left;
+}
+div#wait {
+    display:none;
+    width: 47px;
+    height: 40px;
+    top: 83%;
+    left: 75%;
+    padding-left:45%;
+}
+.list-orders {
+    overflow: scroll;
+    /* width: 100px; */
+    height: 250px;
+    padding-top: 3px;
+    padding-left: 32px;
+    border: 1px solid gray;
+    overflow-x: hidden;
+}
+.check-mark-size {
+    width: 25px;
+    height: 30px;
+    padding-bottom: 5px;
+}
+.cross-mark-size {
+    width: 15px;
+    height: 18px;
+    padding-bottom: 3px;
+}

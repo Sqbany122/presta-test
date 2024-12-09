@@ -1,0 +1,7 @@
+*ERROR* 	2020/05/25 - 14:02:44: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2020/05/25 - 14:19:59: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2020/05/25 - 14:23:24: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2020/05/25 - 20:51:10: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2020/05/25 - 20:51:22: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2020/05/25 - 20:51:22: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2020/05/25 - 20:51:24: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php

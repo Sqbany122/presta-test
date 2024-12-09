@@ -1,0 +1,831 @@
+todo mpk (wymaga z góry ustawionych parametrów)
+todo usuwanie przesyłek z bazy sklepu
+todo generowanie etykiet zwrotnych dla przesyłek kurierskich
+
+v5.9.2 @ 07.02.2022
+- poprawiono walidację wybranego paczkomatu w koszyku ets_onepagecheckout
+
+v5.9.1 @ 21.01.2022
+- poprawiono oznaczanie przesyłek przeterminowanych w celu wykluczenia ich przy sprawdzaniu aktualnego statusu przesyłki
+
+v5.9.0 @ 13.01.2022
+- dodano opcję wyświetlania wybranego punktu na fakturze PDF 
+
+v5.8.2 @ 20.12.2021
+- poprawiono tłumaczenia
+- zmiana skryptów na współpracujące z dynamicznym wczytywaniem zawartości modułu
+
+v5.8.1 @ 16.12.2021
+- poprawa skryptu aktualizującego
+
+v5.8.0 @ 16.12.2021
+- dodano filtr grup klientów w szablonach przesyłek (możliwość powiązania innego szablonu dla danej grupy klientów)
+- dodano tag {is_eco} informujący o opakowaniu EKO na etykiecie w opisie przesyłki
+- poprawiono błędne tłumaczenia
+
+v5.7.1 @ 06.12.2021
+- poprawiono pobieranie etykiet zwrotnych
+
+v5.7.0 @ 06.12.2021
+- dodano opcję pobierania etykiet zwrotnych dla przesyłek kurierskich 
+- dodano opcję automatycznego pobierania etykiet zwrotnych po wygenerowaniu przesyłki kurierskiej
+
+v5.6.0 @ 08.11.2021
+- dodano możliwość wymuszenia odgórnie kolejności wydruku etykiet według ID zamówienia rosnąco lub malejąco.
+
+v5.5.2 @ 05.11.2021
+- na liście zamówień dodano dodatkowe moduły płatności nie będące stricte metodą płatności np. moduł allero od x13
+
+v5.5.1 @ 04.11.2021
+- do listy paczkomatów za pobraniem dodano również te oferujące płatność Blikiem jak i PayByLink
+
+v5.5.0 @ 20.09.2021
+- poprawiono zmianę statusu zamówień jeśli status nie został wybrany
+- dodano określanie nazwy miejscca zlecenia odbioru
+
+v5.4.1 @ 13.09.2021 
+- poprawiono działanie funkcji zmiany statusów zamówienia dla przesyłek pobraniowych
+
+v5.4.0 @ 09.09.2021
+- dodano możliwość zmiany statusu przesyłki dla przesyłek pobraniowych osobno w zależności od statusu paczki
+- dodano kolumnę "Pobranie" na liście przesyłek - informacja czy wygenerowana przesyłka była z opcją pobrania
+- poprawiono usuwanie etykiet generowanych dla PrintNode
+- poprawiono opcję przechodzenia do kolejnego zamówienia na stronie szczegółów zamówienia w preście 1.7.7+
+
+v5.3.5 @ 31.08.2021
+- poprawiono integrację z modułem Allegro od x13.pl
+
+v5.3.4 @ 30.08.2021
+- poprawiono wyświetlanie się modułu w koszyku x13opc, w przypadku gdy zmieniono strukturę wyświetlania się listy pzewoźników
+- wymuszono pobieranie nowych skryptów map gdy brakuje ich w module
+
+v5.3.3 @ 09.08.2021
+- dodano pobieranie informacji o wybranym paczkomacie z wiadomości zamówienia w formacie Punkt odbioru: (.*)
+- poprawiono wyświetlanie się mapy w niektórych szablonach
+- poprawa wyświetlania sposobów dostawy w koszyku thecheckout
+
+v5.3.2 @ 29.07.2021
+- poprawa algorytmu sprawdzania modułu Allegro od X13.pl dla sklepów posiadających stare tabele z wcześniejszych wersji tego modułu
+
+v5.3.1 @ 28.07.2021
+- poprawa sprawdzania czy zamówienie pochodzi z modułu Allegro od X13.pl czy też nie
+
+v5.3.0 @ 09.07.2021
+- dodano opcję automatycznego przechodzenia do listy zamówień po wygnerowaniu przesyłki
+
+v5.2.1 @ 29.06.2021
+- przeniesiono wywołanie zaczepu sensbitInpostGetPackageDataByOrder tak by możnabyło zmienić również wygenerowany opis przesyłki
+
+v5.2.0 @ 14.06.2021 
+- dodano możliwość zmiany parametrów na podstawie, których tworzony jest formularz przesyłki
+- wywoływanie zaczepu sensbitInpostGetPackageDataByOrder, z parametrami:
+-- id order - id zamówienia
+-- order - obiekt zamówienia
+-- data - dane na podstawie których moduł tworzy przesyłkę, w wywołaniu metody należy zmieniać tę zmienną
+
+v5.1.5 @ 09.06.2021
+- poprawiono wyświetlanie ikon w koszyku presty 1.5
+
+v5.1.4 @ 25.05.2021
+- poprawiono możliwość zmiany sposobu wyboru punktu w niestandardowych koszykach
+
+v5.1.3 @ 21.05.2021
+- poprawa wyświetlania się wyboru punktów w koszyku w niektórych szablonach sklepów
+
+v5.1.2 @ 19.05.2021
+- poprawiono wymagalność pola id transakcji gdy id transakcji nie jest podane
+- dodano sekundowa blokadę przycisku stwórz przesyłki w podglądzie zamówienia po jego kliknięciu w celu uniknięcia wystąpienia duplikatów
+
+v5.1.1 @ 17.05.2021
+- usunięto wyświetlanie się punktów POP do których nie można nadać przesyłki paczkomatowej
+- poprawiono problem z wyświetlaniem punktów dla zalogowanych klientów
+
+v5.1.0 @ 30.04.2021
+- dodano super listę punktów odbioru w okolicy, która przyspiesza wybór punktu o 90%
+- dodano wyświetlanie PaczkoPunktów na mapie oraz w wyszukiwarce
+- zmodyfikowano mapę wyświetlającą punkty by w przypadku pobrań zwracała tylko punkty z płatnością za pobraniem
+- usunięto wymagalność podawania id transakcji i id konta allegro dla przesyłek allegro
+- poprawiono czyszczenie numeru telefonu wprowdzonego przez klienta
+- poprawiono tworzenie menu w nowej preście 1.7
+- poprawiono tłumaczenia modułu
+- poprawiono wczytywanie czcionek i zdjęć na mapie punktów
+
+v5.0.0 @ 06.04.2021
+- dodano opcję automatycznego wydruku etykiety gdy jest tylko jedna przesyłka na liście przesyłek
+- integracja z managerem zamówień https://sensbit.pl/moduly-i-modyfikacje-prestashop/przydatne-narzedzia/66-najlepszy-manager-zamowien-dla-prestashop-15-16-i-17
+
+v4.13.0 @ 31.03.2021
+- dodano tag {invoice_number}, który zamieni się automatycznie na numer faktury
+- poprawino wielkość tekstu w polu wyszukiwania na mapie
+- poprawiono typy danych podczas zapisywania do bazy w ustawieniach szablonów przesyłek
+- poprawiono wyświetlanie się modułu w koszyku onepagecheckoutps
+
+v4.12.4 @ 19.03.2021
+- dodano walidację pól input[required][id^=conditions_to_approve] przy walidacji wybranego paczkomatu w koszyku
+
+v4.12.3 @ 15.03.2021
+- przystosowano moduł do nowej wersji koszyka onepagecheckoutps
+
+v4.12.2 @ 02.03.2021
+- zmiana tłumaczeń błędów powiązania szablonów z zamówieniem
+- dodano komunikat tłumaczący co to za błędy pod szablonami
+
+v4.12.1 @ 24.02.2021
+- uzupełniono brakujące tłumaczenia błędów
+
+v4.12.0 @ 23.02.2021
+- dodano informację o błędach w niepowiązanych szablonach w podglądzie zamówienia, błędy wskazują dlaczego szablon nie jest powiązany z zamówieniem
+
+v4.11.3 @ 22.02.2021
+- fix ukrytego menu w panelu administratora w związku z aktualizacją styli map przez Inpost
+
+v4.11.2 @ 02.02.2021
+- poprawa działania funkcji ukrywania dzisiejszych zamówień (fix wybranej godziny)
+
+v4.11.1 @ 02.02.2021
+- dodano licznik dzisiejszych zamówień na liście zamówień w opcji ukryj dzisiejsze
+- poprawiono wyświetlanie się wyboru punktu w koszyku wkonepagecheckout od webkul
+
+v4.11.0 @ 25.01.2021
+- dodano opcję ukrywania na liście zamówień dzisiejszych oraz pełną automatyzację tej opcji do ustawienia w konfiguracji
+- dodano opcję automatycznego przechodzenia do kolejnego zamówienia po wygenerowaniu przesyłki
+
+v4.10.3 @ 15.01.2021
+- dodano przycisk otwórz wszystkie zamówienia w nowych kartach w widoku zamówień w module
+
+v4.10.2 @ 12.01.2020
+- dodano walidację dla niestandardowego pola w koszyku
+
+v4.10.1 @ 31.12.2020
+- dodano zdarzenie touch, jako wywołanie walidacji wybranego paczkomatu w koszyku
+- dodano walidację dla nowego pola psgdpr
+
+v4.10.0 @ 15.12.2020
+- przystosowano moduł do wersji PrestaShop 1.7.7.0
+
+v4.9.1 @ 07.12.2020
+- poprawiono błąd z filtrowaniem listy zamówień po statusie zamówienia, gdy kolumna ze statusem zostanie wyłączona w super filtrach
+- poprawiono system sprawdzania licencji na niektórych serwerach
+
+v4.9.0 @ 01.12.2020
+- dodano opcję nadawania przesyłek kurierskich w paczkomacie (usługa inpost_courier_c2c) - takie przesyłki widoczne są w managerze paczkomatów i pobierana jest za nie opłata według cennika prepaid
+
+v4.8.2 @ 17.11.2020
+- poprawiono konfigurację zmiany statusów po wygenerowaniu przesyłki
+
+v4.8.1 @ 15.10.2020
+- poprawiono wyświetlanie się modułu w koszyku supercheckout
+
+v4.8.0 @ 08.10.2020
+- przebudowano system licencyjny
+
+v4.7.7 @ 05.10.2020
+- dostosowanie moduł dla koszyka wkonepagecheckout oraz modułu split cart and order od webkul
+- dodano obsługę darmowych zamówień w szablonach przesyłek
+- opcja zapisywania punktu jako numer śledzenia nie będzie zapisywać już adresu tylko samą nazwę ze względu na błędy walidacji pola z numerem przesyłki
+
+v4.7.6 @ 15.09.2020
+- poprawa wczytywania skryptów i generowania konfliktów z innymi wersjami jQuery dla PS 1.7+
+
+v4.7.5 @ 08.09.2020
+- poprawka literówki w skryptach JS
+
+v4.7.4 @ 07.09.2020
+- poprawa błędów podczas tworzenia zamówień
+
+v4.7.3 @ 07.09.2020
+- krytyczna poprawa opcji zapisywania wybranego punktu w polu numer śledzenia, jeśli zawiera polskie znaki (np. w nazwie miasta)
+
+v4.7.2 @ 07.09.2020
+- przystosowano moduł do modułu TheCheckout, w którym przewoźnicy powiązani z modułem byli ukrywani po wczytaniu się strony.
+
+v4.7.1 @ 02.09.2020
+- poprawka zapisywania informacji o wybranym paczkomacie w polu z numerem przesyłki w PrestaShop
+
+v4.7.0 @ 31.08.2020
+- dodano opcję zapisywania informacji o wybranym paczkomacie w polu z numerem przesyłki w PrestaShop
+
+v4.6.2 @ 19.08.2020
+- kompatybilność jquery w panelu dla presty 1.7.5+
+- poprawiono wyświetlanie się pola z nr telefonu w koszyku
+
+v4.6.1 @ 15.07.2020
+- poprawiono pobieranie informacji o wybranym paczkomacie z pola other z adresu dostawy tak by nie pobierało również adresu
+
+v4.6.0 @ 14.07.2020
+- dodano pobieranie wybranego paczkomatu z pola other z adresu dostawy w zamówienia jeśli pole ma format "Punkt odbioru: {nazwa_paczkomatu}"
+
+v4.5.4 @ 03.07.2020
+- poprawiono błąd z metodą hashującą dla presty < 1.7
+
+v4.5.3 @ 02.07.2020
+- dostosowano api points do nowych zasad w Inpost (limit 500 punktów na stronę)
+- poprawiono zwijanie opcji konfiguracji w ustawieniach
+
+v4.5.2 @ 08.06.2020
+- poprawiono pobieranie informacji o wybranym paczkomacie z modułu allegro od x13.pl
+- poprawiono błąd z odczytywaniem pustej konfiguracji paczki w weekend
+
+v4.5.1 @ 05.06.2020
+- zoptymalizowano indeksy bazy danych listy przesyłek w celu szybszego działania listy zamówień
+
+v4.5.0 @ 19.05.2020
+- dodano ustawienia przewoźników w konfiguracji z możliwością odpięcia modułu od przewoźnika jak i również powiązania go
+- dodano kontrolę wyświetlania się przewoźnika powiązanego z Paczką w Weekend w określone dni tygodnia oraz godziny.
+- dodano opcję usuwania danych o wybranym punkcie przez klienta jeśli ten zmieni przewoźnika
+- dodano czyszczenie numeru telefonu z zer na początku
+- dodano pobieranie id transakcji z wiadomości w zamówieniu w formacie [ID Transakcji: _tutaj_id_transakcji_]
+- dodano tag {is_discount} zamieniający się w słowo RABAT dla zamówień, które posiadają kod rabatowy.
+- dostosowano wyświetlanie się wyboru paczkomatu w niestandardowym koszyku sklepu
+- dodano nową zakładkę API
+- dodano metodę getLabelsByOrder w API
+- dodano metodę getPointByOrder w API
+- poprawiono blokadę tworzenia wielu przesyłek do tego samego zamówienia
+- poprawiono pobieranie protokołu dla większej ilości przesyłek (1 protokół do 100 przesyłek), dla każdych 100 przesyłek generowany jest osobny protokół.
+
+v4.4.1 @ 17.04.2020
+- dodano pobieranie wybranego paczkomatu z modułu PaczkomatyInpost od PrestaHelp
+
+v4.4.0 @ 14.04.2020
+- dodano opcję Automatycznie twórz etykietę dla pojedyńczego zamówienia
+- dodano pobieranie informacji dodaktowych w polu uwagi z zamówienia
+
+v4.3.7 @ 07.04.2020
+- poprawiono opcję wyświetlania adresu wybranego punktu jako adresu dostawy w podsumowaniu zamówienia w PS 1.7
+
+v4.3.6 @ 04.04.2020
+- pilna poprawka pobierania wybranego paczkomatu z wiadomości zamówienia
+
+v4.3.5 @ 01.04.2020
+- dodano pobieranie wybranego paczkomatu z wiadomości w zamówieniu
+- poprawiono błąd z opcją automatycznego otwierania szablonu w zamówieniu
+- poprawiono błąd z filtrowaniem listy zamówień
+
+v4.3.4 @ 30.03.2020
+- poprawiono błąd krytyczny w zakładce z zamówieniami
+
+v4.3.3 @ 27.03.2020
+- optymalizacja zakładki z zamówieniami
+- dodanie walidacji wybranych dat w super filtrach w zamówieniach
+
+v4.3.2 @ 17.03.2020
+- dostosowano szerokości pól w formularzu tworzenia przesyłek na małych ekranach
+- poprawiono wyświetlanie formularza dodawania przesyłek i ich opcji dodatkowych w Preście 1.5
+
+v4.3.1 @ 16.03.2020
+- wyłaczono widoczność niektórych usług ze statusu licencji
+- dodano tłumaczenie błędu kod pocztowy nieprawidłowy
+- poprawiono walidację pół w nowym koszyku od x13.pl
+
+v4.3.0 @ 11.03.2020
+- dodano obsługę koszyka Easy Checkout (steasycheckout) od SunnyToo.com
+
+v4.2.3 @ 10.03.2020
+- poprawiona walidacja nie wybrania paczkomatu tylko do pól widocznych w formularzu, nie biorąc pod uwagę tych ukrytych.
+- poprawiono pobieranie zbiorcze etykiet jeśli plikiem wynikowym jest zip
+
+v4.2.2 @ 02.03.2020
+- dodano opcjonalną blokadę dodawania kilku przesyłek do jednego zamówienia podczas korzystania z zakładki Inpost > Zamówienia
+- poprawiono problemy z wydajnością sklepu w chwili sprawdzania informacji o dostępności nowej wersji modułu
+- poprawiono wyświetlanie się zakładki Inpost > Zamówienia w preście 1.5
+- dodano brakującą bibliotekę tooltip w preście 1.5
+- dodano brakujące rows i cols w definicji pola textarea w preście 1.5
+
+v4.2.1 @ 26.02.2020
+- pobieranie wybranego paczkomatu z modułu Allegro od x13 tylko gdy na aukcji wybrany został Paczkomat a nie np. odbiór w punkcie Poczty Polskiej
+- poprawiono przypisanie szablonu do zamówienia z allegro jeśli metoda płatności to Allegro Payu
+- poprawiono błąd krytyczny podczas tworzenia przesyłek po ostatniej aktualizacji
+
+v4.2.0 @ 25.02.2020
+- przystosowano moduł do nowej wersji modułu Allegro od X13 opartej na REST API
+
+v4.1.2 @ 21.02.2020
+- poprawiono wyświetlanie indeksów produktów na etykietach
+
+v4.1.1 @ 18.02.2020
+- dodano komunikat o zbyt długiej liście produktów i braku możliwości jej wyświetlenia na liście zamówień
+- poprawiono widok wyboru na mobilce
+
+v4.1.0 @ 12.02.2020
+- dodano możliwość ponownego wydruku etykiety w usłudze PrintNode
+- poprawiono zmianę statusów zamówień dla niektórych wersji presty
+
+v4.0.3 @ 10.02.2020
+- dodano obsługę przesyłek paczkomatowych standardowych smart
+
+v4.0.2 @ 10.02.2020
+- przystosowano moduł do koszyka bestkit_opc
+
+v4.0.1 @ 6.02.2020
+- poprawiono wczytywanie się zamówień z przesyłkami do Punktów Obsługi Przesyłek
+
+v4.0.0 @ 4.02.2020
+- dodano dodatkową opcję Paczka w Weekend dla przesyłek Paczkomatowych
+- dodano pole na komentarz dla wszystkich przesyłek (nie tylko kurierskich jak do tej pory)
+- dodano rozróżnianie przesyłek Allegro na SMART lub nie (dla nowych przesyłek)
+- dodano automatyczne dzielenie zleceń odbioru na podstawie typów przesyłek
+- dodano obsługe przesyłek Paczkomatowych - Podaj dalej (nadane i odbierane z tego samego paczkomatu)
+- dodano domyślny rozmiar przesyłki Mini Kurier Allegro
+- dodano opcję odświeżania strony z zamówieniem po utworzeniu przesyłki
+- dodano sprawdzanie zainstalowanego IonCube loader podczas instalacji modułu
+- opcje allegro od tej pory dotyczą nie tylko szablonów allegro ale również szablonów powiązanych z zamówieniami pobieranymi poprzez integracje Allegro
+- dodano nowy status nie znaleziono oraz zaktualizowano funkcję sprawdzającą statusy przesyłek już nieistniejących w systemie Inpost
+- poprawiono ścieżki do czcionek dla map
+- usunięto placeholder z nr telefonu w formularzu
+
+v3.12.2 @ 29.01.2020
+- zmieniono sposób walidacji wybranego paczkomatu uwzględniając wysyłkę formularza dostawy w PS 1.6
+- dodano zabezpieczenie przed niepoprawnie wykonaną aktualizacją do wersji 3.12.0
+
+v3.12.1 @ 27.01.2020
+- poprawiono wyświetlanie miniatur produktów na liście zamówień
+
+v3.12.0 @ 24.01.2020
+- dodano możliwość wymogu podania numeru telefonu komórkowego dla przesyłki Paczkomatowej w koszyku klienta
+- dodano opcję automatycznego uzupełniania numeru telefonu komórkowego dla przesyłki Paczkomatowej numerem telefonu podanym w adresie dostawy
+- dodano opcję ustawiania komunikatu, jaki ma się wyświetlać klientowi gdy nie poda lub wprowdzi błędny numer telefonu komórkowego
+- poprawiono poberanie odpowiedniego tematu maila in_transit dla przesyłek Allegro
+
+v3.11.1 @ 10.01.2020
+- poprawiono wyświetlanie danych w zakładce Zamawianie kuriera
+- poprawiono działania zakładki z Zamówieniami w starszych wersjach Presty
+
+v3.11.0 @ 10.01.2020
+- dodano opcję automatycznego otwierania szablonu powiązanego z zamówieniem w widoku tego zamówienia
+- poprawiono działanie skryptu obsługującego wywołania funkcji zwrotnych, umożliwiając grupowanie tych samych funkcji
+
+v3.10.0 @ 09.01.2020
+- dodano wyświetlanie wartości jednostki produktu w widoku Zamówień
+- dodano wyświetlanie zdjęcia produktu wraz z większym podglądem po najechaniu w widoku Zamówień
+- dodano wyświetlanie oraz filtrowanie widoku Zamówień po dokumecie sprzedaży 'Paragon/Faktura' jeśli w sklepie zainstalowany jest moduł o nazwie paragonfaktura
+- poprawiono zwijanie opcji wydruku dla PrintNode
+- poprawiono odczyt ustawień Allegro
+
+v3.9.0 @ 28.12.2019
+- dodano możliwość zdefiniowania id drukarki PrintNode.com względem pracownika zdefiniowanego w PrestaShop
+- dodano opcję zaznaczania / odznaczania przesyłek w działaniach masowych
+- poprawiono wyświetlanie tooltipów na liście przesyłek oraz w formularzu tworzenia przesyłki tak by nie zasłaniały innych danych
+- numer przesyłki w szczegółach zamówienia jest od tej pory linkiem do śledzenia przesyłki na stronie Inpost
+- dodano dodatkowy parametr CURLOPT_CONNECTTIMEOUT podczas wykonywania zapytań do serwera Inpost z wartością 30 sekund
+- dodano CHANGELOG w konfiguracji
+- dodano osobną konfigurację dla przesyłek Allegro: Wysyłaj nr przesyłki w standardowym mailu PrestaShop, Zmień status zamówienia po dodaniu przesyłki
+- zaktualizowano domyślny skrypt map
+- podczas aktualizacji skryptów od tej pory będzie zachodziła również automatyczna aktualizacja stylu map
+- zaktualizowano domyślny styl map
+- nadpisano kolor informacji o paczkomacie na mapie na biały
+- dodano nadpisywanie adresu dostawy w podsumowaniu zamówienia presta 1.7
+- dodano zmianę chmodów przy wejściu w konfigurację tak by serwer nie blokował zapisywania wybranego punktu w koszyku
+- poprawiono komunikat o błędnym kluczu api 
+- zaktualizowano plik tłumaczeń
+- dodano walidację numeru telefonu nadawcy już na etapie jego wprowadzenia w konfiguracji
+- aktualizacja skryptu druku etykiet w standardowych działaniach masowych 
+
+ 
+v3.8.1 @ 12.12.2019
+- poprawiono drukowanie etykiet za pomocą PrintNode.com
+- poprawiono błąd z tracking_number w zakładce Inpost > Przesyłki
+
+v3.8.0 @ 26.11.2019
+- dodano automatyczną integrację z Api PrintNode.com - wysyłanie wydruków etykiet od razu po utworzeniu przesyłki do drukarki w usłudze PrintNode
+
+v3.7.1 @ 15.11.2019
+- nowy sposób pobierania statusów przesyłek również za pomocą CRONa
+
+v3.7.0 @ 14.11.2019
+- nowy sposób pobierania statusów przesyłek poprzez zasób tracking zamiast shipment
+- dodano niestandardowy sposób pobierania etykiet - każda etykieta jako osobny plik nawet przy większej ilości przesyłek
+- dodano możliwość łączenia wydruków osobnych w jeden plik pdf tak by zachować odpowiednią kolejność dokumentów
+
+v3.6.6 @ 24.10.2019
+- poprawiono błędy deprecated dla PHP >7.2 
+
+v3.6.5 @ 23.10.2019
+- dodano nowe tagi w opisach przesyłek
+- ulepszono filtr wielu statusów zamówień w zakładce zamówienia
+
+v3.6.4 @ 22.10.2019
+- wydłużono limit czasu na połączenie z Inpost do 300s.
+
+v3.6.3 @ 18.10.2019
+- poprawiono pojawianie się opcji w konfiguracji 
+- dodano rozdzielanie zamówień na liście
+- dodano wyświetlanie wiadomości w zamówieniach
+- dodano filtr przesyłek Allegro do zakładki zamawiania kuriera
+
+v3.6.2 @ 10.10.2019
+- wyłączono zwiększanie liter w adresach mailowych z włączoną opcją wymuszania wielkich liter
+
+v3.6.1 @ 01.10.2019
+- dodano wybór stylu map wyszukiwarki paczkomatów
+-- Open Street Maps (darmowe bez limitów)
+-- Google Maps (wymagają klucza map Google)
+
+v3.6.0 @ 30.09.2019
+- dodano gabaryt A/B/C dla minipaczki allegro inpost
+- przebudowano skrypt licencji
+
+v3.5.1 @ 16.09.2019
+- dodano obsługę modułu koszyka easypay
+
+v3.5.0 @ 12.09.2019
+- dodano nowe pole dla przesyłki kurierskiej - komentarz
+- dodano nowy tag do opisów - koszt dostawy poniesiony przez klienta
+
+v3.4.8 @ 21.08.2019
+- wydłużono czas oczekiwania na odpowiedź serwera Inpostu z 5 na 30 sekund
+
+v3.4.7 @ 12.08.2019
+- poprawiono błąd z licencją po aktualizacji
+
+v3.4.6 @ 12.08.2019
+- dodano możliwość usuwania punktów odbioru
+- usunięto z listy zamawiania kuriera przesyłki bez numerów śledzenia
+- dodano przekierowanie do zamawiania kuriera podczas dodawania zlecenia odbioru
+- zmieniono informacje o dozwolonej wadze MiniPaczki Allegro na 10 kg.
+
+v3.4.5 @ 29.07.2019
+- poprawiono wyświetlanie się wyboru paczkomatu w koszyku onepagecheckout
+- poprawka pętli wywołań funkcji aktulizującej metody płatności w opc
+
+v3.4.4 @ 17.07.2019
+- podczepianie się pod maila z zamówieniem będzie działać również dla maili dla administratorów
+- poprawiono wyświetlanie się odbioru w paczkomacie w niestandardowym koszyku kompresyjni
+- zmiana stylu przycisku wybierz z mapy na bardziej wyraźny przycisk klikalny
+
+v3.4.3 @ 16.07.2019
+- poprawiono wyświetlanie się bloku z modułem w podglądzie danego zamówienia dla PrestaShop 1.5
+- poprawiono dostęp do opcji podczepiania się pod maila z potwierdzeniem zamówienia w konfiguracji
+
+v3.4.2 @ 11.07.2019
+- dodano nową opcję automatycznej zamiany danych na etykiecie na duże litery
+- dodano walidację dodatkowych pól policy w module supercheckout
+- przetłumaczono komunikat z błędem pobierania etykiety z powodu braku środków na koncie
+- poprawiono wyświetlanie wyboru paczkomatu w koszyku onepagecheckout
+- dodano walidację paczkomatu dla checkboxa z regulaminem w niestandardowym koszyku
+- poprawiono wyświetlanie przycisku wyszukiwarki w wyborze paczkomatu z mapy - tło
+
+v3.4.1 @ 28.05.2019
+- dodano możliwość wyświetlania loginu allegro na etykietach - dane pobierane z modułu x13 allegro
+
+v3.4.0 @ 23.05.2019
+- dodano możliwość filtrowania szablonów allegro do zamówień po przypisanym koncie allegro do zamówienia z integracją x13allegro
+
+v3.3.0 @ 17.05.2019
+- dodano wyświetlanie loginu allegro w kolumnie z danymi klienta z modułu x13allegro w zakładce Inpost > Zamówienia
+- dodano automatyczne sprawdzanie statusów przesyłek poprzez CRON
+- przebudowano panel zarządzania statusami
+- dodano możliwość automatycznej konfiguracji statusów jednym przyciskiem
+- dodano możłiwość ustawienai flagi automatycznego sprawdzania statusu masowo dla wybranych statusów
+
+v3.2.3 @ 09.05.2019
+- dodano nowe tagi do szablonów przesyłek imię {customer_firstname} i nazwisko klienta {customer_lastname}, które można umieścić na etykiecie
+
+v3.2.2 @ 15.04.2019
+- dodano wsparcie dla modułu trackmultiplecarriers z addons4presta
+
+v3.2.1 @ 15.04.2019
+- poprawiono tworzenie przesyłek z adresem zawierającym znak apostrofa lub cudzysłowiu
+
+v3.2.0 @ 13.04.2019
+- dodano wielopaczkowość w przesyłkach kurierskich
+- dodano możliwość personalizacji tytułu maila in transit, wysyłanego po utworzeniu przesyłki
+- dodano aktualizację metod płatności po odznaczeniu regulaminu przez moduł jeśli sklep tego wymaga
+- dodano pobieranie wybranego paczkomatu z integracji Arena.pl od Seigi
+- dodano brakujące tłumaczenia odnośnie wymiarów przesyłek
+- dodano linki do zamawiania kuriera i zleceń odbioru w pasku szybkiego dostępu
+- dodano domyślny filtr daty na 7 dni wstecz dla listy zamówień o ile nie ustawiono inaczej
+- dodano krótką instrukcję uruchomienia modułu
+- dodano niestandardową modyfikację pobierania id transakcji z tabel allegro_transaction_ids z kolumny transaction_id i id_order
+- dodano opcję automatycznego pobierania etykiet po utworzeniu przesyłki
+- dodano obsługę pobrań dla Minipaczki Allegro Inpost
+- przystosowano moduł do płatności Arena.pl od Seigi
+- przystosowano moduł do wyboru przewoźników dla podzielonych metod dostawy w niektórych koszykach (multi_carrier_poland)
+- przystosowano moduł do koszyka spstepcheckout
+- poprawiono wczytywanie aktywnych modułów płatności w zakładce Zamówienia
+- poprawiono niezapisywanie w logach listy paczkomatów
+- poprawiono działanie w koszyku onepagecheckout
+- poprawiono kolory czcionek na mapie
+- poprawiono wyświetlanie wybranego punktu w koszykach z id_carrier
+- poprawiono aktualizację listy paczkomatów jeśli na liście pojawił się ten sam paczkomat kilkukrotnie
+- poprawiono aktualizację punktów odbiorów gdy serwer posiada ograniczenia w tworzeniu tymczasowych tabel w bazie danych.
+- poprawiono kolejność oczyszczanych pól o zamówieniu
+- poprawiono powiązywanie szablonów z zamówieniami tworzonymi przez baselinker
+- poprawiono wyświetlanie się okna zbyt szerokiego w koszyku opc od x13
+- poprawiono wyświetlanie bloku wysyłka z inpost w zamówieniach na starzych werjach presty 1.6
+- poprawiono wczytywanie się kilkukrotne map w koszyku
+- poprawiono sprawdzanie struktury bazy danych
+- poprawka wczytywania map dla pustego adresu
+- poprawa walidacji niewybranego paczkomatu w niektórych koszykach
+- zaktualizowano mail, na który najlepiej pisać w sprawie otrzymania klucza ShipX
+- aktualizacja funkcji wyświetlającej punkt odbioru
+- poprawka wczytywania się panelu zamawiania kuriera gdy włączone są filtry przesyłek
+- optymalizacja listy zamówień i poprawa adresu rozliczeniowego
+- czyszczenie danych odnośnie zamówienia z białych i pustych znaków na początku i na końcu
+- dodatkowe poprawki dla koszyka supercheckout
+- aktualizacja linku śledzenia przesyłek na https://inpost.pl/sledzenie-przesylek?number=@
+- trim dla adresu klienta
+- uporządkowano konfiguracje modułu
+- przywrócono niedziałające opcje dla niektórych wersji PrestaShop 1.5
+
+v3.1.2 @ 05.09.2018
+- poprawiono błąd krytyczny w skryptach dla PrestaShop 1.5 (datetimepicker)
+- poprawiono wyświetlanie wyboru w koszyku supercheckout
+
+v3.1.1 @ 04.09.2018
+- poprawiono wczytywanie skryptów w panelu administracyjnym
+
+v3.1.0 @ 31.08.2018
+- dodano możliwość wyłączenia obsługi niestandardowych koszyków w celu pełnej kompatybilności z daną konfiguracją Twojego sklepu
+- dodano drukowanie protokołów odbioru dla wybranych przesyłek bez konieczności zamawiania kuriera (dla osób do których kurier przyjeżdza codziennie)
+- przebudowano zamawiania kuriera umożliwiając wydruk protokołu bez zlecenia odbioru
+- poprawiono dodawanie przesyłek gdy waga lub wymiary zawierają przecinek
+
+v3.0.2 @ 24.08.2018
+- przywrócono możliwość sortowania listy przesyłek po zamówieniach
+- poprawiono błąd z metodą setMedia dla php > 7.1 i presty > 1.7.4.0
+
+v3.0.1 @ 25.07.2018
+- poprawiono zapisywanie zleceń odbioru w bazie danych przy aktualizacji modułu z wcześniejszych wersji
+
+v3.0.0 @ 24.07.2018
+- dodano panel zamawiania kuriera
+- dodano możliwość definiowania domyślnego komentarza do zlecenia odbioru
+- dodano generowanie protokołów nadania
+- dodano możliwość pobierania wydruków protokołów nadania
+- dodano możliwość pobierania etykiet na podstawie protokołów nadania
+- dodano listę wszystkich utworzonych zleceń odbiorów wraz z możłiwością ich usuwania
+- dodano automatyczne sprawdzanie statusów zleceń odbioru
+- dodano możliwość tworzenia listy punktów odbioru dla kuriera
+- dodano możliwość dynamicznego wyboru punktu odbioru dla kuriera podczas tworzenia zlecenia
+- dodano ostrzeżenie w zamówieniu gdy klient wybrał paczkomat ale następnie zmienił przewoźnika
+- dodano opcję dodatkową do przesyłek kurierskich - doręczenie na godzinę
+- dodano nowe tagi dla opisu przesyłek:
+-- lista produktów - nazwy produktów
+-- lista produktów - nazwy i ilości produktów
+-- lista produktów - indeksy produktów
+-- lista produktów - indeksy i ilości produktów
+- przetłumaczono komunikaty api
+- poprawa działania funkcji ukrywania panelu gdy zamówienie nie ma przypisanych szablonów
+- poprawa pobierania licencji gdy curl nie działa prawidłowo
+- poprawa błędu z CURLOPT_FOLLOWLOCATION gdy safe mode jest włączony
+
+v2.9.0 @ 30.05.2018
+- dodano opcje dodatkowe dla usługi kurierskiej: sms, email, doręczenie w sobotę, doręczenie od 17 do 20, zwrot dokumentów
+- dodano możliwość ukrywania szablonów niepowiązanych z możliwością ich rozwinięcia
+- dodano możliwość ukrywania panelu z wysyłką Inpost w podglądzie danego zamówienia jeśli dane zamówienie nie ma przypisanych żadnych szablonów
+
+v2.8.4 @ 17.05.2018
+- dodano możliwość definiowania domyślnego paczkomatu nadania dla minipaczki allegro Inpost
+- poprawiono instalację tabel bazy danych dla niektórych serwerów Kylos
+- poprawiono błąd z wyświetlaniem listy zamówień
+- poprawiono błąd z nadawaniem przesyłek kurierskich allegro - brak danych odbiorcy
+- poprawiono wyświetlanie się wyboru punktu odbioru dla prestashop 1.5 i szybkich zakupów
+
+v2.8.3 @ 11.04.2018
+- dodano obsługę modułu płatności PayU, płatność przelewem oraz płatność za pobraniem z synchronizacji zamówień Allegro BaseLinker
+- dodano możliwość tworzenia dowolnej przesyłki z szablonu w podglądzie danego zamówienia
+
+v2.8.2 @ 03.04.2018
+- dodano dodatkowy filtr po aktywnych statusach zamówień w zakładce masowego dodawania przesyłek
+- poprawiono zapisywanie numerów śledzenia w zamówieniach dla starszych wersji PrestaShop
+- poprawiono wysyłanie maili do klientów przy zmianie statusów - wymuszono link śledzenia z modułu, a nie z przewoźnika
+
+v2.8.1 @ 26.03.2018
+- poprawa zwracanych komunikatów z serwera Inpost
+- informacja o nowej wersji nie będzie przerywała już pracy dynamicznych wyszukiwarek
+
+v2.8.0 @ 24.03.2018
+- krytyczna poprawka edycji tagów wiadomości order_conf
+- całkowicie nowy system powiadomień o nowych statusach przesyłek
+-- możliwość zmiany statusu zamówienia na podstawie statusu przesyłki
+-- automatyczny system sprawdzania statusów przesyłek w tle podczas przeglądania listy przesyłek
+- dodano opcję zapisywania wybranego paczkomatu w wiadomości do zamówienia
+- możliwość definiowania dodatkowej wagi, szerokości, długości i wysokości  dla przesyłek kurierskich (np. dodając wage i wymiary kartonu)
+- poprawiono wyświetlanie się wybranego paczkomatu w historii zamówień dla zamówień nie powiązanych z Paczkomatami
+- poprawiono filtry w zakładce zamówienia
+- poprawa działania funkcji przywracania wybranego paczkomatu w koszyku klienta
+- usunięcie funkcji tłumaczącej w klasie modułu celem dostosowania modułu do wersji 1.7.3 Presty
+- optymalizacja wyświetlania konfiguracji modułu
+- poprawa tłumaczeń
+
+v2.7.2 @ 22.03.2018
+- poprawiono automatyczną zmianę statusów zamówień z uwzględnieniem dodatkowych zmiennych
+
+v2.7.1 @ 20.03.2018
+- poprawiono pobieranie aktywnych sposobów płatności w PrestaShop 1.6.1.7
+
+v2.7.0 @ 20.03.2018
+- dodano opcję ukrywania wyboru paczkomatu z mapy pozostawiając samą wyszukiwarkę
+
+v2.6.0 @ 15.03.2018
+- PrestaShop od wersji 1.6.1.0: dodano możliwość zapisywania wybranego paczkomatu w mailu potwierdzającym zamówienie dla klienta (order_conf) w dowolnym tagu
+- zintegrowano moduł z nową wersją koszyka supercheckout
+- dodano opcję ukrywania komunikatu o niewybranym paczkomacie gdy w zamówieniu nie istnieje szablon z usługą paczkomatową
+- ulepszono wyszukiwarkę punktów: 
+-- inteligentne szukanie punktów po jakimkolwiek członie adresu / nazwy
+-- dynamiczne wczytywanie większej ilości wyników.
+- poprawiono aktualizację punktów odbioru
+- poprawa formularza podawania wag dla przesyłek kurierskich by był bardziej czytelny na mniejszych ekranach
+- dodatkowy filtr zamówień po dacie utworzenia zamówienia z wyborem daty z kalendarza
+- poprawiono błąd presty związany z pobieraniem listy aktywnych modułów płatności
+
+v2.5.3 @ 06.03.2018
+- rozwiązano problem z zapisywaniem wybranego punktu oraz z działaniem wyszukiwarki w sklepach z włączonym ssl
+
+v2.5.2
+- dodano opcję wyświetlania wyboru pod listą przewoźników w module onepagecheckout
+- poprawiono pobieranie id transakcji allegro dla modułu allegro od addonspresta.com
+
+v2.5.1 @ 21.02.2018
+- poprawiono pobieranie zbiorczych etykiet w przeglądarce Firefox
+
+v2.5.0 @ 20.02.2018
+- dodano obsługę usługi podaj dalej (nadanie i odbiór w tym samym paczkomacie)
+- dodano obsługę usługi Inpost Kurier Allegro
+- dodano obsługę modułu allegro od AddonsPresta.com (automatyczne pobieranie danych z wybranym paczkomatem allegro i transakcji)
+- dodano możliwość włączania danych szablonów w podglądzie listy
+- dodano opcję ubezpieczenia przesyłek do 1000 zł
+- dodano opcję wprowadzania konkretnej kwoty ubezpieczenia dla przesyłki kurierskiej
+- dodano dodatkowe kolumny do zakładki masowego dodawania przesyłek
+-- wartość produktów
+-- koszt przesyłki
+-- łączna wartość zamówienia
+- wprowadzono system informowania o nowej wersji w całym panelu administracyjnym z możliwością jego wyłączenia
+- dodano walidację danych nadawcy
+- poprawiono wyświetlanie się modułu w koszyku x13opc z włączoną opcją wyświetlania wyboru pod listą przewoźników
+- poprawiono pobieranie etykiet w przeglądarce Firefox
+- usunięto powtarzający się kod (DRY)
+- poprawiono system licencji
+- zunifikowano system skryptów
+- odchudzono moduł ze zbędnych KB
+
+v2.4.0 @ 15.02.2018
+- dodano filtr wyświetlanych danych w zakładce masowego dodwania przesyłek
+- poprawiono pobieranie aktualnych przewoźników w filtrach
+
+v2.3.4 @ 14.02.2018
+- poprawiono walidację niewybranego paczkomatu
+- poprawiono wyświetlanie wyboru paczkomatu dla standardowego koszyka PrestaShop na jednej stronie
+
+v2.3.3 @ 12.02.2018
+- dostosowano moduł do koszyka onepagecheckout z dynamiczną walidacją przy zmianie przewoźników
+- wyszukiwarka poprawnie pokazuje brak wyników gdy nie ma paczkomatów spełniających podane kryteria
+
+v2.3.2 @ 08.02.2018
+- poprawiono skrypt wczytujący dodatkowe biblioteki w standardowym szablonie PrestaShop 1.7
+
+v2.3.1 @ 08.02.2018
+- poprawiono pojawianie się wyboru pod przewoźnkiem gdy aktywnych jest dwóch przewoźników np. Paczkomaty i Paczkomaty za pobraniem
+- poprawiono wczytywanie się wyboru paczkomatu z mapy w panelu administracyjnym
+- poprawiono walidację paczkomatów za pobraniem
+- poprawiono błąd dla zakładki przesyłki, w której istnieją jeszcze przesyłki e-commerce
+- zoptymalizowano skrypty js
+
+v2.3.0 @ 06.02.2018
+- przywrócono obsługę usługi Minipaczka Allegro InPost
+- dodano opcję wyświetlania wyboru paczkomatu w koszyku pod listą przewoźników zamiast bezpośrednio pod wybranym sposobem wysyłki
+- poprawiono błędy z wczytywaniem bibliotek
+
+v2.2.0 @ 05.02.2018
+- przystosowano wygląd wyboru paczkomatu w koszyku
+- poprawiono walidację wyboru paczkomatu na niestandardowych stronach
+- zrezygnowano z podwójnych skryptów dla wersji 1.6 i 1.7 PrestaShop
+- zrezygnowano z pobierania skryptu map ze strony Inpostu w celu uniknięcia konfliktów styli i czcionek na stronie
+- dodano automat pobierający aktualny skrypt map podczas zadania cron
+- zrezygnowano z testowej listy paczkomatów, ta nie różni się już niczym od wersji produkcyjnej
+
+v2.1.0 @ 31.01.2018
+- usunięcie usługi paczki e-commerce w związku z wyłączeniem tej usługi w Inpost
+- poprawa walidacji braku wybrania paczkomatu przez klienta w niektórych sklepach
+
+v2.0.2 @ 30.01.2018
+- zmiana prefixów tabel baz danych w pobieraniu informacji i zamówieniach
+
+v2.0.1 @ 30.01.2018
+- poprawa skryptu aktualizującego moduł do wersji 2.0
+
+v2.0.0 @ 29.01.2018
+- dodano nowy panel masowego dodawania przesyłek do wielu zamówień jednocześnie, wraz z super filtrami oraz masowymi działaniami
+- zmieniono podawanie wymiarów przesyłek oraz wagi dla usługi Inpost Kurier automatycznie na podstawie danych w zamówieniu
+- dodano opcję zapisywania nr przesyłki w standardowym polu numer śledzenia w zamówieniu
+- dodano opcję wysyłania linku śledzenia przesyłki mailem do klienta
+- dodano opcję zmiany statusu zamówienia po dodaniu przesyłki
+- dodano wyświetlanie informacji o wybranym punkcie odbioru w historii zamówień w panelu klienta
+- dodano możliwość automatycznego czyszczenia logów komunikacji z serwerem Inpost po 1, 2, 3, 4, 5, 6, 7, 14 lub 28 dniach
+- wyłączono z zapisywania w logach aktualnej listy paczkomatów pobieranej przez api
+- dodano opcję automatycznego czyszczenia nr telefonów klientów ze znaków innych niż cyfry
+- dodano opcję uzupełniania nr domu w adresie klientów jeśli nie korzystasz z tego pola w PrestaShop
+- dodano linki do najważniejszych funkcji modułu w górnym menu
+- zmieniono domyślne sortowanie listy przesyłek według daty
+
+v1.8.9 @ 08.01.2018
+- przystosowano moduł do nowego koszyka od x13 opc
+
+v1.8.8 @ 29.12.2017
+- dodano nowy format etykiet ZPL z rozszerzeniem DPL
+- dodano nowe tłumaczenia błędów SHIPX
+
+v1.8.7 @ 21.12.2017
+- dodano wymóg wyboru paczkomatu w module koszyka onepagecheckoutps
+
+v1.8.6 @ 13.12.2017
+- poprawiono błędy krytyczne z pobieraniem licencji na dane usługi
+
+v1.8.5 @ 05.12.2017
+- dodano obsługę błędów walidacji danych nadawcy
+- przetłumaczono najpopularniejsze komunikaty błędów z serwera inpost
+
+v1.8.4 @ 05.12.2017
+- poprawa wyświetlania wyboru paczkomatu na niektórych przeglądarkach
+
+v1.8.3 @ 04.12.2017
+- poprawa komunikatu z błędem w panelu administracyjnym
+
+v1.8.2 @ 01.12.2017
+- poprawa wczytywania się strony z zamówieniem
+
+v1.8.1 @ 30.11.2017
+- poprawiono podczepianie się wyboru przewoźnika w prestashop 1.7 tuż za danego przewoźnika zamiast na koniec listy
+
+v1.8.0 @ 29.11.2017
+- system uprawnień licencji
+- informacja o statusie przesyłek i możliwość jego sprawdzenia w widoku zamówienia
+- wyświetlanie adresu wybranego paczkomatu przez klienta w zamówieniu
+- jeśli klient nie wybrał paczkomatu w danym zamówieniu to moduł podpowie jego ostatni paczkomat i wyświetli odpowiedni komunikat
+- poprawiono responsywność wyboru paczkomatu w koszyku
+
+v1.7.1 @ 13.11.2017
+- poprawa błędów z komunikatem o braku dostępnych ofert dla przesyłki
+- poprawa walidacji sprawdzania paczkomatów od strony klienta
+
+v1.7.0 @ 10.11.2017
+- dodano nowy typ wydruku etykiet: A6 (pionowy)
+- poprawiono pobieranie zbiorcze etykiet dla różnych usług na raz (w formie zip)
+- nowy system sprawdzania licencji
+
+v1.6.2 @ 02.11.2017
+- poprawiono problem z zapisywaniem paczkomatu klienta
+
+v1.6.1 @ 27.10.2017
+- poprawiono błędy na prestashop 1.5
+
+v1.6.0 @ 26.10.2017
+- uniemożliwiono wybór paczkomatu bez opcji płatności dla przesyłek pobraniowych
+
+v1.5.0 @ 25.10.2017
+- nowy sposób nadawania przesyłek kurierskich - oddział inpost
+- nowy sposób nadawania listów poleconych - oddział inpost
+- nowy sposób nadawania przesyłek paczkomatowych - oddział inpost
+- nowy sposób nadawania przesyłek paczkomatowych Allegro - oddział inpost
+- nowe sposoby nadawania przesyłek Minipaczka Allegro - oddział inpost i paczkomat
+
+v1.4.0 @ 20.10.2017
+- automatyczne pobieranie numeru płatności allegro oraz wybranego paczkomatu dla zamówień pochodzących z modułu Allegro od x13 (x13allegro)
+
+v1.3.7 @ 16.10.2017
+- poprawka z przystosowaniem do modułu supercheckout
+
+v1.3.6 @ 12-10-2017
+- poprawa skryptu instalacyjnego
+
+v1.3.5 @ 11-10-2017
+- przystosowanie wyboru paczkomatu z mapy i listy dla osób korzystających z niestandardowego modułu koszyka supercheckout
+
+v1.3.4 @ 11-10-2017
+- poprawa algorytmu sprawdzania licencji
+
+v1.3.3 @ 05-10-2017
+- poprawki wyświetlania się wyboru paczkomatu i walidacji w module x13opc
+
+v1.3.2 @ 22-09-2017
+- dodano możliwość wyboru czy automatycznie wybierać paczkomat za klienta na podstawie jego historii zamówień w koszyku (opcja w ustawieniach szablonu)
+- obsługa klucza map google również w panelu administracyjnym
+- w przypadku walidacji zamówienia skrypt nie przepuszcza dalej jeśli klient nie wybrał paczkomatu i zmienia wygląd wyboru paczkomatu na czerwony
+- poprawa struktury baz danych i uzupełnienie brakujących kolumn
+- dodano informację o wybranym paczkomacie w formie komunikatu w podglądzie zamówienia
+
+v1.3.1 @ 21-09-2017
+- poprawiono prefixy tabel w bazie danych dla niestandardowych ustawień sklepów
+- poprawa błędów z wyświetlaniem się wyboru paczkomatu w przeglądarce Internet Explorer / Edge
+
+v1.3.0 @ 21-09-2017
+- przystosowano wybór paczkomatu dla klienta w module szybkich zakupów onepagecheckout
+
+v1.2.0 @ 14-09-2017
+- dodano możliwość ustalania własnego klucza map google dla większych limitów korzystania z map
+- przystosowano moduł do szybkich zakupów od x13.pl
+- poprawiono niektóre tłumaczenia
+
+v1.1.1 @ 11-09-2017
+- krytyczna poprawka wyświetlania szablonu w koszyku na ps 1.6
+
+v1.1.0 @ 18-08-2017
+- dodano nowe usługi: 
+-- Przesyłka paczkomatowa Allegro Paczkomaty InPost
+-- Paczka e-commerce InPost
+-- Minipaczka Allegro InPost
+-- Przesyłka kurierska standardowa
+
+v1.0.1 @ 24-07-2017
+- poprawa wczytywania się paczkomatów na mapie
+- zmiana komunikatu wymagającego wybór paczkomatu 

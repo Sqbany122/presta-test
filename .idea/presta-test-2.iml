@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/modules/#gdprpro#/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/ets_livechat/classes/src" isTestSource="false" packagePrefix="Hybridauth" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/gdprpro/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/upsmodule/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/upsmodule/lib/sdk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/upsmodule/lib/sdk" isTestSource="false" packagePrefix="Ups" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/upsmodule/lib/sdk/beans" isTestSource="false" packagePrefix="Bean" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

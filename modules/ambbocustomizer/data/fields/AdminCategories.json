@@ -1,0 +1,135 @@
+{
+    "headers": {
+        "category": "Catalog",
+        "name": "Categories"
+    },
+    "fields": {
+        "id_category": {
+            "title": "ID",
+            "description": "Category identifier",
+            "is_core": true,
+            "mandatory": true,
+            "query": {
+                "group_by": "id_category"
+            }
+        },
+        "name": {
+            "title": "Name",
+            "description": "Category name",
+            "filter_key": "b!name",
+            "is_core": true
+        },
+        "description": {
+            "title": "Description",
+            "description": "Category description",
+            "filter_key": "b!description",
+            "is_core": true
+        },
+        "position": {
+            "title": "Position",
+            "description": "Category position",
+            "is_core": true,
+            "search": false
+        },
+        "active": {
+            "title": "Displayed",
+            "description": "Indicates if the category is displayed on the front-office",
+            "is_core": true,
+            "filter_key": "a!active"
+        },
+        "admin_categories_img": {
+            "title": "Image",
+            "description": "Category image",
+            "align": "center",
+            "orderby": false,
+            "filter": false,
+            "search": false,
+            "translator": "AdminCategories",
+            "amb_callback": {
+                "method": "displayCategoryImage",
+                "export": "skip",
+                "args": {
+                    "id": "a.id_category"
+                }
+            }
+        },
+        "admin_categories_meta_title": {
+            "title": "Meta title",
+            "description": "Meta title of the category",
+            "quick_select": "b.meta_title",
+            "havingFilter": true,
+            "translator": "AdminCategories"
+        },
+        "admin_categories_meta_description": {
+            "title": "Meta description",
+            "description": "Meta description of the category",
+            "quick_select": "b.meta_description",
+            "havingFilter": true,
+            "translator": "AdminCategories"
+        },
+        "admin_categories_meta_tags": {
+            "title": "Meta tags",
+            "description": "Meta tags of the category",
+            "quick_select": "b.meta_keywords",
+            "havingFilter": true,
+            "translator": "AdminCategories"
+        },
+        "admin_categories_link_rewrite": {
+            "title": "Friendly URL",
+            "description": "Friendly URL of the category",
+            "quick_select": "b.link_rewrite",
+            "havingFilter": true,
+            "translator": "AdminCategories"
+        },
+        "admin_categories_customer_groups_list": {
+            "title": "Group access",
+            "description": "Indicates the different groups this category is displayed for",
+            "search": false,
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "value": "(SELECT COUNT(cg.id_group) FROM $PREFIX_category_group cg WHERE cg.id_category=a.id_category)",
+                    "method": "'fetchCategoryGroupsFromCategoryId'",
+                    "id": "a.id_category"
+                }
+            },
+            "align": "text-center",
+            "translator": "AdminCategories"
+        },
+        "admin_categories_nb_products": {
+            "title": "Number of products",
+            "description": "Indicates the number of products attached to this category",
+            "translator": "AdminSuppliers",
+            "quick_select": "COUNT(amb_cp.id_product)",
+            "havingFilter": true,
+            "align": "text-center",
+            "query": {
+                "joins": [
+                {
+                    "type": "LEFT",
+                    "table": "category_product",
+                    "alias": "amb_cp",
+                    "on": "amb_cp.id_category=a.id_category"
+                }
+                ]
+            }
+        },
+        "admin_categories_show_products": {
+            "title": "Products",
+            "description": "Link to products list filtered on the category",
+            "translator": "AdminOrders",
+            "align": "text-center",
+            "search": false,
+            "amb_callback": {
+                "method": "adminLink",
+                "export": "skip",
+                "args": {
+                    "controller": "'AdminProducts'",
+                    "value": "'<i class=\"icon-eye-open\"></i>'",
+                    "params": "CONCAT('&id_category=', a.id_category)"
+                }
+            }
+        }
+    }
+}

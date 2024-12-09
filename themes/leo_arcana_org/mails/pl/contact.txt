@@ -1,0 +1,18 @@
+[/{shop_url}] 
+
+Wiadomość od klienta {shop_name} 
+
+ADRES E-MAIL KLIENTA: {email}
+
+WIADOMOŚĆ KLIENTA: {message}
+
+NR ZAMÓWIENIA: {order_name}
+
+ZAŁĄCZONY PLIK: {attached_file} 		 
+
+
+    Salon Jeździecki Pegaz
+    ul.Zamkowa 2, 62-310 Pyzdry
+    Telefon: 507 822 351, 507 822 367
+    E-mail: zamowienia@pegazshop.pl
+

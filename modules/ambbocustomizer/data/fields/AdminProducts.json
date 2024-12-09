@@ -1,0 +1,571 @@
+{
+    "headers": {
+        "category": "Catalog",
+        "name": "Products",
+        "active": false
+    },
+    "fields": {
+        "id_product": {
+            "title":"ID",
+            "description": "Product identifier",
+            "is_core": true,
+            "mandatory": true,
+            "query": {
+                "group_by":"a.id_product"
+            }
+        },
+        "image": {
+            "title": "Image",
+            "description": "Product image",
+            "is_core": true
+        },
+        "name": {
+            "title": "Name",
+            "description": "Product name",
+            "is_core": true
+        },
+        "reference": {
+            "title": "Reference",
+            "description": "Product reference",
+            "is_core": true
+        },
+        "shopname": {
+            "title": "Default shop",
+            "description": "Default shop the product belongs to",
+            "is_core": true
+        },
+        "name_category": {
+            "title": "Category",
+            "description": "Default category for the product",
+            "is_core": true
+        },
+        "price": {
+            "title": "Base price",
+            "description": "Price of the product tax excluded",
+            "is_core": true
+        },
+        "price_final": {
+            "title": "Final price",
+            "description": "Price of the product tax included",
+            "is_core": true
+        },
+        "admin_products_specific_prices": {
+            "title": "Specific prices",
+            "description": "List of the specific prices currently active for this product",
+            "search": false,
+            "translator": "AdminProducts",
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "value": "(SELECT COUNT(id_specific_price) FROM $PREFIX_specific_price sp WHERE sp.id_product=a.id_product AND NOW() BETWEEN (IF(sp.`from` = 0, NOW(), sp.`from`)) AND (IF(sp.`to` = 0, NOW(), sp.`to`)))",
+                    "method": "'fetchSpecificPricesFromProductId'",
+                    "id": "a.id_product"
+                }
+            }
+        },
+        "sav_quantity": {
+            "title": "Quantity",
+            "description": "Number of products available",
+            "is_core": true
+        },
+        "active": {
+            "title": "Active",
+            "description": "Indicates if the product is active or not",
+            "is_core": true
+        },
+        "position": {
+            "title": "Position",
+            "description": "Manages the position of the product",
+            "is_core": true
+        },
+
+        "admin_products_ean13": {
+            "title": "EAN-13 or JAN barcode",
+            "description": "EAN-13 or JAN barcode for the product",
+            "havingFilter": true,
+            "translator": "AdminProducts",
+            "quick_select": "a.ean13"
+        },
+        "admin_products_upc": {
+            "title": "UPC",
+            "description": "Product UPC",
+            "havingFilter": true,
+            "translator": "AdminManufacturers",
+            "quick_select": "a.upc"
+        },
+        "admin_products_additional_shipping_cost": {
+            "title": "Additional shipping cost",
+            "description": "Additionnal shipping costs for the product",
+            "havingFilter": true,
+            "quick_select": "a.additional_shipping_cost",
+            "translator": "AdminImport",
+            "type": "price",
+             "align": "text-right"
+        },
+        "admin_products_wholesale_price": {
+            "title": "Wholesale price",
+            "description": "Wholesale price of the product",
+            "havingFilter": true,
+            "align": "text-right",
+            "quick_select": "a.wholesale_price",
+            "type": "price",
+            "translator": "AdminProducts"
+
+        },
+        "admin_products_profit": {
+            "title": "Profit",
+            "description": "Profit per product sold, based on the difference between the price tax excluded and the wholesale price",
+            "quick_select": "a.price-a.wholesale_price",
+            "type": "price",
+            "align": "text-right",
+            "havingFilter": true
+        },
+        "admin_products_profit_percentage": {
+            "title": "Profit %",
+            "description": "Profit expressed in percentage compared to the wholesale price",
+            "quick_select": "CONCAT(ROUND((a.price-a.wholesale_price)/a.wholesale_price*100, 2), '%')",
+            "align": "text-right",
+            "havingFilter": true
+        },
+        "admin_products_profit_margin": {
+            "title": "Profit margin",
+            "description": "Profit expressed in percentage compared to the price tax excluded",
+            "quick_select": "CONCAT(ROUND((a.price-a.wholesale_price)/a.price*100, 2), '%')",
+            "align": "text-right",
+            "havingFilter": true
+        },
+        "admin_products_profit_coeff": {
+            "title": "Multiplying factor",
+            "description": "Multiplying factor between the price and the wholesale price",
+            "quick_select": "ROUND((a.price)/a.wholesale_price, 2)",
+            "align": "text-center",
+            "havingFilter": true
+        },
+        "admin_products_available_for_order": {
+            "title": "Available",
+            "description": "Indicates if the product is available for sale",
+            "havingFilter": true,
+            "quick_select": "a.available_for_order",
+            "type": "bool",
+            "active": "available_for_order",
+            "align": "text-center",
+            "translator": "AdminProducts"
+        },
+
+        "admin_products_online_only": {
+            "title": "Online only",
+            "description": "Indicates if the product is available online only",
+            "havingFilter": true,
+            "quick_select": "a.online_only",
+            "type": "bool",
+            "active": "status",
+            "align": "text-center"
+        },
+
+         "admin_products_customizable": {
+            "title": "Customizable",
+            "description": "Indicates if the product has customizable fields",
+            "havingFilter": true,
+            "quick_select": "a.customizable",
+            "type": "bool",
+            "active": "status",
+            "align": "text-center"
+        },
+
+         "admin_products_on_sale": {
+            "title": "On sale",
+            "description": "Indicates if the product has the \"on sale\" label on its front-office page",
+            "havingFilter": true,
+            "quick_select": "a.on_sale",
+            "type": "bool",
+            "active": "on_sale",
+            "align": "text-center"
+        },
+        "admin_products_advanced_stock_management": {
+            "title": "Advanced Stock Management",
+            "havingFilter": true,
+            "description": "Indicates if product uses advanced stock management",
+            "quick_select": "a.advanced_stock_management",
+            "type": "bool",
+            "active": "advanced_stock_management",
+            "align": "text-center",
+            "translator": "AdminImport"
+        },
+        "admin_products_description_short": {
+            "title": "Short description",
+            "description": "Short description for the product",
+            "havingFilter": true,
+            "translator": "AdminProducts",
+            "amb_callback": {
+                "method": "preloadedTooltip",
+                "export": "value",
+                "args": {
+                     "value": "amb_pl.description_short"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                    "table":"product_lang",
+                    "type": "LEFT",
+                    "alias": "amb_pl",
+                    "on":"amb_pl.`id_product` = a.`id_product` AND amb_pl.id_lang=$LANGUAGE"
+                    }
+                ]
+            }
+        },
+        "admin_products_description": {
+            "title": "Description",
+            "description": "Product description",
+            "havingFilter": true,
+            "translator": "AdminProducts",
+            "amb_callback": {
+                "method": "preloadedTooltip",
+                "export": "value",
+                "args": {
+                     "value": "amb_pl.description"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                    "table":"product_lang",
+                    "type": "LEFT",
+                    "alias": "amb_pl",
+                    "on":"amb_pl.`id_product` = a.`id_product` AND amb_pl.id_lang=$LANGUAGE"
+                    }
+                ]
+            }
+        },
+        "admin_products_link_rewrite": {
+            "title": "Friendly URL",
+            "description": "Friendly URL of the product",
+            "havingFilter": true,
+            "translator": "AdminCategories",
+            "quick_select": "amb_pl.link_rewrite",
+            "query": {
+                "joins": [
+                    {
+                    "table":"product_lang",
+                    "type": "LEFT",
+                    "alias": "amb_pl",
+                    "on":"amb_pl.`id_product` = a.`id_product` AND amb_pl.id_lang=$LANGUAGE"
+                    }
+                ]
+            }
+        },
+        "admin_products_meta_description": {
+            "title": "Meta description",
+            "description": "Meta description of the product",
+            "havingFilter": true,
+            "translator": "AdminCategories",
+            "amb_callback": {
+                "method": "preloadedTooltip",
+                "args": {
+                     "value": "amb_pl.meta_description"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                    "table":"product_lang",
+                    "type": "LEFT",
+                    "alias": "amb_pl",
+                    "on":"amb_pl.`id_product` = a.`id_product` AND amb_pl.id_lang=$LANGUAGE"
+                    }
+                ]
+            }
+        },
+        "admin_products_meta_title": {
+            "title": "Meta title",
+            "description": "Meta title of the product",
+            "havingFilter": true,
+            "translator": "AdminCategories",
+            "amb_callback": {
+                "method": "preloadedTooltip",
+                "args": {
+                     "value": "amb_pl.meta_title"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                    "table":"product_lang",
+                    "type": "LEFT",
+                    "alias": "amb_pl",
+                    "on":"amb_pl.`id_product` = a.`id_product` AND amb_pl.id_lang=$LANGUAGE"
+                    }
+                ]
+            }
+        },
+        "admin_products_tax_group_name": {
+            "title": "Tax rules groups",
+            "description": "List of the tax rules groups the product belongs to",
+            "havingFilter": true,
+            "translator": "AdminShop",
+            "quick_select": "amb_trg.name",
+            "query": {
+                "joins": [
+                    {
+                    "table":"tax_rules_group",
+                    "type": "LEFT",
+                    "alias": "amb_trg",
+                    "on":"amb_trg.`id_tax_rules_group` = a.`id_tax_rules_group`"
+                    }
+                ]
+            }
+        },
+        "admin_products_manufacturer_name": {
+            "title": "Manufacturer",
+            "description": "Link to the manufacturer of the product",
+            "havingFilter": true,
+            "translator": "AdminManufacturers",
+            "amb_callback": {
+                "method": "adminLink",
+                "export": "value",
+                "args": {
+                    "controller": "'AdminManufacturers'",
+                    "value": "amb_m.name",
+                    "params": "CONCAT('&id_manufacturer=', a.id_manufacturer, '&viewmanufacturer')"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                    "table":"manufacturer",
+                    "type": "LEFT",
+                    "alias": "amb_m",
+                    "on":"amb_m.`id_manufacturer` = a.`id_manufacturer`"
+                    }
+                ]
+            }
+        },
+        "admin_products_supplier_name": {
+            "title": "Default supplier",
+            "description": "Link to the default supplier of the product",
+            "havingFilter": true,
+            "amb_callback": {
+                "method": "adminLink",
+                "export": "value",
+                "args": {
+                    "controller": "'AdminSuppliers'",
+                    "value": "amb_s.name",
+                    "params": "CONCAT('&id_supplier=', a.id_supplier, '&viewsupplier')"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                    "table":"supplier",
+                    "type": "LEFT",
+                    "alias": "amb_s",
+                    "on":"amb_s.`id_supplier` = a.`id_supplier`"
+                    }
+                ]
+            }
+        },
+        "admin_products_attachment_count": {
+            "title": "Attachments",
+            "description": "Number of attachments for the product",
+            "havingFilter": true,
+            "quick_select": "COUNT(amb_a.id_attachment)",
+            "translator": "AdminProducts",
+            "align": "text-center",
+            "query": {
+                "joins": [
+                    {
+                    "table":"product_attachment",
+                    "type": "LEFT",
+                    "alias": "amb_a",
+                    "on":"amb_a.`id_product` = a.`id_product`"
+                    }
+                ]
+            }
+        },
+        "admin_products_combinations": {
+            "title": "Combinations",
+            "description": "List of the different combinations of the product and their available quantities",
+            "search": false,
+            "translator": "AdminProducts",
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "value": "(SELECT COUNT(id_product_attribute) FROM $PREFIX_product_attribute pa WHERE pa.id_product=a.id_product)",
+                    "method": "'fetchCombinationsFromProductId'",
+                    "id": "a.id_product"
+                }
+            }
+        },
+        "admin_products_features": {
+            "title": "Features",
+            "description": "List of the features that exist for the product",
+            "search": false,
+            "translator": "AdminProducts",
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "value": "(SELECT COUNT(*) FROM $PREFIX_feature_product fp WHERE fp.id_product=a.id_product)",
+                    "method": "'fetchFeaturesFromProductId'",
+                    "id": "a.id_product"
+                }
+            }
+        },
+        "admin_products_suppliers": {
+            "title": "Suppliers",
+            "search": false,
+            "description": "List of suppliers for the product",
+            "translator": "AdminSuppliers",
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "value": "(SELECT COUNT(DISTINCT id_supplier) FROM $PREFIX_product_supplier ps WHERE ps.id_product=a.id_product)",
+                    "method": "'fetchSuppliersFromProductId'",
+                    "id": "a.id_product"
+                }
+            }
+        },
+        "admin_products_warehouses": {
+            "title": "Warehouses",
+            "search": false,
+            "translator": "AdminProducts",
+            "description": "List of warehouses this product is stored in (only with advanced stock management activated)",
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "value": "(SELECT COUNT(DISTINCT id_warehouse) FROM $PREFIX_warehouse_product_location wpl WHERE wpl.id_product=a.id_product)",
+                    "method": "'fetchWarehousesFromProductId'",
+                    "id": "a.id_product"
+                }
+            }
+        },
+        "admin_products_type": {
+            "title": "Type",
+            "description": "Show the product type",
+            "havingFilter": true,
+            "translator": "AdminProducts",
+            "amb_callback": {
+                "method": "displayProductType",
+                "args": {
+                    "value": "a.id_product"
+                }
+            }
+        },
+        "admin_products_visibility": {
+            "title": "Visibility",
+            "description": "Indicates the visibility of the product",
+            "translator": "AdminProducts",
+            "type": "select",
+            "list": "getProductVisibilities",
+            "filter_key": "a!visibility",
+            "filter_type": "string",
+            "amb_callback": {
+                "method": "displayProductVisibility",
+                "args": {
+                    "value": "a.id_product"
+                }
+            }
+        },
+        "admin_products_state": {
+            "title": "Status",
+            "description": "Indicates the current status of the product",
+            "translator": "AdminProducts",
+            "type": "select",
+            "list": "getProductConditions",
+            "filter_key": "a!condition",
+            "filter_type": "string",
+            "amb_callback": {
+                "method": "displayProductState",
+                "args": {
+                    "value": "a.id_product"
+                }
+            }
+        },
+        "admin_products_tags": {
+            "title":"Tags",
+            "description": "Product tags",
+            "havingFilter": true,
+            "translator": "AdminProducts",
+            "query": {
+                "select": "(SELECT GROUP_CONCAT(sq_t.name SEPARATOR ', ') FROM $PREFIX_tag sq_t INNER JOIN $PREFIX_product_tag sq_pt USING(id_tag) WHERE sq_pt.id_product=a.id_product AND sq_t.id_lang=$LANGUAGE) as admin_products_tags"
+            }
+        },
+        "admin_product_total_sales_current_month_value": {
+            "search": false,
+            "title": "Sales this month",
+            "description": "Shows the sales of the current month",
+            "quick_select": "IFNULL((SELECT SUM(unit_price_tax_excl*(product_quantity-product_quantity_return)) FROM $PREFIX_order_detail INNER JOIN $PREFIX_orders o USING(id_order) INNER JOIN $PREFIX_order_state os ON os.id_order_state=o.current_state AND shipped=1 WHERE product_id=a.id_product AND YEAR(o.invoice_date) = YEAR(NOW()) AND MONTH(o.invoice_date) = MONTH(NOW())), 0)",
+            "type": "price",
+            "align": "text-right"
+        },
+        "admin_product_total_sales_thirty_days_value": {
+            "search": false,
+            "title": "Sales last 30 days",
+            "description": "Show the sales of the last 30 days",
+            "quick_select": "IFNULL((SELECT SUM(unit_price_tax_excl*(product_quantity-product_quantity_return)) FROM $PREFIX_order_detail INNER JOIN $PREFIX_orders o USING(id_order) INNER JOIN $PREFIX_order_state os ON os.id_order_state=o.current_state AND shipped=1 WHERE product_id=a.id_product AND o.invoice_date BETWEEN CURDATE() - INTERVAL 30 DAY AND CURDATE()), 0)",
+            "type": "price",
+            "align": "text-right"
+        },
+        "admin_product_total_sales_current_year_value": {
+            "search": false,
+            "title": "Sales this year",
+            "description": "Show the sales of the current year",
+            "quick_select": "IFNULL((SELECT SUM(unit_price_tax_excl*(product_quantity-product_quantity_return)) FROM $PREFIX_order_detail INNER JOIN $PREFIX_orders o USING(id_order) INNER JOIN $PREFIX_order_state os ON os.id_order_state=o.current_state AND shipped=1 WHERE product_id=a.id_product AND YEAR(o.invoice_date) = YEAR(NOW())), 0)",
+            "type": "price",
+            "align": "text-right"
+        },
+        "admin_product_total_sales_current_month_quantity": {
+            "search": false,
+            "title": "Qty sold this month",
+            "description": "Shows the quantities sold during the current month",
+            "quick_select": "IFNULL((SELECT SUM(product_quantity-product_quantity_return) FROM $PREFIX_order_detail INNER JOIN $PREFIX_orders o USING(id_order) INNER JOIN $PREFIX_order_state os ON os.id_order_state=o.current_state AND shipped=1 WHERE product_id=a.id_product AND YEAR(o.invoice_date) = YEAR(NOW()) AND MONTH(o.invoice_date) = MONTH(NOW())), 0)",
+            "align": "text-center"
+        },
+        "admin_product_total_sales_thirty_days_quantity": {
+            "search": false,
+            "title": "Qty sold last 30 days",
+            "description": "Shows the quantities sold for the last 30 days",
+            "quick_select": "IFNULL((SELECT SUM(product_quantity-product_quantity_return) FROM $PREFIX_order_detail INNER JOIN $PREFIX_orders o USING(id_order) INNER JOIN $PREFIX_order_state os ON os.id_order_state=o.current_state AND shipped=1 WHERE product_id=a.id_product AND o.invoice_date BETWEEN CURDATE() - INTERVAL 30 DAY AND CURDATE()), 0)",
+            "align": "text-center"
+        },
+        "admin_product_total_sales_current_year_quantity": {
+            "search": false,
+            "title": "Qty sold this year",
+            "description": "Shows the quantities sold during the current year",
+            "quick_select": "IFNULL((SELECT SUM(product_quantity-product_quantity_return) FROM $PREFIX_order_detail INNER JOIN $PREFIX_orders o USING(id_order) INNER JOIN $PREFIX_order_state os ON os.id_order_state=o.current_state AND shipped=1 WHERE product_id=a.id_product AND YEAR(o.invoice_date) = YEAR(NOW())), 0)",
+            "align": "text-center"
+        },
+        "admin_product_total_sales_one_year_value": {
+            "search": false,
+            "title": "Sales last 12 months",
+            "description": "Show the sales of the last 12 months",
+            "quick_select": "IFNULL((SELECT SUM(unit_price_tax_excl*(product_quantity-product_quantity_return)) FROM $PREFIX_order_detail INNER JOIN $PREFIX_orders o USING(id_order) INNER JOIN $PREFIX_order_state os ON os.id_order_state=o.current_state AND shipped=1 WHERE product_id=a.id_product AND o.invoice_date BETWEEN CURDATE() - INTERVAL 1 YEAR AND CURDATE()), 0)",
+            "type": "price",
+            "align": "text-right"
+        },
+        "admin_product_total_sales_one_year_quantity": {
+            "search": false,
+            "title": "Qty sold last 12 months",
+            "description": "Shows the quantities sold for the last 12 months",
+            "quick_select": "IFNULL((SELECT SUM(product_quantity-product_quantity_return) FROM $PREFIX_order_detail INNER JOIN $PREFIX_orders o USING(id_order) INNER JOIN $PREFIX_order_state os ON os.id_order_state=o.current_state AND shipped=1 WHERE product_id=a.id_product AND o.invoice_date BETWEEN CURDATE() - INTERVAL 1 YEAR AND CURDATE()), 0)",
+            "align": "text-center"
+        },
+        "date_add": {
+            "title": "Date add",
+            "description": "Date the product was created",
+            "quick_select": "a.date_add",
+            "type": "datetime"
+        },
+        "date_upd": {
+            "title": "Date update",
+            "description": "Date the product was last updated",
+            "quick_select": "a.date_upd",
+            "type": "datetime"
+        }
+    }
+}
+

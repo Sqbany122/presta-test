@@ -1,0 +1,6 @@
+*ERROR* 	2024/02/09 - 08:20:56: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/02/09 - 08:21:01: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/02/09 - 08:21:05: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/02/09 - 08:21:07: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/02/09 - 08:22:09: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/02/09 - 13:07:50: Property WishList->name is not valid at line 917 in file classes/ObjectModel.php

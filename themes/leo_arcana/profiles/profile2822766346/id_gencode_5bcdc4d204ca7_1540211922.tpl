@@ -1,0 +1,1 @@
+<span class="fa fa-cogs"></span><div class="a-left"><h3><a href="#">Wsparcie i pomoc</a></h3><p>Nasi pracownicy są cały czas dostępni do Państwa dyspozycji aby służyć radą i pomocą</p></div>

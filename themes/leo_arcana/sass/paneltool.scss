@@ -1,0 +1,421 @@
+@import "compass";
+@import "theme_variables";
+
+/* RIGHT TO LEFT */
+/**********************************/
+
+.fancybox-skin {
+  	.leo-paneltool{
+    	display: none;
+  	}
+}
+
+.paneltool {
+  	position: fixed;
+  	top: 5px;
+  	@include transition(all 0.6s ease 0s); 
+  	@include rtl-right(-235px);
+  	z-index: 99999;
+  	.leo-dynamic-update-side{
+      	text-transform: uppercase;
+      	display: inline-block;
+      	margin-top: 10px;
+      	border:1px solid;
+      	padding: 5px;
+      	font-size: 11px;
+      	&.current-sidebar{
+        	color: $theme-color-default;
+      	}
+  	}
+  	&.themetool{  
+  		top: 70px;
+  		&.active{
+	    	z-index: 999999;
+	  	}
+	    .panelbutton{	
+	      	width: 50px;
+	      	height: 50px;
+	       	@include rtl-left(-50px);	      	
+	    }
+	    .panelcontent {
+		  	min-height: 130px;
+		    height: 100%;
+		    overflow-y: auto;
+		}
+	    .group-input{
+	      	margin-bottom: 20px;
+	      	&.layout{
+		        .leo-dynamic-update-layout{
+		           	display: block;
+		          	float: left;
+		          	width: 100%;
+		          	padding: 5px 0 5px 10px;
+		          	position: relative;
+		          	&:before{
+		            content: "+";
+		          	} 
+		        }
+	      	}
+	      	span{
+		      	cursor: pointer;
+		    }
+	    }
+	    .panelinner{
+	      	.group-input:last-child{
+	        	margin-bottom: 0px;
+	      	}
+	    }
+	    label{
+		    font-size: 14px;
+		    text-transform: uppercase;
+		    font-weight: bold;
+		    span{
+		      	@include rtl-margin-right(10px);
+		      	vertical-align: middle;
+		    }
+	  	}
+	  	.leo-dynamic-update-header{
+	     	display:block;
+	     	padding: 10px;
+	     	font-size: 11px;
+	     	text-transform: uppercase;
+		    &.current-header{
+		      	color: $theme-color-default;
+		    }
+	  	}
+  	}
+  	&.active{
+  		@include rtl-right(0);
+  		@include transition(all 0.6s);
+  		.panelbutton {
+		  	color: #FFF;
+		}
+  	}
+  	.panelcontent {
+	  	background: #f2f2f2;
+	  	width: 235px;
+	  	min-height: 340px;
+	  	> div{
+	  		padding: 15px;
+	  	}
+	}
+	&.editortool {
+		.panelbutton{
+			top: 290px;
+		}
+	}
+}
+.panelbutton {
+	background: #000;
+	position: absolute;
+	@include rtl-left(-50px);
+	top: 165px;
+	@include rtl-border-left(none);
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: $text-color;
+	font-size: 26px;
+	@include box-shadow(none);
+	&.label-customize{
+		display: none;
+	}
+}
+#leo-paneltool{
+	width: 300px;
+  	height: 100%;
+  	top: 0;
+  	@include rtl-left(-320px);
+  	z-index: 9999;
+  	@include box-shadow(0 1px 3px #999);
+  	@include transition-duration(0.2s);
+  	@include transition-property(left, right, top, bottom, width, margin);
+  	background: none repeat scroll 0 0 #F5F5F5;
+  	@include rtl-border-right(1px solid rgba(0, 0, 0, 0.2));
+	h4 {
+	  	margin-bottom: 20px;
+	  	margin-top: 0;
+	  	text-transform: uppercase;
+	  	font-size: 16px;
+	  	font-weight: bold;
+	}
+	.accordion-group {
+	  	margin-bottom: 5px;
+	}
+	.panel-body{
+	    max-height: 500px;
+	    overflow-y: auto;
+	}
+	.block-panelcontent{
+	    overflow-x:hidden;
+	    overflow-y: auto;
+	    max-height: 600px;
+	}
+	form .group-input {
+	  	margin-bottom: 10px;
+	}
+	select {
+  		padding: 5px;
+	}
+	.nav-tabs > li{
+		&:after, &:before{
+			display: none;
+		}
+	}
+}
+/* Select Skin */
+.leo-dynamic-theme-skin{
+  	float: left;
+  	margin-left: 5px;
+  	width: 20px; 
+  	height: 20px;
+  	margin-top: 10px;
+  	cursor: pointer;
+  	img{
+  		border: 2px solid $nocolor;
+  	}
+  	&.skin-default{
+    	background-color: $theme-color-default;
+    	text-indent: -99999px;
+ 	}
+  	&.current-theme-skin{
+	    img{
+	    	border-color: $black;  
+	    } 
+	    &.skin-default{
+    		border: 2px solid $black;
+	    }
+	}
+}
+/* Select Layout*/
+.leo-dynamic-update-layout{
+  	&:hover{
+      	color: $theme-color-default;
+  	}
+  	&.current-layout-mod{
+    	color: $theme-color-default;
+  	}
+}
+/* Enable Float Header */
+.btn_enable_fheader{
+  	background-color: #25292C;
+  	margin-top: 10px;
+ 	margin-left: 10px;
+ 	width: 100px;
+  	height: 36px;
+  	@include border-radius(18px);
+  	position: relative;
+}
+.enable_fheader{
+   	display: inline-block;
+   	width: 30px;
+   	height: 30px;
+   	line-height: 30px;
+   	text-align: center;
+   	color: $white;
+   	background-color: #504C4C;
+   	margin-top:3px;
+    @include border-radius(50%);
+ 	i{
+      	position: relative;
+      	z-index: 9;
+   	}
+    &:first-child{
+        float: left;
+        margin-left: 3px;
+    }
+    &:last-child{
+        float: right;
+        margin-right: 3px;
+    }
+    &.btn_no{
+        &:before{
+          	content: "";
+          	position:absolute;
+           	width: 30px;
+          	height: 30px;
+          	top: 3px;
+          	left: 4px;
+          	@include border-radius(18px);
+          	background-color: $theme-color-default;
+          	@include opacity(0);
+          	visibility: hidden;
+        }
+    }
+    &.btn_yes{
+      	&:after{
+	        content: "";
+	        position:absolute;
+        	width: 30px;
+        	height: 30px;
+        	top: 3px;
+        	right: 4px;
+        	@include border-radius(18px);
+        	background-color:$theme-color-default;  
+        	@include opacity(0);
+        	visibility: hidden;
+      	}
+  	}
+   &.current{
+       	&.btn_no{
+	        &:before{
+	            @include opacity(1);
+	            visibility: visible;
+	            left: 67px;
+	            @include transition(all 0.7s ease 0s);
+	        }
+       }
+       &.btn_yes{
+         	&:after{
+             	@include opacity(1);
+            	visibility: visible;
+            	right: 67px;
+            	@include transition(all 0.7s ease 0s);
+         	}
+       	}
+  	}
+} 
+/* Box Patterns */
+.box-patterns {
+	div {
+	  	display: block;
+	  	width: 38px;
+	  	height: 38px;
+	  	@include rtl-float-left();
+	  	cursor: pointer;
+	  	margin: 6px;
+	  	border: 1px solid #ccc;
+	  	&.active {
+		  border-color: red;
+		}
+	}
+}
+.colorpicker {
+  	z-index: 99999;
+}
+/* Customize body */
+#customize-body{
+	input[type="text"], select{
+	  	border: 1px solid #E2E2E2;
+	  	@include border-radius(2px);
+	  	color: #FFFFFF;
+	  	font-size: 11px;
+	  	margin: 0 5px 0 0;
+	  	padding: 2px 3px;
+	  	width: 65px;
+	  	height: auto;
+	  	display: inline-block;
+	}
+	select {
+	  	color: #888;
+	}
+	.accordion-group{
+		label {
+		  	color: #888;
+		  	font-size: 11px;
+		  	font-weight: normal;
+		}
+		.input-group{
+			.input-group-addon {
+			  	padding: 0;
+			  	background: transparent;
+			  	border: none;
+			  	@include rtl-float-right();
+			  	margin-top: 2px;
+			  	width: 20px;
+			}
+		}
+	}
+	.panel-heading {
+	  	padding: 5px 6px;
+	  	font-weight: bold;
+	  	font-size: 11px;
+	  	a {
+		  	display: block;
+		}
+	}
+	.nav-tabs {
+	  	>li:nth-child(2){
+	    	border: 1px solid #ddd;
+	  	}
+	  	a{
+	  		border: none;
+	  		font-weight: bold;
+			font-size: 11px;
+			padding: 6px 12px;
+	  	}
+	}
+	.form-group {
+	  	margin-bottom: 10px;
+	}
+	.accordion-inner {
+		.form-group {
+			.input-group {
+			  	display: inline-block;
+			  	width: 92px;
+			  	@include rtl-float-left();
+			}
+		}
+	}
+}
+/* wrapper */
+.bi-wrapper{
+	> div {
+	  	@include rtl-float-left();
+	  	width: 25px;
+	  	height: 25px;
+	  	margin: 3px 4px;
+	  	border: solid 1px #999;
+	  	cursor: pointer;
+	  	&.active {
+		  	border-color: red;
+		}
+	}
+}
+/* Accordion */
+.accordion-group,
+.form-group {
+	label{
+	  display: block;
+	}
+}
+
+.accordion-group {
+	label {
+	  	min-width: 100px;
+	}
+}
+.clear-bg {
+    padding: 3px 6px;
+    @include rtl-margin-left(5px);
+}
+/* Home page version */
+
+.group-profile, 
+.group-header, 
+.group-footer{
+  a{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 25px;
+    &:before{
+      content: "\f067";
+      font-family: $font-icon;
+      @include rtl-padding-right(5px);
+      font-size: 10px;
+    }
+    &.active{
+      color: $theme-color-default;
+    }
+  }
+}
+.group-profile,
+.group-header{
+ a{
+    width: 100%;
+    @include rtl-float-left();
+    @include rtl-padding-right(15px);
+  }
+}

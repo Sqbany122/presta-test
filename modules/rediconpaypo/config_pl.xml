@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>rediconpaypo</name>
+    <displayName><![CDATA[Płatność Paypo]]></displayName>
+    <version><![CDATA[1.1.1]]></version>
+    <description><![CDATA[Kupujesz teraz, płacisz za 30 dni z PayPo - bez dodatkowych koszt&oacute;w.]]></description>
+    <author><![CDATA[Patryk Pawlicki - redicon.pl]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

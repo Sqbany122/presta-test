@@ -1,0 +1,72 @@
+name: Release builder
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Cache Composer packages
+      id: composer-cache
+      uses: actions/cache@v2
+      with:
+        path: vendor
+        key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-php-
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.2'
+        extensions: mbstring, intl
+        ini-values: post_max_size=256M, max_execution_time=180  
+        tools: php-cs-fixer:2.19.0
+    - name: Install dependencies
+      run: composer install --prefer-dist --no-progress
+    - name: Build module zip
+      run: composer build
+    - name: Get current time
+      uses: srfrnk/current-time@master
+      id: current-time
+      with:
+        format: YYYY-MM-DD_h:mm
+    - uses: "marvinpinto/action-automatic-releases@latest"
+      env:
+        F_TIME: "${{ steps.current-time.outputs.formattedTime }}"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "latest"
+        prerelease: true
+        title: "Automatic build ${{ env.F_TIME }}"
+        files: |
+         build/gdprpro-latest.zip
+    - run: "curl --location --request POST 'https://discord.com/api/webhooks/839109619652624415/JtHeSk6_pjfKTu74dITYxR9GEqSuxyAX4txfLZtmAnEm-mtuyzO0EezGfGXHr3J2jalZ' \ --form 'payload_json=\"{\"username\": \"Module Builder\",\"avatar_url\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\", \"content\":\"GDPRPro\"}\"' \ --form 'file1=@\"build/gdprpro-latest.zip\"'"
+    -   name: ps_demo_deploy
+        uses: appleboy/scp-action@master
+        with:
+            host: tech.wediscompany.ro
+            username: ${{ secrets.TECH_SSH_USER }}
+            password: ${{ secrets.TECH_SSH_PWD }}
+            port: ${{ secrets.TECH_SSH_PORT }}
+            source: "build/gdprpro-latest.zip"
+            target: "/home/wediscompany/public_html/demo17.prestachamps.com/modules"
+            overwrite: true
+            strip_components: 1
+    -   name: ps_demo_install_module
+        uses: appleboy/ssh-action@master
+        with:
+            host: tech.wediscompany.ro
+            username: ${{ secrets.TECH_SSH_USER }}
+            password: ${{ secrets.TECH_SSH_PWD }}
+            port: ${{ secrets.TECH_SSH_PORT }}
+            script: |
+                cd /home/wediscompany/public_html/demo17.prestachamps.com/modules
+                rm -rf gdprpro
+                unzip -qq gdprpro-latest.zip
+                cd ..
+                bin/console prestashop:module reset gdprpro

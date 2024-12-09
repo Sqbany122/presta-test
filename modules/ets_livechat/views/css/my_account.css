@@ -1,0 +1,983 @@
+#block_myaccount_infos li {
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+#block_myaccount_infos .ss_icon_group {
+    display: none;
+}
+.lc_success{
+     position: fixed;
+    top: 60px;
+    right: 100px;
+    background: #d6f0d8;
+    z-index: 99900;
+    padding: 10px 20px;
+    color: #378448;
+    font-size: 13px;
+    border: 1px solid #7fcc91;
+}
+section#content.ets_livechat_form {
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 20px 30px 30px;
+    position: relative;
+}
+.lc_block_support a {
+    color: #777;
+    line-height: 24px;
+    display: block;
+}
+.lc_block_support_top_nav.lc_block_support a {
+    padding: 5px 15px;
+}
+.lc_block_support_top_nav span.tit {
+    line-height: 32px;
+    display: block;
+}
+.lc_ticket_detail .form_upfile_val.show {
+    position: relative;
+    height: auto;
+    float: left;
+    box-shadow: none;
+    width: auto;
+    border: none;
+}
+.ets_livechat_form .form_upfile_val.show {
+    position: absolute;
+    height: auto;
+    float: left;
+    box-shadow: none;
+    width: auto;
+    border: none;
+    z-index: 10;
+    height: auto;
+    right: 10px;
+    left: auto;
+    background: transparent;
+    top: 0px;
+    bottom: auto;
+}
+.lc_ticket_detail .form_upfile_val.show .file_name,
+.ets_livechat_form .form_upfile_val.show .file_name {
+    display: none;
+}
+.lc_ticket_detail .form_upfile_val.show button.delete_file_note:hover,
+.ets_livechat_form .form_upfile_val.show button.delete_file_note:hover{
+    background-color: #2fb5d2;
+    border-color: #2fb5d2;
+    color: #fff;
+}
+.lc_ticket_detail .form_upfile_val.show .delete_file_note,
+.ets_livechat_form .form_upfile_val.show .delete_file_note{
+    background: #fff;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #999;
+}
+.ets_livechat_form .col-xs-12.col-sm-12 {
+    position: relative;
+}
+.lc_ticket_detail button.delete_file_note:before,
+.ets_livechat_form .form_upfile_val.show button.delete_file_note:before{
+    content: "\f014";
+    font-family: Fontawesome;
+    margin-right: 5px;
+}
+.lc_ticket_content span.file_size {
+    color: #999;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+span.message_file {
+    display: block;
+    font-size: 13px;
+    color: #999;
+}
+.page-my-account #content .links a#chat-tickets-link {
+    width: 100%;
+    padding: 0;
+    text-decoration: none!important;
+}
+.date_ticket .date_range.row {
+    margin: 0;
+}
+.date_ticket .date_range {
+    display: flex;
+    display: -webkit-flex;
+}
+.date_ticket .date_range .input-group {
+    max-width: 70px;
+    margin-left: 5px;
+}
+.date_ticket .date_range span.input-group-addon {
+    display: none;
+}
+.customer_avata + p.help-block {
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+}
+.list-conversation-table td {
+    border-color: #DDDDDD;
+}
+.lc_tickets .panel-heading-action {
+    float: right;
+}
+.lc-managament-information input#customer_name {
+    cursor: not-allowed;
+}
+button#new_ticket_bt {
+    font-size: 14px;
+    vertical-align: top;
+    outline: none!important;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+select#form_ticket {
+    border: 1px solid #ccc;
+    height: 40px;
+    padding: 0 6px;
+    color: #666;
+    min-width: 90px;
+    display: inline-block;
+    text-transform: capitalize;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none!important;
+}
+h4.lc_form_submit_title {
+    background: #f7f7f7;
+    display: block;
+    margin: 0;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+    border-top-right-radius: 3px;
+    text-align: left;
+    border-top-left-radius: 3px;
+    position: relative;
+}
+.ets_close:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%,-50%,0);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    background-color: #bbb;
+}
+.ets_close:after {
+    content: "";
+    position: absolute;
+    transform: translate3d(-50%,-50%,0);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 1px;
+    background: #bbb;
+}
+.ets_close {
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.lc_form_submit_new_ticket_content {
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -50px;
+}
+span.submit_new_ticket_bt,
+.submit_new_ticket_bt {
+    font-size: 13px;
+    margin-top: -7px;
+    box-shadow: none!important;
+}
+.lc_form_submit_new_ticket_content .form-group {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+.lc_form_submit_title .lc_close:before, .lc_form_submit_title .lc_close:after {
+    background-color: #999;
+}
+.lc_tickets th.actions {
+    width: 70px;
+}
+.lc_form_submit_new_ticket {
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+}
+.lc_tickets a.submit_new_ticket,
+.lc_tickets a.submit_new_ticket_bt {
+    font-size: 13px;
+    box-shadow: none;
+    margin-top: -7px;
+}
+.star::after {
+    content: "\f006";
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 14px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+}
+.lc_ticket_content > p strong {
+    color: #333;
+}
+.lc_ticket_detail .form_upfile {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    display: flex;
+    font-size: 12px;
+    display: -webkit-flex;
+    z-index: 1;
+    white-space: nowrap;
+    max-width: 100%;
+}
+.lc_form_select {
+    position: relative;
+}
+.lc_ticket_detail .form_upfile:before{
+    display: none;
+}
+.lc_ticket_detail .form_upfile input[type="file"] {
+    opacity: 1;
+}
+.lc_ticket_detail .form_upfile label {
+    margin-right: 10px;
+}
+.ets_livechat_form .form-control-label {
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: 13px;
+}
+span.lc_ticket_content_value {
+    display: inline-block;
+}
+.lc_tickets span.badge {
+    min-width: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 16px;
+    font-size: 13px;
+    border: 1px solid #d9d9d9;
+}
+.lc_ticket_captcha input#field_captcha {
+    display: inline-block;
+    width: 90px;
+}
+
+.lc_ticket_captcha span.lc_ticket_captcha_refesh:before {
+    content: "\f021";
+    font-size: 16px;
+    font-family: Fontawesome;
+    margin: 0 5px;
+}
+span.lc_ticket_status.open {
+    background-color: #fdc107;
+    color: #fff;
+    font-size: 11px;
+    padding: 0px 5px;
+    border-radius: 2px;
+    display: inline-block;
+    min-width: 44px;
+    text-align: center;
+        line-height: 18px;
+}
+span.lc_ticket_status.cancel {
+    background-color: #bbb;
+    color: #fff;
+    font-size: 11px;
+    padding: 0px 5px;
+    border-radius: 2px;
+    display: inline-block;
+    min-width: 44px;
+    text-align: center;
+        line-height: 18px;
+}
+th.action_ticket, td.action_ticket {
+    text-align: right;
+}
+th.priority,
+th.status,
+td.status,
+td.priority {
+    text-align: center;
+        text-transform: capitalize;
+}
+.lc_tickets span.lc_ticket_status.close {
+    text-shadow: none;
+    font-size: 11px;
+    font-weight: normal;
+    opacity: 1;
+    color: #fff;
+    background-color: #8bc348;
+    padding: 0 5px;
+    display: inline-block;
+    float: none;
+    border-radius: 2px;
+        line-height: 18px;
+    min-width: 44px;
+    text-align: center;
+}
+.lc_ticket_captcha span.lc_ticket_captcha_refesh {
+    font-size: 0;
+    position: relative;
+}
+.lc_ticket_content strong {
+    color: #333;
+}
+.star.star_on::after,
+.star.star_hover::after {
+    content: "\f005";
+    display: inline-block;
+    font-family: "FontAwesome";
+}
+.star_content input{
+    opacity: 0!important;
+}
+.lc_ticket_captcha img.lc_ticket_captcha_img {
+    vertical-align: top;
+}
+.lc_tickets thead th.date_ticket {
+    max-width: 180px;
+    text-align: center;
+    width: 180px;
+}
+.lc_tickets thead th.status {
+    max-width: 72px;
+}
+.lc_tickets .content_ticket p {
+    margin-bottom: 6px;
+    color: inherit;
+    font-size: inherit;
+}
+.lc_tickets table.table {
+    font-size: 13px;
+    color: #333;
+}
+.lc_tickets .date_ticket .input-group {
+    display: flex;
+    display: -webkit-flex;
+    vertical-align: top;
+    width: auto;
+    float: left;
+    margin-bottom: 2px;
+}
+.lc_tickets .date_ticket .input-group:first-child{
+    margin-right: 5px;
+}
+.lc_tickets table th input, .lc_tickets table th select {
+    height: 30px;
+    outline: none!important;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    padding: 0 5px;
+    color: #666;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    width: 100%;
+}
+div#ui-datepicker-div {
+    font-size: 12px;
+}
+input[name="id_ticket"] {
+    width: 40px!important;
+}
+.actions a.btn.btn-warning {
+    height: 30px;
+    max-height: 30px;
+    padding: 0 10px;
+    line-height: 28px;
+    margin-top: 4px;
+    font-size: 13px;
+    min-width: 56px;
+    display: inline-block;
+}
+.actions #submitFilterTicket {
+    font-size: 13px;
+    padding: 6px 8px;
+    outline: none!important;
+    text-transform: capitalize;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    background: transparent;
+    -webkit-box-shadow: none;
+    line-height: 1.42857;
+    border-radius: 3px;
+    font-weight: normal;
+}
+.actions #submitFilterTicket:hover{
+    background: #f3f3f3;
+}
+.lc_ticket_message .lc_msg_content a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    padding-left: 0;
+    font-size: 14px;
+    padding-right: 0;
+}
+.date_ticket .datepicker + span.input-group-addon,
+.date_ticket .input-group .input-group-addon {
+    padding: 0;
+    width: 22px;
+    font-size: 12px;
+    line-height: 28px;
+    float: left;
+    text-align: center;
+}
+.date_ticket .datepicker {
+    font-size: 12px;
+    font-weight: normal;
+    float: left;
+    width: 75px;
+    height: 30px;
+    background-color: #fff;
+    margin-right: -1px;
+}
+td.date_ticket {
+    text-align: center;
+}
+
+.lc_tickets thead th {
+    white-space: nowrap;
+    vertical-align: top;
+}
+.view.view_ticket_content {
+    font-size: 12px;
+    border-radius: 3px;
+    font-weight: normal;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    color: #555;
+}
+.lc_msg_content a {
+    padding: 0;
+    display: inline-block;
+    margin-top: 4px;
+}
+.view.view_ticket_content:hover{
+    background: #f3f3f3;
+}
+.lc_tickets .panel-heading {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin-bottom: 0px;
+    position: relative;
+}
+.lc_tickets, .lc_ticket_wapper {
+    background-color: #fff;
+    padding: 0 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+label.set_lvc_radio {
+    display: inline-block;
+    text-align: left;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+label.set_lvc_radio input {
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.ets_livechat_form input, .ets_livechat_form select {
+    font-size: 14px;
+}
+.ets_livechat_form select#id_departments {
+    border-radius: 0;
+}
+.lc_ticket_wapper .lc_rate_ticket {
+    white-space: nowrap;
+    display: flex;
+    display: -webkit-flex;
+    margin-right: 0;
+    float: right;
+}
+.lc_ticket_detail .is_customer .lc_msg_time {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    margin-left: 0;
+    font-size: 11px;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 4px;
+    float: none;
+}
+.lc_ticket_content > p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.lc_ticket_message .lc_msg_content {
+    color: #666;
+    font-size: 14px;
+}
+
+.lc_ticket_message button.lc_send_message_ticket {
+    cursor: pointer;
+    outline: none!important;
+    position: relative;
+}
+@keyframes rotate {
+  0%   { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes rotate {
+  0%   { -webkit-transform: rotate(0); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+button.lc_send_message_ticket:before {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    border-top: 3px solid transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-bottom: 3px solid transparent;
+    opacity: 0;
+    visibility: hidden;
+    left: 50%;
+    margin-left: -10px;
+}
+.lc_ticket_message .lc_note_message.nocomment {
+    padding-left: 0;
+    padding-right: 0;
+}
+.lc_loading button.lc_send_message_ticket {
+    color: rgba(255,255,255,0.3);
+        pointer-events: none;
+}
+.lc_loading button.lc_send_message_ticket:before{
+    opacity: 1;
+    visibility: visible;
+    animation-name: rotate;
+    -webkit-animation-name: rotate;
+      animation-duration: 0.5s;
+      -webkit-animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      -webkit-animation-timing-function: linear;
+}
+.ets_livechat_form label.required:after {
+    content: "*";
+    color: red;
+    font-weight: normal;
+    font-size: 12px;
+}
+.lc_ticket_message .lc_note_message {
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.lc_priority_ticket i {
+    font-weight: 600;
+}
+.lc_ticket_message {
+    clear: both;
+    margin-top: 50px;
+}
+.lc_ticket_header > div {
+    color: #333333 !important;
+    cursor: auto !important;
+    display: inline-block;
+    float: none;
+    font-size: 13px;
+    font-weight: normal;
+    margin-right: 24px;
+    opacity: 1!important;
+    text-shadow: none;
+}
+.module_error.alert-danger ul {
+    margin-bottom: 0;
+}
+.lc_ticket_header > div:focus, .lc_ticket_header > div:hover {
+    color: #333333 !important;
+    opacity: 1!important;
+    cursor: auto !important;
+}
+.lc_ticket_message .lc_msg.is_customer {
+    float: none;
+    width: calc(100% - 146px);
+    width: -webkit-calc(100% - 146px);
+    border-radius: 0;
+    padding: 15px 20px;
+    margin-left: 73px;
+}
+.lc_msg_content a {
+    border: 1px solid rgba(0, 175, 240,0.2);
+    background-color: #fff;
+    padding: 1px 10px;
+    margin: 4px 0;
+    font-size: 11px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-right:6px;
+    position: relative;
+}
+.lc_msg_content a:before {
+    content: "\f0c6";
+    font-family: Fontawesome;
+    margin-right: 5px;
+}
+.lc_ticket_footer {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.lc_ticket_footer a:hover {
+    background: #d9d9d9;
+}
+.lc_ticket_detail .ticket-list-messages .lc_msg.is_employee .lc_sender {
+    left: 100%;
+    bottom: auto;
+    top: 0;
+}
+.lc_ticket_detail .is_customer .lc_sender .avata img {
+    transform: none;
+    width: 60px;
+    height: 60px;
+    margin-left: -3px;
+}
+.lc_ticket_detail .is_customer .lc_sender .avata:before {
+    top: 24px;
+    border-width: 9px;
+    margin-left: -8px;
+}
+.lc_ticket_detail .is_employee .avata::before {
+    top: 24px;
+    border-width: 9px;
+    margin-right: -8px;
+    border-left-color: #f9f9f9;
+}
+.lc_ticket_detail .is_customer .lc_sender .avata:after {
+    top: 23px;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.lc_ticket_detail .is_employee .avata::after {
+    top: 23px;
+    border-width: 10px;
+    margin-right: -8px;
+}
+.ticket-list-messages .is_employee .lc_msg_time {
+    position: static;
+    margin-bottom: 0;
+    margin-top: 4px;
+    transform: none;
+    float: none;
+    font-size: 11px;
+    text-align: right;
+}
+.ticket-list-messages li.is_customer.lc_msg + li.is_employee.lc_msg {
+    margin-top: 30px;
+}
+.ticket-list-messages li.is_employee.lc_msg + li.is_customer.lc_msg {
+    margin-top: 30px;
+}
+.lc_ticket_detail .is_employee .avata > img {
+    width: 60px;
+    height: 60px;
+    transform: none;
+    margin-left: 3px;
+}
+.ticket-list-messages .lc_msg.is_employee {
+    border-radius: 0;
+    width: calc(100% - 140px);
+    width: -webkit-calc(100% - 140px);
+    background-color: #f9f9f9;
+    margin-right: 70px;
+    padding: 15px 20px;
+    float: none;
+    margin-left: 70px;
+}
+.is_employee.has_name_emplode + .is_customer.has_name_customer,
+.is_customer.has_name_customer + .is_employee.has_name_emplode {
+    margin-top: 15px;
+}
+
+.lc_ticket_footer a {
+    background: #dfdfdf;
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+}
+.lc_rate_ticket .star > a {
+    font-size: 0;
+}
+.lc_rate_ticket .star_content > div:hover span {
+    opacity: 1;
+    visibility: visible;
+}
+.lc_rate_ticket .star_content > div {
+    color: #fdd503;
+    line-height: 22px;
+    position: relative;
+    margin-right: 0;
+}
+.lc_note_message textarea#ticket_note {
+    width: 100%;
+    border: 1px solid #ddd;
+    min-height: 200px;
+    padding: 10px 15px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.ticket-list-messages .is_customer .lc_sender .avata {
+    width: 60px;
+}
+.lc_ticket_detail .ticket-list-messages .lc_sender {
+    bottom: auto;
+    margin-bottom: 0px;
+    top: 0;
+}
+.lc_ticket_message .is_employee .avata {
+    width: 60px;
+}
+.lc_ticket_detail .lc_sender .avata span {
+    font-weight: normal;
+    font-size: 10px;
+    white-space: nowrap;
+    color: #999;
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-overflow: ellipsis;
+    margin-top: 0;
+    overflow: hidden;
+}
+.lc_ticket_wapper .lc_ticket_header {
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+    display: block;
+    margin-bottom: 25px;
+}
+.lc_ticket_wapper .lc_rate_ticket .star_content {
+    white-space: nowrap;
+    display: flex;
+    display: -webkit-flex;
+    width: auto;
+    margin-left: 5px;
+}
+.lc_tickets .links {
+    float: right;
+    margin-top: 20px;
+}
+.lc_tickets #bulk_action_ticket {
+    margin-top: 15px;
+}
+section#content.ets_livechat_form footer.form-footer {
+    clear: both;
+    padding-top: 30px;
+}
+.ets_livechat_form .panel-heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.ets_livechat_form .desc {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #777;
+}
+.ets_livechat_form .form-group {
+    text-align: left;
+    clear: both;
+    margin-bottom: 0;
+}
+.ets_livechat_form .select_arrow {
+    border-left: 1px solid #ccc;
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    width: 40px;
+    font-weight: normal;
+}
+.ets_livechat_form .alert-success ul {
+    margin-bottom: 0;
+}
+.lc_tickets .links {
+    float: right;
+}
+
+.lc_tickets .results {
+    margin-bottom: 30px;
+    font-size: 13px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    color: #666;
+}
+.lc_tickets .links a, .lc_tickets .links b {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+    color: #999;
+}
+.lc_tickets .links b {
+    background-color: #999;
+    border-color: #999;
+    color: #fff;
+}
+.ets_livechat_form .help-block {
+    margin-top: 5px;
+    font-size: 80%;
+    font-style: italic;
+    color: #999;
+    margin-bottom: 0;
+}
+.ets_livechat_form textarea {
+    min-height: 150px;
+}
+.ets_livechat_form select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+.ets_livechat_form .select_arrow::before {
+    border-bottom: 2px solid #999;
+    border-left: 2px solid #999;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    left: 13px;
+    position: absolute;
+    top: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 12px;
+}
+a.submit_new_ticket:before, .submit_new_ticket_bt:before {
+    position: absolute;
+    right: 0;
+    border-radius: 3px;
+    font-size: 12px;
+    top: 0;
+    line-height: 20px;
+    padding: 0!important;
+    width: 100%;
+    font-weight: normal;
+    content: "\f067";
+    font-family: Fontawesome;
+}
+
+a.submit_new_ticket:hover,
+.submit_new_ticket_bt:hover{
+    background: #2eacce!important;
+    border-color: #2eacce!important;
+}
+.no-reaed {
+  font-weight: 600;
+}
+@media (max-width: 767px){
+    .lc_ticket_message button.lc_send_message_ticket {
+        cursor: pointer;
+        outline: none!important;
+        float: left;
+        margin-top: 20px;
+    }
+    .lc_ticket_wapper .lc_rate_ticket {
+        float: none;
+    }
+    .lc_ticket_header > div:not(:last-child) {
+        margin-bottom: 3px;
+    }
+    .lc_ticket_detail .form_upfile {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .lc_ticket_message .lc_msg.is_customer,
+    .ticket-list-messages .lc_msg.is_employee {
+        width: calc(100% - 60px);
+        width: -webkit-calc(100% - 60px);
+    }
+    .lc_ticket_message .lc_note_message {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .ticket-list-messages li.is_employee.lc_msg {
+        margin-left: 0;
+    }
+    .lc_chatbox_closed .lc_heading > div {
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 500px){
+    .lc_tickets .panel-heading-action {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

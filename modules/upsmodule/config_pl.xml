@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>upsmodule</name>
+	<displayName><![CDATA[UPS Shipping i UPS Access Point&trade;: Oficjalny moduł]]></displayName>
+	<version><![CDATA[2.0.6]]></version>
+	<description><![CDATA[Moduł ten pozwala na łatwą integrację usług UPS z Państwa sklepem internetowym. Umożliwia łatwe udostępnienie wielu opcji dostawy (r&oacute;wnież do punkt&oacute;w odbioru UPS Access Points&trade;) zapewniając kupującym szeroki wyb&oacute;r w zależności od czasu i miejsca dostawy.]]></description>
+	<author><![CDATA[UPS]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall!?]]></confirmUninstall>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>x13productsoff</name>
+	<displayName><![CDATA[Wyłącz niedostępne]]></displayName>
+	<version><![CDATA[2.1.3]]></version>
+	<description><![CDATA[Moduł wyłącza niedostępne produkty]]></description>
+	<author><![CDATA[X13.pl]]></author>
+	<tab><![CDATA[search_filter]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

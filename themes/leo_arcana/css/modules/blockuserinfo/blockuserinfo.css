@@ -1,0 +1,25 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#topbar .header_user_info .header_info {
+  padding: 20px 0;
+  float: left;
+}
+.rtl #topbar .header_user_info .header_info {
+  float: right;
+}
+#topbar .header_user_info .header_info a {
+  color: #d1be8f;
+}

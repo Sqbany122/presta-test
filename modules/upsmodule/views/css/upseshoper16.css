@@ -1,0 +1,30 @@
+.form-check-input {
+    position: absolute;
+    margin-top: .25rem;
+    margin-left: -1.25rem;
+}
+
+.label-px-2 {
+    padding-left: 2rem;
+    font-size: inherit;
+}
+
+.form-label-py-5 {
+    padding-bottom: 5px;
+}
+
+.form-label-py-10 {
+    padding-bottom: 10px;
+}
+
+div.radio span {
+    top: 0px !important;
+}
+
+.small-plane {
+    width: 10px;
+}
+
+.right-cust {
+    padding-left: 6.5rem;
+}

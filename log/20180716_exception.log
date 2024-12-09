@@ -1,0 +1,7 @@
+*ERROR* 	2018/07/16 - 15:25:37: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classesdbDbPDO.php
+*ERROR* 	2018/07/16 - 15:25:37: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classesdbDbPDO.php
+*ERROR* 	2018/07/16 - 15:26:16: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classesdbDbPDO.php
+*ERROR* 	2018/07/16 - 15:30:50: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classesdbDbPDO.php
+*ERROR* 	2018/07/16 - 15:30:50: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classesdbDbPDO.php
+*ERROR* 	2018/07/16 - 15:30:50: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'admin_pegaz'@'localhost' (using password: YES) at line 102 in file classesdbDbPDO.php
+*ERROR* 	2018/07/16 - 15:31:50: Shop not found at line 404 in file classesshopShop.php

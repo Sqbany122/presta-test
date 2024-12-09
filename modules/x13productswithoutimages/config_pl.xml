@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>x13productswithoutimages</name>
+	<displayName><![CDATA[Wyłącz produkty bez zdjęć]]></displayName>
+	<version><![CDATA[1.1.1]]></version>
+	<description><![CDATA[ Wyłącz automatycznie produkty bez zdjęć]]></description>
+	<author><![CDATA[x13.pl]]></author>
+	<tab><![CDATA[search_filter]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

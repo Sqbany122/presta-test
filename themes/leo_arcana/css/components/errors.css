@@ -1,0 +1,76 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#products #main .page-header,
+#pagenotfound #main .page-header {
+  margin: 2rem 0 3rem;
+  text-align: center; }
+  #products #main .page-header h1,
+  #pagenotfound #main .page-header h1 {
+    display: none; }
+#products #main .page-content,
+#pagenotfound #main .page-content {
+  margin-bottom: 10rem; }
+#products .page-not-found,
+#pagenotfound .page-not-found {
+  background: white;
+  padding: 1rem;
+  font-size: 0.8125rem;
+  color: #878787;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 550px; }
+  #products .page-not-found h3,
+  #pagenotfound .page-not-found h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    margin: 0.5rem 0 1rem; }
+    @media (max-width: 991px) {
+      #products .page-not-found h3,
+      #pagenotfound .page-not-found h3 {
+        font-size: 18px; } }
+  #products .page-not-found p,
+  #pagenotfound .page-not-found p {
+    color: #666666;
+    font-size: 16px; }
+    @media (max-width: 991px) {
+      #products .page-not-found p,
+      #pagenotfound .page-not-found p {
+        font-size: 14px; } }
+  #products .page-not-found .search-widget,
+  #pagenotfound .page-not-found .search-widget {
+    float: none; }
+    #products .page-not-found .search-widget form input[type=text],
+    #pagenotfound .page-not-found .search-widget form input[type=text] {
+      width: 100%;
+      border: 1px solid #eee;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px; }
+    #products .page-not-found .search-widget form button[type=submit],
+    #pagenotfound .page-not-found .search-widget form button[type=submit] {
+      color: #333;
+      background: transparent; }
+
+/*# sourceMappingURL=errors.css.map */

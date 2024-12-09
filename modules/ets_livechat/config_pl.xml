@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ets_livechat</name>
+	<displayName><![CDATA[Live Chat And Ticketing System]]></displayName>
+	<version><![CDATA[2.0.6]]></version>
+	<description><![CDATA[Give customers support via live chat and support tickets. No monthly fee, life-time use, can chat with 1000+ customers at the same time.]]></description>
+	<author><![CDATA[ETS-Soft]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

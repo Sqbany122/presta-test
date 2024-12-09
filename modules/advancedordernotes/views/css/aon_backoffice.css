@@ -1,0 +1,3 @@
+.act_baloon { position: absolute; z-index: 99; width: 700px; max-width: 100%; background-color:#fff; z-index: 9999 !important; margin-left:-350px !important;  margin-top:35px; }
+#act_body td { border-bottom:1px solid #ddd ; padding:5px; }
+#act_body .last_note td {  color:#fff; background-color:#73b900;  }

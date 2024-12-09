@@ -1,0 +1,83 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.homeslider .carousel {
+  -moz-box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.5rem; }
+  .homeslider .carousel .direction {
+    z-index: auto; }
+  .homeslider .carousel .carousel-inner {
+    height: 340px; }
+    @media (max-width: 767px) {
+      .homeslider .carousel .carousel-inner {
+        height: auto; } }
+  .homeslider .carousel .carousel-item {
+    height: 100%; }
+    @media (max-width: 767px) {
+      .homeslider .carousel .carousel-item img {
+        max-width: 100%;
+        height: auto; } }
+    @media (min-width: 768px) {
+      .homeslider .carousel .carousel-item img {
+        width: 100%;
+        margin-left: 0; } }
+    .homeslider .carousel .carousel-item .caption {
+      position: absolute;
+      color: white;
+      max-width: 340px; }
+      @media (min-width: 768px) {
+        .homeslider .carousel .carousel-item .caption {
+          bottom: 28px;
+          left: 90px; } }
+      @media (max-width: 767px) {
+        .homeslider .carousel .carousel-item .caption {
+          bottom: 5px;
+          left: 40px; } }
+      .homeslider .carousel .carousel-item .caption .caption-description p {
+        color: white; }
+    @media (max-width: 767px) {
+      .homeslider .carousel .carousel-item figure {
+        margin: 0; } }
+  .homeslider .carousel .carousel-control {
+    opacity: 1;
+    filter: alpha(opacity=100); }
+    .homeslider .carousel .carousel-control .icon-next::before,
+    .homeslider .carousel .carousel-control .icon-prev::before {
+      content: ""; }
+    .homeslider .carousel .carousel-control .icon-next i,
+    .homeslider .carousel .carousel-control .icon-prev i {
+      font-size: 3.125rem;
+      color: white; }
+    .homeslider .carousel .carousel-control .icon-next:hover i,
+    .homeslider .carousel .carousel-control .icon-prev:hover i {
+      color: #3387f2; }
+    .homeslider .carousel .carousel-control .icon-prev {
+      left: 1rem; }
+    .homeslider .carousel .carousel-control .icon-next {
+      right: 2rem; }
+    .homeslider .carousel .carousel-control.left, .homeslider .carousel .carousel-control.right {
+      background: none; }
+
+/*# sourceMappingURL=imageslider.css.map */

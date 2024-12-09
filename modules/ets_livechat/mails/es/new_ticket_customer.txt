@@ -1,0 +1,2 @@
+Hi {customer_name}
+Your ticket {subject} has been successfully submitted to {shop_name} and is waiting for reply

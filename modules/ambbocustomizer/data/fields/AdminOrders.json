@@ -1,0 +1,731 @@
+{
+    "headers": {
+        "category": "Orders",
+        "name": "Orders"
+    },
+    "fields": {
+        "id_order": {
+            "title":"ID",
+            "description": "Order identifier",
+            "is_core": true,
+            "mandatory": true,
+            "query": {
+                "group_by":"a.id_order"
+            }
+        },
+        "reference": {
+            "title": "Reference",
+            "description": "Order reference",
+            "is_core": true
+        },
+        "new": {
+            "title": "New client",
+            "description": "Indicates if the order has been made by a new client",
+            "is_core": true
+        },
+        "company": {
+            "title": "Company",
+            "description": "Company of the customer (only with B2B mode activated)",
+            "is_core": true
+        },
+
+        "cname": {
+            "title": "Delivery",
+            "description": "Country where the order will be delivered",
+            "is_core": true
+        },
+        "customer": {
+            "title": "Customer",
+            "description": "Name of the customer",
+            "is_core": true
+        },
+        "total_paid_tax_incl": {
+            "title": "Total (Tax incl.)",
+            "description": "Total of the order",
+            "translator": "AdminOrders",
+            "is_core": true,
+            "query":
+            {
+                "select": "a.total_paid_tax_incl as total_paid_tax_incl"
+            }
+        },
+        "total_paid_tax_excl": {
+            "title": "Total (Tax excl.)",
+            "description": "Total tax excluded of the order",
+            "translator": "AdminOrders",
+            "align": "text-right",
+            "type": "price",
+            "currency": true,
+            "callback": "setOrderCurrency",
+            "havingFilter": true,
+            "class": "fixed-width-xs",
+            "query": {
+                "select": ["a.total_paid_tax_excl"]
+            }
+        },
+        "total_paid_taxes": {
+            "title": "Total taxes",
+            "description": "Total taxes for the order",
+            "translator": "AdminOrders",
+            "align": "text-right",
+            "type": "price",
+            "currency": true,
+            "havingFilter": true,
+            "callback": "setOrderCurrency",
+            "class": "fixed-width-xs",
+            "query": {
+                "select": ["(a.total_paid_tax_incl-a.total_paid_tax_excl) as total_paid_taxes"]
+            }
+        },
+        "total_products": {
+            "title": "Products (tax excl.)",
+            "description": "Total for the products tax excluded",
+            "align": "text-right",
+            "type": "price",
+            "currency": true,
+            "havingFilter": true,
+            "filter_key": "a!total_products",
+            "class": "fixed-width-xs",
+            "callback": "setOrderCurrency"
+        },
+        "total_products_wt": {
+            "title": "Products (tax incl.)",
+            "description": "Total for the products tax included",
+            "align": "text-right",
+            "filter_key": "a!total_products_wt",
+            "type": "price",
+            "currency": true,
+            "havingFilter": true,
+            "class": "fixed-width-xs",
+            "callback": "setOrderCurrency"
+        },
+        "total_discounts_tax_excl": {
+            "title": "Total vouchers (Tax excl.)",
+            "description": "Total vouchers tax excluded",
+            "translator": "AdminOrders",
+            "align": "text-right",
+            "type": "price",
+            "currency": true,
+            "havingFilter": true,
+            "class": "fixed-width-xs",
+            "callback": "setOrderCurrency"
+        },
+        "total_discounts_tax_incl": {
+            "title": "Total vouchers (Tax incl.)",
+            "description": "Total vouches tax included",
+            "align": "text-right",
+            "type": "price",
+            "currency": true,
+            "havingFilter": true,
+            "class": "fixed-width-xs",
+            "callback": "setOrderCurrency"
+        },
+        "total_shipping_tax_excl": {
+            "title": "Total shipping (Tax excl.)",
+            "description": "Total shipping tax excluded",
+            "translator": "AdminOrders",
+            "align": "text-right",
+            "type": "price",
+            "currency": true,
+            "havingFilter": true,
+            "class": "fixed-width-xs",
+            "callback": "setOrderCurrency",
+            "filter_key": "a!total_shipping_tax_excl"
+        },
+         "total_shipping_tax_incl": {
+            "title": "Shipping price (Tax incl.)",
+            "description": "Total shipping tax included",
+            "align": "text-right",
+            "translator": "AdminOrders",
+            "type": "price",
+            "currency": true,
+            "havingFilter": true,
+            "class": "fixed-width-xs",
+            "callback": "setOrderCurrency",
+            "filter_key": "a!total_shipping_tax_incl"
+        },
+        "payment": {
+            "title": "Payment",
+            "description": "The payment mode used for the order",
+            "is_core": true,
+            "filter_key": "a!payment"
+        },
+        "osname": {
+            "title": "Status",
+            "description": "The current status of the order",
+            "is_core": true
+        },
+        "date_add": {
+            "title": "Date",
+            "description": "The date of creation of the order",
+            "is_core": true
+        },
+        "id_pdf": {
+            "title": "PDF",
+            "description": "Buttons to print the invoice and/or the delivery slip",
+            "is_core": true
+        },
+        "admin_orders_invoices": {
+            "title": "Invoices",
+            "description": "List of invoice numbers related to this order",
+            "havingFilter": true,
+            "search": false,
+            "amb_callback": {
+                "method": "multipleAdminLinks",
+                "args": {
+                    "value":"GROUP_CONCAT(amb_order_invoice.number)",
+                    "callback": "'displayInvoiceNumber'",
+                    "raw_ids": "GROUP_CONCAT(amb_order_invoice.id_order_invoice)",
+                    "ids":"GROUP_CONCAT(CONCAT('id_order=', amb_order_invoice.id_order))",
+                    "controller": "'AdminPdf'",
+                    "params": "'submitAction=generateInvoicePDF'"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                        "table": "order_invoice",
+                        "alias": "amb_order_invoice",
+                        "on": "amb_order_invoice.id_order=a.id_order",
+                        "type": "LEFT"
+                    }
+                ]
+            }
+        },
+        "admin_orders_customer": {
+            "title":"Customer",
+            "description": "Customer name with a link to their profile",
+            "havingFilter": true,
+            "translator": "AdminOrders",
+            "amb_callback": {
+                "method": "adminLink",
+                "export": "value",
+                "args": {
+                    "value":"CONCAT(LEFT(c.`firstname`, 1), '. ', c.`lastname`)",
+                    "controller":"'AdminCustomers'",
+                    "params":"CONCAT('id_customer=', c.id_customer, '&viewcustomer')"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                    "table":"customer",
+                    "type":"LEFT",
+                    "alias": "amb_c",
+                    "on":"amb_c.`id_customer` = a.`id_customer`"
+                    }
+                ]
+            }
+
+        },
+        "admin_orders_customer_email": {
+            "title":"Email",
+            "description": "Email of the customer",
+            "translator": "AdminOrders",
+            "havingFilter":true,
+            "translator": "AdminOrders",
+            "query": {
+                "select": "c.`email` as admin_orders_customer_email",
+                "joins": [
+                    {
+                    "table":"customer",
+                    "type":"LEFT",
+                    "alias": "amb_c",
+                    "on":"amb_c.`id_customer` = a.`id_customer`"
+                    }
+                ]
+            }
+
+        },
+        "admin_orders_customer_delivery_address": {
+            "title": "Delivery address",
+            "description": "Delivery address for the order",
+            "translator": "AdminTaxes",
+            "search": false,
+            "amb_callback": {
+                "method": "displayAddress",
+                "args": {
+                    "address_id": "a.id_address_delivery"
+                }
+            }
+        },
+        "admin_orders_customer_delivery_phone": {
+            "title": "Delivery phone",
+            "description": "Phone number related to the delivery",
+            "havingFilter": true,
+            "query": {
+                "select": "CONCAT(amb_address.phone, ' ', amb_address.phone_mobile) as admin_orders_customer_delivery_phone",
+                "joins": [
+                    {
+                        "type": "INNER",
+                        "table": "address",
+                        "alias": "amb_address",
+                        "on": "amb_address.id_address = a.id_address_delivery"
+                    }
+                ]
+            }
+        },
+        "admin_orders_customer_billing_address": {
+            "title": "Invoice address",
+            "description": "Invoice address for the order",
+            "translator": "AdminTaxes",
+            "search": false,
+            "amb_callback": {
+                "method": "displayAddress",
+                "args": {
+                    "address_id": "a.id_address_invoice"
+                }
+            },
+            "havingFilter": false
+        },
+        "admin_orders_customer_billing_phone": {
+            "title": "Invoice phone",
+            "description": "Phone number related to the invoice",
+            "havingFilter": true,
+            "query": {
+                "select": "CONCAT(amb_billing_address.phone, ' ', amb_billing_address.phone_mobile) as admin_orders_customer_billing_phone",
+                "joins": [
+                    {
+                        "type": "INNER",
+                        "table": "address",
+                        "alias": "amb_billing_address",
+                        "on": "amb_billing_address.id_address = a.id_address_invoice"
+                    }
+                ]
+            }
+        },
+        "admin_orders_customer_billing_country": {
+            "title": "Invoice country",
+            "description": "Country where the invoice will be sent to",
+            "quick_select": "amb_cl.name",
+            "type": "select",
+            "list": "getCountries",
+            "filter_key": "amb_cl!id_country",
+            "filter_type": "int",
+            "query": {
+                "joins": [
+                    {
+                        "type": "INNER",
+                        "table": "address",
+                        "alias": "amb_billing_address",
+                        "on": "amb_billing_address.id_address = a.id_address_invoice"
+                    },
+                    {
+                        "type": "INNER",
+                        "table": "country_lang",
+                        "alias": "amb_cl",
+                        "on": "amb_billing_address.id_country = amb_cl.id_country AND amb_cl.id_lang=$LANGUAGE"
+                    }
+                ]
+            }
+        },
+        "admin_orders_customer_billing_city": {
+            "title": "Invoice city",
+            "description": "City where the invoice will be sent to",
+            "havingFilter": true,
+            "quick_select": "amb_billing_address.city",
+            "query": {
+                "joins": [
+                    {
+                        "type": "INNER",
+                        "table": "address",
+                        "alias": "amb_billing_address",
+                        "on": "amb_billing_address.id_address = a.id_address_invoice"
+                    }
+                ]
+            }
+        },
+        "admin_orders_customer_nb_messages":{
+            "title": "Messages",
+            "description": "Number of messages exchanged with the customer regarding this order",
+            "class": "text-center",
+            "havingFilter": true,
+            "amb_callback": {
+                "method": "adminLink",
+                "export": "value",
+                "args": {
+                    "value":"IFNULL((SELECT COUNT(*) FROM $PREFIX_customer_message cm WHERE cm.id_customer_thread=amb_ct.id_customer_thread), 0)",
+                    "controller":"'AdminCustomerThreads'",
+                    "params":"CONCAT('id_customer_thread=', amb_ct.id_customer_thread, '&viewcustomer_thread')"
+                }
+            },
+            "query": {
+                "joins": {
+                    "type": "LEFT",
+                    "table": "customer_thread",
+                    "alias": "amb_ct",
+                    "on": "amb_ct.id_order=a.id_order"
+                }
+            }
+        },
+        "admin_orders_customer_message_thread_state":{
+            "title": "Thread status",
+            "description": "Current status of the customer service thread",
+            "class": "text-center",
+            "type": "select",
+            "list": "getCustomerThreadStatuses",
+            "icon": "getCustomerThreadStatusesIcons",
+            "filter_key": "amb_ct!status",
+            "filter_type": "string",
+            "query": {
+                "select": "amb_ct.status as admin_orders_customer_message_thread_state",
+                "joins": {
+                    "type": "LEFT",
+                    "table": "customer_thread",
+                    "alias": "amb_ct",
+                    "on": "amb_ct.id_order=a.id_order"
+                }
+            }
+        },
+         "admin_orders_customer_note":{
+            "title": "Private note",
+            "description": "Shows the private customer note",
+            "class":"text-center",
+            "havingFilter": true,
+            "translator": "AdminOrders",
+            "amb_callback": {
+                "method": "preloadedTooltip",
+                "export": "value",
+                "args": {
+                    "value":"amb_c.note"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                    "table":"customer",
+                    "type":"LEFT",
+                    "alias": "amb_c",
+                    "on":"amb_c.`id_customer` = a.`id_customer`"
+                    }
+                ]
+            }
+        },
+        "admin_orders_products": {
+            "title":"Products",
+            "description": "List of the products that have been ordered",
+            "translator": "AdminOrders",
+            "class":"text-center",
+            "search": false,
+            "remove_onclick": true,
+            "havingFilter": true,
+            "amb_callback": {
+                "method":"tooltip",
+                "export": "value",
+                "args": {
+                    "value": "(SELECT SUM(od.product_quantity) FROM $PREFIX_order_detail od WHERE od.id_order=a.id_order)",
+                    "method":"'fetchProductsFromOrderId'",
+                    "id":"a.id_order"
+                }
+            }
+        },
+        "admin_orders_payments": {
+            "title":"Payments",
+            "description": "List of payments for the order",
+            "class":"text-center",
+            "search": false,
+            "amb_callback": {
+                "method":"tooltip",
+                "export": "value",
+                "args": {
+                    "value": "(SELECT COUNT(*) FROM $PREFIX_order_invoice_payment oip WHERE oip.id_order=a.id_order)",
+                    "method":"'fetchPaimentsFromOrderId'",
+                    "id":"a.id_order"
+                }
+            }
+        },
+        "admin_orders_products_return": {
+            "title":"Returned products",
+            "description": "List of products that have been returned",
+            "havingFilter":true,
+            "class":"text-center",
+            "search": false,
+            "amb_callback":
+            {
+                "method":"tooltip",
+                "export": "value",
+                "args": {
+                    "value": "(SELECT SUM(od.product_quantity_return) FROM $PREFIX_order_detail od WHERE od.id_order=a.id_order)",
+                    "method":"'fetchReturnedProductsFromOrderId'",
+                    "id":"a.id_order"
+                }
+            }
+        },
+        "admin_orders_tracking_number": {
+            "title": "Tracking number",
+            "description": "List of clickable tracking numbers related to the order",
+            "havingFilter": true,
+            "translator": "AdminOrders",
+            "amb_callback": {
+                "method": "multipleLinks",
+                "args": {
+                    "value":"GROUP_CONCAT(amb_order_carrier.tracking_number)",
+                    "url":"GROUP_CONCAT(IFNULL(amb_carrier.url, 'nolink'))",
+                    "target": "'_blank'"
+                }
+            },
+            "query":
+            {
+                "joins": [{
+                    "type": "LEFT",
+                    "table": "order_carrier",
+                    "alias": "amb_order_carrier",
+                    "on": "amb_order_carrier.id_order=a.id_order"
+                },
+                {
+                    "type": "LEFT",
+                    "table": "carrier",
+                    "alias": "amb_carrier",
+                    "on": "amb_order_carrier.id_carrier=amb_carrier.id_carrier"
+                }]
+            }
+        },
+        "admin_orders_carriers": {
+            "title": "Carriers",
+            "description": "List of the carriers in charge of the order",
+            "translator": "AdminCarriers",
+            "havingFilter": true,
+            "query":
+            {
+                "select": "GROUP_CONCAT(amb_carrier.name SEPARATOR ', ') as admin_orders_carriers",
+                "joins": [{
+                    "type": "LEFT",
+                    "table": "order_carrier",
+                    "alias": "amb_order_carrier",
+                    "on": "amb_order_carrier.id_order=a.id_order"
+                    },
+                    {
+                    "type": "LEFT",
+                    "table": "carrier",
+                    "alias": "amb_carrier",
+                    "on": "amb_order_carrier.id_carrier=amb_carrier.id_carrier"
+                    }]
+            }
+        },
+        "admin_orders_cart": {
+            "havingFilter": true,
+            "title": "Cart",
+            "description": "Link to the cart that created the order",
+            "class": "text-center",
+            "translator": "AdminOrders",
+            "amb_callback": {
+                "method": "adminLink",
+                "export": "value",
+                "args": {
+                    "value": "CONCAT('#', a.id_cart)",
+                    "controller": "'AdminCarts'",
+                    "params": "CONCAT('id_cart=', a.id_cart, '&viewcart')"
+                }
+            }
+        },
+        "admin_orders_voucher": {
+            "title":"Vouchers",
+            "description": "List of the vouchers used in the order",
+            "havingFilter":true,
+            "translator": "AdminOrders",
+            "class":"text-center",
+            "search": false,
+            "amb_callback": {
+                "method":"tooltip",
+                "export": "value",
+                "args": {
+                    "value": "(SELECT COUNT(*) FROM $PREFIX_order_cart_rule ocr WHERE ocr.id_order=a.id_order)",
+                    "method":"'fetchVouchersFromOrderId'",
+                    "id":"a.id_order"
+                }
+            }
+        },
+        "admin_order_slip": {
+            "title": "Order slip",
+            "description": "Links to the order slips related to the order",
+            "amb_callback": {
+                "method": "multipleAdminLinks",
+                "args": {
+                    "value":"GROUP_CONCAT(CONCAT('#', amb_order_slip.id_order_slip))",
+                    "ids":"GROUP_CONCAT(CONCAT('id_order_slip=', amb_order_slip.id_order_slip))",
+                    "controller": "'AdminPdf'",
+                    "params": "'submitAction=generateOrderSlipPDF'"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                        "table": "order_slip",
+                        "alias": "amb_order_slip",
+                        "on": "amb_order_slip.id_order=a.id_order",
+                        "type": "LEFT"
+                    }
+                ]
+            }
+        },
+        "admin_orders_profit": {
+            "title": "Profit",
+            "description": "Profit made on the order, based on the difference between the tax excluded price and the wholesale price",
+            "search": false,
+            "quick_select": "(SELECT (a.total_products-a.total_discounts_tax_excl)-SUM((IF(od.original_wholesale_price=0, p.wholesale_price, od.original_wholesale_price))*od.product_quantity) FROM $PREFIX_order_detail od LEFT JOIN $PREFIX_product p ON p.id_product=od.product_id WHERE od.id_order=a.id_order)",
+            "type": "price",
+            "align": "text-right"
+        },
+        "admin_orders_profit_margin": {
+            "title": "Profit margin",
+            "description": "Profit expressed in percentage compared to the total amount of products tax excluded",
+            "search": false,
+            "align": "text-right",
+            "amb_callback": {
+                "method": "append",
+                "args": {
+                    "value": "ROUND((SELECT (a.total_products-a.total_discounts_tax_excl)-SUM((IF(od.original_wholesale_price=0, p.wholesale_price, od.original_wholesale_price))*od.product_quantity) FROM $PREFIX_order_detail od LEFT JOIN $PREFIX_product p ON p.id_product=od.product_id WHERE od.id_order=a.id_order)/(a.total_products-a.total_discounts_tax_excl)*100, 2)",
+                    "to_append": "'%'"
+                }
+            }
+        },
+        "amb_admin_orders_payments_ids": {
+            "title":"Payment id",
+            "description": "Payment id for the order",
+            "class":"text-center",
+            "search": false,
+            "quick_select": "amb_op.id_order_payment",
+            "query": {
+                "joins": [
+                {
+                    "table": "order_payment",
+                    "alias": "amb_op",
+                    "on": "amb_op.order_reference=a.reference",
+                    "type": "LEFT"
+                }
+                ]
+            }
+        },
+        "amb_admin_orders_payments_transaction_id": {
+                "title":"Transaction id",
+                "description": "Transaction id for the order",
+                "class":"text-center",
+                "search": false,
+                "quick_select": "amb_op.transaction_id",
+                "query": {
+                    "joins": [
+                    {
+                        "table": "order_payment",
+                        "alias": "amb_op",
+                        "on": "amb_op.order_reference=a.reference",
+                        "type": "LEFT"
+                    }
+                ]
+            }
+        },
+        "amb_admin_orders_invoices": {
+            "title": "Invoices",
+            "description": "List of invoice numbers related to this order",
+            "havingFilter": true,
+            "search": true,
+            "amb_callback": {
+                "method": "multipleAdminLinks",
+                "args": {
+                    "value":"
+                        GROUP_CONCAT(
+                            CONCAT(
+                                (SELECT cl.value FROM $PREFIX_configuration c LEFT JOIN $PREFIX_configuration_lang cl ON c.id_configuration=cl.id_configuration AND cl.id_lang=$LANGUAGE WHERE c.name='PS_INVOICE_PREFIX'),
+                                LPAD(amb_order_invoice.number, 6, '0')
+                            )
+                        )",
+                    "callback": "'displayInvoiceNumber'",
+                    "raw_ids": "GROUP_CONCAT(amb_order_invoice.id_order_invoice)",
+                    "ids":"GROUP_CONCAT(CONCAT('id_order=', amb_order_invoice.id_order))",
+                    "controller": "'AdminPdf'",
+                    "params": "'submitAction=generateInvoicePDF'"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                        "table": "order_invoice",
+                        "alias": "amb_order_invoice",
+                        "on": "amb_order_invoice.id_order=a.id_order",
+                        "type": "LEFT"
+                    },
+                    {
+                        "type": "INNER",
+                        "table": "address",
+                        "alias": "amb_delivery_address",
+                        "on": "amb_delivery_address.id_address = a.id_address_delivery"
+                    },
+                    {
+                        "type": "INNER",
+                        "table": "country",
+                        "alias": "amb_country",
+                        "on": "amb_delivery_address.id_country = amb_country.id_country"
+                    }
+                ]
+            }
+        },
+        "amb_admin_orders_slips": {
+            "title": "Order slip",
+            "description": "List of order slips related to this order",
+            "havingFilter": true,
+            "search": true,
+            "amb_callback": {
+                "method": "multipleAdminLinks",
+                "args": {
+                    "value":"
+                        GROUP_CONCAT(
+                            CONCAT(
+                                (SELECT cl.value FROM $PREFIX_configuration c LEFT JOIN $PREFIX_configuration_lang cl ON c.id_configuration=cl.id_configuration AND cl.id_lang=$LANGUAGE WHERE c.name='PS_DELIVERY_PREFIX'),
+                                LPAD(a.delivery_number, 6, '0')
+                            )
+                        )",
+                    "callback": "'displayOrderSlipNumber'",
+                    "raw_ids": "GROUP_CONCAT(amb_order_slip.id_order_slip)",
+                    "ids":"GROUP_CONCAT(CONCAT('id_order_slip=', amb_order_slip.id_order_slip))",
+                    "controller": "'AdminPdf'",
+                    "params": "'submitAction=generateOrderSlipPDF'"
+                }
+            },
+            "query": {
+                "joins": [
+                    {
+                        "table": "order_slip",
+                        "alias": "amb_order_slip",
+                        "on": "amb_order_slip.id_order=a.id_order",
+                        "type": "LEFT"
+                    },
+                    {
+                        "type": "INNER",
+                        "table": "address",
+                        "alias": "amb_delivery_address",
+                        "on": "amb_delivery_address.id_address = a.id_address_delivery"
+                    },
+                    {
+                        "type": "INNER",
+                        "table": "country",
+                        "alias": "amb_country",
+                        "on": "amb_delivery_address.id_country = amb_country.id_country"
+                    }
+                ]
+            }
+        },
+
+        "amb_admin_orders_delivery_number": {
+            "title": "Delivery Number",
+            "description": "Delivery number related to this order",
+            "havingFilter": true,
+            "search": false,
+            "amb_callback": {
+                "method": "multipleAdminLinks",
+                "args": {
+                    "value":"a.delivery_number",
+                    "callback": "'displayDeliveryNumber'",
+                    "raw_ids": "a.id_order",
+                    "ids":"CONCAT('id_order=', a.id_order)",
+                    "controller": "'AdminPdf'",
+                    "params": "'submitAction=generateDeliverySlipPDF'"
+                }
+            }
+        },
+        "invoice_date": {
+            "title": "Date",
+            "description": "Invoice date",
+            "quick_select": "a.invoice_date",
+            "type": "date"
+        }
+    }
+}

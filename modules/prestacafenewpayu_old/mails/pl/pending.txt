@@ -1,0 +1,15 @@
+
+[{shop_url}]
+
+Witaj {firstname} {lastname},
+
+Dziękujemy za zakupy w {shop_name}!
+
+Twoja płatność w PayU została rozpoczęta.
+
+Jeżeli chcesz ponowić płatność, kliknij na odnośniku poniżej:
+
+{payu_pay_again_url}
+
+{shop_name} [{shop_url}] wspierany przez
+PrestaShop(tm) [http://www.prestashop.com/]

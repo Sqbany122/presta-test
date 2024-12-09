@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>psinpost</name>
+	<displayName><![CDATA[Inpost]]></displayName>
+	<version><![CDATA[2.2]]></version>
+	<description><![CDATA[Inpost Moduł Wysyłki]]></description>
+	<author><![CDATA[Marcin Bogdanski @ Opennet]]></author>
+	<tab><![CDATA[shipping_logistics]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

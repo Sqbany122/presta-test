@@ -1,0 +1,2 @@
+A new ticket was created from your chat by {staff}
+{mail_content}

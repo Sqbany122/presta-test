@@ -1,0 +1,5050 @@
+.recen-conversation-item,.view-all{
+    cursor: pointer;
+}
+.link-view-ticket {
+    color: #555!important;
+    text-decoration: none!important;
+}
+.item img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 0px;
+    vertical-align: top;
+}
+.bootstrap .lc_rate_button .dropdown-menu {
+    text-align: left;
+    z-index: 10;
+}
+.lc_line {
+    display: block;
+    border-bottom: 1px solid #eee;
+    margin: 30px 0;
+}
+.ets_livechat_callback_url::selection {
+    background: #f9ebef;
+    color: #DA789F;
+}
+.ets_livechat_callback_url::-moz-selection {
+    background: #f9ebef;
+    color: #DA789F;
+}
+.bootstrap .btn.btn-primary:hover,
+.bootstrap .btn.btn-primary:focus {
+    background-color: #008abd;
+}
+.panel-heading + .desc {
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #666;
+}
+div#department-list-sort>div:last-child {
+    border: none;
+}
+.bootstrap textarea, .bootstrap textarea.form-control {
+    height: auto;
+    min-height: 200px;
+}
+a.submit_new_ticket:before, .submit_new_ticket_bt:before {
+    position: absolute;
+    right: 0;
+    border-radius: 3px;
+    font-size: 12px;
+    top: 0;
+    line-height: 20px;
+    padding: 0!important;
+    width: 100%;
+    font-weight: normal;
+    content: "\f067";
+    font-family: Fontawesome;
+}
+a.submit_new_ticket,
+.submit_new_ticket_bt {
+    font-size: 0!important;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%!important;
+    background-color: #ccc!important;
+    border: 1px solid #ccc!important;
+    display: inline-block;
+    margin-top: 5px;
+    position: relative;
+}
+a.submit_new_ticket:hover,
+.submit_new_ticket_bt:hover{
+    background: #2eacce!important;
+    border-color: #2eacce!important;
+}
+span.copied {
+    position: absolute;
+    background: #3cdbbb;
+    color: #fff;
+    padding: 2px 6px;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 2px;
+}
+.lc_popup {
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 100000;
+    display: none;
+    overflow: auto;
+}
+h4.lc_form_submit_title {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    padding: 14px 30px;
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+.customer_name_search .delete_customer_search {
+    margin-left: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.customer_name_search .delete_customer_search i {
+    font-size: 12px;
+}
+span.file_size {
+    color: #999;
+    font-size: 12px;
+    margin-left: 3px;
+}
+input.form-control[readonly="true"] {
+    cursor: not-allowed;
+}
+
+.customer_name_search {
+    position: absolute;
+    z-index: 10;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    padding: 2px 6px;
+    color: #fff;
+    margin-left: 4px;
+    margin-top: 4px;
+    background-color: #2eacce;
+}
+.customer_name_search + #search_customer_ticket {
+    pointer-events: none;
+}
+.lc_form_submit_title + .form-group button#new_ticket_bt {
+    width: 100%;
+    height: 36px;
+}
+.ets_close {
+  float: right;
+  font-size: 0;
+  height: 14px;
+  margin-right: 0px;
+  position: relative;
+  transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 14px;
+      cursor: pointer;
+}
+.lc_form_submit_title .ets_close:before, .lc_form_submit_title .ets_close:after {
+    background-color: #999;
+}
+.ets_close::after {
+  background-color: #fff;
+  content: "";
+  height: 3px;
+  left: 2px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.lc_form_submit_new_ticket_content {
+    background: #fff;
+    width: 400px;
+    padding: 30px;
+    margin: 30px auto;
+    position: relative;
+        border-radius: 5px;
+}
+.ets_close::before {
+  background-color: #fff;
+  content: "";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 2px;
+  width: 3px;
+}
+.lc_form_submit_title + .form-group {
+    margin-bottom: 0!important;
+}
+select#form_ticket {
+    height: 36px;
+    margin-bottom: 15px;
+}
+.lc-alert-success {
+    position: fixed;
+    right: 0;
+    z-index: 100000;
+    display: table;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+}
+span.ets_livechat_callback_url {
+    border: 1px dashed #dc789f;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    display: inline-block;
+    color: #dc789f;
+    background: #f9f2f4;
+}
+.form-private .field-private{
+    display: none!important;
+}
+.lc_rate_button a i {
+    min-width: 14px;
+}
+.success_table span {
+    background-color: rgba(137,192,61,0.9);
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+.success_table span i {
+    margin-right: 5px;
+}
+span.success_table {
+    display: table-cell;
+    vertical-align: middle;
+    float: right;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+input.departments_agents, input.departments_name_all {
+    float: left;
+    margin-top: 3px!important;
+    margin-right: 5px!important;
+}
+.form_departments > .form-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lc_list_customer li.item:hover:before {
+    background-color: #f6f6f6;
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 100%;
+    right: -10px;
+}
+.lc_list_customer li.item:hover .name:before,
+.lc_list_customer li.item:hover .name .link-view-ticket:before{
+    opacity: 0;
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 100%;
+    right: -10px;
+}
+.lc_list_customer li.item > * {
+    z-index: 1;
+}
+#block_form_departments .col-lg-9 > label {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.transfer_ticket i.fa.fa-transfer:before {
+    content: "\F145";
+}
+.date_ticket .date_range {
+    display: flex;
+}
+.lc_list_customer .no-record {
+    text-align: left;
+}
+.date_ticket .date_range .input-group {
+    max-width: 70px;
+    margin-left: 5px;
+}
+.date_ticket .date_range .input-group input {
+    border-radius: 4px!important;
+}
+.date_ticket .date_range span.input-group-addon {
+    display: none;
+}
+.lc_ticket_message button.lc_send_message_ticket {
+    cursor: pointer;
+    outline: none!important;
+    position: relative;
+}
+@keyframes rotate {
+  0%   { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes rotate {
+  0%   { -webkit-transform: rotate(0); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+button.lc_send_message_ticket:before {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    border-top: 3px solid transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-bottom: 3px solid transparent;
+    opacity: 0;
+    visibility: hidden;
+    left: 50%;
+    margin-left: -10px;
+}
+.lc_ticket_message .lc_note_message.nocomment {
+    padding-left: 0;
+    padding-right: 0;
+}
+.lc_loading_ticket button.lc_send_message_ticket {
+    color: rgba(255,255,255,0.3)!important;
+        pointer-events: none;
+}
+.lc_loading_ticket button.lc_send_message_ticket:before{
+    opacity: 1;
+    visibility: visible;
+    animation-name: rotate;
+    -webkit-animation-name: rotate;
+      animation-duration: 0.5s;
+      -webkit-animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      -webkit-animation-timing-function: linear;
+}
+.lc_chart_recen_tickets span.status.open {
+    background-color: #fdc107;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.lc_chart_recen_tickets span.status.close {
+    background-color: #8bc348;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 1;
+    float: right;
+    cursor: default;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.lc_ticket_recently *:focus{
+    outline: none!important;
+}
+.lc_chart_recen_tickets ul.lc_list_customer {
+    padding-right: 0;
+}
+.lc_chart_recen_tickets span.status.cancel,
+.lc_chart_recen_tickets span.status.canceled {
+    background-color: #bbb;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.lc_dashboard_content > div {
+    min-height: 100px!important;
+    background: linear-gradient(to left, #30d8b7,#4ddec1);
+    background: -webkit-linear-gradient(to left, #30d8b7,#4ddec1);
+    margin: 0 15px;
+    overflow: hidden;
+    display: block;
+    border-radius: 4px;
+    padding: 15px!important;
+    color: #fff;
+}
+.ticket_form a {
+    word-break: break-all;
+}
+.lc_list_customer span.icon-social.fa-facebook {
+    background-color: #395693;
+}
+.lc_list_customer span.icon-social.fa-google {
+    background-color: #e34133;
+}
+.lc_list_customer span.icon-social {
+    background-color: #2fb5d2;
+    color: #fff;
+    padding: 4px;
+    width: 20px;
+    text-align: center;
+    margin-right: 4px;
+}
+.lc_chart_conversation h2.title {
+    font-family: Open sans;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 16px;
+    margin-top: 0;
+}
+.lc_ticket_recently .lc_rate_staff .star_content {
+    color: #f1b746;
+}
+ul.slick-dots {
+    display: block;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+}
+.lc_ticket_recently {
+    display: flex;
+    display: -webkit-flex;
+    float: left;
+    margin-top: 20px;
+    padding: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    width: calc(100% + 20px);
+    width: -webkit-calc(100% + 20px);
+}
+.lc_ticket_recently > div {
+    padding: 0 10px!important;
+}
+ul.slick-dots li {
+    display: inline-block;
+    font-size: 0;
+    margin: 0 3px 4px;
+}
+ul.slick-dots li.slick-active button {
+    background-color: #3cdbbb;
+    border-color: #3cdbbb;
+}
+ul.slick-dots li button {
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    width: 8px;
+    outline: none!important;
+    height: 8px;
+    margin: 0;
+    font-size: 0;
+    float: left;
+    padding: 0;
+    display: flex;
+    border-radius: 50%;
+    min-width: 0;
+    -webkit-appearance: none;
+    max-width: 12px!important;
+}
+.lc_dashboard_wapper .lc_dashboard_received_ticket {
+    background: linear-gradient(to left, #ff5774, #ff748b, #ff8498);
+    background: -webkit-linear-gradient(to left, #ff5774, #ff748b, #ff8498);
+}
+.lc_dashboard_wapper .lc_dashboard_open_ticket {
+    background: linear-gradient(to left, #ffb751,#ffca7c);
+    background: -webkit-linear-gradient(to left, #ffb751,#ffca7c);
+}
+.lc_dashboard_wapper .lc_dashboard_solved_ticket {
+    background: linear-gradient(to left, #8bc348, #96d051);
+    background: -webkit-linear-gradient(to left, #8bc348, #96d051);
+}
+.lc_dashboard_content > div.lc_dashboard_conversation {
+    margin-left: 0;
+}
+.lc_dashboard_content > div.lc_dashboard_solved_ticket {
+    margin-right: 0;
+}
+.lv_admin_filter .submitLineChart.active {
+    background-color: #2fb5d2!important;
+    color: #fff!important;
+    border-color: #2fb5d2!important;
+}
+.fa.fa-star-o.fa-star-5:before{
+    content: "\f123"!important;
+}
+.lc_rate_staff .star_content .fa.fa-star-o {
+    display: inline-block;
+    width: 12px;
+    margin: 0 2px;
+    vertical-align: top;
+    position: relative;
+}
+.lc_rate_staff .fa.fa-star-o.fa-star-1:after,
+.lc_rate_staff .fa.fa-star-o.fa-star-2:after {
+    content: "\f005";
+    left: 0;
+    top: 0;
+    width: 25%;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+}
+.lc_rate_staff .fa.fa-star-o.fa-star-3:after {
+    content: "\f005";
+    left: 0;
+    top: 0;
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+}
+.lc_rate_staff .fa.fa-star-o.fa-star-4:after {
+    content: "\f005";
+    left: 0;
+    top: 0;
+    width: 40%;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+}
+.lc_rate_staff .fa.fa-star-o.fa-star-6:after {
+    content: "\f005";
+    left: 0;
+    top: 0;
+    width: 60%;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+}
+.lc_rate_staff .fa.fa-star-o.fa-star-7:after,
+.lc_rate_staff .fa.fa-star-o.fa-star-8:after,
+.lc_rate_staff .fa.fa-star-o.fa-star-9:after {
+    content: "\f005";
+    left: 0;
+    top: 0;
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+}
+form#calendar_form {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    padding: 0 15px;
+}
+#calendar_form h4.panel-heading {
+    float: left!important;
+    margin: 8px 0 0 0!important;
+    font-weight: 400;
+    font-size: 17px!important;
+    border-bottom: 0!important;
+}
+.lv_admin_filter .submitLineChart {
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 1!important;
+    box-shadow: none!important;
+    line-height: 24px;
+    color: #999;
+    min-width: 60px;
+    padding: 3px 15px;
+    font-weight: 600;
+    border: 1px solid #eee;
+    margin: 10px 0;
+}
+.lv_admin_filter .submitLineChart:not(.active):hover {
+    background: transparent!important;
+    color: #333!important;
+    border: 1px solid #eee!important;
+}
+.lc_dashboard_wapper .lc_dashboard_content {
+    padding: 0;
+    margin-bottom: 25px;
+    display: flex;
+    -webkit-display: flex;
+}
+.lv_admin_filter {
+    margin-bottom: -1px;
+}
+.required:before {
+    content: "*";
+    color: red;
+}
+
+
+.lc_dashboard_wapper .lc_dashboard_chart {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    float: left;
+    width: 100%;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.lc_list_customer .conversation_date {
+    float: right;
+}
+.lc_list_customer li span.conversation_stt {
+    background-color: #1380c4;
+    color: #fff;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+.lc_list_customer li {
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    line-height: 20px;
+    color: #777;
+}
+ul.lc_list_customer {
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+}
+.lc_chart_staffs span.option {
+    float: right;
+    color: #999;
+}
+.lc_chart_recen_conversations ul.lc_list_customer {
+    padding-right: 0;
+}
+.lc_chart_recen_conversations .lc_list_customer span.last_message,
+.lc_chart_recen_tickets .lc_list_customer span.last_message {
+    clear: both;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lc_chart_staffs {
+    margin-top: 0;
+    background: #fff;
+    min-height: 222px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border-radius: 4px;
+}
+.lc_chart_recen_conversations,
+.lc_chart_recen_tickets {
+    margin-top: 0;
+    background: #fff;
+    min-height: 222px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #dddddd;
+    position: relative;
+    border-radius: 4px;
+}
+.lc_ticket_recently_block {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    height: 100%;
+    padding: 20px;
+}
+.lc_ticket_recently_block > h4 {
+    padding: 0;
+    font-family: Open sans;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-top: 0;
+}
+.lc_ticket_recently_list {
+    background-color: #fff;
+}
+.lc_chart_recen_conversations,
+.lc_chart_recen_tickets {
+    margin-top: 0;
+    background: #fff;
+    min-height: 222px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #eee;
+    position: relative;
+    border-radius: 5px;
+}
+.lc_dashboard_wapper .lc_count span {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.lc_dashboard_conversation > span,
+.lc_dashboard_received_ticket > span,
+.lc_dashboard_open_ticket > span,
+.lc_dashboard_solved_ticket > span {
+    font-size: 14px;
+    font-weight: 600;
+}
+.lc_chart_staffs span.menu {
+    float: left;
+}
+.lc_count i {
+    font-size: 30px!important;
+    margin: 10px 0;
+}
+.lc_dashboard_wapper {
+    padding: 0 5px 0;
+}
+
+.lc_chart_staffs span.option {
+    float: right;
+    color: #999;
+}
+.lc_list_customer span.sub {
+    display: block;
+    color: #999;
+    font-weight: normal;
+    text-align: left;
+}
+.lc_chart_recen_tickets li {
+    border: none;
+    text-align: left;
+}
+.lc_chart_recen_tickets li>span:first-child {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #eee;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: top;
+    text-align: center;
+    line-height: 36px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+.lc_chart_recen_tickets li span.ios i {
+    display: block;
+    height: 100%;
+    line-height: 36px;
+    position: relative;
+    background-color: #fff;
+    background-image: linear-gradient(#999999 30%, #000000);
+    background-image: -webkit-linear-gradient(#999999 30%, #000000);
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.lc_chart_recen_tickets li span.ios:before {
+    content: "";
+    left: 1px;
+    top: 1px;
+    bottom: 1px;
+    right: 1px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+}
+.lc_chart_recen_tickets li span.ios {
+    color: #4257b7;
+    border: none;
+    background: linear-gradient(#999 30%, #000);
+    background: -webkit-linear-gradient(#999 30%, #000);
+    position: relative;
+}
+.lc_chart_recen_tickets li span.dropbox {
+    color: #0075e0;
+    border-color: #0075e0;
+}
+.lc_chart_recen_tickets li span.android {
+    color: #aac148;
+    border-color: #aac148;
+}
+.lc_dashboard_wapper .lv_admin_filter {
+    background-color: #fff;
+    float: left;
+    width: calc(100% + 30px);
+    width: -webkit-calc(100% + 30px);
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+.lc_list_customer li:last-child {
+    border-bottom: none;
+}
+.lc_chart_staffs_actions > h4 span.sub {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    font-weight: normal;
+    margin-top: 2px;
+}
+.lc_chart_staffs_actions span.action {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    color: #999;
+}
+.lc_chart_staffs_actions > h4,
+.lc_chart_conversation h4,
+.lc_chart_ticket h4 {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 600;
+    font-family: Open sans;
+}
+.lc_list_customer li span.name {
+    display: inline-block;
+    color: #555;
+    line-height: 18px;
+    width: calc(100% - 110px);
+    width: -webkit-calc(100% - 110px);
+    font-size: 13px;
+    font-weight: normal;
+    padding-right: 10px;
+}
+.lc_chart_recen_conversations li span.option {
+    float: right;
+    color: #999;
+}
+.lc_chart_recen_conversations li,
+.lc_chart_recen_tickets li {
+    text-align: left;
+    border: none;
+    padding-left: 60px;
+    position: relative;
+    min-height: 66px;
+    align-items: center;
+    -webkit-align-items: center;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.lc_chart_recen_conversations li span.img,
+.lc_chart_recen_tickets li span.img {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.lc_list_customer li span.img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin-right: 10px;
+}
+.lc_ticket_recently_list .lc_rate_staff {
+    margin-top: 5px;
+}
+.lc_chart_recen_conversations li .item-content,
+.lc_chart_recen_tickets li .item-content {
+    display: flex;
+    display: -webkit-flex;
+    line-height: 22px;
+}
+
+.lc_chart_staffs_avata {
+    text-align: center;
+    clear: both;
+    display: block;
+}
+.lc_chart_staffs_avata span.name {
+    display: block;
+    font-size: 14px;
+}
+.lc_chart_staffs_avata + .lc_chart_staff_infor {
+    text-align: center;
+    max-width: 300px;
+    display: inline-block;
+    margin: 10px auto 0;
+}
+.lc_chart_staffs_avata span.info {
+    color: #999;
+    font-size: 11px;
+}
+.bootstrap div .help-block {
+    margin-bottom: 0;
+}
+.lc_chart_staffs_avata img {
+    background-color: #eee;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#block_myaccount_infos li {
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+#block_myaccount_infos .ss_icon_group {
+    display: none;
+}
+.adminlivechattickets .panel.lc-panel {
+    border: none!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    box-shadow: none!important;
+}
+.lc_form_priority select {
+    margin-bottom: 10px;
+}
+.lc_status_ticket.cancel {
+    color: #666;
+}
+.lc_status_ticket.close {
+    color: #76a600!important;
+    float: none;
+    font-size: 13px;
+    text-shadow: none;
+    opacity: 1!important;
+    cursor: auto!important;
+    font-weight: normal;
+}
+.lc_priority_ticket.urgent {
+    color: red;
+}
+.lc_priority_ticket.high {
+    color: #fdd503;
+}
+.lc_priority_ticket strong {
+    color: #555;
+}
+span.lc_ticket_content_value {
+    display: inline-block;
+}
+span.lc_ticket_status.open {
+    background-color: #fdc107;
+    color: #fff;
+    font-size: 11px;
+    padding: 0px 5px;
+    border-radius: 2px;
+    display: inline-block;
+    min-width: 44px;
+    text-align: center;
+    line-height: 18px;
+}
+.lc_ticket_detail .lc_sender .avata span {
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 2px;
+    display: block;
+    color: #999;
+    width: 60px;
+    overflow: hidden;
+    text-align: center;
+}
+.lc_tickets .results {
+    margin-bottom: 30px;
+    font-size: 13px;
+    padding-top: 20px;
+    color: #666;
+}
+.lc_tickets .links a, .lc_tickets .links b {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+    color: #999;
+}
+li.confi_tab.config_tab_chat_box:before {
+    content: "\f27b";
+    font-family: Fontawesome;
+    margin-right: 5px;
+}
+.lc_tickets .links b {
+    background-color: #999;
+    border-color: #999;
+    color: #fff;
+}
+#departments_list > div.lc_no_department.lc_no_recode {
+    border: none!important;
+}
+
+.lc_ticket_detail .form_upfile_val.show,
+.lc_form_add_ticket .form_upfile_val.show {
+    position: relative;
+    height: auto;
+    float: left;
+    box-shadow: none;
+    width: auto;
+    border: none;
+}
+.lc_ticket_detail .form_upfile_val.show .file_name,
+.lc_form_add_ticket .form_upfile_val.show .file_name {
+    display: none;
+}
+.lc_ticket_detail .form_upfile_val.show button.delete_file_note:hover,
+.lc_form_add_ticket .form_upfile_val.show button.delete_file_note:hover{
+    background-color: #008abd;
+    border-color: #008abd;
+    color: #fff;
+}
+.lc_ticket_detail .form_upfile_val.show .delete_file_note{
+    background: transparent;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-top: 5px;
+}
+.lc_form_add_ticket .form_upfile_val.show .delete_file_note {
+    background: #fff;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-top: 0;
+}
+.lc_ticket_detail button.delete_file_note:before,
+.lc_form_add_ticket .form_upfile_val.show button.delete_file_note:before {
+    content: "\f014";
+    font-family: Fontawesome;
+    margin-right: 5px;
+}
+.lc_form_add_ticket .alert.alert-success ul {
+    list-style: none;
+    padding-left: 0;
+}
+span.submit_new_ticket_bt.btn.btn-default.btn-primary {
+    margin-right: 7px;
+}
+
+.lc_form_add_ticket .alert.alert-success {
+    z-index: 10;
+    position: relative;
+    float: none;
+}
+.lc_form_add_ticket .form_upfile_val.show {
+    width: auto;
+    position: absolute;
+    right: 0;
+    box-shadow: none;
+    border: none;
+    top: 0;
+    background: transparent;
+    height: auto;
+    left: auto;
+    bottom: auto;
+    z-index: 10;
+}
+span.lc_ticket_status.cancel {
+    background-color: #bbb;
+    color: #fff;
+    font-size: 11px;
+    padding: 0px 5px;
+    border-radius: 2px;
+    display: inline-block;
+    min-width: 44px;
+    text-align: center;
+        line-height: 18px;
+}
+.lc_ticket_header .lc_form_priority,
+.lc_ticket_header .lc_form_transfer_ticket {
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+}
+.lc_form_transfer_ticket h3, .lc_form_priority h1 {
+    margin-left: -30px!important;
+    margin-right: -30px!important;
+    height: auto!important;
+    padding: 5px 30px!important;
+    margin-top: -30px!important;
+    background: #fafafa;
+    font-family: Open sans;
+    font-weight: 600;
+    font-size: 14px!important;
+}
+.lc_form_transfer_ticket label select {
+    margin-top: 7px;
+    width: 100%;
+    font-weight: normal;
+}
+.lc_ticket_header .lc_form_priority form,
+.lc_ticket_header .lc_form_transfer_ticket form {
+    display: inline-block;
+    width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+button.btn.btn-default[name="cancel_transfer_ticket"] {
+    float: right;
+}
+.lc_msg_content span.message_file {
+    display: block;
+    clear: both;
+    font-size: 13px;
+    color: #999;
+}
+.lc_form_priority h1 {
+    font-size: 14px;
+    font-family: Open sans;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.lc_form_priority .lc_close, .lc_form_transfer_ticket .lc_close {
+    height: 30px;
+    top: 6px;
+    position: absolute;
+    right: 25px;
+    margin-right: 0;
+}
+#content.bootstrap {
+    padding-top: 170px;
+}
+.lc_tickets span.lc_ticket_status.close {
+    text-shadow: none;
+    font-size: 11px;
+    font-weight: normal;
+    opacity: 1;
+    cursor: auto;
+    color: #fff;
+    background-color: #8bc348;
+    padding: 0 5px;
+    display: inline-block;
+    float: none;
+    border-radius: 2px;
+        line-height: 18px;
+    min-width: 44px;
+    text-align: center;
+}
+section#content.ets_livechat_form {
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 20px 30px 30px;
+    position: relative;
+}
+.page-my-account #content .links a#chat-tickets-link {
+    width: 100%;
+    padding: 0;
+    text-decoration: none!important;
+}
+.ets_livechat_form .form-control-label {
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.lc_tickets .content_ticket p {
+    margin-bottom: 6px;
+    color: inherit;
+    font-size: inherit;
+}
+.lc_tickets table.table {
+    font-size: 13px;
+    color: #666;
+}
+th.priority,
+th.status,
+td.status,
+td.priority {
+    text-align: center;
+        text-transform: capitalize;
+}
+
+.lc_tickets thead th {
+    white-space: nowrap;
+}
+.view.view_ticket_content {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 4px 10px;
+}
+.lc_tickets .panel-heading {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin-bottom: 0px;
+    position: relative;
+}
+.lc_tickets, .lc_ticket_wapper {
+    background-color: #fff;
+    padding: 0 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+label.set_lvc_radio {
+    display: inline-block;
+    text-align: left;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+label.set_lvc_radio input {
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.ets_livechat_form input, .ets_livechat_form select {
+    font-size: 14px;
+}
+.ets_livechat_form select#id_departments {
+    border-radius: 0;
+}
+.lc_ticket_wapper .lc_rate_ticket {
+    white-space: nowrap;
+    display: inline-block;
+    margin-right: 24px;
+}
+.lc_ticket_detail .is_customer .lc_msg_time {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    margin-left: 0;
+    font-size: 11px;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 4px;
+    float: none;
+}
+.lc_ticket_content > p {
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.lc_ticket_message .lc_msg_content {
+    color: #666;
+    font-size: 14px;
+}
+.lc_ticket_message button.lc_send_message_ticket {
+    cursor: pointer;
+    margin-top: 6px;
+}
+.ets_livechat_form label.required:after {
+    content: "*";
+    color: red;
+    font-weight: normal;
+    font-size: 12px;
+}
+.lc_ticket_message .lc_note_message {
+    margin-top: 50px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    padding-right: 70px;
+}
+.lc_priority_ticket i {
+    font-weight: 600;
+}
+.lc_ticket_message {
+    clear: both;
+    margin-top: 50px;
+}
+.lc_ticket_header > div.lc_rate_button {
+    margin-right: 0;
+    margin-top: -4px;
+}
+.lc_ticket_header > div.lc_rate_button .btn-group{
+    display: flex;
+    display: -webkit-flex;
+}
+.lc_ticket_header > div.lc_rate_button .btn-group ul.dropdown-menu a {
+    border: none;
+    text-align: left;
+}
+
+
+
+
+.lc_ticket_wapper button.btn.btn-default.dropdown-toggle:before {
+    content: "\f107";
+    font-family: Fontawesome;
+}
+.lc_ticket_wapper button.btn.btn-default.dropdown-toggle {
+    border-left: 1px solid #ddd!important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+
+.lc_ticket_header > div {
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 24px;
+}
+.lc_ticket_message .lc_msg.is_customer {
+    float: none;
+    width: calc(100% - 146px);
+    width: -webkit-calc(100% - 146px);
+    border-radius: 0;
+    padding: 15px 20px;
+    margin-left: 73px;
+}
+.lc_ticket_footer {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.lc_ticket_footer a:hover,
+.bootstrap .lc_ticket_footer a:hover {
+    background: #d9d9d9;
+}
+.lc_ticket_detail .ticket-list-messages .lc_msg.is_employee .lc_sender {
+    left: 100%;
+}
+.ticket-list-messages .is_employee .lc_msg_time {
+    position: static;
+    margin-bottom: 0;
+    margin-top: 4px;
+    transform: none;
+    float: none;
+    font-size: 11px;
+    text-align: right;
+}
+.ticket-list-messages li.is_customer.lc_msg + li.is_employee.lc_msg {
+    margin-top: 30px;
+}
+.ticket-list-messages li.is_employee.lc_msg + li.is_customer.lc_msg {
+    margin-top: 30px;
+}
+.ticket-list-messages .lc_msg.is_employee {
+    border-radius: 0;
+    width: calc(100% - 146px);
+    width: -webkit-calc(100% - 146px);
+    margin-right: 70px;
+    padding: 15px 20px;
+    float: none;
+    margin-left: 73px;
+}
+.lc_ticket_message .is_customer .avata > img {
+    height: 60px;
+    transform: none!important;
+    width: 60px;
+    margin-left: 3px;
+}
+.lc_msg_content a {
+    padding: 0;
+    display: inline-block;
+    margin-top: 4px;
+}
+.lc_ticket_detail .is_customer .lc_sender .avata {
+    transform: none;
+    margin-left: 10px;
+    width: 60px;
+}
+.lc_ticket_detail .is_customer .lc_sender {
+    left: 100%;
+}
+.lc_ticket_detail .is_customer .lc_sender .avata::before {
+    border-color: transparent transparent transparent #e5fdff;
+    right: 100%;
+    left: auto;
+    top: 24px;
+    border-width: 9px;
+    margin-left: 5px;
+    margin-right: -8px;
+}
+.lc_ticket_detail .is_customer .lc_sender .avata::after {
+    border-color: transparent transparent transparent #9be3e8;
+    right: 100%;
+    left: auto;
+    margin-right: -10px;
+    border-width: 10px;
+    top: 23px;
+}
+.ticket-list-messages .is_employee .avata::after {
+    border-color: transparent #eeeeee transparent transparent;
+    left: 96%;
+    right: auto;
+    margin-left: -17px;
+    border-width: 10px;
+}
+.ticket-list-messages .is_employee .avata::before {
+    border-color: transparent #fbfbfb transparent transparent;
+    left: 100%;
+    right: auto;
+    margin-left: -16px;
+    border-width: 8px;
+}
+.ticket-list-messages .is_employee .avata {
+    right: 100%;
+    left: auto;
+    margin-left: 0;
+    width: 70px;
+    margin-top: -20px;
+    padding-right: 10px;
+    min-height: 60px;
+}
+.lc_ticket_footer a,
+.bootstrap .lc_ticket_footer a {
+    background: #dfdfdf;
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+}
+.lc_ticket_message .is_employee .avata::after {
+    top: 23px;
+}
+.lc_ticket_message .is_employee .avata::before {
+    top: 25px;
+}
+.ticket-list-messages .is_employee .avata > img {
+    top: 0;
+    transform: none;
+    width: 60px;
+    height: 60px;
+    margin-left: -3px;
+}
+.lc_rate_ticket .star {
+    color: #fdd503;
+    margin-right: 0;
+}
+label.employee[for="id_employee_ticket"] {
+    width: 100%;
+}
+
+.lc_note_message textarea#ticket_note {
+    width: 100%;
+    border: 1px solid #ddd;
+    min-height: 200px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.lc_status_ticket {
+    color: #fdc107;
+}
+.lc_status_ticket strong {
+    color: #555!important;
+}
+.lc_ticket_detail .ticket-list-messages .lc_sender {
+    margin-bottom: 0px;
+}
+.bootstrap.panel {
+    margin-top: 30px;
+}
+.lc_ticket_wapper .lc_ticket_header {
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+    display: block;
+    margin-bottom: 25px;
+}
+.lc_ticket_wapper .lc_rate_ticket .star_content {
+    white-space: nowrap;
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+}
+
+
+section#content.ets_livechat_form footer.form-footer {
+    clear: both;
+    padding-top: 30px;
+}
+.ets_livechat_form .panel-heading {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.ets_livechat_form .form-group {
+    text-align: left;
+    clear: both;
+}
+.ets_livechat_form .select_arrow {
+    border-left: 1px solid #ccc;
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    width: 40px;
+    font-weight: normal;
+}
+.ets_livechat_form textarea {
+    min-height: 150px;
+}
+.ets_livechat_form select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.ets_livechat_form .select_arrow::before {
+    border-bottom: 2px solid #999;
+    border-left: 2px solid #999;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    left: 13px;
+    position: absolute;
+    top: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 12px;
+}
+ul.ticket-list-messages {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ybc-form-group{
+    display: none;
+}
+.form-group.ticket-form-field {
+  border: 1px solid #ccc;
+  display: block;
+}
+.ybc-form-group.active{
+    display: block;
+}
+
+.ets_lv_tab-status .panel > .form-wrapper,
+.ets_lv_tab-auto_reply .panel > .form-wrapper,
+.ets_lv_tab-pre_made_message .panel > .form-wrapper,
+.ets_lv_tab-staffs .panel > .form-wrapper,
+.ets_lv_tab-departments .panel > .form-wrapper,
+.ets_lv_tab-ticket_system .lc_system_ticket,
+.ets_lv_tab-ticket_system .lc_block_form_new_ticket{
+    background-color: #fff;
+}
+.ets_lv_tab-status .confi_tab_right .confi_tab.active,
+.ets_lv_tab-auto_reply .confi_tab_right .confi_tab.active,
+.ets_lv_tab-pre_made_message .confi_tab_right .confi_tab.active,
+.ets_lv_tab-staffs .confi_tab_right .confi_tab.active,
+.ets_lv_tab-departments .confi_tab_right .confi_tab.active,
+.ets_lv_tab-ticket_system .confi_tab_right .confi_tab.active{
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.panel {
+  position: relative;
+}
+.lc_menu_top li {
+    display: inline-block;
+    position: relative;
+}
+.lc_menu_top li:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #3cdbbb;
+    background-color: #f3fffd;
+}
+.lc_menu_top li.active a,
+.lc_menu_top li:hover a {
+    color: #333!important;
+}
+.lc_menu_top li.active:before{
+    width: 100%;
+    transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+}
+.lc_menu_top li a {
+    color: #999!important;
+    padding: 16px 20px;
+    display: block;
+    position: relative;
+    font-size: 14px;
+    vertical-align: middle;
+    text-decoration: none!important;
+    line-height: 1;
+}
+.lc_menu_top li a i {
+    vertical-align: middle;
+    margin-right: 6px;
+    height: 16px;
+    line-height: 16px;
+}
+button#cancel_auto_reply {
+    float: left;
+}
+form#module_form {
+    margin-bottom: 50px;
+}
+ul.lc_menu_top {
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    display: -webkit-flex;
+    margin-left: -15px;
+    color: #fff;
+    border-top: 1px solid #eee;
+    margin-right: -10px;
+    position: fixed;
+    width: 100%;
+    top: 135px;
+    z-index: 100;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 4px 0px #ddd;
+    -webkit-box-shadow: 0 2px 4px 0px #ddd;
+}
+.lc_rate_button a.btn.btn-default {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: auto!important;
+}
+
+.ticket-wrapper {
+    border: 1px solid #eee;
+    display: block;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-bottom: 15px;
+}
+.lc_ticket_system_form .panel-heading {
+    margin: 0!important;
+    height: 41px!important;
+    line-height: 40px!important;
+    font-family: Ubuntu Condensed,Helvetica,Arial,sans-serif;
+    padding: 0 20px!important;
+    font-size: 14px!important;
+}
+.ticket-wrapper .form-group.ticket-form-field > div.field-toggle {
+    position: absolute;
+    font-size: 0;
+    right: 0;
+    width: 40px;
+    cursor: pointer;
+    height: 41px;
+    border-left: 1px solid #eee;
+    top: 0;
+}
+.ticket-wrapper .form-group.ticket-form-field > div {
+    padding: 10px;
+    height: 41px;
+    line-height: 22px;
+    position: relative;
+}
+.ticket-form-field .position_field:after {
+    content: "";
+    background-color: #00aff0!important;
+    left: 5px;
+    right: 6px;
+    bottom: 8px;
+    position: absolute;
+    border-radius: 3px;
+    top: 7px;
+    opacity: 0;
+}
+.ticket-wrapper .form-group.ticket-form-field > div.position_field:hover:after {
+    opacity: 1;
+}
+.ticket-wrapper .form-group.ticket-form-field > div.position_field:hover .position:before {
+    color: #fff;
+    font-weight: normal!important;
+}
+.ticket_form.form-group {
+    display: flex;
+    display: -webkit-flex;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    position: relative;
+}
+.lc-list-ticket-form {
+    margin-bottom: 20px;
+}
+.ticket_form.form-group > div:last-child {
+    text-align: right;
+}
+.ticket_form.form-group > div {
+    padding: 5px;
+    line-height: 30px;
+        display: flex;
+    align-items: center;
+        display: -webkit-flex;
+    -webkit-align-items: center;
+}
+th.action_ticket {
+    text-align: right;
+    width: 60px;
+}
+.action_ticket i {
+    margin-right: 4px;
+}
+.action_ticket ul.dropdown-menu a {
+    border: none!important;
+    text-align: left;
+}
+.action_ticket ul.dropdown-menu a .icon.icon-cancel:before {
+    content: "\f00d";
+}
+.action_ticket ul.dropdown-menu a .icon-close:before {
+    content: "\f00c";
+}
+.action_ticket ul.dropdown-menu a i {
+    margin-right: 4px;
+}
+.action_ticket button.dropdown-toggle {
+    border-left: 1px solid #ddd!important;
+}
+.lc_tickets thead, .lc_tickets thead th {
+    font-weight: 600!important;
+    color: #333!important;
+}
+.action_ticket button.dropdown-toggle:before {
+    content: "\f107";
+    font-family: Fontawesome;
+}
+.action_ticket .btn-group {
+    display: flex;
+    display: -webkit-flex;
+}
+
+div#ticket_form_0,
+#pre_made_message_0 {
+    border-bottom: 1px solid #a0d0eb;
+    font-weight: bold;
+    font-size: 13px;
+}
+.ticket-wrapper .form-group.ticket-form-field {
+    border: 1px solid #eee;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    position: relative;
+    background-color: rgba(50,50,50,0.035);
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+span.add_new_field_in_form:before {
+    content: "+";
+    background-color: #fff;
+    color: #00aff0;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: -1px;
+    line-height: 13px;
+    margin-right: 6px;
+    font-weight: 600;
+    font-size: 16px;
+}
+span.add_new_field_in_form {
+    background-color: #00aff0;
+    color: #fff;
+    padding: 7px 15px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.15);
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 rgba(100,100,100,0.15) inset;
+    -webkit-box-shadow: 0 0 5px 0 rgba(100,100,100,0.15) inset;
+    margin-bottom: 15px;
+}
+span.add_new_field_in_form:hover {
+    background-color: #039dd6;
+}
+button.btn.btn-default[name="transfer_ticket"] {
+    background-color: #00aff0;
+    color: #fff;
+    border-color: #00aff0;
+}
+span.add_new_field_in_for:hover{
+    background: #019cd6;
+}
+.ticket-wrapper .form-group.ticket-form-field > div.position_field span {
+    cursor: move;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    height: 20px;
+    z-index: 1;
+    width: 40px;
+    line-height: 19px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    color: #aaa;
+    text-align: center;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+    border-radius: 3px;
+    text-shadow: #fff 1px 1px;
+    display: inline-block;
+    background-color: #eee;
+    margin-left: 20px;
+}
+.ticket-wrapper .form-group.ticket-form-field > div.position_field span:before {
+    content: "\F047";
+    position: absolute;
+    right: 100%;
+    font-family: Fontawesome;
+    color: #666;
+    margin-right: 7px;
+}
+.field-toggle.show_filed:before {
+    transform: rotate(-225deg)!important;
+    -webkit-transform: rotate(-225deg)!important;
+    margin-top: -4px!important;
+}
+.ticket-wrapper .form-group.ticket-form-field > div.field-toggle:before {
+    border-left: 1px solid #999;
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-bottom: 1px solid #999;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 50%;
+    top: 50%;
+    margin-left: -7px;
+    margin-top: -8px;
+}
+.confi_tab_right .confi_tab {
+    display: inline-block!important;
+    float: left;
+    white-space: nowrap;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    height: 40px;
+    border: 1px solid #eee;
+    margin-left: -1px;
+    color: #999;
+        padding: 6px 15px;
+    font-weight: 600;
+    border-top: 2px solid transparent;
+}
+#staff_1.lc_staff_list.form-group > div {
+    border-top: none;
+}
+.confi_tab_right .confi_tab:before{
+    display: none;
+}
+ul.confi_tab_right {
+    float: right;
+    display: flex;
+    display: -webkit-flex;
+    width: auto;
+    height: 0;
+}
+.confi_tab_right .confi_tab:last-child {
+    border-right: none;
+}
+#content.bootstrap #module_form > .panel,
+.lc_ticket_system_form {
+    padding: 0;
+    border: 1px solid #eee;
+        background-color: #fff;
+    border-radius: 5px;
+}
+.lc_ticket_system_form {
+    display: none;
+    padding: 0px;
+}
+.bootstrap .panel .panel-footer {
+    margin-top: 0;
+}
+.lc_block_form_new_ticket h1:before {
+    content: "\f08d";
+    font-family: Fontawesome;
+    margin-right: 7px;
+}
+.lc_block_form_new_ticket h1 {
+    margin-top: 0;
+    height: 41px;
+    border-bottom: 1px solid #eee;
+    padding: 2px 20px;
+    font-size: 16px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.lc_system_ticket {
+    padding: 10px 20px 30px;
+    position: relative;
+}
+.lc_block_form_new_ticket .panel {
+    padding: 0!important;
+    border: none!important;
+    clear: both;
+    box-shadow: none;
+}
+.ticket-wrapper .form-group.ticket-form-field > div.filed-body {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #eee;
+    padding-top: 25px;
+    background-color: #fff;
+}
+.lc_ticket_captcha input#field_captcha {
+    display: inline-block;
+    width: 90px;
+}
+#bulk_action_ticket {
+    display: inline-block;
+    width: auto;
+}
+.lc_ticket_captcha span.lc_ticket_captcha_refesh:before {
+    content: "\f00d";
+    font-size: 16px;
+    font-family: Fontawesome;
+    margin: 0 5px;
+}
+
+.lc_ticket_captcha span.lc_ticket_captcha_refesh {
+    font-size: 0;
+    position: relative;
+}
+
+.lc_ticket_captcha img.lc_ticket_captcha_img {
+    vertical-align: top;
+}
+.ticket-wrapper .form-group.ticket-form-field:hover .delete-form-field.lc_delete {
+    opacity: 1;
+}
+.delete-form-field.lc_delete:before {
+    content: "\f014";
+    font-family: Fontawesome;
+    margin-right: 4px;
+}
+.ticket-wrapper .form-group.ticket-form-field > div.delete-form-field.lc_delete {
+    position: absolute;
+    top: 0;
+    transition: all 0.3s;
+    opacity: 0;
+    color: #999;
+    right: 40px;
+    cursor: pointer;
+}
+.lc_block_form_new_ticket .panel > .form-wrapper {
+    border: none;
+    padding: 10px 30px;
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+}
+.lc_ticket_system_form .confi_tab_right .confi_tab{
+    transform: none;
+    -webkit-transform: none;
+    z-index: 1;
+    height: 41px;
+}
+.confi_tab_right .confi_tab.active {
+    border-top-color: #3cdbbb;
+    color: #000;
+    background: transparent;
+    font-weight: 600;
+}
+.lc_block_form_new_ticket .panel-heading {
+    margin-left: 0!important;
+    padding-left: 20px!important;
+}
+#content.bootstrap #module_form > .panel .panel-heading {
+    margin: 0;
+    padding: 4px 10px 4px;
+    height: auto;
+    margin-bottom: 0;
+}
+.lc_succesfully {
+  background: #2ecc71 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  left: 50%;
+  margin: 0;
+  opacity: 0.85;
+  padding: 10px 20px;
+  position: fixed;
+  text-transform: capitalize;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0px);
+  -o-transform: translate3d(-50%, -50%, 0px);
+  -webkit-transform: translate3d(-50%, -50%, 0px);
+  -ms-transform: translate3d(-50%, -50%, 0px);
+  z-index: 10000;
+}
+span.count_attachment {
+    line-height: 33px;
+}
+#ETS_LC_COMPANY_LOGO-images-thumbnails img {
+    margin-bottom: 5px;
+}
+
+.ybc-blog-tab-sosial + .lc_succesfully {
+    position: static;
+    display: inline-block;
+    margin-top: 10px;
+    transform: none;
+}
+
+#ETS_LC_TEXT_OFFLINE_THANKYOU_1,
+#ETS_LC_TEXT_OFFLINE_1,
+#ETS_LC_TEXT_DO_NOT_DISTURB_1,
+#ETS_LC_TEXT_INVISIBLE_1,
+#ETS_LC_TEXT_ONLINE_1
+{
+ min-height: 65px;   
+}
+
+button#cancel_departments {
+    float: none;
+}
+.ybc-form-group.ybc-blog-tab-help li::before {
+  content: "\f178";
+  font-family: FontAwesome;
+  margin-right: 7px;
+}
+.ybc-form-group.ybc-blog-tab-help li {
+  font-size: 13px;
+  line-height: 30px;
+  list-style: outside none none;
+}
+.lc_succesfully::before {
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  content: "";
+  display: inline-block;
+  float: left;
+  height: 12px;
+  margin-right: 14px;
+  transform: skewX(-40deg) rotate(-60deg);
+  -o-transform: skewX(-40deg) rotate(-60deg);
+  -ms-transform: skewX(-40deg) rotate(-60deg);
+  -webkit-transform: skewX(-40deg) rotate(-60deg);
+  width: 12px;
+}
+
+#module_form .panel::before {
+  background-color: rgba(255, 255, 255, 0.5);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transition: all 0.15s ease 0s;
+  -webkit-transition: all 0.15s ease 0s;
+  -moz-transition: all 0.15s ease 0s;
+  -ms-transition: all 0.15s ease 0s;
+  -o-transition: all 0.15s ease 0s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 10;
+}
+.lc_custom_loading_content .alert.alert-success {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  color: #00aff0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.lc_custom_loading_content .alert.alert-success::before {
+  color: inherit;
+  content: "\f00c";
+  display: inline;
+  font-family: fontawesome;
+  font-size: inherit;
+  margin-right: 5px;
+  position: static;
+}
+.lc_status_tab_title {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 0 -1px!important;
+  padding: 0;
+  float: left;
+}
+.lc_status_tab_title .statust_tab {
+  cursor: pointer;
+  float: left;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  position: relative;
+}
+.ybc-blog-tab-status .status-wrapper .status-left {
+  float: left;
+  padding: 30px 20px 20px;
+  width: calc(100% - 360px);
+  width: -o-calc(100% - 360px);
+  width: -ms-calc(100% - 360px);
+  width: -webkit-calc(100% - 360px);
+}
+.ybc-blog-tab-status .status-wrapper .status-right {
+  border-left: 1px solid #eee;
+  float: right;
+  padding: 30px;
+  width: 360px;
+}
+.ybc-blog-tab-status .status-left .color.mColorPickerInput.mColorPicker {
+  min-width: 100px;
+}
+.statust_tab > span {
+  color: #00aff0;
+  text-transform: uppercase;
+}
+.statust_tab.active > span {
+  color: #333;
+}
+.status-wrapper .block-chat-online .lc_chatbox_online {
+  max-width: 100%;
+}
+.lc_sound {
+  float: right;
+  font-size: 0;
+  cursor: pointer;
+}
+.lc_sound::before {
+  content: "\f1f7";
+  font-family: FontAwesome;
+  font-size: 12px;
+}
+.lc_sound.enable::before {
+  content: "\f0a2";
+}
+.ybc-blog-tab-status .status-wrapper {
+    border: 1px solid #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: left;
+    margin: 0;
+    background-color: #fff;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+.ybc-blog-tab-ticket_system .ticket-wrapper {
+  border-top: 1px solid #ddd;
+  float: left;
+  margin: 0;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+}
+.block_form_departments_list,
+.block_form_staff_list {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 20px 30px;
+    display: block;
+    margin-top: 20px;
+    border: 1px solid #eee;
+}
+.block_form_departments_list_header,
+.block_form_staffs_list_header {
+    display: block;
+    margin-left: -20px!important;
+    margin-right: -20px!important;
+    border-bottom: 1px solid #f7f7f7!important;
+    padding: 0 20px;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 20px!important;
+    margin-top: -20px;
+}
+.block_form_departments_list_header .tab_title_c,
+.block_form_staffs_list_header .tab_title_c{
+    display: block;
+    font-size: 14px;
+    font-family: Open sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 0;
+    text-align: left;
+    margin: 0;
+}
+.tab_title_c i {
+    margin-right: 7px;
+}
+.auto_reply.form-group > div,
+.pre_made_message.form-group > div {
+  padding: 10px;
+}
+#auto_reply_list .auto_reply.form-group,
+.pre_made_message.form-group {
+  margin-bottom: 0;
+}
+#auto_reply_list .auto_reply:last-child {
+    border-bottom: 1px solid #eee;
+} 
+.add_auto_message.form_auto_reply, .add_pre_made_message, .add_departments, .add_new_ticket_form {
+    background: #3cdbbb;
+    border: 1px solid #3cdbbb;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 10;
+    font-size: 0;
+    margin-bottom: 0;
+    height: 24px;
+    width: 24px;
+    margin-top: 0;
+    border-radius: 50%;
+    top: auto;
+    padding: 0;
+    bottom: 10px;
+    position: absolute;
+    right: 15px;
+}
+.add_auto_message::before, .add_pre_made_message::before, .add_departments::before, .add_new_ticket_form:before {
+        margin-right: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 0;
+    margin-left: -6px;
+    text-align: center;
+    width: 13px;
+    height: 1px;
+    background-color: #fff;
+    top: 50%;
+}
+.add_auto_message::after, .add_pre_made_message::after, .add_departments::after, .add_new_ticket_form:after {
+        margin-right: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 0;
+    margin-top: -6px;
+    text-align: center;
+    height: 13px;
+    width: 1px;
+    background-color: #fff;
+    top: 50%;
+}
+.lc_status_tab_title .statust_tab.active {
+    border: 1px solid #eee;
+    border-top-left-radius: 5px;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    z-index: 1;
+}
+.lc_status_tab_title .statust_tab.active::before {
+  background-color: #fff;
+  bottom: -1px;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.is_customer .avata.lc_avatar_square > img {
+  border-radius: 5px;
+}
+.is_employee .avata.lc_avatar_square > img {
+  border-radius: 5px;
+}
+#message_order {
+  width: 100px;
+}
+.page_display_chatbox select {
+  height: 250px;
+  min-height: 120px;
+}
+#module_form.disabled .img_loading_wrapper {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.bootstrap .ybc-blog-panel .table td.pointer {
+    cursor: default;
+}
+.icon-AdminYbcBlog:before{
+    content: "\f19a";
+}
+.ybc-panel h2{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.ybc-panel{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 8px 0;
+    width: 100%;
+}
+.preview_img img{
+    max-width: 200px;
+}
+.del_preview{
+    display: inline-block;
+    cursor: pointer;
+}
+
+li.confi_tab {
+    cursor: pointer;
+    display: inline-block;
+    list-style: outside none none;
+    padding: 10px 15px;
+    background-color: #fff;
+    line-height: 22px;
+    position: relative;
+    font-size: 13px;
+    color: #777;
+    width:100%;
+}
+li.confi_tab:before {
+  content: "";
+  height: 15px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+.blog_center_content ul {
+  border-bottom: 1px solid #eee;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: -16px;
+  margin-top: -10px;
+  padding: 0 20px 5px;
+  width: calc(100% + 32px);
+  width: -webkit-calc(100% + 32px);
+  width: -o-calc(100% + 32px);
+  width: -ms-calc(100% + 32px);
+  width: -moz-calc(100% + 32px);
+}
+
+.img_loading_wrapper {
+  background-color: rgba(255, 255, 255, 0.85);
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 10;
+}
+
+.panel button:active,
+.panel button:focus,
+.panel .btn:active, .panel .btn:focus,
+.panel a:active,
+.panel a:focus{
+    outline: none!important;
+    -webkit-outline: none!important;
+    -moz-outline: none!important;
+    -ms-outline: none!important;
+    -o-outline: none!important;
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -ms-box-shadow: none!important;
+    -o-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    background: #fff;
+}
+#block_form_auto_reply {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+}
+#block_form_pre_made_message {
+  display: block;
+  margin: 0 auto;
+}
+#block_form_auto_reply .form-group {
+  text-align: left;
+}
+#block_form_pre_made_message .form-group {
+  text-align: left;
+}
+.lc_form_hide{
+    display:none!important;
+}
+#ETS_BLACK_LIST_IP{
+    height:100px!important;
+  max-width: 520px;
+}
+#ETS_CLEAR_MESSAGE, .count_attachment, #ETS_CLEAR_ATTACHMENT {
+    min-width: 100%;
+    height: 34px;
+}
+.ticket_form .dragHandle .dragGroup,
+.form_departments .dragHandle .dragGroup {
+    width: 80px;
+    cursor: move;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    padding: 4px 4px 4px 20px;
+    height: 30px;
+    border-radius: 5px;
+}
+.ticket_form .dragHandle .dragGroup:before,
+.form_departments .dragHandle .dragGroup:before {
+    display: block;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    content: "\F047";
+    font-family: Fontawesome;
+}
+.ticket_form .dragHandle .dragGroup:hover,
+.form_departments .dragHandle .dragGroup:hover {
+    background: #2eacce;
+}
+.ticket_form .dragHandle .dragGroup:hover:before,
+.form_departments .dragHandle .dragGroup:hover:before {
+    color: #fff;
+}
+.ticket_form .dragHandle .dragGroup .position,
+.form_departments .dragHandle .dragGroup .position {
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    padding: 0 5px;
+    color: #aaa;
+    width: 43px;
+    line-height: 20px;
+    vertical-align: top;
+    text-shadow: #fff 1px 1px;
+    border-radius: 3px;
+    -webkit-box-shadow: rgba(0,0,0,.2) 0 1px 3px inset;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+}
+.ticket_form .dragHandle .dragGroup:before,
+.form_departments .dragHandle .dragGroup:before {
+    line-height: 20px;
+}
+.panel > ul .confi_tab {
+  border-bottom: 1px solid #eee;
+  display: block;
+}
+.panel > ul.confi_tab_left .confi_tab:last-child {
+    margin-bottom: -1px;
+}
+.lighhight_hook {
+    display: inline-block;
+    color: #c7254e !important;
+    background: #f9f2f4 none repeat scroll 0 0 !important;
+    margin-right: 6px;
+    margin-left: 4px;
+}
+.panel > ul {
+    border-left: none;
+    border-right: 1px solid #eee;
+    border-top: none;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+.lc_tickets table.table .no-reaed,
+.lc_tickets table.table .no-read,
+.lc_tickets table.table .no-readed {
+    font-weight: 600;
+    color: #333;
+}
+.lc_rate_ticket .fa.fa-star-o {
+    color: #fdd503;
+    display: inline-block;
+    width: 12px;
+}
+.lc_tickets table.table tr:not(.no-reaed) td {
+    color: #999;
+}
+.bootstrap .btn-default {
+    outline: none!important;
+}
+.fa.fa-star-o.fa-star:before{
+    content: "\f005";
+}
+.lc_tickets .links {
+    float: right;
+    margin-top: 20px;
+}
+.lc_tickets #bulk_action_ticket {
+    margin-top: 15px;
+}
+.panel > .form-wrapper {
+  border: none;
+  display: inline-block;
+  margin-left: -1px;
+  padding: 20px 20px 23px;
+  width: calc(100% - 200px);
+  width: -o-calc(100% - 200px);
+  width: -ms-calc(100% - 200px);
+  width: -webkit-calc(100% - 200px);
+  vertical-align: top;
+  border-left: 1px solid #eee;
+}
+.chatbox_demo_backend .lc_customer_info_form .form-control {
+    color: #bbb;
+    font-size: 12px;
+    padding: 0 5px;
+}
+li.confi_tab.config_tab_ticket_system:before {
+    content: "\f08d";
+    font-family: Fontawesome;
+    margin-right: 7px;
+}
+.panel > .form-wrapper.full{
+    width:100%;
+    min-height: unset;
+}
+.confi_tab_left.lc_hide {
+  display: none;
+}
+ul.confi_tab_right {
+    float: right;
+    display: flex;
+    display: -webkit-flex;
+    width: auto;
+    height: 0;
+}
+.ybc-blog-tab-statistics .panel.statics_form {
+    padding: 0!important;
+    border: none!important;
+}
+.panel.statics_form .form-wrapper {
+    width: 100%;
+    min-height: unset;
+        border: none!important;
+}
+th.id_ticket {
+    width: 35px;
+}
+.panel.statics_form {
+    border-bottom: none!important;
+    box-shadow: none;
+}
+.actions a.btn.btn-warning:active,
+.actions a.btn.btn-warning:focus {
+    background-color: #e6a304;
+}
+.confi_tab_right li.confi_tab::before {
+  display: none!important;
+}
+li.confi_tab.active {
+    background-color: #3cdbbb;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.lc_ticket_detail .form_upfile {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    display: flex;
+    display: -webkit-flex;
+    white-space: nowrap;
+}
+.lc_ticket_detail .form_upfile:before{
+    display: none;
+}
+.lc_ticket_detail .form_upfile input[type="file"] {
+    opacity: 1;
+}
+.lc_ticket_detail .form_upfile label {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* front end */
+.chatbox_demo_backend.lc_chatbox {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: Open Sans;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+.chatbox_demo_backend .lc_text_area_demo.no_display_emotion.start_chating textarea {
+  margin-left: 0;
+}
+.ybc-blog-tab-status .status-right .status.lc_online {
+  margin: 0;
+}
+.is_customer .avata.lc_avatar_square > img {
+  border-radius: 5px;
+}
+.is_employee .avata.lc_avatar_square > img {
+  border-radius: 5px;
+}
+.lc_chatbox_closed .lc_error_start_chat {
+  display: none!important;
+}
+.lc_chatbox.lc_chatbox_maximize:not(.lc_chatbox_closed) {
+  height: 100%!important;
+  width: 100%!important;
+  right: 0;
+}
+.lc_company_logo.lc_avatar_square img {
+  border-radius: 0;
+}
+.lc_company_logo.lc_avatar_square {
+  border-radius: 5px;
+}
+.lc_chatbox_maximize .start_chating .lc_send_box {
+  min-width: 160px;
+  width: auto!important;
+}
+.lc_heading{
+    color: #fff;
+}
+.chatbox_demo_backend .lc_customer_info input, .chatbox_demo_backend .lc_customer_info input:focus,
+.chatbox_demo_backend .lc_customer_info textarea, .chatbox_demo_backend .lc_customer_info textarea:focus {
+  background: transparent none repeat scroll 0 0;
+  border-color: #dddddd;
+}
+.chatbox_demo_backend.lc_chatbox textarea::-webkit-input-placeholder,
+.chatbox_demo_backend.lc_chatbox input::-webkit-input-placeholder {
+  color: #333333; 
+  opacity: 0.34;
+}
+.chatbox_demo_backend.lc_chatbox textarea::-moz-placeholder,
+.chatbox_demo_backend.lc_chatbox input::-moz-placeholder {
+  color: #333333;
+  opacity: 0.34; 
+}
+.chatbox_demo_backend.lc_chatbox textarea:-moz-placeholder,
+.chatbox_demo_backend.lc_chatbox input:-moz-placeholder {
+  color: #333333; 
+  opacity: 0.34;
+}
+.chatbox_demo_backend.lc_chatbox textarea:-ms-input-placeholder,
+.chatbox_demo_backend.lc_chatbox input:-ms-input-placeholder {
+  color: #333333; 
+  opacity: 0.34;
+}
+.tab_content_customer::-webkit-scrollbar,
+.lc_messages::-webkit-scrollbar {
+    width: 6px;
+    height: 4px;
+}
+.lc_chatbox.lc_chatbox_maximize {
+  border: medium none;
+}
+.lc_chatbox_maximize .lc_customer_info_form .lc_update_info {
+  width: auto;
+}
+
+
+.tab_content_customer::-webkit-scrollbar-track-piece,
+.lc_messages::-webkit-scrollbar-track-piece  {
+    background-color: #f1f1f1;
+}
+
+.tab_content_customer::-webkit-scrollbar-thumb:vertical,
+.lc_messages::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 15px;
+}
+.lc_customer_info_form {
+  border-bottom: medium none;
+  height: 100%;
+  padding: 0 20px;
+}
+.lc_customer_info_form .form-control {
+  background-color: #fff;
+  border-color: #dddddd;
+  border-radius: 5px;
+  color: #878787;
+  font-size: 13px;
+  height: 36px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+.lc_text_area_demo.no_display_emotion.show_send_box > textarea {
+  margin-left: 10px;
+  width: calc(100% - 70px);
+  width: -o-calc(100% - 70px);
+  width: -ms-calc(100% - 70px);
+  width: -webkit-calc(100% - 70px);
+}
+.lc_text_area_demo.no_display_emotion:not(.show_send_box) > .form-control {
+  margin-left: 10px;
+  width: calc(100% - 20px);
+  width: -o-calc(100% - 20px);
+  width: -ms-calc(100% - 20px);
+  width: -moz-calc(100% - 20px);
+  width: -webkit-calc(100% - 20px);
+}
+.delivered_employee > span:before,
+.delivered_employee.show > span:before,
+span.delivered_employee.show:before {
+  content: "\f08e";
+}
+.seen_employee.show > span::before,
+span.seen_employee.show::before,
+.seen_employee > span::before {
+  content: "\f06e";
+}
+.lc_customer_info_form label {
+  color: #666;
+  margin-bottom: 3px;
+}
+.chatbox_demo_backend .lc_text_area_demo.start_chating {
+  background-color: transparent;
+  border-top: medium none;
+  padding: 0px 20px 10px;
+}
+.lc_text_area_demo.start_chating > .form-control {
+  margin: 0 0 10px;
+  min-height: 60px;
+  min-width: 100%;
+  width: 100%;
+}
+.start_chating .lc_emotion {
+  display: none;
+}
+.start_chating.lc_text_area_demo .lc_send_box {
+  bottom: auto;
+  left: 0;
+  margin: auto;
+  position: relative;
+  right: 0;
+  top: auto;
+  width: 100%;
+}
+.criterions_livechat .star:hover > span {
+  opacity: 1;
+  visibility: visible;
+}
+.chatbox_demo_backend .company-name {
+  display: inline-block;
+  position: relative;
+}
+.chatbox_demo_backend .company-name:hover .lc_tooltip{
+    opacity: 1;
+    visibility: visible;
+}
+.chatbox_demo_backend .lc_tooltip {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  bottom: 100%;
+  color: #fff;
+  font-size: 10px;
+  left: 50%;
+  margin-bottom: 5px;
+  opacity: 0;
+  padding: 2px 7px;
+  position: absolute;
+  transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  visibility: hidden;
+  white-space: nowrap;
+}
+.chatbox_demo_backend .lc_tooltip::before {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgba(0, 0, 0, 0.8);
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+.employee_end {
+  clear: both;
+  color: #999;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 5px;
+  padding: 0 71px;
+}
+.customer_end {
+  clear: both;
+  color: #999;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 71px;
+}
+.lc_text_area_demo.start_chating .lc_send_box .lc_send {
+  font-size: 13px;
+  padding: 10px 20px;
+}
+a{
+    outline: none!important;
+}
+.lc-tab-help h3 {
+    width: calc(100% + 60px);
+    width: -webkit-calc(100% + 60px);
+    margin-left: -30px!important;
+    padding: 10px 30px!important;
+    height: auto!important;
+    margin-top: -30px!important;
+    margin-bottom: 30px!important;
+    font-weight: 600;
+    margin-right: -30px!important;
+}
+.lc-tab-help h3 {
+    margin: 0 0 20px!important;
+    width: 100%;
+    padding: 5px 25px!important;
+    height: auto!important;
+    font-weight: 600;
+    text-shadow: none!important;
+    border-bottom: none!important;
+    border-top: none!important;
+    margin-bottom: 0px!important;
+    padding-top: 10px!important;
+    padding-left: 0!important;
+}
+.lc_menu_top a:focus, .lc_menu_top a:active, .lc_menu_top a:hover {
+    text-decoration: none!important;
+    outline: none!important;
+    box-shadow: none!important;
+}
+.lc-tab-help li {
+    line-height: 30px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.lc-tab-help h3:first-child {
+    border-top: none!important;
+}
+.lc-tab-help {
+    background-color: #fff;
+    margin-top: 20px;
+    clear: both;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 10px 30px 20px;
+}
+.lc-tab-help p {
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.lc-tab-help ul {
+    line-height: 30px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.lc_chatbox .no_rate_customer .contact {
+  float: left;
+}
+.start_chating.lc_text_area_demo .lc_send_box::before{
+    display: none;
+}
+.lc_customer_info_form .lc_update_info {
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 13px;
+  margin-bottom: 15px;
+  margin-top: 0;
+  width: 100%;
+}
+.lc_chatbox .contact::before {
+  content: "\f003";
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+.lc_chatbox .contact {
+  color: #999;
+  display: block;
+  float: right;
+  font-size: 13px;
+  margin-bottom: 0;
+  margin-top: 2px;
+  padding: 0 10px 0 10px;
+}
+.criterions_livechat .star {
+  display: inline-block;
+  float: left;
+  line-height: 16px;
+  margin-right: 3px;
+  position: relative;
+}
+.lc_emotion img {
+  cursor: pointer;
+  display: block;
+}
+.lc_emotion img:hover {
+  box-shadow: 0 0 3px 0 #999;
+  -o-box-shadow: 0 0 3px 0 #999;
+  -webkit-box-shadow: 0 0 3px 0 #999;
+}
+.chatbox_demo_backend .lc_heading > div {
+  max-width: calc(100% - 187px);
+  max-width: -o-calc(100% - 187px);
+  max-width: -ms-calc(100% - 187px);
+  max-width: -webkit-calc(100% - 187px);
+}
+.star > span {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  bottom: 100%;
+  color: #fff;
+  font-size: 10px;
+  left: 50%;
+  margin-bottom: 5px;
+  opacity: 0;
+  padding: 2px 7px;
+  position: absolute;
+  transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  visibility: hidden;
+}
+.star > span::before {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgba(0, 0, 0, 0.8);
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+.criterions_livechat .star::after {
+  display: none;
+}
+.chatbox_demo_backend .lc_captcha,
+.chatbox_demo_backend .lc_chatbox[data-id-conversation="0"] .lc_customer_info > .lc_update_info, 
+.chatbox_demo_backend .lc_chatbox_closed > form > div,.lc_customer_info.closed > div,
+.chatbox_demo_backend .lc_heading,.lc_thankyou,.lc_hide,.lc_display_thank .lc_messages,
+.chatbox_demo_backend .lc_display_thank .lc_text_area_demo,
+.chatbox_demo_backend .lc_display_thank .lc_introduction, .lc_introduction > div{
+    display: none;
+}
+
+.lc_bubble_alert.lc_chatbox_closed .lc_heading.lc_heading_do_not_disturb::before{
+    background-color: red;
+}
+.lc_bubble_alert.lc_chatbox_closed .lc_heading.lc_heading_invisible::before{
+    background-color: #666666;
+}
+.lc_bubble_alert.lc_chatbox_closed .lc_heading.lc_heading_offline::before{
+    background-color: #666666;
+}
+.lc_bubble_alert.lc_chatbox_closed .lc_heading.lc_heading_online::before{
+    background-color: #2ab400;
+}
+
+
+.lc_captcha.active,.lc_captcha.active input.lc_captcha_input,.lc_display_thank.lc_chatbox_open .lc_thankyou, .lc_admin_online .lc_heading_online, .lc_admin_offline .lc_heading_offline, .lc_admin_online .lc_online_text,.lc_admin_offline .lc_offline_text{
+    display: block;
+}
+.criterions_livechat .star > a:before {
+  content: "\f006";
+  color: #999999;
+    cursor: pointer;
+    float: left;
+    font-family: FontAwesome;
+    font-size: 14px;
+    line-height: 100%;
+    margin-top: 2px;
+}
+.criterions_livechat .star.star_hover > a:before,
+.criterions_livechat .star.star_on > a:before {
+  content: "\f005";
+  color: #f1ae00;
+}
+.criterions_livechat .star > a {
+  float: left;
+  font-size: 0;
+  line-height: 100%;
+  margin-bottom: 1px;
+  margin-top: 0;
+}
+.criterion_contact {
+  background: #f8f8f8 none repeat scroll 0 0;
+  border-top: 1px solid #e6e6e6;
+  float: left;
+  padding: 3px 0 5px;
+  width: 100%;
+}
+.criterions_livechat {
+  float: left;
+  margin-top: 2px;
+  padding: 0 10px;
+}
+.is_employee .avata > img {
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.is_employee .lc_sender, .is_employee .lc_sender span {
+  float: left;
+}
+
+.massage_more_loading {
+  color: #999;
+  font-size: 0;
+  text-align: center;
+}
+.more_load {
+  color: #2eacce;
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.show_send_box .lc_send_box {
+  display: inline-block;
+}
+
+.massage_more_loading::before {
+  color: #888;
+  content: "\f110";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  margin-top: 7px;
+  -webkit-animation: spiner_loading 3s infinite linear;
+    animation: spiner_loading 3s infinite linear;
+}
+@-webkit-keyframes spiner_loading {
+    from {
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        }
+} 
+
+@keyframes spiner_loading {
+    from {
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        }
+} 
+.lc_sound::before {
+  content: "\f1f7";
+  font-family: FontAwesome;
+  font-size: 12px;
+}
+.lc_sound.enable::before {
+  content: "\f0a2";
+}
+.is_employee .lc_sender > span {
+  display: none;
+  margin-right: 10px;
+}
+.lc_chatbox > form {
+  float: left;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.lc_chatbox .message_status li{
+    display:none;
+}
+.lc_chatbox .message_status li.show{
+    display:block;
+}
+.writing_employee,.senting_employee{
+    display:none;
+}
+.writing_employee.show,.senting_employee.show{
+    display:block;
+}
+.lc_close {
+  float: right;
+  font-size: 0;
+  height: 14px;
+  margin-right: 0px;
+  position: relative;
+  transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 14px;
+}
+.lc_close::after {
+  background-color: #fff;
+  content: "";
+  height: 3px;
+  left: 2px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.lc_close::before {
+  background-color: #fff;
+  content: "";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 2px;
+  width: 3px;
+}
+.lc_admin_do_not_disturb .lc_heading_do_not_disturb {
+  display: block;
+}
+.chatbox_demo_backend .lc_heading > div {
+  float: left;
+  font-size: 12px;
+  padding: 8px 0 0 10px;
+  text-transform: uppercase;
+  margin-left: 82px;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.lc_block_form_new_ticket form#form_ticket_form .panel {
+    background-color: #f8f8f8;
+}
+.chatbox_demo_backend textarea.form-control:focus {
+  background: transparent none repeat scroll 0 0;
+  border-color: #ddd;
+  box-shadow: none;
+  outline: medium none;
+}
+.chatbox_demo_backend .lc_company_logo.lc_avatar_square {
+  border-radius: 5px;
+}
+
+.chatbox_demo_backend.lc_chatbox_closed .lc_heading > div::before {
+  background-color: rgba(0, 0, 0, 0.1);
+  content: "\f086";
+  display: block;
+  float: left;
+  font-family: FontAwesome;
+  font-size: 20px;
+  height: 34px;
+  line-height: 34px;
+  margin-bottom: -7px;
+  margin-right: 10px;
+  margin-top: -7px;
+  padding: 0 15px;
+}
+.chatbox_demo_backend .lc_chatbox_closed .lc_heading > div {
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 14px;
+}
+.chatbox_demo_backend.lc_chatbox_closed.lc_chatbox {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  width: auto!important;
+}
+.chatbox_demo_backend.lc_chatbox_closed.lc_chatbox .lc_heading {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.lc_chatbox_closed.lc_chatbox .lc_heading > span {
+  display: none;
+}
+.chatbox_demo_backend .lc_heading {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  float: left;
+  padding: 0 5px 0 0;
+  width: 100%;
+}
+.chatbox_demo_backend .lc_msg.is_customer {
+  background: #e5fdff none repeat scroll 0 0;
+  border: 1px solid #9be3e8;
+  border-radius: 7px;
+  clear: both;
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  margin-right: 10px;
+  padding: 7px 13px 10px;
+  position: relative;
+  width: calc(100% - 140px);
+  width: -o-calc(100% - 140px);
+  width: -ms-calc(100% - 140px);
+  width: -webkit-calc(100% - 140px);
+  width: -moz-calc(100% - 140px);
+}
+.chatbox_demo_backend.lc_chatbox_maximize .lc_emotion > ul {
+  bottom: 100%;
+  left: 0;
+  margin-bottom: 11px;
+}
+.lc_chatbox_maximize .lc_emotion > ul::after {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #999;
+  border-bottom: 8px solid transparent;
+  bottom: auto;
+  left: 10px;
+  top: 100%;
+}
+.lc_chatbox_maximize .lc_emotion > ul::before {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #fff;
+  border-bottom: 7px solid transparent;
+  bottom: auto;
+  left: 10.5px;
+  top: 100%;
+}
+
+.lc_chart_recen_conversations .browser_name {
+    display: none!important;
+}
+
+.no_display_avata .has_name_customer .lc_sender > span,
+.no_display_avata .has_name_emplode .lc_sender > span {
+  display: block;
+}
+.no_display_avata.no_display_datetime .lc_msg.is_employee,
+.no_display_avata.no_display_datetime .lc_msg.is_customer {
+  margin: 0 20px 10px;
+  width: calc(100% - 40px);
+  width: -o-calc(100% - 40px);
+  width: -ms-calc(100% - 40px);
+  width: -webkit-calc(100% - 40px);
+  width: -moz-calc(100% - 40px);
+}
+.no_display_avata.no_display_datetime .show > span, 
+.no_display_avata.no_display_datetime .senting_employee, 
+.no_display_avata.no_display_datetime .writing_employee {
+  padding: 0 10px 0 20px;
+}
+.chatbox_demo_backend .lc_customer_info.closed {
+  height: auto;
+  padding: 0;
+}
+.chatbox_demo_backend .lc_customer_info {
+  background-color: #fff;
+  float: left;
+  padding-top: 10px;
+  width: 100%;
+  position: relative;
+}
+.chatbox_demo_backend .is_employee .avata::after {
+  border-color: transparent transparent transparent #eeeeee;
+  border-style: solid;
+  border-width: 6px;
+  content: "";
+  right: 96%;
+  position: absolute;
+  top: 14px;
+  left: auto;
+}
+.chatbox_demo_backend .is_employee .avata::before {
+  border-color: transparent transparent transparent #fbfbfb;
+  border-style: solid;
+  border-width: 5px;
+  content: "";
+  float: left;
+  height: 0;
+  right: 100%;
+  position: absolute;
+  top: 15px;
+  width: 0;
+  left: auto;
+  z-index: 1;
+}
+.lc_sender > span {
+  color: #333;
+  display: none;
+}
+.chatbox_demo_backend .lc_customer_info.open .lc_customer_info_toggle{
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  -o-transform: none;
+  -webkit-transform: none;
+}
+.company_info .title_class,
+.employee_info .title_class{
+    font-size: 0;
+}
+.lc_admin_offline .company_info .title_class::after,
+.lc_admin_invisible .employee_info .title_class:after{
+  background-color: #999;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  margin-left: 5px;
+  width: 8px;
+}
+.lc_admin_online .company_info .title_class::after {
+  background-color: #2ab400;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  margin-left: 5px;
+  width: 8px;
+}
+.lc_admin_invisible .company_info .title_class::after {
+  background-color: #999;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  margin-left: 5px;
+  width: 8px;
+}
+.lc_admin_do_not_disturb .company_info .title_class::after {
+  background-color: red;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  margin-left: 5px;
+  width: 8px;
+}
+.chatbox_demo_backend .lc_customer_info_toggle {
+  color: #666;
+  cursor: pointer;
+  font-size: 0;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+  position: absolute;
+  right: 2px;
+  text-align: center;
+  top: -40px;
+  transition: all 0.35s ease 0s;
+  width: auto;
+  z-index: 99;
+}
+.lc_customer_info_toggle::before {
+  content: "\f107";
+  font-family: FontAwesome;
+  font-size: 16px;
+}
+.lc_msg_content {
+  font-size: 13px;
+}
+
+.lc_msg_time {
+  color: #999;
+  float: left;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.lc_emotion li {
+  float: left;
+  height: 25px;
+  margin: 0 3px;
+  text-align: center;
+  width: 22px;
+}
+.lc_company_info {
+  padding: 0 10px;
+}
+.lc_company_info:not(.lc_hide) {
+  display: block;
+}
+.lc_company_info .sub_title {
+  color: #999;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.lc_chatbox_closed .lc_company_info {
+  display: none;
+}
+.chatbox_demo_backend .lc_company_info {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #dddddd;
+  clear: both;
+  font-size: 12px;
+  padding: 5px 10px 0;
+  position: relative;
+}
+.chatbox_demo_backend.lc_admin_offline .company-name > span::after {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  margin-left: 5px;
+  width: 8px;
+}
+.chatbox_demo_backend.lc_admin_online .company-name > span::after {
+  background-color: #2ab400;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  margin-left: 5px;
+  width: 8px;
+}
+.chatbox_demo_backend.lc_admin_invisible .company-name > span::after {
+  background-color: #999999;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  margin-left: 5px;
+  width: 8px;
+}
+.chatbox_demo_backend.lc_admin_do_not_disturb .company-name > span::after {
+  background-color: red;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  margin-left: 5px;
+  width: 8px;
+}
+.chatbox_demo_backend .company-name > span{
+    font-size: 0;
+}
+.lc_maximize:before {
+  content: "\f14c";
+  font-size: 14px;
+  font-family: FontAwesome;
+}
+.lc_minimize:before {
+  content: "\f103";
+  font-size: 18px;
+  font-family: FontAwesome;
+}
+.lc_minimize {
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-size: 0;
+  position: relative;
+  text-align: center;
+}
+.chatbox_demo_backend .lc_heading > span {
+  height: 0;
+  line-height: 100%;
+  padding: 18px 6px 17px;
+  width: 22px;
+  pointer-events: none;
+}
+.lc_introduction {
+  clear: both;
+  font-size: 13px;
+}
+.lc_company_logo img {
+  background-color: #ddd;
+  border-radius: 50%;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.lc_introduction:not(.lc_hide) + .lc_customer_info .lc_customer_info_toggle {
+  top: -85px;
+}
+.lc_text_area_demo.no_display_emotion.show_send_box.start_chating > textarea{
+    margin-left: 0;
+}
+.chatbox_demo_backend .lc_company_logo {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  height: 70px;
+  margin-left: 3px;
+  margin-right: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-top: -30px;
+  width: 70px;
+}
+.chatbox_demo_backend .lc_introduction .company-name {
+  color: #333;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 0;
+  padding-bottom: 6px;
+  padding-top: 8px;
+}
+.criterions > label {
+  display: inline-block;
+}
+.criterions {
+  float: left;
+  padding: 0 10px;
+  width: 100%;
+}
+.star_content {
+  display: inline-block;
+}
+.lc_introduction > div {
+  color: #333333;
+  line-height: 120%;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+.chatbox_demo_backend .lc_heading > div {
+  font-weight: 600;
+  line-height: 20px;
+  margin-left: 80px;
+}
+.lc_emotion {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  float: left;
+  font-size: 22px;
+  height: 40px;
+  line-height: 36px;
+  margin: 5px 0 0 10px;
+  padding: 0 5px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 40px;
+}
+.lc_emotion > ul::after {
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #999;
+  border-top: 8px solid transparent;
+  bottom: 35px;
+  content: "";
+  display: inline-block;
+  left: 100%;
+  position: absolute;
+}
+.lc_emotion > ul::before {
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid #fff;
+  border-top: 7px solid transparent;
+  bottom: 36px;
+  content: "";
+  display: inline-block;
+  left: 100%;
+  position: absolute;
+  top: auto;
+  width: 15px;
+  z-index: 1;
+}
+.lc_emotion::after {
+  bottom: 0;
+  content: "";
+  opacity: 0;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: 15px;
+  z-index: 1;
+}
+.lc_emotion > ul {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  bottom: -27px;
+  margin: 0 15px 0 0;
+  opacity: 0;
+  padding: 10px;
+  position: absolute;
+  right: 100%;
+  transition: all 0.35s ease 0s;
+  -o-transition: all 0.35s ease 0s;
+  -webkit-transition: all 0.35s ease 0s;
+  -ms-transition: all 0.35s ease 0s;
+  -ms-transition: all 0.35s ease 0s;
+  visibility: hidden;
+  width: 250px;
+}
+
+.lc_emotion::before {
+  content: "\f118";
+  font-family: FontAwesome;
+  text-align: center;
+  color: #999;
+  cursor: pointer;
+}
+.lc_emotion:hover:before {
+  color: orange;
+}
+.is_customer .avata > img {
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  height: 50px;
+  max-width: 100%;
+  width: 50px;
+}
+.is_customer .lc_sender .avata {
+  border-radius: 50%;
+  float: left;
+  height: 0;
+  margin-left: -10px;
+  margin-right: 20px;
+  position: absolute;
+  top: 0;
+  transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  width: 50px;
+}
+.is_customer .lc_sender .avata::after {
+  border-color: transparent #9be3e8 transparent transparent;
+  border-style: solid;
+  border-width: 6px;
+  content: "";
+  left: 96%;
+  position: absolute;
+  top: 14px;
+}
+.is_customer .lc_sender .avata::before {
+  border-color: transparent #e5fdff transparent transparent;
+  border-style: solid;
+  border-width: 5px;
+  content: "";
+  float: left;
+  height: 0;
+  left: 100%;
+  position: absolute;
+  top: 15px;
+  width: 0;
+  z-index: 1;
+}
+
+.lc_emotion > ul {
+  margin: 0 11px 0 0;
+}
+.lc_text_area_demo.show_send_box:not(.no_display_emotion) > .form-control {
+  width: calc(100% - 120px);
+  width: -o-calc(100% - 120px);
+  width: -ms-calc(100% - 120px);
+  width: -webkit-calc(100% - 120px);
+}
+.lc_text_area_demo > .form-control {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  display: block;
+  font-size: 13px;
+  height: 40px;
+  margin: 0 0 0 60px;
+  min-width: 100px;
+  outline: medium none;
+  padding: 5px 10px;
+  width: calc(100% - 70px);
+  width: -o-calc(100% - 70px);
+  width: -ms-calc(100% - 70px);
+  width: -webkit-calc(100% - 70px);
+}
+.criterions_livechat label {
+  color: #999;
+  float: left;
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+.lc_error {
+  float: left;
+  padding: 0 20px;
+  width: 100%;
+}
+.lc_error .module_error {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.lc_admin_do_not_disturb .lc_do_not_disturb_text,
+.lc_admin_invisible .lc_invisible_text {
+  display: block;
+}
+.message_status .show > span {
+  color: #bbb;
+  float: left;
+  font-size: 12px;
+  padding: 0 10px 0 70px;
+  text-align: left;
+}
+.show > span::before {
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+.writing_employee > span:after,
+.lc_msg_editing > span:after {
+  content: '.';
+}
+.writing_employee > span,
+.lc_msg_editing > span{
+    animation-name: dot_writting;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+.writing_employee > span:nth-child(2),
+.lc_msg_editing > span:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.writing_employee > span:nth-child(3),
+.lc_msg_editing > span:nth-child(3) {
+    animation-delay: .4s;
+}
+@keyframes dot_writting {
+    0% {
+      opacity: .2;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      opacity: .2;
+    }
+}
+@-webkit-keyframes dot_writting {
+    0% {
+      opacity: .2;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      opacity: .2;
+    }
+}
+.senting_employee,
+.writing_employee {
+  color: #bbb;
+  float: left;
+  font-size: 12px;
+  padding: 0 10px 0 70px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.lc_admin_invisible .lc_heading_invisible{
+    display: block;
+}
+.lc_messages {
+  float: left;
+  height: 280px;
+  overflow: auto;
+  padding-top: 10px;
+  position: relative;
+  width: 100%;
+}
+.lc_msg_board {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.message_status {
+  clear: both;
+  display: block;
+  float: left;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.lc_messages_table {
+  display: table;
+  height: 100%;
+  table-layout: fixed;
+  width: 100%;
+}
+.lc_messages_table-cell {
+  display: table-cell;
+}
+.lc_text_area_demo {
+  background-color: #f8f8f8;
+  border-top: 1px solid #e6e6e6;
+  float: left;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.lc_send_box .lc_send {
+  background-color: transparent!important;
+  border: medium none;
+  box-shadow: none;
+  -o-box-shadow: none;
+  -webkit-box-shadow: none;
+  font-size: 10px;
+  height: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding: 17px 0 0;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+.lc_text_area_demo .lc_send_box:hover {
+  background-color: #2592a9;
+}
+.lc_send_box .lc_send:focus{
+    outline: none;
+    -webkit-outline: none;
+}
+.lc_chatbox *:focus,
+.lc_chatbox:focus,
+.lc_chatbox:hover{
+    outline: none;
+    -webkit-outline: none;
+}
+
+.customer_end::before {
+  /*content: "\f017";
+  font-family: FontAwesome;
+  margin-right: 2px;*/
+}
+.lc_text_area_demo.show_capcha:not(.start_chating) .lc_send_box {
+  top: 66px;
+}
+.lc_error .module_error ul {
+  margin: 0;
+}
+.lc_text_area_demo .lc_send_box {
+  background-color: #2fb5d2;
+  border-radius: 6px;
+  display: none;
+  font-size: 14px;
+  font-weight: normal;
+  height: 40px;
+  margin-left: 10px;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+}
+.show_send_box .lc_send_box {
+  display: inline-block;
+}
+.lc_send_box::before {
+  color: #fff;
+  content: "\f1d9";
+  font-family: FontAwesome;
+  height: 100%;
+  left: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.lc_thankyou > div {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.lc_thankyou {
+  clear: both;
+  padding: 10px 20px 10px;
+}
+.lc_thankyou .lc_send_another_msg {
+  font-size: 14px;
+}
+.lc_captcha_refesh {
+  color: #999;
+  font-size: 0;
+}
+.sent_employee span::before,
+span.sent_employee::before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  font-size: 12px;
+}
+.chatbox_demo_backend .lc_captcha.active {
+  border-bottom: 1px solid #e6e6e6;
+  float: left;
+  margin-bottom: 10px;
+  padding: 0 10px 10px;
+  width: 100%;
+}
+.display_company_info .employee_info,
+.lc_company_info:not(.display_company_info) .company_info {
+  display: none;
+}
+.lc_company_info:not(.display_company_info) .employee_info.company_info {
+  display: block;
+}
+
+#main li.confi_tab.config_tab_info::before {
+  background-color: transparent;
+  content: "\f2bd";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_im::before {
+  background-color: transparent;
+  content: "\f086";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_im::before {
+ /* float: left;
+  margin-right: 4px;*/
+}
+#main li.confi_tab.config_tab_info::before {
+  background-color: transparent;
+  content: "\f05a";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_privacy::before {
+  background-color: transparent;
+  content: "\f007";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_fields::before {
+  background-color: transparent;
+  content: "\f233";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_email::before {
+  background-color: transparent;
+  content: "\f0e0";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_security::before {
+  background-color: transparent;
+  content: "\f023";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_timing::before {
+  background-color: transparent;
+  content: "\f017";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_map::before {
+  background-color: transparent;
+  content: "\f041";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_display::before {
+  background-color: transparent;
+  content: "\f108";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_sound::before {
+  background-color: transparent;
+  content: "\f0f3";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_auto_reply::before {
+  background-color: transparent;
+  content: "\f122";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_sosial::before {
+  background-color: transparent;
+  content: "\f023";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+.lv_admin_filter_chart_settings{
+    display: flex;
+    display: -webkit-flex;
+}
+.lv_admin_filter_chart_settings > div {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-right: 20px;
+}
+.lv_admin_filter_chart_settings > div label {
+    margin-right: 8px;
+}
+
+#main li.confi_tab.config_tab_statistics::before {
+  background-color: transparent;
+  content: "\f201";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#departments_list > div >div {
+    margin-bottom: 0;
+    margin-left: 0;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-right: 0;
+}
+#departments_list > div > div .list-action {
+    line-height: 6px;
+}
+
+#main li.confi_tab.config_tab_departments::before {
+  background-color: transparent;
+  content: "\f0e8";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_pre_made_message::before {
+  background-color: transparent;
+  content: "\f016";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_back_list_ip::before {
+  background-color: transparent;
+  content: "\f00d";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_clearer::before {
+  background-color: transparent;
+  content: "\f014";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_help::before {
+  background-color: transparent;
+  content: "\f059";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-right: 4px;
+  vertical-align: -7px;
+  position: static;
+  width: 14px;
+}
+#main li.confi_tab.config_tab_status::before {
+  background-color: transparent;
+  border-image: none;
+  border-radius: 1px;
+  border-style: solid;
+  border-width: 3px 1px 1px;
+  content: "";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 12px;
+  height: 12px;
+  margin-right: 4px;
+  position: static;
+  vertical-align: -7px;
+  width: 12px;
+}
+.avata_staff img {
+    border: 1px solid #DDDDDD;
+    border-radius: 50% 50% 50% 50%;
+    height: 40px;
+    margin: 0;
+    width: 40px;
+}
+.bootstrap .panel .panel-footer {
+    margin-left: 0;
+    margin-right: 0;
+    clear: both;
+}
+.confi_tab_left li.confi_tab.active:after {
+    content: "";
+    border-left: 8px solid #3cdbbb;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -8px;
+}
+.staffs_button{
+    margin-top: 40px;
+}
+button#cancel_staff {
+    margin-right: 10px;
+}
+div#departments_0 > div,
+#departments_list > div > div {
+    padding: 10px;
+}
+#departments_list > div > div{
+    border-bottom: 1px solid #eee;
+}
+div#departments_0,
+#auto_reply_list > .auto_reply.form-group:first-child {
+    border-bottom: none;
+    margin: 0;
+}
+
+#pre_made_message_list > .pre_made_message:not(#pre_made_message_0),
+#auto_reply_list > .auto_reply:not(:last-child):not(:first-child) > div {
+  border-bottom: 1px solid #ddd;
+}
+.pre_made_message:first-child > div {
+  font-weight: bold;
+}
+#auto_reply_list .auto_reply > div,
+#pre_made_message_list .pre_made_message > div {
+  padding: 10px 5px;
+}
+#pre_made_message_list .pre_made_message,
+#auto_reply_list .auto_reply {
+  margin: 0 -5px;
+  display: flex;
+  display: -o-flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+}
+.add_auto_message.form_auto_reply:hover .tooltip_c, 
+.add_pre_made_message:hover .tooltip_c, 
+.add_new_ticket_form:hover .tooltip_c,
+.add_departments:hover .tooltip_c {
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: -12px;
+}
+span.tooltip_c:before {
+    content: "";
+    position: absolute;
+    border-left: 6px solid #3cdbbb;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    left: 100%;
+    top: 50%;
+    margin-top: -5px;
+}
+span.tooltip_c {
+    position: absolute;
+    bottom: 50%;
+    background-color: #3cdbbb;
+    font-size: 10px;
+    white-space: nowrap;
+    padding: 5px 7px;
+    border-radius: 3px;
+    right: 100%;
+    visibility: hidden;
+    transition: all 0.35s;
+    opacity: 0;
+    margin-right: 10px;
+    margin-bottom: -22px;
+}
+div#staff_0.lc_staff_list.form-group > div,
+#auto_reply_list #auto_reply_0.auto_reply > div,
+#pre_made_message_list .pre_made_message.form-group:first-child {
+    line-height: 22px;
+    border-bottom: 2px solid rgba(60, 219, 187, 0.5);
+    border-top: none;
+    font-weight: bold;
+    min-height: 34px;
+    font-size: 13px;
+}
+div#staff_0.lc_staff_list.form-group {
+    font-weight: bold;
+    line-height: 36px;
+}
+.lc_staff_list.form-group {
+    display: flex;
+    display: -webkit-flex;
+    margin-bottom: -1px;
+}
+div#departments_0 > div {
+    border-bottom: 2px solid rgba(60, 219, 187, 0.5);
+    border-top: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+li.confi_tab.config_tab_staffs:before {
+    content: "\f0c0";
+    font-size: 11px;
+    font-family: Fontawesome;
+    margin-right: 6px;
+    display: inline-block;
+    position: static;
+    float: none;
+    vertical-align: -7px;
+    width: auto;
+    background-color: transparent;
+}
+.lc_staff_list.form-group > div:last-child, .lc_staff_list.form-group > div:nth-child(2) {
+    text-align: center;
+}
+.lc_staff_list.form-group > div {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    line-height: 30px;
+    margin-right: -1px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    min-height: 50px;
+    padding-right: 10px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.lc_status_tab_wrapper {
+    float: left;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+#content.bootstrap #module_form .panel.statics_form .panel-heading {
+    border-bottom: none!important;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.chatbox_demo_backend .start_chating .lc_captcha.active {
+  border-bottom: medium none;
+  padding: 0;
+}
+.chatbox_demo_backend .lc_emotion.ena_captcha,
+.chatbox_demo_backend .show_capcha .lc_emotion {
+  top: 61px;
+}
+.chatbox_demo_backend .lc_captcha .lc_captcha_input.form-control {
+  background-color: #fff;
+  border-color: #dddddd;
+  border-radius: 5px;
+  float: left;
+  font-size: 13px;
+  height: 36px;
+  margin-right: 10px;
+  padding: 0 10px;
+  width: 135px;
+}
+.chatbox_demo_backend .lc_captcha_refesh::before {
+  content: "\f021";
+  font-family: FontAwesome;
+  font-size: 16px;
+}
+.chatbox_demo_backend .lc_captcha_refesh {
+  color: #999;
+  cursor: pointer;
+  font-size: 0;
+  margin-left: 5px;
+}
+.chatbox_demo_backend .lc_captcha_refesh:hover {
+  color: #2fb5d2;
+}
+.loaded .more_load, .loading .more_load{
+    display:none;
+}
+.chatbox_demo_backend.lc_chatbox .lc_heading_count_message_not_seen {
+  background: red none repeat scroll 0 0;
+  border-radius: 20px;
+  display: none;
+  font-size: 10px;
+  height: 18px;
+  line-height: 18px;
+  margin-left: 10px;
+  text-align: center;
+  width: 18px;
+  float: left;
+}
+.chatbox_demo_backend.lc_chatbox .lc_heading_count_message_not_seen.show{
+    display:inline-block;
+}
+.lc_bubble_alert.lc_chatbox_closed .lc_heading > div {
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0;
+  padding: 0;
+}
+.lc_bubble_alert.lc_chatbox_closed .lc_heading > div::before {
+  background: transparent none repeat scroll 0 0;
+  font-size: 30px;
+}
+.lc_bottom_alert_bar.lc_chatbox_closed.lc_chatbox .lc_heading > span.lc_heading_count_message_not_seen.show {
+  display: block;
+  left: 18px;
+  position: absolute;
+  top: 3px;
+}
+.lc_bubble_alert.lc_chatbox_closed {
+  border-radius: 50%;
+  bottom: 50%;
+  height: 60px!important;
+  right: 30px;
+  transform: translateY(50%);
+  -o-transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  width: 60px!important;
+}
+.lc_bubble_alert.lc_chatbox_closed .lc_heading::before {
+  background-color: #2ab400;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 14px;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  width: 14px;
+}
+.lc_bubble_alert.lc_chatbox_closed .lc_heading {
+  border-radius: 50%;
+  height: 100%;
+  line-height: 60px;
+  position: relative;
+  width: 100%;
+}
+.lc_bubble_alert.lc_chatbox_closed .lc_heading > div::before {
+  font-size: 26px;
+  height: 60px;
+  line-height: 58px;
+  margin-bottom: 0;
+  margin-top: -7px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+}
+.lc_bubble_alert.lc_chatbox_closed .lc_heading > .lc_heading_count_message_not_seen.show {
+  color: #fff;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+.lc_message_end_chat {
+  float: left;
+}
+.lc_chatbox.lc_bubble_alert {
+  transition: none 0s ease 0s ;
+  -webkit-transition: none 0s ease 0s ;
+  -o-transition: none 0s ease 0s ;
+}
+.is_customer .lc_msg_time {
+  font-size: 10px;
+  left: 100%;
+  line-height: 14px;
+  margin-left: 8px;
+  margin-top: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  white-space: nowrap;
+  width: 51px;
+}
+.lc_text_area_demo > .form-control:focus,
+.lc_text_area_demo > .form-control:active,
+.lc_text_area_demo > .form-control:hover{
+    color: #878787!important;
+}
+.lc_chatbox .form-control::-webkit-input-placeholder,
+.lc_customer_info_form input::-webkit-input-placeholder{
+    color: #333!important;
+    opacity: 0.4;
+}
+
+.lc_chatbox .form-control::-moz-placeholder,
+.lc_customer_info_form input::-moz-placeholder{
+    color: #333!important;
+    opacity: 0.4;
+}
+
+.lc_chatbox .form-control:-moz-placeholder,
+.lc_customer_info_form input:-moz-placeholder{
+    color: #333!important;
+    opacity: 0.4;
+}
+
+.lc_chatbox .form-control:-ms-input-placeholder,
+.lc_customer_info_form input:-ms-input-placeholder{
+    color: #333!important;
+    opacity: 0.4;
+}
+.lc_chatbox .form-control:focus, 
+.lc_chatbox .input-group.focus {
+  outline: medium none;
+  -webkit-outline: medium none;
+}
+.is_employee .lc_msg_time {
+  font-size: 10px;
+  line-height: 16px;
+  margin-right: 8px;
+  margin-top: 0;
+  position: absolute;
+  right: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  white-space: nowrap;
+}
+
+.no_display_avata .is_customer.has_name_customer.lc_msg, 
+.no_display_avata .is_employee.has_name_emplode.lc_msg {
+  margin-top: 20px;
+}
+.customer_delete_message:before {
+  content: "\f014";
+  font-size: 12px;
+  font-family: FontAwesome;
+  color: #999;
+}
+.customer_delete_message {
+  cursor: pointer;
+  float: right;
+  font-size: 0;
+}
+.customer_delete_message:hover:before {
+  color: #333
+}
+.lc_chatbox .contact:hover {
+  color: #2fb5d2;
+}
+.lc_text_area_demo .lc_captcha_img {
+  float: right;
+  height: 36px;
+}
+.lc_action_message {
+  line-height: 100%;
+  opacity: 0;
+  position: absolute;
+  right: 6px;
+  top: 2px;
+  transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  visibility: hidden;
+}
+.lc_msg:hover .lc_action_message {
+  opacity: 1;
+  visibility: visible;
+}
+.customer_edit_message,
+.lc_msg_editing {
+  color: #888;
+  cursor: pointer;
+  float: left;
+  font-size: 0;
+  margin: 0 7px 0 0;
+}
+.customer_edit_message::after,
+.lc_msg_editing:after {
+  content: "\f040";
+  font-family: FontAwesome;
+  font-size: 11px;
+}
+.lc_msg_editing::before {
+  content: "...";
+  float: left;
+  font-size: 11px;
+  margin-right: 2px;
+}
+.customer_edit_message:hover {
+  color: #333
+}
+.lc_msg_edited {
+  color: #999;
+  font-size: 10px;
+}
+.lc_error_start_chat {
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
+}
+.lc_error_start_chat .module_error {
+  border-radius: 5px;
+  margin: 0 20px 10px;
+  padding: 8px 15px;
+}
+.lc_chatbox_maximize .lc_maximize::before {
+  display: inline-block;
+  content: "\f066";
+}
+.lc_error_start_chat .module_error ul {
+  margin: 0;
+  padding: 0;
+}
+
+.lc_warning_error > p:last-child {
+  margin-bottom: 0;
+}
+.lc_warning_error {
+  background-color: rgba(255, 215, 45, 0.6);
+  border-radius: 5px;
+  margin: 0 20px 10px;
+  padding: 4px 15px;
+  display: none;
+}
+.lc_warning_error.show {
+  display: block;
+}
+.lc_loading_send {
+  background-color: #2fb5d2;
+  border-radius: 5px;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+.lc_loading_send.show {
+  opacity: 0.9;
+  display: block;
+}
+.lc_loading_send::before {
+  color: #fff;
+  content: "\f110";
+  font-family: FontAwesome;
+  left: 50%;
+  margin-left: -9px;
+  margin-top: -9px;
+  position: absolute;
+  top: 50%;
+  -webkit-animation: spiner_loading 3s infinite linear;
+    animation: spiner_loading 3s infinite linear;
+}
+body{
+    min-width: 700px;
+}
+
+
+
+
+
+/*------------------------------RTL------------------------------------*/
+
+.lc_chatbox.lc_chatbox_rtl {
+  left: 15px;
+  right: auto;
+}
+.lc_chatbox_rtl .lc_action_message {
+  left: 3px;
+  right: auto;
+}
+.lc_chatbox_rtl .lc_action_message .customer_delete_message {
+  float: left;
+  margin-right: 7px;
+}
+.chatbox_demo_backend .lc_text_area_demo .lc_captcha_img {
+  float: right;
+}
+.chatbox_demo_backend.lc_chatbox_rtl .lc_text_area_demo .lc_captcha_img {
+  float: left;
+}
+.no_display_compay_info:not(.lc_chatbox_closed) .lc_heading > div {
+  margin-left: 10px;
+  padding-left: 0;
+}
+.chatbox_demo_backend.lc_chatbox_rtl .lc_company_logo {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.chatbox_demo_backend.lc_chatbox_rtl .lc_company_info {
+  text-align: right;
+}
+.chatbox_demo_backend.lc_chatbox_rtl .lc_customer_info_toggle {
+  left: 2px;
+  right: auto;
+}
+.chatbox_demo_backend.lc_chatbox_rtl .close {
+  float: left;
+}
+.chatbox_demo_backend.lc_chatbox_rtl .lc_heading > div {
+  float: right;
+  margin-left: 0;
+  margin-right: 81px;
+  padding: 0 10px 0 0;
+}
+.lc_chatbox_rtl .chatbox_demo_backend .lc_maximize {
+  float: left;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.lc_chatbox_rtl .chatbox_demo_backend .lc_minimize {
+  float: left;
+  margin-left: 6px;
+  margin-right: 0;
+}
+.lc_chatbox_rtl .chatbox_demo_backend .lc_sound {
+  float: left;
+  margin-left: 7px;
+  margin-right: 0;
+}
+.lc_chatbox_rtl .chatbox_demo_backend .lc_text_area_demo .lc_send_box {
+  left: 10px;
+  margin-left: 0;
+  margin-right: 10px;
+  right: auto;
+}
+.lc_chatbox_rtl .lc_text_area_demo > .form-control {
+  margin: 0 60px 0 0;
+}
+.lc_chatbox_rtl .lc_emotion {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.lc_chatbox_rtl .criterions_livechat .star {
+  float: right;
+}
+.lc_chatbox_rtl .criterions_livechat label {
+  float: right;
+  margin-left: 5px;
+  margin-right: 0;
+}
+.lc_chatbox_rtl .criterions_livechat {
+  float: right;
+}
+.form_ltr .ybc-blog-tab-status .status-wrapper .status-left {
+  float: right;
+}
+.form_ltr .ybc-blog-tab-status .status-wrapper .status-right {
+  border-left: medium none;
+  border-right: 1px solid #ddd;
+}
+.form_ltr .panel > ul {
+  float: right;
+}
+.form_ltr .panel > .form-wrapper {
+  margin-left: 0;
+  margin-right: -1px;
+}
+.form_ltr .lc_status_tab_title {
+  float: right;
+}
+.lc_text_area_demo .lc_send_box .btn.btn-primary {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  box-shadow: none;
+  height: 40px;
+  width: 100%;
+}
+.form_ltr .lc_status_tab_title .statust_tab {
+  float: right;
+}
+.form_ltr .confi_tab::before {
+  margin-left: 4px;
+  margin-right: 0!important;
+}
+.lc_chatbox_rtl.lc_chatbox .contact {
+  float: left;
+}
+.form_ltr .chatbox_demo_backend.lc_admin_online .company_info .title_class::after{
+    margin-right: 5px
+}
+.ybc-blog-tab-departments label {
+    font-weight: normal;
+}
+.lc_chatbox_rtl .is_customer .lc_sender {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.lc_chatbox_rtl .is_customer.has_name_customer .lc_sender {
+  left: auto;
+  right: 0;
+}
+.lc_chatbox_rtl .is_customer .lc_sender .avata {
+  margin-left: 20px;
+  margin-right: -10px;
+  transform: translateX(100%);
+  -o-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+.lc_chatbox_rtl .is_customer .lc_sender .avata::after {
+  border-color: transparent transparent transparent #9be3e8;
+  left: auto;
+  right: 96%;
+}
+.lc_chatbox_rtl .is_customer .lc_sender .avata::before {
+  border-color: transparent transparent transparent #e5fdff;
+  left: auto;
+  right: 100%;
+}
+.lc_chatbox_rtl .is_customer .lc_msg_time {
+  float: right;
+  left: auto;
+  margin-left: 0;
+  margin-right: 8px;
+  right: 100%;
+}
+span.date_last_message, .lc_list_customer .conversation_date
+ {
+    color: #999;
+    font-weight: normal;
+    font-size: 11px;
+    white-space: nowrap;
+}
+.lc_chatbox_rtl .is_employee .lc_msg_time {
+  left: 100%;
+  margin-left: 8px;
+  margin-right: 0;
+  right: auto;
+}
+.lc_chatbox_rtl .is_employee.has_name_emplode .lc_sender {
+  left: auto;
+  right: 100%;
+}
+.lc_chatbox_rtl .is_employee .avata {
+  left: auto;
+  margin-left: 0;
+  margin-right: 10px;
+  right: 100%;
+}
+.lc_chatbox_rtl .is_employee .avata::after {
+  border-color: transparent #eeeeee transparent transparent;
+  left: 96%;
+  right: auto;
+}
+.lc_chatbox_rtl .is_employee .avata::before {
+  border-color: transparent #fbfbfb transparent transparent;
+  left: 100%;
+  right: auto;
+}
+.lc_chatbox_rtl .lc_message_end_chat {
+  float: right;
+  margin-top: 5px;
+}
+.lc_chatbox_rtl.lc_admin_online .company-name::after {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.lc_chatbox_rtl .lc_captcha .lc_captcha_input.form-control {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.lc_chatbox_rtl .lc_captcha_refesh {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.lc_chatbox_rtl .senting_employee, 
+.lc_chatbox_rtl .writing_employee {
+  float: right;
+  padding: 0 70px 0 10px;
+  text-align: right;
+}
+.lc_chatbox_rtl .lc_text_area_demo.no_display_emotion.show_send_box > textarea {
+  margin-left: auto;
+  margin-right: 0px;
+}
+.lc_chatbox_rtl .lc_text_area_demo.start_chating > .form-control {
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+.lc_chatbox_rtl .lc_text_area_demo.no_display_emotion:not(.show_send_box) > .form-control {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.lc_chatbox_rtl .chatbox_demo_backend .lc_close {
+  float: left;
+  margin-left: 6px;
+  margin-right: 0;
+}
+.lc_chatbox_rtl.lc_chatbox_closed .lc_heading > div {
+  margin-right: 0;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.lc_chatbox_rtl.lc_chatbox .lc_heading_count_message_not_seen.show {
+  float: right;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.chatbox_demo_backend.lc_chatbox.lc_chatbox_rtl {
+  direction: rtl;
+  left: 15px;
+  right: auto;
+}
+.form_ltr .chatbox_demo_backend .lc_company_logo {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.form_ltr .chatbox_demo_backend .lc_heading > span {
+  float: left;
+}
+.form_ltr .chatbox_demo_backend .lc_heading > div {
+  float: right;
+  margin-left: 0;
+  margin-right: 82px;
+}
+.form_ltr .chatbox_demo_backend .lc_heading {
+  padding-left: 5px;
+}
+.lc_body_rtl #submit_clear_message {
+  margin-left: 0;
+  margin-right: 25%;
+}
+.lc_body_rtl #submit_clear_message::before {
+  margin-left: 5px;
+  margin-right: 0;
+}
+body.adminlivechatdashboard {
+  min-width: 320px;
+}
+.replied_ticket .icon-check {
+    color:#76a600;
+}
+.replied_ticket .icon-clock-o{
+    color:#fdc107;
+}
+.lc_count i:before {
+  font-size: 40px;
+}
+
+
+
+
+/*-------------------------END-RTL-----------------------------------------*/
+
+
+
+
+
+@media (max-width: 1400px){
+    .ybc-blog-tab-status .status-wrapper .status-right {
+      border-left: medium none;
+      width: 100%;
+    }
+    .ybc-blog-tab-status .status-wrapper .status-left {
+      border-bottom: 1px solid #ddd;
+      width: 100%;
+    }
+    .chatbox_demo_backend.lc_chatbox {
+      max-width: 350px;
+    }
+}
+@media (min-width: 1200px){
+    .lc_chart_ticket, .lc_chart_conversation:not(:nth-child(2) ) {
+        width: 37.5%!important;
+    }
+}
+@media (max-width: 1199px){
+    .lc_dashboard_chart > div:not(:first-child):not(:last-child) {
+      clear: both;
+      display: block;
+      margin-bottom: 50px;
+    }
+}
+@media (max-width: 991px){
+    .lc_dashboard_content > div{
+        width: calc(50% - 30px);
+        width: -webkit-calc(50% - 30px);
+        margin-bottom: 15px;
+    }
+    .lc_dashboard_wapper .lc_dashboard_content {
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .lc_dashboard_content > div.lc_dashboard_conversation {
+        margin-left: 15px;
+    }
+}
+@media (max-width: 767px){
+    .lc_ticket_recently {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .lc_ticket_recently > div {
+      margin-bottom: 15px;
+    }
+}
+
+
+
+
+
+/**/

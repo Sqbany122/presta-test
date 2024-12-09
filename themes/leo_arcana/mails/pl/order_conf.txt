@@ -1,0 +1,75 @@
+[/{shop_url}] 
+
+Witaj {firstname} {lastname},
+
+Dziękujemy za zakupy na stronie {shop_name}! 
+
+Z uwagi na dużą ilość zamówień w czasie trwania akcji promocyjnej "Black Weekend", czas oczekiwania na realizację zamówienia może się wydłużyć. 
+
+Prosimy o cierpliwość i dziękujemy za zrozumienie. 
+Zapewniamy że wszystkie zamówienia zostaną zrealizowane,
+tak szybko jak będzie to możliwe.
+
+ZAMÓWIENIE: {order_name} Złożone w {date}
+
+PŁATNOŚĆ: {payment} 		
+
+INDEKS
+
+PRODUKT
+
+CENA JEDNOSTKOWA
+
+ILOŚĆ
+
+CENA KOŃCOWA
+
+{products_txt} 
+
+{discounts} 
+
+PRODUKTY 
+
+{total_products} 
+
+RABATY 
+
+{total_discounts} 
+
+PAKOWANIE EKOLOGICZNE 
+
+{total_wrapping} 
+
+WYSYŁKA 
+
+{total_shipping} 
+
+CAŁKOWITY ZAPŁACONY PODATEK 
+
+{total_tax_paid} 
+
+ZAPŁACONO W SUMIE 
+
+{total_paid} 
+
+PŁATNOŚĆ: {payment} 		 
+
+{delivery_block_txt} 
+
+{invoice_block_txt} 
+
+Możesz obejrzeć swoje zamówienie i pobrać fakturę na stronie
+"Historia zamówień" [/{history_url}] logując się na swoje konto
+klienta za pomocą strony "Moje konto" [/{my_account_url}] w naszym
+sklepie. 
+
+Jeśli posiadasz konto gościa, możesz śledzić swoje
+zamówienie w sekcji "Śledzenie zamówienia"
+[/{guest_tracking_url}?id_order={order_name}]. 
+
+
+    Salon Jeździecki Pegaz
+    ul.Zamkowa 2, 62-310 Pyzdry
+    Telefon: 507 822 351, 507 822 367
+    E-mail: zamowienia@pegazshop.pl
+

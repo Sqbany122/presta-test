@@ -1,0 +1,17 @@
+.json-key {
+    color: brown;
+}
+
+.json-value {
+    color: navy;
+}
+
+.json-string {
+    color: olive;
+}
+
+pre {
+    background-color: mintcream;
+    border: 1px solid silver;
+    padding: 10px 20px;
+}

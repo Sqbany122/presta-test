@@ -1,0 +1,18 @@
+.defaultForm.form-horizontal::after {
+  content: "© 2019 United Parcel Service of America, Inc. \A UPS, znak firmowy UPS i kolor brązowy są znakami towarowymi United Parcel Service of America, Inc. Wszystkie prawa zastrzeżone.";
+  white-space: pre;
+  text-align: center;
+  display: inherit;
+}
+.form-horizontal.clearfix::after{
+  content: "© 2019 United Parcel Service of America, Inc. \A UPS, znak firmowy UPS i kolor brązowy są znakami towarowymi United Parcel Service of America, Inc. Wszystkie prawa zastrzeżone.";
+  white-space: pre;
+  text-align: center;
+  display: inherit;
+}
+form#configuration_form.form-horizontal:after{
+  content: "© 2019 United Parcel Service of America, Inc. \A UPS, znak firmowy UPS i kolor brązowy są znakami towarowymi United Parcel Service of America, Inc. Wszystkie prawa zastrzeżone.";
+  white-space: pre;
+  text-align: center;
+  display: inherit;
+}

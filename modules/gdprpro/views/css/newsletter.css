@@ -1,0 +1,17 @@
+.ps-16-newsletter-checkbox .checker {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.ps-16-newsletter-checkbox {
+    clear: both;
+}
+
+.ps-16-newsletter-checkbox label {
+    color: #7a7a7a !important;
+}
+
+.ps-17-newsletter-checkbox input {
+    height: auto !important;
+    margin-right: 15px;
+}

@@ -1,0 +1,2 @@
+A new ticket has been submitted for {customer}
+{mail_content}

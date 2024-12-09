@@ -1,0 +1,17 @@
+[/{shop_url}] 
+
+Witaj {firstname} {lastname}, 
+
+W związku z Twoim zamówieniem w sklepie internetowym pegazshop.pl 
+i częściowym wykorzystaniem kodu, został wygenerowany nowy kod rabatowy na pozostałą kwotę.
+
+KOD KUPONU: {voucher_num} w wysokości {voucher_amount}
+
+Po prostu skopiuj/wklej ten kod podczas procesu płatności dla
+następnego zamówienia. 		 
+
+
+    Pegazshop Sp. z o.o.
+    ul.Zamkowa 2, 62-310 Pyzdry
+    Telefon: 507 822 351, 507 822 367
+    E-mail: zamowienia@pegazshop.pl

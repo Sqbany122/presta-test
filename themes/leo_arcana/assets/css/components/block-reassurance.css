@@ -1,0 +1,40 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#block-reassurance {
+  margin-top: 1rem; }
+  #block-reassurance img {
+    width: 1.563rem;
+    margin-right: 0.625rem; }
+    .rtl #block-reassurance img {
+      margin-left: 0.625rem;
+      margin-right: inherit; }
+  #block-reassurance li .block-reassurance-item {
+    padding: 0.5rem 1.5rem 0.5rem 0rem; }
+    .rtl #block-reassurance li .block-reassurance-item {
+      padding: 0.5rem 0rem 0.5rem 1.5rem; }
+    #block-reassurance li .block-reassurance-item span {
+      font-weight: 500;
+      margin: 0px;
+      color: #222;
+      font-size: 13px; }
+
+/*# sourceMappingURL=block-reassurance.css.map */

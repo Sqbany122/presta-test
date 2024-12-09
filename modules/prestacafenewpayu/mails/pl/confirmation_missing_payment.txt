@@ -1,0 +1,15 @@
+
+[{shop_url}]
+
+Moduł PrestaCafe PayU napotkał koszyk, dla którego nie została utworzona
+płatność w bazie danych. Proszę przeszukać logi sklepu pod kątem innych
+błędów.
+
+Cart ID: {id_cart}
+Order ID: {id_order}
+Transaction ID: {payu_payment_id}
+PayU order ID: {payu_order_id}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]
+

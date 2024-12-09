@@ -1,0 +1,57 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/**************************
+		Home page 3 
+***************************/
+/* Layout Mod */
+body.layout-boxed-md #page .plist-deal .product-block .functional-buttons > div.cart .btn {
+  padding: 15px 9px 16px;
+}
+body.layout-boxed-md #page .leo-more-cdown ul li {
+  margin-bottom: 5px;
+}
+
+/* Header */
+#leo-megamenu {
+  background: white;
+  border-top: 1px solid #e9e9e9;
+}
+#leo-megamenu .navbar-nav > li > a {
+  color: #333333;
+}
+
+/* Widget */
+.manufacturers_block.block {
+  margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .block-right-module {
+    min-height: 150px;
+  }
+}
+@media (max-width: 768px) {
+  /*Megamenu*/
+  #leo-megamenu .navbar-nav > li > a {
+    padding: 16px 18px;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-header .navbar-toggle {
+    background: #222;
+  }
+}

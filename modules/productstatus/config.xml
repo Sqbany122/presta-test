@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>productstatus</name>
+	<displayName><![CDATA[Product Status]]></displayName>
+	<version><![CDATA[2.8.0]]></version>
+	<description><![CDATA[Show ordered products and statuses of products]]></description>
+	<author><![CDATA[Andreika]]></author>
+	<tab><![CDATA[others]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete your details?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

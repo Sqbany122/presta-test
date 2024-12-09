@@ -1,0 +1,67 @@
+#opc_wrapper .heading-counter { float:none; display:inline-block; vertical-align:middle; width:28px; height:32px; margin:0 10px 0 0; overflow:hidden; text-indent:-9999px; }
+#opc_wrapper .heading-counter-1 { background:url(../img/onestepcheckout-numbers-1.png); }
+#opc_wrapper .heading-counter-2 { background:url(../img/onestepcheckout-numbers-2.png); }
+#opc_wrapper .heading-counter-3 { background:url(../img/onestepcheckout-numbers-3.png); }
+#opc_wrapper .heading-counter-4 { background:url(../img/onestepcheckout-numbers-4.png); }
+
+#opc_wrapper .box-opc#login_form { border:1px solid #e6db55; background:#ffffe0; }
+#opc_wrapper .box-opc h3.page-subheading { font-size:13px; padding:0; border:0; }
+#opc_wrapper .box-opc .form-group .form-control { max-width:100%; }
+/*#opc_wrapper .box-opc .item { margin:0 0 40px; }*/
+#opc_wrapper .box-opc .item:last-child { margin-bottom:0; }
+
+#opc_wrapper .overlay-opc { position:absolute; top:0; left:0; width:100%; height:100%; background:#fff url(../img/loader.gif) no-repeat 50%; opacity:0.6; filter:alpha(opacity=60); }
+
+#opc_wrapper .table-opc { width:100%; /*margin:-6px 0;*/ border-collapse:collapse; border:1px solid #ccc; line-height:1.2; background:#fff; }
+#opc_wrapper .table-opc th,
+#opc_wrapper .table-opc td { padding:10px 8px; vertical-align:top; text-align:left; }
+#opc_wrapper .table-opc th { background:#fbfbfb; white-space:nowrap; }
+#opc_wrapper .table-opc td { background:transparent; border-bottom:1px solid #ccc; }
+#opc_wrapper .table-opc tр:last-child,
+#opc_wrapper .table-opc td:last-child { text-align:right; }
+
+#opc_wrapper .price-opc { font-size:14px; font-weight:bold; }
+#opc_wrapper .free-price-opc { color:orange; }
+#opc_wrapper .total-price-opc { font-size:16px; font-weight:bold; color:#000; }
+
+#opc_wrapper .shipping-title-opc { font-size:14px; font-weight:bold; margin:0 0 4px; }
+#opc_wrapper .shipping-desc-opc { font-size:12px; }
+#opc_wrapper .shipping-price-opc { white-space:nowrap; font-weight:bold; font-size:12px; }
+#opc_wrapper .shipping-logo-opc { max-width:46px; height:auto; }
+#opc_wrapper .shipping-delivery-opc {}
+#opc_wrapper .shipping-delivery-item-opc { display:block; font-weight:normal; margin:0; }
+
+#opc_wrapper .image-product-opc { display:block; font:0/0 a; position:relative; }
+#opc_wrapper .image-product-img-opc { border:1px solid #ccc; }
+#opc_wrapper .delete-product-opc { position:absolute; top:6px; right:6px; z-index:1; }
+#opc_wrapper .title-product-opc { font-size:14px; font-weight:bold; margin:0 0 2px; }
+#opc_wrapper .attr-product-opc { font-size:11px; }
+
+#opc_wrapper .address-opc { font-size:12px; background:#fff; border:1px solid #ccc; padding:8px 10px; margin:0 0 14px; }
+#opc_wrapper .address-opc li { border-bottom:1px solid #eee; }
+#opc_wrapper .address-opc li:last-child { border-bottom:none; }
+#opc_wrapper .address-opc .address_title { font-size:15px; font-weight:bold; }
+#opc_wrapper .address-opc .address_update { text-align:right; }
+#opc_wrapper .address-opc .address_update a { font-size:10px; text-transform:uppercase; color:#333; font-weight:bold; }
+
+#opc_wrapper #opc_delivery_address,
+#opc_wrapper #opc_invoice_address { padding-top:20px; }
+#opc_wrapper #opc_invoice_address { padding-bottom:10px; }
+
+#opc_wrapper #opc_account { margin:0; }
+#opc_wrapper #multishipping_mode_box { padding:0; }
+
+#opc_wrapper .cart_quantity_wrap { zoom:1; white-space:nowrap; width:68px; background:#fff; /*border:1px solid #ccc; color:#ccc;*/ }
+#opc_wrapper .cart_quantity_wrap:after { content:' '; display:table; clear:both; }
+#opc_wrapper .cart_quantity_button { float:left; }
+#opc_wrapper .cart_quantity_input { float:left; width:30px; border:none; background:none; text-align:center; height:28px; line-height:28px; margin:0; }
+#opc_wrapper .cart_quantity_input:focus,
+#opc_wrapper .cart_quantity_input:active { box-shadow:none; }
+#opc_wrapper .cart_quantity_up,
+#opc_wrapper .cart_quantity_down { float:left; width:18px; height:28px; line-height:28px; font-size:18px; background:#f4f4f4; text-align:center; margin:0; }
+#opc_wrapper .cart_quantity_up { border-right:1px solid #ccc; }
+#opc_wrapper .cart_quantity_down { border-left:1px solid #ccc; }
+#opc_wrapper .cart_quantity_up:hover,
+#opc_wrapper .cart_quantity_down:hover { background:#ccc; color:#444; }
+
+#bigcart_opc #opc_payments { padding-top: 0px; }

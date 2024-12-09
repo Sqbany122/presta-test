@@ -1,0 +1,66 @@
+body.lc_floating:not(.hide_chatbox_employe_not_active) #header_infos {
+    padding-right: 0!important;
+    box-sizing: border-box;
+}
+ul.lc_menu_top {
+    margin-left: -5px;
+    top: 135px;
+    z-index: 100;
+}
+.lc_menu_top > li:first-child i.material-icons:before {
+    content: "\f0e4";
+    font-family: Fontawesome;
+    font-style: normal;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.lc_menu_top > li:first-child i.material-icons {
+    font-size: 0;
+}
+.lc_text_area.show_send_box > textarea {
+    padding: 5px!important;
+}
+table input[type="text"], table input[type="password"], table input[type="file"], textarea {
+    min-width: 0;
+}
+.info_show_expand label {
+    width: auto;
+}
+.lc_chatbox_employe label {
+    text-align: left;
+    width: auto;
+}
+.bootstrap .switch label {
+    position: relative;
+    z-index: 2;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    color: #aaa;
+    text-shadow: none;
+    float: none;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+.bootstrap .switch input {
+    position: static;
+    opacity: 1;
+}
+.lc_form_change_to_ticket span.switch.prestashop-switch {
+    margin-bottom: 15px;
+    display: block;
+    box-shadow: none;
+    text-align: left;
+    background: transparent;
+}
+.bootstrap .switch a{
+    display: none!important;
+}
+.lc_chatbox_employe .lc_form_change_to_ticket_popup label {
+    width: 120px;
+}
+
+
+
+

@@ -1,0 +1,13 @@
+[{shop_url}]
+
+Witaj {firstname} {lastname},
+
+Dziękujemy za zakupy w {shop_name}!
+
+Jeżeli nie udało Ci się zapłacić za zamówienie {order_name},
+możesz spróbować ponownie klikając na odnośniku poniżej:
+
+{payu_pay_again_url}
+
+{shop_name} [{shop_url}] wspierany przez
+PrestaShop(tm) [http://www.prestashop.com/]

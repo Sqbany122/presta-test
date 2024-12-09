@@ -1,0 +1,1 @@
+<div id="header_logo"><div id="header_logo"><a href="https://www.pegazshop.pl/" title="pegazshop.pl"><img class="logo img-responsive" src="/themes/leo_arcana/img/modules/leoslideshow/internetowy-sklep-jezdziecki-pegaz.png" alt="Sklep Jeździecki, sklep dla koni" width="420"></a></div></div>

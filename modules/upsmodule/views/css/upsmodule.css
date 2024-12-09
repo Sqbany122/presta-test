@@ -1,0 +1,147 @@
+div#mymodule_block_home p {
+  font-size: 150%;
+  font-style:italic;
+}
+
+h5.content-bold {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pad-paragraph {
+  padding-left: 1%;
+  padding-bottom: 4px;
+}
+
+.textarea-autosize {
+  min-height: 100px;
+  max-height: 500px;
+  cursor: default;
+  resize: none !important;
+  overflow: none !important;
+}
+
+.readOnly {
+  min-height: 100px;
+  max-height: 800px !important;
+}
+
+div.form-group.row {
+  padding-left: 20px !important;
+}
+
+.icon-plus-sign{
+  margin-right: 24px;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.icon-minus-sign {
+  margin-right: 7px;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.subrow1{
+  margin-left: 5px;
+}
+
+.optionCurrency{
+  height: 32px !important;
+}
+
+.optionFlatReal{
+  margin-top: 14px;
+}
+
+.minimunOrder{
+  margin-top: 15px;
+}
+
+.minimunOrderSize{
+  font-size: 10px;
+}
+
+.deliveryRates{
+  margin-left: 25px;
+}
+
+.deliveryRatesLeft{
+  margin-left: 1px;
+}
+
+.deliveryRatesInput{
+  display: inline-block !important;
+  width: 100px !important;
+  text-align: right !important;
+}
+
+.deliveryRatesPercent{
+  display: inline-block;
+}
+
+.cssText {
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pointer {
+  min-height: 34px;
+}
+
+#button-type {
+  padding-bottom: 0px;
+}
+
+.textLeft {
+  text-align: left !important;
+}
+
+@media (max-width: 991px) {
+  .bootstrap .table-responsive-row td.row-selector {
+    display: block !important;
+  }
+}
+
+.page-title::before{
+  content: '';
+  background-image: url('../../views/img/ups_logo_small.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 2.75em;
+  width: 2.4em;
+  margin-left: -8px;
+}
+
+.modal-title::before{
+  content: '';
+  background-image: url('../../views/img/ups_logo_small.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 30.5pt;
+  width: 27pt;
+  margin: -10px 5px -10px 0;
+}
+
+.modal-header-logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.modal-header-block{
+  position: relative;;
+  padding-left: 37pt;
+}
+
+.modal-header-item{
+  display: block;
+}

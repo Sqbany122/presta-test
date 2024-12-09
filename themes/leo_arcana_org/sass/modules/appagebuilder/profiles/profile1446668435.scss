@@ -1,0 +1,321 @@
+@import "compass";
+@import "theme_variables";
+
+
+/**************************
+		Home page 2 
+***************************/
+/* Keep Header */
+.keep-header{
+	#header-main{
+		&.mini-navbar{
+			background-color: #222;
+			.container{
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+			.topnav{padding: 15px 0;min-height: 50px;}
+			#leo-megamenu .navbar-nav > li{
+				> a{color: $white;padding: 14px 15px 6px;}
+				&:first-child{
+					> a{
+						@include rtl-padding-left(0px);
+						@include rtl-padding-right(15px);
+					}
+				}
+			}
+			#header_logo{display: none;}
+			#cart{
+				.heading a{color: $white;}
+				.title-cart{color: $white;}
+			}
+			.logo-kpheader{display: inline-block;margin-top: 8px;}
+		}	
+	}
+}
+/* Layout Mod */
+body{
+    &.layout-boxed-md{
+        #page{  
+            #leo-megamenu .navbar-nav > li{
+            	> a{padding: 10px; font-size: 11px;}
+            	&:first-child{
+					> a{
+						@include rtl-padding-left(0px);
+						@include rtl-padding-right(10px);
+					}
+				}
+            }
+            .hot-deals{
+				.plist-deal{
+					.leo-more-cdown{
+						ul li{
+							width: 62px;
+							min-width: inherit;
+							overflow: hidden;
+						}
+					}
+					.right-block{top: 350px;}
+				}
+			}
+        }    
+    }
+    &.layout-boxed-lg{
+        #page{  
+           
+        }
+    }
+} 
+/* Header */
+#topbar{
+	background: #f9f9f9;
+	min-height: 40px;
+	.popup-over{
+		@include rtl-float-left();
+		.popup-title{
+			@include rtl-padding(12px, 20px, 12px, 5px);
+			&:before{top: 12px;}
+		}	
+	}
+	.popup-content{
+		@include rtl-left(0);
+		@include rtl-right(auto);
+	}
+	.header_user_info .header_info{
+		@include rtl-float-right();
+		padding: 12px 0;
+	}
+}
+.topnav{
+	padding: 45px 0 35px;
+	height: auto;
+}
+.logo-kpheader{
+	display: none;
+}
+/* Block Search */
+.header-container .fix-search, 
+.header-container .fix-megamenu{
+	position: static ;
+}
+.block-search{
+	@include rtl-float-right();
+	.btn-group {
+		display: inline-block;
+		.fa-search{
+			color: $white;
+			background: #222222;
+			width: 40px;
+			height: 40px;
+			font-size: 13px;
+			line-height: 40px;
+			text-align: center;
+			cursor: pointer;
+		}
+	}
+	#search_block_top{
+	    position: absolute;
+	    @include rtl-left(0);
+	    width: 100%;
+	    background: #FFFFFF;
+	    height: 0;
+	    @include opacity(0);
+	    overflow: hidden;
+	    top: -100px;
+	    @include transition(all 0.35s ease-out 0s);
+	    z-index: 2;
+	    margin: 0;
+	    &.open{
+	    	@include opacity(1); visibility: visible; height: 123px; top: 40px;
+	    }
+	    .button-close{
+			color: #858585; font-size: 20px; top: 10px; @include rtl-right(20px); position: absolute;
+			font-size: 16px; cursor: pointer; display: inline-block;
+		}
+	}
+}
+form#searchbox {
+	position: relative; width: 90%; display: inline-block;
+	label {
+		color: $text-color;
+	}
+	input.search_query { 
+		@include rtl-float-left();
+		@include rtl-text-align-left();
+		border: none;
+		font-size: 50px;
+		height: 123px;
+		background: $white;
+		@include box-shadow(none);
+	}
+	.btn {
+		@include rtl-float-left();
+		background: none;
+		border: none;
+		@include rtl-margin-left(0);
+		position: absolute;
+		top: 30%;
+		font-size: 30px;
+		color: #e9e9e9;
+		@include rtl-right(0);
+		outline: none;
+		&:focus{
+			outline: none;
+			@include box-shadow(none);
+		}
+		&:hover{
+			color: $theme-color-default;
+		}
+	}
+}
+
+/* Megamenu */
+#leo-megamenu{
+	margin: 0;
+	background: none;
+	color: $theme-color-secondary;
+	height: auto;
+	.navbar-nav{
+		> li{
+			> a{
+				color: $theme-color-secondary;
+				font-weight: 600;
+				padding: 10px 15px;
+			}
+			&:first-child{
+				> a{
+					@include rtl-padding-left(0px);
+					@include rtl-padding-right(15px);
+				}
+			}
+		}
+	}
+}
+/* Product Hot Deals */
+.hot-deals{
+	margin-top: 80px;
+	.title_block{
+		text-align: center;
+		&:before{
+			position: inherit;
+			display: inline-block;
+			left: inherit;
+		}
+	}
+	.plist-deal{
+		.product-block{
+			.image{
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+.plist-deal{
+	.product-block{
+		.right-block{
+			overflow: visible;
+			text-align: center;
+		}
+		.left-block{
+			margin-bottom: 20px;
+			@include rtl-margin-right(0);
+		}
+		.product-rating{
+			width: 100%;
+			display: inline-block;
+		}
+		.star_content{display: block;}
+	}
+	.leo-more-cdown{
+		ul{
+			li{
+				border-color: rgba(0,0,0,0.2);
+				min-width: 70px;
+			}
+		}
+	}
+}
+.product-tabs.tabs-top{margin-top: 0;}
+/***********************
+		Responsive
+************************/
+@media (max-width: $screen-md-max) and (min-width: 1024px) { // max 1199px and min 1024px
+	/*Megamenu*/
+	#leo-megamenu{
+		.navbar-nav{
+			> li > a{
+				padding: 10px 13px;
+			}
+		}
+	}
+	.hot-deals{
+		.plist-deal{
+			.leo-more-cdown{
+				ul li{
+					width: 62px;
+					min-width: inherit;
+					overflow: hidden;
+				}
+			}
+		}
+	}
+	.block-right-module{
+		min-height: 150px;
+	}
+}
+
+@media (max-width: $screen-md-max) and (min-width: 668px) { // max 1199px and min 668px
+	.hot-deals{
+		.plist-deal{
+			.product-block{
+				.left-block{width: 100%;}
+			}
+		}
+	}
+}
+
+@media (max-width: $screen-sm-max) { // max 991px
+	#header_logo{
+		margin-bottom: 20px;
+		text-align: center;		
+	}
+}
+@media (min-width: $screen-sm-max + 1) { // min 992px
+	#header_logo{
+		@include rtl-text-align-left();
+	}
+	.plist-deal{
+		.product-block{
+			overflow: visible;
+			display: inline-block;
+			margin-bottom: 40px;
+			.right-block{
+				position: absolute;
+				@include rtl-left(0);
+				top: 445px;
+				overflow: visible;
+				background-color: rgba(255,255,255,0.9);
+				@include transition(all 0.4s ease 0s);
+			}
+			&:hover{
+				.right-block{
+					top: 0;
+				}
+			}
+		}
+	}
+}
+@media (max-width: $screen-xs-max + 1) { // max 768px
+	#leo-megamenu .navbar-nav > li > a{
+		padding: 10px 11px;
+	}
+}
+@media (max-width: $screen-xs-max) { // max 767px
+	.fix-search .block-search .btn-group{top: 0;}
+	#leo-megamenu .navbar-header .navbar-toggle{
+		border: $main-border;
+		margin: 0;
+	}
+}

@@ -1,0 +1,328 @@
+.lc_tickets span.panel-heading-action a.submit_new_ticket.btn {
+    margin-top: 0;
+    text-align: center;
+}
+.lc_tickets span.panel-heading-action {
+    float: right;
+}
+.lc_form_add_ticket textarea {
+    min-width: 280px;
+    box-sizing: border-box;
+}
+.lc_dashboard_chart, .lc_dashboard_chart *,
+.lc_ticket_recently, .lc_ticket_recently *,
+.lc_tickets, .lc_tickets *,
+#module_form,
+#module_form * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.add_auto_message.form_auto_reply, .add_pre_made_message, .add_departments, .add_new_ticket_form{
+    bottom : auto;
+    top: 10px;
+}
+.lc_ticket_wapper button.btn.btn-default.dropdown-toggle:focus + ul.dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.lc_ticket_wapper button.btn.btn-default.dropdown-toggle {
+    margin-left: 10px;
+}
+.lc_ticket_header > div.lc_rate_button .btn-group ul.dropdown-menu a {
+    padding: 5px 10px;
+    display: block;
+}
+.btn-group.pull-right {
+    position: relative;
+}
+.btn-group ul.dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    width: 150px;
+    border: 1px solid #ddd;
+    right: 0;
+}
+
+.lc_form_add_ticket .form-footer.col-xs-12.col-sm-12 {
+    width: 700px;
+    max-width: 100%;
+}
+.margin-form label {
+  float: none;
+}
+.margin-form .checkbox input {
+  margin-right: 5px;
+}
+.margin-form .checkbox {
+  margin-bottom: 5px;
+}
+.form-group.row {
+    margin-bottom: 10px;
+}
+.lc_chatbox_employe label{
+    text-align: left;
+}
+.date_ticket input.date-input {
+    width: 60px;
+}
+.lc_ticket_system_form * {
+    box-sizing: border-box;
+}
+.block_form_staff_list > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.block_form_staff_list > div .form-group {
+    display: block;
+    width: 100%;
+}
+.form-group.ticket-form-field {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 10px 0;
+}
+.form-group.ticket-form-field .filed-body {
+    width: 100%;
+    margin: 10px 0;
+    display: block;
+    padding: 10px 0;
+}
+.delete-form-field.lc_delete {
+    position: absolute;
+    right: 10px;
+}
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+}
+.lc_ticket_system_form .position_field {
+    border: 1px solid #ccc;
+    width: 60px;
+    text-align: center;
+    line-height: 1.4;
+    position: relative;
+    padding: 2px 0;
+    border-radius: 4px;
+    background-color: #eee;
+    box-shadow: 0 0 15px 0 #ccc inset;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.field-toggle.show_filed {
+    display: none;
+}
+.field_lable {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+.lc_ticket_system_form {
+    display: block!important;
+    padding: 0px;
+}
+.margin-form {
+    position: relative;
+}
+#block_form_pre_made_message, #block_form_auto_reply, #block_form_departments {
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    padding: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#block_form_pre_made_message .form-group, #block_form_auto_reply .form-group,
+#block_form_departments .form-group {
+    text-align: left;
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+ul.confi_tab_right {
+    display: none!important;
+}
+#ETS_CLEAR_MESSAGE, .count_attachment, #ETS_CLEAR_ATTACHMENT {
+    min-width: 0;
+}
+.lc_ticket_system_form fieldset {
+    margin: 0 20px;
+    border-color: #eee;
+}
+.margin-form > input#module_form_submit_btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+.table input {
+    width: auto;
+    min-width: 0;
+}
+.lc_dashboard_content > div {
+    width: 25%;
+}
+#submit_clear_message::before {
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 5px;
+}
+#submit_clear_message {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  margin-top: 10px;
+}
+div#content {
+    background: #eff1f2;
+    padding-bottom: 20px;
+}
+#content .process-icon-configure:before, .icon-AdminAdmin:before, .icon-cog:before, .icon-gear:before {
+    content: "\F013";
+}
+.lc_tickets table.table {
+    width: 100%;
+}
+body ul.lc_menu_top {
+    margin-left: -15px;
+    top: auto;
+    z-index: 100;
+    position: relative;
+    box-shadow: none;
+    margin-right: -15px;
+    width: calc(100% + 30px);
+    width: -webkit-calc(100% + 30px);
+    margin-top: -16px;
+}
+.lv_admin_filter .btn-group {
+    display: flex;
+    display: -webkit-flex;
+}
+.lv_admin_filter .btn-group > button {
+    margin-right: -1px;
+}
+.icon, .mce-ico, [class^=icon-], [class^=process-icon-] {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+}
+.icon-ticket:before {
+    content: "\F145";
+}
+.lc_chart_conversation.lc_chart_recently_customer {
+    width: 25%;
+    float: left;
+}
+.col-lg-4.lc_chart_conversation,
+.col-lg-4.lc_chart_ticket {
+    width: 37.5%;
+    float: left;
+}
+.lc_ticket_recently > div {
+    width: 33.33%;
+    float: left;
+}
+label.control-label.col-lg-3 {
+    width: 25%;
+    float: left;
+}
+.translatable-field > .col-lg-9 {
+    width: auto;
+}
+ .col-lg-4 {
+    width: 33.33333%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-3 {
+    width: 25%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-12 {
+    width: 100%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-11 {
+    width: 91.66667%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-10 {
+    width: 83.33333%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-9 {
+    width: 75%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-8 {
+    width: 66.66667%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-7 {
+    width: 58.33333%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-6 {
+    width: 50%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-5 {
+    width: 41.66667%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-1 {
+    width: 8.33333%;
+    float: left;    padding: 0 15px 0 0;
+}
+ .col-lg-2 {
+    width: 16.66667%;
+    float: left;    padding: 0 15px 0 0;
+}
+fieldset {
+    background-color: #fff!important;
+}
+p.help-block {
+    clear: both;
+    color: #999;
+}
+textarea {
+    width: 100%;
+    padding: 15px!important
+}
+select {
+    border: 1px solid #ccc;
+    width: 270px;
+    font-size: 12px;
+    padding: 5px;
+}
+input[type="text"], input[type="password"], input[type="file"], textarea {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    min-height: 30px;
+    min-width: 270px;
+}
+
+
+
+
+
+
+
+

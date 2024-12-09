@@ -1,0 +1,449 @@
+/* 
+    Document   : Social Loginizer custom CSS
+    Created on : Sept 09, 2014
+    Author     : velocity
+    Description:
+        Purpose of the stylesheet follows.
+
+
+.price-alert-tab{
+    border-collapse:collapse;
+    border-spacing:0;
+    empty-cells:show;
+    border:1px solid #cbcbcb;
+    width:100%;
+}
+#graph_loader
+{
+    width:96%;
+    height:300px;
+    text-align:center;
+    margin:10px;
+}
+#product_popup_close
+{
+	margin-top:5px;
+	margin-right: 10px;
+}
+.product_details_popup
+{
+	height:35px;
+}
+#select_options_date{
+	text-align: left;
+}
+.padding_select_options
+{
+	padding:10px 5px;
+}
+.price-alert-tab td,.price-alert-tab th{
+    border-left:1px solid #cbcbcb;
+    border-width:0 0 0 1px;
+    font-size:inherit;
+    margin:0;
+    overflow:visible;
+    padding:.5em 1em;
+    vertical-align: top;
+}
+.price-alert-tab td:first-child,.price-alert-tab th:first-child
+{
+    border-left-width:0
+}
+.price-alert-tab thead{
+    color: #666;
+    text-align: left;
+    vertical-align: bottom;
+    background-image: -o-linear-gradient(bottom, #E3E1E0 0%, #FFFDFC 100%);
+    background-image: -moz-linear-gradient(bottom, #E3E1E0 0%, #FFFDFC 100%);
+    background-image: -webkit-linear-gradient(bottom, #E3E1E0 0%, #FFFDFC 100%);
+    background-image: -ms-linear-gradient(bottom, #E3E1E0 0%, #FFFDFC 100%);
+    background-image: linear-gradient(to bottom, #E3E1E0 0%, #FFFDFC 100%);
+    border-bottom: 1px solid #cbcbcb;
+}
+#popup_head_product_count tr
+{
+	height:20px;
+}
+a:hover
+{
+	cursor:pointer;
+}
+#popup_head_product_count{
+	border-radius: 5px;
+}
+#popup_head_product_count tr td
+{
+	border-bottom: 1px solid;
+	padding:0px 15px;
+}
+#popup_name_product{
+	height:50px;
+	border-bottom: 1px solid;
+	padding-top:10px;
+	padding-left:25%;
+}
+.product_header
+{
+	font-weight: bold;
+	font-size: 14px;
+}
+.product_name_header{
+	margin:10px;
+	text-align: center;
+	vertical-align: -webkit-baseline-middle;
+	font-weight: bold;
+	color: #000080;
+	font-size: 16px;
+	
+}
+#popup_head_product_count
+{
+    position: fixed;
+    z-index: 666666;
+    background-color: #fff;
+    border: 1px solid;
+    top: 45%;
+    left: 45%;
+}
+.price-alert-tab td
+{
+    background-color:transparent
+}
+.price-alert-tab-odd td
+{
+    background-color:#f2f2f2
+}
+.bootstrap .tooltip .tooltip-inner{
+	padding:10px !important;
+}
+
+root { 
+    display: block;
+}
+#scratch_coupon_container{
+    position:relative;
+}
+#velsof_supercheckout_container
+{
+    position:relative;
+}
+
+.navbar ul.pull-left {
+    float: left !important;
+    width: auto;
+    position: absolute;
+    list-style-type: none;
+    margin: 7px 0 0;
+    height:30px;
+}
+
+.themer_eyedropper{
+    background: url("../images/eyedropper.png") no-repeat scroll 10px center transparent !important;
+    height: 30px;
+    width: 42px;
+    cursor:pointer;
+}
+
+.themer_btn{
+    margin-left: 12px;
+    width: 30px !important;
+    height: 30px;
+}
+
+.themer_btn:hover{
+    text-decoration:none !important;
+}
+
+.topbuttons{
+  min-width:234px !important;
+  width:auto !important;
+}
+
+.action-btn{
+    max-width:100px !important;
+    float:left;
+    margin-left:10px;
+}
+
+.velsof-footer-strip{
+    border-top:#ccc 1px solid;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-line-1{
+    padding: 10px 0;
+}
+
+.footer-line-2{
+
+}
+
+.over_all_stats_block{
+    width:23% !important;
+}
+
+table.form{
+    width:99.5%;
+}
+
+.settings{
+    padding: 10px;
+    width:75%;
+padding-top: 8px;
+}
+
+.settings-date{
+    padding: 10px;
+    width:200px;
+}
+
+.settings input, .settings select{
+    margin-bottom:0 !important;
+}
+
+.input-row-margin-bottom{
+    margin-bottom:7px;
+}
+
+.text-width{
+    width: 97%;
+    color: #333 !important;
+    height:33px !important;
+}
+
+.color-input-width{
+    width:150px !important;
+}
+
+.coupon_type_radio{
+    display:inline !important;
+    margin-top:0px;
+    height:auto;
+    margin-bottom:0;
+    min-height:auto;
+    font-weight: normal !important;
+}
+
+.coupon_type_radio div.radio{
+    display: inline !important;
+    height: auto;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;    
+}
+
+.column_text_align{
+    padding-top:24px !important;
+}
+.no_padding{
+	
+   vertical-align:inherit !important;
+   padding-bottom: 10px;
+   padding-top:0px !important;
+}
+.vertical_top_align{
+    vertical-align:top;
+    padding-top: 10px;
+}
+
+.small_text{
+    display: block;
+    font-size: 10px;
+    color: blue;
+}
+
+.widget-body label.checkbox{
+    display:inline-block;
+    width:70px;
+}
+
+.widget-body .checkbox + .checkbox{
+    margin-top:10px;
+}
+
+p.help{
+    color: #666;
+    font-size: 11px;
+}
+
+.navbar {
+    min-height:55px !important;
+}
+
+.navbar:before, .navbar:after {
+display: table;
+content: " ";
+}
+
+.navbar:after {
+clear: both;
+}
+
+
+input[type=text], input[type=password], select, textarea{
+    margin:0;
+}
+
+
+.mandatory_notify{
+    color:#FF0000;
+    font-size:13px;
+}
+
+.asterisk{
+    color:#FF0000;
+}
+
+.error{
+    color:#FF0000;
+    font-size:11px;
+}
+
+
+.dataTables_wrapper .row{
+    padding: 0 0 15px 9px;
+}
+
+.graph_container{
+    padding:15px; 
+    margin:0 auto; 
+    text-align:center;
+}
+
+.filter_inline_div{
+    width:auto !important;
+}
+
+.filter_inputs{
+    width: 100px !important;
+    margin-bottom: 0 !important;
+    display: inline !important;
+    margin-left: 10px !important;
+}
+
+.halfSpan{
+    width:48.5% !important;
+    margin-left:0;
+    text-align:center;
+}
+
+.no_chart{
+    width:100%;
+    text-align:center;
+    font-size:13px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.filter_inline_div .btn{
+    width: 75px;
+    font-size: 12px;
+}
+
+.ajax_loader{
+    background-image: url('../images/ajax_loader.gif');
+    background-repeat: no-repeat;
+    width:100%;
+    height:200px;
+    background-position: 50%;
+}
+
+.div svg text:last-child{
+    display:none;
+}
+
+.topbuttons .bootstrap-select, .topbuttons .bootstrap-select .dropdown-menu{
+    width:200px;
+}
+
+.topbuttons .bootstrap-select{
+    margin-bottom:0;
+}
+
+.topbuttons .bootstrap-select .dropdown-menu{
+    left:0px !important;
+}
+
+.blank_div{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    padding-top:18%;
+}
+
+
+.table-bordered th:first-child, .table-bordered td:first-child{
+    border-left:none !important;
+}
+
+.chart_memo{
+    height: 20px;
+    margin-top: 15px;
+    width: 250px;    
+}
+
+#graph_loader td.legendLabel{
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 15px;
+    font-size: 9px;
+}
+
+
+.pad-right{
+padding-right: 25px;
+}
+
+
+.velsof-tab-heading{
+font-size: 18px !important;
+}
+
+
+.velsof-buttons{
+float: right;
+margin: 10px 10px;
+}
+
+#date-error-pro
+{
+float: left; margin: 10px 10px;
+color: red;
+}
+
+#date-error-cust
+{
+float: left; margin: 10px 10px;
+color: red;
+}
+
+.pure-button{display:inline-block;*display:inline;zoom:1;line-height:normal;white-space:nowrap;vertical-align:baseline;text-align:center;cursor:pointer;-webkit-user-drag:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.pure-button::-moz-focus-inner{padding:0;border:0}.pure-button{font-family:inherit;font-size:100%;*font-size:90%;*overflow:visible;padding:.5em 1em;color:#444;color:rgba(0,0,0,.8);*color:#444;border:1px solid #999;border:0 rgba(0,0,0,0);background-color:#E6E6E6;text-decoration:none;border-radius:2px}.pure-button-hover,.pure-button:hover,.pure-button:focus{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);background-image:-webkit-gradient(linear,0 0,0 100%,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));background-image:-webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));background-image:-moz-linear-gradient(top,rgba(0,0,0,.05) 0,rgba(0,0,0,.1));background-image:-o-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));background-image:linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))}.pure-button:focus{outline:0}.pure-button-active,.pure-button:active{box-shadow:0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset}.pure-button[disabled],.pure-button-disabled,.pure-button-disabled:hover,.pure-button-disabled:focus,.pure-button-disabled:active{border:0;background-image:none;filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);filter:alpha(opacity=40);-khtml-opacity:.4;-moz-opacity:.4;opacity:.4;cursor:not-allowed;box-shadow:none}.pure-button-hidden{display:none}.pure-button::-moz-focus-inner{padding:0;border:0}.pure-button-primary,.pure-button-selected,a.pure-button-primary,a.pure-button-selected{background-color:#0078e7;color:#fff}
+
+.toolbar_btn
+{
+	background:none !important;
+}*/
+.list-group-item:hover{
+    cursor: pointer;
+}
+
+.error_message {
+    clear: both;
+    padding-top: 3px;
+    color: #ff0000;
+}
+.error_field {
+    border:1px solid #ff0000 !important;
+}
+.cron_url_via_ssh {
+    color: #A7A7A7;
+    font-size: 13px;
+    font-weight: normal;
+}
+.cron_url {
+    color: #A7A7A7;
+    font-size: 13px;
+    font-weight: normal;
+}

@@ -1,0 +1,130 @@
+/**
+ * PrestaChamps
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Commercial License
+ * you can't distribute, modify or sell this code
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file
+ * If you need help please contact leo@prestachamps.com
+ *
+ * @author    PrestaChamps <zoli@prestachamps.com>
+ * @copyright PrestaChamps
+ * @license   commercial
+ */
+.button-container {
+    margin-top: 1rem;
+}
+
+.champs-button-info,
+.champs-button-rate,
+.champs-button-documentation,
+.champs-button-contact-support {
+    background-image: linear-gradient(to right, #187FE5, #4FC1FA) !important;
+    width: 200px;
+    color: white !important;
+    border-radius: 25px !important;
+    border: none !important;
+    height: 44px !important;
+    line-height: 21px !important;
+    font-size: 17px !important;
+    opacity: 0.9 !important;
+}
+
+.champs-button-rate {
+    background-image: linear-gradient(to right, #E28C00, #FFE600) !important;
+}
+
+.champs-button-contact-support {
+    background-image: linear-gradient(to right, #3B29CB, #8257E7) !important;
+}
+
+.champs-button-documentation {
+    background-image: linear-gradient(to right, #D40F5D, #FF7871) !important;
+}
+
+.champs-button-rate i,
+.champs-button-documentation i,
+.champs-button-contact-support i,
+.champs-button-info i {
+    color: white !important;
+    float: left !important;
+    font-size: 25px !important;
+}
+
+.champs-button-info:hover,
+.champs-button-rate:hover,
+.champs-button-contact-support:hover,
+.champs-button-documentation:hover {
+    opacity: 1 !important;
+}
+
+.champs-button-info:focus,
+.champs-button-rate:focus,
+.champs-button-contact-support:focus,
+.champs-button-documentation:focus {
+    outline: none !important;
+}
+
+.button-container .col-lg-6 {
+    text-align: center;
+}
+
+.champs-button-rate,
+.champs-button-info {
+    margin-top: 20px;
+}
+
+.documentation-dropdown {
+    position: absolute;
+    right: -60px;
+    top: 0;
+    text-align: center;
+    width: 150px;
+    z-index: 99;
+    display: none;
+}
+
+.documentation-dropdown .lang {
+    line-height: 20px;
+    display: block;
+    font-size: 15px;
+}
+
+.documentation-dropdown .lang:hover {
+    color: white;
+    background-color: #FF7871 !important;
+}
+
+.documentation-dropdown {
+    /*position: relative;*/
+    /*background: #00aabb;*/
+    border-radius: .4em;
+    border: 2px solid #FF7871;
+}
+
+.documentation-dropdown:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 17%;
+    width: 0;
+    height: 0;
+    border: 14px solid transparent;
+    border-right-color: #FF7871;
+    border-left: 0;
+    margin-top: -14px;
+    margin-left: -14px;
+}
+
+.custom-text-container {
+    min-height: 300px !important;
+    font-size: 15px !important;
+    text-align: justify;
+    padding: 0 115px !important;
+    line-height: 25px !important;
+    margin-top: 45px;
+}

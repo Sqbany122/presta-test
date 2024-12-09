@@ -1,0 +1,2 @@
+*ERROR* 	2023/07/03 - 15:29:17: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/07/03 - 15:31:55: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php

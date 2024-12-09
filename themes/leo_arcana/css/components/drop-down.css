@@ -1,0 +1,49 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.dropdown {
+  color: #acaaa6; }
+  .dropdown:hover .expand-more {
+    color: #3387f2; }
+  .dropdown .expand-more {
+    color: #414141;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .dropdown .active {
+    max-height: 200px;
+    overflow-y: hidden;
+    visibility: visible; }
+  .dropdown select {
+    -moz-appearance: none;
+    border: 0 none;
+    outline: 0 none;
+    color: #414141;
+    background: white; }
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background: none;
+  text-decoration: none;
+  color: #3387f2; }
+
+/*# sourceMappingURL=drop-down.css.map */

@@ -1,0 +1,16 @@
+*ERROR* 	2023/01/22 - 18:10:04: Property OrderDetail->product_price is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:17:31: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:17:34: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:17:41: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:22:55: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:23:06: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:28:37: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:28:40: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:28:51: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:29:04: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:29:27: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:29:30: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:29:34: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:29:41: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:31:11: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/01/22 - 21:31:15: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php

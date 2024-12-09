@@ -1,0 +1,19 @@
+#phone_order_warning { position: relative; top:-6px;  font-size:14px;margin-bottom: 0px !important; }
+#advancedphoneorder_notif {    background: url('../img/notif.png') no-repeat center center; }
+#notifs_icon_wrapper { width:auto !important;}
+.phoneorder_buttons a { display:inline-block; padding:5px 10px; background-color: #4169E1; color: white !important; border-radius:5px;  }
+.phoneorder_buttons a:hover, .phoneorder_buttons a.activetab{   background-color: #FF8C00; text-decoration: none !important; }
+.phoneorder_buttons { margin-bottom:10px; }
+#order_customer_name, #order_customer_phone,#order_customer_email { margin-bottom:0px !important; }
+#possible_customers { position: absolute; border:1px solid #ccc;  background-color:#fff !important; padding:10px; z-index:9999;}
+#possible_customers a { display:block;  color:#000; }
+#possible_customers { display:none; top:26px !important; }
+.create_order { background-color: #00aff0 !important;  border-color: #008abd !important; color:#fff !important; -webkit-box-shadow:none !important;}
+.create_order:hover { background-color: #FF8C00 !important; border-color: #FF8C00 !important;}
+
+.icon-AdminAdvancedordernotesManagement:before {
+    content: "\f044";
+}
+
+
+

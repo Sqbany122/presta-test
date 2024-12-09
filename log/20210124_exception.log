@@ -1,0 +1,4 @@
+*ERROR* 	2021/01/24 - 13:09:32: Property OrderDetail->product_price is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/01/24 - 16:07:57: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/01/24 - 16:08:17: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2021/01/24 - 16:08:34: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php

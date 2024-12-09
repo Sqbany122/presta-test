@@ -1,0 +1,2 @@
+{customer_name} has just replied to a ticket
+{mail_content}

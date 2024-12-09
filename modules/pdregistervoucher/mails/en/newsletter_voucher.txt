@@ -1,0 +1,16 @@
+
+[{shop_url}] 
+
+Hi, {firstname} {lastname}
+
+Regarding your {title_sub}, we are pleased to offer
+you the following voucher: {discount} 
+
+{amount_text} amount_wt_sign}
+{minimum_amount_text} {min_amount_wt_sign}
+{quantity_text} {quantity_wt_text}
+Voucher code is valid for next {valid} days
+{free_delivery}
+
+{shop_name} [{shop_url}]
+

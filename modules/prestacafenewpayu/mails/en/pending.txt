@@ -1,0 +1,15 @@
+
+[{shop_url}]
+
+Hi {firstname} {lastname},
+
+Thank you for shopping with {shop_name}!
+
+Your PayU payment has begun.
+
+If you need to restart the payment, follow the link below:
+
+{payu_pay_again_url}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]

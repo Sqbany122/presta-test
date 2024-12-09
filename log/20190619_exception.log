@@ -1,0 +1,1 @@
+*ERROR* 	2019/06/19 - 00:49:40: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1<br /><br /><pre>SELECT choice FROM `ps_pf` WHERE id_cart = </pre> at line 791 in file classes/db/Db.php

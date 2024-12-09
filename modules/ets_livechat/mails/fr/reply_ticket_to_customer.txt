@@ -1,0 +1,3 @@
+Hi {customer_name}
+{employee_name} just replied to your ticket 
+{mail_content}

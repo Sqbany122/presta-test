@@ -1,0 +1,65 @@
+## [1.0.15] - 2023-01-07
+
+### Added 
+
+- Additional paremeter, allowing to reset the price gathering CRON task
+
+## [1.0.14] - 2023-01-05
+
+### Added 
+
+- Information panel
+
+### Changed
+
+- Processing only active shops for multistore
+
+## [1.0.13] - 2023-01-03
+
+### Added 
+
+- Configurable colors
+
+## [1.0.12] - 2023-01-03
+
+### Added 
+
+- Support for global specific price rules
+
+### Fixed
+
+- Preview of product price history on product page in back office for PrestaShop 1.6
+
+## [1.0.11] - 2023-01-02
+
+### Fixed
+
+- Preview of product price history on product page in back office for new installations
+
+## [1.0.10] - 2023-01-01
+
+### Added 
+
+- Preview of product price history on product page in back office
+
+## [1.0.9] - 2022-12-30
+
+### Added 
+
+- Support for versions not passing full product to the hook correctly
+
+## [1.0.8] - 2022-12-21
+
+### Added
+
+- CRON task preview formatting
+
+### Changed
+
+- A message 'All products indexed' instead of a just empty table to indicate that all is done for today
+
+## [1.0.7] - 2022-12-20
+
+###Added
+
+- additional parameter to preview module appearance on the product page

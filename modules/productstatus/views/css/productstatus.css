@@ -1,0 +1,93 @@
+select.status_selector {
+  border: none;
+  background: transparent;
+  width: 100%;
+  height: 21px;
+  color: inherit;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: "";
+  border-radius: 3px;
+  font-size: 11px;
+  padding: 2px 4px;
+  text-transform: uppercase;
+  float: left;
+  text-align: center; }
+  select.status_selector:hover {
+    text-overflow: clip;
+    -webkit-appearance: window; }
+  select.status_selector option {
+    text-align: left;
+    text-transform: none;
+    outline: none;
+    color: black;
+    background: white;
+    padding: 0 5px; }
+
+#ProductStatusTable select.status_selector {
+  width: auto; }
+#ProductStatusTable .product_status_wrp {
+  position: relative;
+  white-space: nowrap; }
+#ProductStatusTable .show_history {
+  background: url("/modules/productstatus/views/img/history.png") no-repeat center;
+  width: 21px;
+  height: 21px;
+  padding: 0;
+  margin: 0 5px;
+  display: inline-block;
+  vertical-align: text-top;
+  cursor: help; }
+#ProductStatusTable .status_history {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  background: white;
+  border: 1px solid #aaaaaa;
+  top: 18px;
+  padding: 0;
+  min-width: 290px; }
+  #ProductStatusTable .status_history h4 {
+    background: none repeat scroll 0 0 #cccccc;
+    border-bottom: 1px solid #aaaaaa;
+    margin: 1px 1px 5px;
+    padding: 4px 5px;
+    color: black; }
+  #ProductStatusTable .status_history ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    background: none; }
+    #ProductStatusTable .status_history ul li {
+      border-bottom: 1px solid #dfdfdf;
+      padding: 5px 10px;
+      color: black; }
+      #ProductStatusTable .status_history ul li:last-child {
+        border-bottom: none; }
+      #ProductStatusTable .status_history ul li.empty {
+        list-style: none;
+        text-align: center;
+        font-style: italic;
+        padding-bottom: 10px; }
+      #ProductStatusTable .status_history ul li span {
+        text-align: right;
+        font-style: italic; }
+    #ProductStatusTable .status_history ul:empty {
+      background: url("/modules/productstatus/views/img/ajax-loader.gif") no-repeat center;
+      height: 40px; }
+
+.product-row,
+.AdminProductStatusTable tr {
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -ms-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s; }
+  .product-row td,
+  .AdminProductStatusTable tr td {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s; }

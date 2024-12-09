@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>x13excludediscounts</name>
+	<displayName><![CDATA[Wyklucz użycie bon&oacute;w z produktami przecenionymi]]></displayName>
+	<version><![CDATA[1.2.1]]></version>
+	<description><![CDATA[Moduł pozwala na zablokowanie użycia bonu rabatowego gdy w koszyku występują już&nbsp;przecenione produkty.]]></description>
+	<author><![CDATA[X13.pl]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,387 @@
+
+
+
+
+
+
+
+
+
+
+
+
+	.ReadMsgBody{ width: 100%; }
+	.ExternalClass{ width: 100%; }
+	.ExternalClass *{ line-height: 100%; }
+	.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+		line-height:100%;
+	}
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	body,table,td,p,a,li{
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+	}
+	table td{ border-collapse: collapse; }
+	table{
+		border-spacing: 0;
+		border-collapse: collapse;
+	}
+	p,a,li,td,blockquote{
+		mso-line-height-rule: exactly;
+	}
+	p,a,li,td,body,table,blockquote{
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+	img,a img{
+		border: 0;
+		outline: none;
+		text-decoration: none;
+	}
+	img{
+		-ms-interpolation-mode: bicubic;
+	}
+	a[href^=tel],a[href^=sms]{
+		color: inherit;
+		cursor: default;
+		text-decoration: none;
+	}
+	a[x-apple-data-detectors]{
+	    color: inherit!important;
+	    text-decoration: none!important;
+	    font-size: inherit!important;
+	    font-family: inherit!important;
+	    font-weight: inherit!important;
+	    line-height: inherit!important;
+	}
+	.mlEmailContainer{
+		max-width: 640px!important;
+	}
+	@media only screen and (min-width:768px){
+		.mlEmailContainer{
+			width: 640px!important;
+		}
+	}
+	@media only screen and (max-width: 640px) {
+		.mlTemplateContainer{
+			padding: 10px 10px 0 10px;
+		}
+		.mlContentTable{
+			width: 100%!important;
+			min-width: 200px!important;
+		}
+		/* -- */
+		.mlContentBlock{
+			float: none!important;
+			width: 100%!important;
+		}
+		/* -- */
+		.mlContentOuter{
+			padding-bottom: 0px!important;
+			padding-left: 25px!important;
+			padding-right: 25px!important;
+			padding-top: 25px!important;
+		}
+		/* -- */
+		.mlBottomContentOuter{
+			padding-bottom: 25px !important;
+		}
+		.mlLeftRightContentOuter {
+			padding-left: 5px!important;
+			padding-right: 5px!important;
+		}
+		.mlContentContainerOuter{
+			padding-left: 0px!important;
+			padding-right: 0px!important;
+		}
+		/* -- */
+		.mlContentContainer{
+			padding-left: 25px!important;
+			padding-right: 25px!important;
+		}
+		/* -- */
+		.mlContentButton a,
+		.mlContentButton span{
+			width: auto!important;
+		}
+		/* -- */
+		.mlContentImage img,
+		.mlContentRSS img{
+			height: auto!important;
+			width: 100%!important;
+		}
+		.mlContentImage{
+			height: 100%!important;
+			width: auto!important;
+		}
+		.mlContentLogo img{
+			height: auto!important;
+			width: 100%!important;
+		}
+		/* -- */
+		.mlContentContainer h1{
+			font-size: 24px!important;
+			line-height:125%!important;
+			margin-bottom: 0px!important;
+		}
+		/* -- */
+		.mlContentContainer h2{
+			font-size: 18px!important;
+			line-height:125%!important;
+			margin-bottom: 0px!important;
+		}
+		/* -- */
+		.mlContentContainer h3{
+			font-size: 16px!important;
+			line-height:125%!important;
+			margin-bottom: 0px!important;
+		}
+		/* -- */
+		.mlContentContainer p,
+		.mlContentContainer .mlContentRSS{
+			font-size: 16px!important;
+			line-height:150%!important;
+		}
+		/* -- */
+		.mobileHide{
+			display: none!important;
+		}
+		/* -- */
+		.alignCenter{
+			height: auto!important;
+			text-align: center!important
+		}
+		/* -- */
+		.marginBottom{
+			margin-bottom: 25px!important;
+		}
+		/* -- */
+		.mlContentHeight{
+			height: auto!important;
+		}
+		.mlContentGap{
+			height: 25px!important;
+		}
+		.mlDisplayInline {
+			display: inline-block!important;
+			float: none!important;
+		}
+		body{
+			margin: 0px!important;
+			padding: 0px!important;
+		}
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust: none!important;
+		}
+	}
+
+
+    
+
+
+    
+
+
+
+	
+		
+			
+				
+					
+
+		
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home | Men&#039;s | Women | Special | New Arrivals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We are getting in touch once again as the product that you have shown interest is going to be Out of Stock soon.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{product_name}
+{product_description}
+
+
+
+
+{current_price}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{related_product_content}
+
+
+
+
+
+
+
+
+Email Settings | Update Profile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+				
+			
+		
+	
+
+
+
+
+
+
+

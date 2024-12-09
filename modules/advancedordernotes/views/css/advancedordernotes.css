@@ -1,0 +1,51 @@
+#advancedphoneorder {
+	position: fixed !important;
+	width: 760px !important;
+	background-color: #fff !important;
+	z-index: 99999999;
+	left: 50%;
+	top: 100px;
+	margin-left: -380px;
+	border:1px solid #ccc;
+	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	border-radius:5px;
+ }
+#advancedphoneoder_overlay { position: fixed !important; background-color:#000 !important; opacity:0.5; height:100%; width:100%; z-index:99997; left:0; top:0; }
+.pad20 { padding:20px; }
+#advancedphoneorder .el_header { display:block; padding-bottom:10px; border-bottom:1px solid #ccc; text-align:center; font-size:15px; }
+#advancedphoneorder .mtop10 { margin-top:10px !important; }
+#advancedphoneorder label { display:inline-block !important; width:100px !important; line-height: 26px !important;  font-size:15px !important; }
+#advancedphoneorder input { border:1px solid #ccc !important; padding:5px !important; width:315px !important; }
+#advancedphoneorder .telephone_order { width:auto !important; margin-top:20px; float:right; text-transform: uppercase; padding:5px 15px; line-height: 20px; }
+#advancedphoneorder .telephone_order:hover { opacity:0.8; }
+#advancedphoneorder .right_order_wrapper { float:right;  padding-left:25px; margin-left:25px; margin-top:15px; width:430px; }
+#advancedphoneorder #left_order_wrapper { float:left; border-right: 1px dashed #ccc; margin-top: 15px; padding-right: 40px;}
+#advancedphoneorder #apo_message{  margin-top:15px; }
+#advancedphoneorder .fr { float:right !important; }
+#advancedphoneorder .close  { display:block; position: absolute !important; width:33px; height:31px; right:-15px; top:-15px; background-image:url('../img/close.png'); }
+
+#advancedphoneorder .success {
+margin: 0 0 10px 0 !important;
+padding: 10px !important;
+border: 1px solid #339900 !important;
+font-size: 13px !important;
+background: #d3ffab !important;
+}
+#advancedphoneorder .error {
+margin: 0 0 10px 0 !important;
+padding: 10px !important;
+border: 1px solid #990000 !important;
+font-size: 13px !important;
+background: #ffcccc !important;
+}
+#apo_display{
+	display: block !important;
+	position: absolute !important;
+	width: 430px !important;
+	bottom: 50px !important;  
+	right:25px !important;
+}
+#apo_loading img { width:80px !important; height: auto !important; }
+#apo_loading { text-align: center !important;top: 20px; position: relative; }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ets_abandonedcart</name>
+	<displayName><![CDATA[Przypomnienie o Porzuconym Koszyku: Automatyczny Email]]></displayName>
+	<version><![CDATA[4.6.7]]></version>
+	<description><![CDATA[Zwiększ wsp&oacute;łczynnik konwersji sprzedaży o 50% (SPRAWDZONY) dzięki naszemu niezbędnemu modułowi przypominania o porzuconym koszyku PrestaShop, automatycznemu e-mailowi i narzędziu remarketingowemu, aby odzyskać utracone koszyki i zatrzymać istniejących klient&oacute;w.]]></description>
+	<author><![CDATA[PrestaHero]]></author>
+	<tab><![CDATA[advertising_marketing]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

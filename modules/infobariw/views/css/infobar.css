@@ -1,0 +1,105 @@
+.infobar_wrap {
+    width: 100%;
+    min-height: 3px;
+    z-index: 10000;
+    position: fixed;
+}
+.infobar_wrap.top {
+    top: 0px;
+}
+.infobar_wrap.bottom {
+    bottom: 0px;
+}
+.infobar_wrap.left {
+    top: 0px;
+    left: 0;
+    bottom: 0px;
+    width: auto;
+    min-width: 3px;
+    max-width: 20%;
+}
+.infobar_wrap.right {
+    top: 0px;
+    right: 0;
+    bottom: 0px;
+    width: auto; 
+    min-width: 3px;
+    max-width: 20%;
+}
+.infobar_text {
+    padding: 5px 5px 0 5px;
+    display: none;
+}
+.infobar_btn {
+    cursor: pointer;
+    width: 0px;
+    height: 0px;
+    border: 25px solid transparent;
+    position: fixed;
+    right: 0px;
+    z-index: 19;
+}
+.infobar_btn.top {
+    top: 3px;
+}
+.infobar_btn.bottom {
+    bottom: 3px;
+    left: 0px;
+}
+.infobar_btn.left {
+    left: 3px;
+    top: 3px;
+}
+.infobar_btn.right {
+    right: 3px;
+    bottom: 0px;
+}
+.infobar_btn_sign {
+    font-size: 18px;
+    position: relative;
+    width: 14px;
+
+    left: 6px;
+
+    -webkit-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -ms-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+    transition: all 100ms linear;
+}
+.infobar_btn.top .infobar_btn_sign{
+    top: -15px;
+}
+.infobar_btn.bottom .infobar_btn_sign{
+        top: -6px;
+    left: -19px;
+}
+.infobar_btn.left .infobar_btn_sign {
+    top: -11px;
+    left: -21px;
+}
+.infobar_btn.right .infobar_btn_sign {
+    top: -7px;
+    left: 11px;
+}
+.infobar_btn_sign.opened {
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+}
+
+@media only screen and (max-width: 1024px)  {
+    .infobar_wrap.right , .infobar_wrap.left{
+        max-width: 25%;
+    }
+}
+@media only screen and (max-width: 780px)  {
+    .infobar_wrap.right , .infobar_wrap.left{
+        max-width: 45%;
+    }
+}
+@media only screen and (max-width: 460px)  {
+    .infobar_wrap.right , .infobar_wrap.left{
+        max-width: 40%;
+    }
+}

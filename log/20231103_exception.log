@@ -1,0 +1,4 @@
+*ERROR* 	2023/11/03 - 12:07:13: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/03 - 12:07:19: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/03 - 12:07:28: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/11/03 - 17:49:15: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php

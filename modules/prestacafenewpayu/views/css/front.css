@@ -1,0 +1,180 @@
+/**
+ * 2009-2017 Blue Train Lukasz Kowalczyk / PrestaCafe
+ *
+ * NOTICE OF LICENSE
+ *
+ * Lukasz Kowalczyk is the owner of the copyright of this module.
+ * All rights of any kind, which are not expressly granted in this
+ * License, are entirely and exclusively reserved to and by Lukasz
+ * Kowalczyk.
+ *
+ * You may not rent, lease, transfer, modify or create derivative
+ * works based on this module.
+ *
+ * @author    Lukasz Kowalczyk <lkowalczyk@prestacafe.pl>
+ * @copyright Lukasz Kowalczyk
+ * @license   LICENSE.txt
+ */
+
+#prestacafenewpayu_payment_button a {
+	background: url(../img/payment_bg.png) 15px 15px no-repeat #fbfbfb;
+}
+
+#prestacafenewpayu_payment_button a:hover {
+	background-color: #f6f6f6;
+}
+
+#prestacafenewpayu_payment_button a:after {
+	display: block;
+	content: "\f054";
+	position: absolute;
+	right: 15px;
+	margin-top: -11px;
+	top: 50%;
+	font-family: "FontAwesome";
+	font-size: 25px;
+	height: 22px;
+	width: 14px;
+	color: #777777;
+}
+
+#prestacafenewpayu_direct_card_payment_button a {
+    background: url(../img/payment_card_bg.png) 15px 15px no-repeat #fbfbfb;
+}
+
+#prestacafenewpayu_direct_card_payment_button a:hover {
+    background-color: #f6f6f6;
+}
+
+#prestacafenewpayu_direct_card_payment_button a:after {
+    display: block;
+    content: "\f054";
+    position: absolute;
+    right: 15px;
+    margin-top: -11px;
+    top: 50%;
+    font-family: "FontAwesome";
+    font-size: 25px;
+    height: 22px;
+    width: 14px;
+    color: #777777;
+}
+
+#prestacafenewpayu_payment_overlay {
+    background: rgba(50,50,50,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+#prestacafenewpayu_payment_overlay_message {
+    background: #fff;
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -150px;
+    padding: 10px;
+    z-index: 11;
+    line-height: 80px;
+    text-align: center;
+}
+
+/*.order_payu_content .alert.alert-success a {*/
+    /*color: white;*/
+/*}*/
+
+#payu-payment-list {
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #999;
+    border-bottom: none;
+}
+
+#payu-payment-list th {
+    padding: 14px 12px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #000;
+    background-color: #999;
+}
+
+#payu-payment-list td {
+    padding: 12px;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+/* PBL general */
+
+.payu-pbl-cell {
+    min-height: 100px;
+    transition: background-color 0.5s ease,
+                border 0.5s ease;
+    /*margin: 5px 3px;*/
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.payu-pbl-cell-selected {
+    border: 1px solid black;
+}
+
+.payu-pbl-cell img {
+    width: 80%;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+/* PBL PS 1.5 overrides */
+
+.payu-pbl-cell.payu-pbl-cell-ps15 {
+    min-height: 50px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.payu-pbl-cell.payu-pbl-cell-ps15:hover {
+    background-color: #ffcd13;
+}
+
+.payu-pbl-cell.payu-pbl-cell-ps15.payu-pbl-cell-selected,
+.payu-pbl-cell.payu-pbl-cell-ps15.payu-pbl-cell-selected:hover {
+    background-color: #f4b61b;
+}
+
+.payu-pbl-cell.payu-pbl-cell-ps15 img {
+    width: 80px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+/* PBL PS 1.6 overrides */
+
+.payu-pbl-cell.payu-pbl-cell-ps16:hover {
+    background-color: #82ed86;
+}
+
+.payu-pbl-cell.payu-pbl-cell-ps16.payu-pbl-cell-selected,
+.payu-pbl-cell.payu-pbl-cell-ps16.payu-pbl-cell-selected:hover {
+    background-color: #74d578;
+}
+
+/* PBL PS 1.7 overrides */
+
+.payu-pbl-cell.payu-pbl-cell-ps17:hover {
+    background-color: #b9effa;
+}
+
+.payu-pbl-cell.payu-pbl-cell-ps17.payu-pbl-cell-selected,
+.payu-pbl-cell.payu-pbl-cell-ps17.payu-pbl-cell-selected:hover {
+    background-color: #2fb5d2;
+}

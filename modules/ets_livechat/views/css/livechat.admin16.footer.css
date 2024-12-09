@@ -1,0 +1,25 @@
+body.lc_floating:not(.hide_chatbox_employe_not_active) #header_infos {
+    box-sizing: border-box;
+}
+ul.lc_menu_top {
+    margin-left: -5px;
+    top: 135px;
+    z-index: 100;
+}
+.lc_menu_top > li:first-child i.material-icons:before {
+    content: "\f0e4";
+    font-family: Fontawesome;
+    font-style: normal;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.lc_menu_top > li:first-child i.material-icons {
+    font-size: 0;
+}
+#maintab-AdminLiveChat i.icon-AdminLiveChat:before {
+    content: "\f086";
+    font-family: Fontawesome;
+}
+
+
+

@@ -1,0 +1,1 @@
+<span class="fa fa-rocket"></span><div class="a-left"><h3><a href="#">Darmowa dostawa od 150zł</a></h3><p>Złóż zamówienie na kwotę wyższą niż 150zł i otrzymaj przesyłkę towaru za darmo!</p><div class="read-more"></div></div>

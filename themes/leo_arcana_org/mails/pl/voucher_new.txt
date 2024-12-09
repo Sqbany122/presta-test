@@ -1,0 +1,14 @@
+[/{shop_url}] 
+
+Witaj {firstname} {lastname}, 
+
+Oto kod Twojego bonu: {voucher_num}
+
+Po prostu skopiuj/wklej ten kod podczas procesu płatności dla
+następnego zamówienia. 		 
+
+
+    Salon Jeździecki Pegaz
+    ul.Zamkowa 2, 62-310 Pyzdry
+    Telefon: 507 822 351, 507 822 367
+    E-mail: zamowienia@pegazshop.pl

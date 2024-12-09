@@ -1,0 +1,2 @@
+{staff} added you a ticket {subject}
+{mail_content}

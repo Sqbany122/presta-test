@@ -1,0 +1,548 @@
+{
+    "headers": {
+        "category": "Customers",
+        "name": "Customers"
+    },
+    "fields": {
+        "id_customer": {
+            "title": "ID",
+            "description": "Customer identifier",
+            "is_core": true,
+            "mandatory": true,
+            "query": {
+                "group_by": "a.id_customer"
+            }
+        },
+        "title": {
+            "title": "Social title",
+            "description": "Social title of the customer",
+            "is_core": true
+        },
+        "firstname": {
+            "title": "First name",
+            "description": "First name of the customer",
+            "is_core": true,
+            "filter_key": "a!firstname",
+            "quick_select": "a.firstname"
+        },
+        "lastname": {
+            "title": "Last name",
+            "description": "Last name of the customer",
+            "is_core": true,
+            "filter_key": "a!lastname",
+            "quick_select": "a.lastname"
+        },
+        "email": {
+            "title": "Email address",
+            "description": "Email address of the customer",
+            "filter_key": "a!email",
+            "is_core": true
+        },
+        "company": {
+            "title": "Company",
+            "description": "Company of the customer (only if B2B is activated)",
+            "is_core": true,
+            "filter_key": "a!company"
+        },
+        "total_spent": {
+            "title": "Sales",
+            "description": "Total sales tax included for this customer",
+            "is_core": true
+        },
+        "active": {
+            "title": "Enabled",
+            "description": "Indicates if the customer is active",
+            "is_core": true
+        },
+        "newsletter": {
+            "title": "Newsletter",
+            "description": "Indicates if the customer subscribed to the newsletter",
+            "is_core": true
+        },
+        "optin": {
+            "title": "Opt-In",
+            "description": "Indicates if the customer has allowed the transmission of its email to third parties",
+            "is_core": true
+        },
+        "date_add": {
+            "title": "Registration",
+            "description": "Date of registration of the customer",
+            "is_core": true
+        },
+        "connect": {
+            "title": "Last visit",
+            "description": "Date of last visit of the customer",
+            "is_core": true
+        },
+        "admin_customers_default_billing_address": {
+            "title": "Address",
+            "description": "Show the default billing address for the customer",
+            "translator": "AdminCustomers",
+            "havingFilter": true,
+            "search": false,
+            "amb_callback": {
+                "method": "displayAddress",
+                "args": {
+                    "address_id" : "(SELECT max(amb_add2.id_address) FROM $PREFIX_address amb_add2 WHERE amb_add2.deleted=0 AND amb_add2.active=1 AND amb_add2.id_customer is not null AND amb_add2.id_customer != 0 AND amb_add2.id_customer = a.id_customer)"
+                }
+            }
+        },
+        "admin_customers_phones": {
+            "title": "Phone(s)",
+            "description": "Display phone number(s) of the customer",
+            "havingFilter": true,
+            "quick_select": "CONCAT(amb_address.phone, ' ', amb_address.phone_mobile)",
+            "query": {
+                "joins": [
+                    {
+                        "type": "LEFT",
+                        "table": "address",
+                        "alias": "amb_address",
+                        "on": "amb_address.id_address = (SELECT max(amb_add2.id_address) FROM $PREFIX_address amb_add2 WHERE amb_add2.deleted=0 AND amb_add2.active=1 AND amb_add2.id_customer is not null AND amb_add2.id_customer != 0 AND amb_add2.id_customer = a.id_customer)"
+                    }
+                ]
+            }
+        },
+        "admin_customers_orders_list": {
+            "title": "Orders",
+            "translator": "AdminCustomers",
+            "search": false,
+            "description": "Shows a list of the orders made by the customer",
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "method": "'fetchOrdersFromCustomerId'",
+                    "id": "a.id_customer",
+                    "value": "IFNULL((SELECT COUNT(id_order) FROM $PREFIX_orders acoc_o INNER JOIN $PREFIX_order_state acoc_os ON acoc_o.current_state = acoc_os.id_order_state WHERE acoc_os.logable=1 and acoc_o.id_customer = a.id_customer),0)"
+                }
+            }
+        },
+        "admin_customers_carts_list": {
+            "title": "Carts",
+            "description": "List of all the carts of the customer",
+            "translator": "AdminCustomers",
+            "search": false,
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "method": "'fetchCartsFromCustomerId'",
+                    "id": "a.id_customer",
+                    "value": "IFNULL((SELECT COUNT(id_cart) FROM $PREFIX_cart acoc_c WHERE acoc_c.id_customer = a.id_customer), 0)"
+                }
+            }
+        },
+        "admin_customers_ordered_carts_list": {
+            "title": "Ordered cart",
+            "description": "List of the carts that were ordered by the customer",
+            "search": false,
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "method": "'fetchOrderedCartsFromCustomerId'",
+                    "id": "a.id_customer",
+                    "value": "IFNULL((SELECT COUNT(acoc_c.id_cart) FROM $PREFIX_cart acoc_c LEFT JOIN $PREFIX_orders acoc_o ON acoc_o.id_cart=acoc_c.id_cart WHERE acoc_c.id_customer = a.id_customer AND acoc_o.id_order IS NOT NULL), 0)"
+                }
+            }
+        },
+        "admin_customers_abandoned_carts_list": {
+            "title": "Abandoned cart",
+            "description": "List of the carts that were abandoned by the customer",
+            "translator": "AdminCarts",
+            "search": false,
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "method": "'fetchAbandonedCartsFromCustomerId'",
+                    "id": "a.id_customer",
+                     "value": "IFNULL((SELECT COUNT(acoc_c.id_cart) FROM $PREFIX_cart acoc_c LEFT JOIN $PREFIX_orders acoc_o ON acoc_o.id_cart=acoc_c.id_cart WHERE acoc_c.id_customer = a.id_customer AND acoc_o.id_order IS NULL), 0)"
+                }
+            }
+        },
+        "admin_customers_birthday": {
+            "title": "Birthday",
+            "description": "Customer birthday",
+            "quick_select": "a.birthday",
+            "havingFilter": true,
+            "type": "date",
+            "translator": "AdminCustomers"
+        },
+        "admin_customers_age": {
+            "title": "Age",
+            "description": "Customer age",
+            "quick_select": "(FLOOR(DATEDIFF(CURDATE(), a.birthday)/365))",
+            "havingFilter": true,
+            "align": "text-center",
+            "translator": "AdminCustomers"
+        },
+        "admin_customers_language": {
+            "title": "Language",
+            "description": "Main language of the customer",
+            "translator": "AdminOrders",
+            "havingFilter": true,
+            "quick_select": "(SELECT iso_code FROM $PREFIX_lang acl_l WHERE acl_l.id_lang=(SELECT o.id_lang FROM $PREFIX_orders o WHERE o.id_customer=a.id_customer ORDER BY id_order DESC LIMIT 1))",
+            "align": "text-center"
+        },
+        "admin_customers_groups_list": {
+            "title": "Groups",
+            "description": "List of the groups the customer belongs to",
+            "translator": "AdminCustomers",
+            "search": false,
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "skip",
+                "args": {
+                    "value": "(SELECT COUNT(*) FROM $PREFIX_customer_group cg WHERE cg.id_customer=a.id_customer)",
+                    "method": "'fetchGroupsFromCustomerId'",
+                    "id": "a.id_customer"
+                }
+            }
+        },
+        "admin_customers_note":{
+            "title": "Private note",
+            "description": "Shows the private customer note",
+            "class":"text-center",
+            "havingFilter": true,
+            "translator": "AdminOrders",
+            "amb_callback": {
+                "method": "preloadedTooltip",
+                "export": "value",
+                "args": {
+                    "value":"a.note"
+                }
+            }
+        },
+        "admin_customers_last_order":{
+            "title": "Last order",
+            "description": "Show the date of the last order of the customer",
+            "class":"text-center",
+            "havingFilter": true,
+            "quick_select": "(SELECT MAX(invoice_date) FROM $PREFIX_orders aclo_o INNER JOIN $PREFIX_order_state aclo_os ON aclo_o.current_state = aclo_os.id_order_state WHERE aclo_os.logable=1 AND aclo_o.id_customer=a.id_customer)",
+            "type": "date"
+        },
+        "admin_customers_total_ht":{
+            "title": "Products (Tax excl.)",
+            "description": "Shows the amount of products purchased by the customer",
+            "havingFilter": true,
+            "quick_select": "(SELECT SUM(total_products) FROM $PREFIX_orders acth_o INNER JOIN $PREFIX_order_state acth_os ON acth_o.current_state = acth_os.id_order_state WHERE acth_os.logable=1 AND acth_o.id_customer=a.id_customer)",
+            "type": "price"
+        },
+        "admin_customers_discounts_list": {
+            "title": "Discounts",
+            "description": "List of discounts the customer has been granted",
+            "translator": "AdminCarts",
+            "search": false,
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "method": "'fetchCartRulesFromCustomerId'",
+                    "id": "a.id_customer",
+                    "value": "(SELECT COUNT(id_cart_rule) FROM $PREFIX_cart_rule acdl_cr WHERE acdl_cr.id_customer = a.id_customer)"
+                }
+            }
+        },
+        "admin_customers_customer_thread": {
+            "title": "Current thread",
+            "description": "Link to the current customer service thread",
+            "search": false,
+            "align": "text-center",
+            "amb_callback": {
+                "method": "adminLink",
+                "args": {
+                    "value":"(SELECT CONCAT(UCASE(LEFT(acct_ct.status, 1)), SUBSTRING(acct_ct.status, 2)) FROM $PREFIX_customer_thread acct_ct WHERE acct_ct.id_customer=a.id_customer ORDER BY acct_ct.id_customer_thread DESC LIMIT 1)",
+                    "controller":"'AdminCustomerThreads'",
+                    "params":"CONCAT('id_customer_thread=', (SELECT MAX(id_customer_thread) FROM $PREFIX_customer_thread acct_ct WHERE acct_ct.id_customer=a.id_customer) , '&viewcustomer_thread')",
+                    "translator": "'AdminCustomerThreads'"
+                }
+            }
+        },
+        "admin_customers_score_orders": {
+            "title": "Orders score",
+            "description": "Score based on the number of orders the customer made compared to the average number of orders",
+            "quick_select": " CASE
+        when ((count(id_order) - avg_orders) / avg_orders)  > 1 THEN 5
+        when ((count(id_order) - avg_orders) / avg_orders)  BETWEEN 0.6 AND 1 THEN 4
+        when ((count(id_order) - avg_orders) / avg_orders)  BETWEEN 0.2 AND 0.6 THEN 3
+        when ((count(id_order) - avg_orders) / avg_orders)  BETWEEN 0 AND 0.2 THEN 2
+        when ((count(id_order) - avg_orders) / avg_orders)  BETWEEN -0.2 AND 0 THEN 1
+        ELSE 0
+    END",
+            "align": "text-center",
+            "havingFilter": true,
+            "amb_callback": {
+                "method": "scoring"
+            },
+            "query": {
+                "joins": [
+                {
+                    "alias": "c_stats",
+                    "select": "(select
+        c.id_customer,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.id_order, NULL) as id_order,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.date_add, NULL) as date_add,
+            LEAST(datediff(NOW(), c.date_add), datediff(NOW(), date_sub(NOW(), INTERVAL 1 year))) as full_year_or_subscription,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.total_paid_tax_excl, NULL) as total_paid_tax_excl,
+            averages . *
+    from
+        $PREFIX_customer c
+    left join $PREFIX_orders o1 ON c.id_customer = o1.id_customer
+        AND o1.date_add > date_sub(NOW(), INTERVAL 1 year)
+    left join $PREFIX_order_state os1 ON os1.id_order_state = o1.current_state, (select
+        365 / AVG(o2.nb_orders) as avg_order_period,
+            AVG(o2.nb_orders) as avg_orders,
+            AVG(o2.recency) as avg_recency,
+            SUM(o2.full_year_or_subscription) / SUM(o2.nb_orders) as avg_between_orders_period,
+            1 / (SUM(o2.full_year_or_subscription) / SUM(o2.nb_orders)) as avg_between_orders_frequency,
+            SUM(o2.total_paid) / SUM(nb_orders) as avg_total_paid
+    from
+        (select
+        COUNT(o1.id_order) as nb_orders,
+            MAX(o1.date_add) as date_add_last,
+            LEAST(datediff(NOW(), c1.date_add), datediff(NOW(), date_sub(NOW(), INTERVAL 1 year))) as full_year_or_subscription,
+            MIN(o1.date_add) date_add_first,
+            SUM(o1.total_paid_tax_excl) as total_paid,
+            datediff(NOW(), MAX(o1.date_add)) as recency
+    from
+        $PREFIX_orders o1
+    inner join $PREFIX_order_state os1 ON os1.id_order_state = o1.current_state
+    inner join $PREFIX_customer c1 ON c1.id_customer = o1.id_customer
+    where
+        os1.logable = 1 AND os1.paid = 1
+            AND o1.date_add > date_sub(NOW(), INTERVAL 1 year)
+    GROUP BY o1.id_customer) o2) as averages)",
+                    "on": "c_stats.id_customer=a.id_customer",
+                    "type": "LEFT"
+                }
+                ]
+            }
+        },
+        "admin_customers_score_frequency": {
+            "title": "Frequency score",
+            "description": "Score based on the purchase frequency of the customer compared to the average frequency",
+            "havingFilter": true,
+            "quick_select": "CASE
+        when ((1 / (c_stats.full_year_or_subscription / count(c_stats.id_order)) - avg_between_orders_frequency) / (avg_between_orders_frequency))  > 1 THEN 5
+        when ((1 / (c_stats.full_year_or_subscription / count(c_stats.id_order)) - avg_between_orders_frequency) / (avg_between_orders_frequency))  BETWEEN 0.6 AND 1 THEN 4
+        when ((1 / (c_stats.full_year_or_subscription / count(c_stats.id_order)) - avg_between_orders_frequency) / (avg_between_orders_frequency))  BETWEEN 0.2 AND 0.6 THEN 3
+        when ((1 / (c_stats.full_year_or_subscription / count(c_stats.id_order)) - avg_between_orders_frequency) / (avg_between_orders_frequency))  BETWEEN 0 AND 0.2 THEN 2
+        when ((1 / (c_stats.full_year_or_subscription / count(c_stats.id_order)) - avg_between_orders_frequency) / (avg_between_orders_frequency))  BETWEEN -0.2 AND 0 THEN 1
+        ELSE 0
+    END",
+            "align": "text-center",
+            "amb_callback": {
+                "method": "scoring"
+            },
+            "query": {
+                "joins": [
+                {
+                    "alias": "c_stats",
+                    "select": "(select
+        c.id_customer,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.id_order, NULL) as id_order,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.date_add, NULL) as date_add,
+            LEAST(datediff(NOW(), c.date_add), datediff(NOW(), date_sub(NOW(), INTERVAL 1 year))) as full_year_or_subscription,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.total_paid_tax_excl, NULL) as total_paid_tax_excl,
+            averages . *
+    from
+        $PREFIX_customer c
+    left join $PREFIX_orders o1 ON c.id_customer = o1.id_customer
+        AND o1.date_add > date_sub(NOW(), INTERVAL 1 year)
+    left join $PREFIX_order_state os1 ON os1.id_order_state = o1.current_state, (select
+        365 / AVG(o2.nb_orders) as avg_order_period,
+            AVG(o2.nb_orders) as avg_orders,
+            AVG(o2.recency) as avg_recency,
+            SUM(o2.full_year_or_subscription) / SUM(o2.nb_orders) as avg_between_orders_period,
+            1 / (SUM(o2.full_year_or_subscription) / SUM(o2.nb_orders)) as avg_between_orders_frequency,
+            SUM(o2.total_paid) / SUM(nb_orders) as avg_total_paid
+    from
+        (select
+        COUNT(o1.id_order) as nb_orders,
+            MAX(o1.date_add) as date_add_last,
+            LEAST(datediff(NOW(), c1.date_add), datediff(NOW(), date_sub(NOW(), INTERVAL 1 year))) as full_year_or_subscription,
+            MIN(o1.date_add) date_add_first,
+            SUM(o1.total_paid_tax_excl) as total_paid,
+            datediff(NOW(), MAX(o1.date_add)) as recency
+    from
+        $PREFIX_orders o1
+    inner join $PREFIX_order_state os1 ON os1.id_order_state = o1.current_state
+    inner join $PREFIX_customer c1 ON c1.id_customer = o1.id_customer
+    where
+        os1.logable = 1 AND os1.paid = 1
+            AND o1.date_add > date_sub(NOW(), INTERVAL 1 year)
+    GROUP BY o1.id_customer) o2) as averages)",
+                    "on": "c_stats.id_customer=a.id_customer",
+                    "type": "LEFT"
+                }
+                ]
+            }
+        },
+        "admin_customers_score_total_paid": {
+            "title": "Amount score",
+            "description": "Score based on the amounts purchased by the customer compared to the average amount",
+            "havingFilter": true,
+            "quick_select": "CASE
+        when ((avg(total_paid_tax_excl) - avg_total_paid) / avg_total_paid)  > 1 THEN 5
+        when ((avg(total_paid_tax_excl) - avg_total_paid) / avg_total_paid)  BETWEEN 0.6 AND 1 THEN 4
+        when ((avg(total_paid_tax_excl) - avg_total_paid) / avg_total_paid)  BETWEEN 0.2 AND 0.6 THEN 3
+        when ((avg(total_paid_tax_excl) - avg_total_paid) / avg_total_paid)  BETWEEN 0 AND 0.2 THEN 2
+        when ((avg(total_paid_tax_excl) - avg_total_paid) / avg_total_paid)  BETWEEN -0.2 AND 0 THEN 1
+        ELSE 0
+    END",
+            "align": "text-center",
+            "amb_callback": {
+                "method": "scoring"
+            },
+            "query": {
+                "joins": [
+                {
+                    "alias": "c_stats",
+                    "select": "(select
+        c.id_customer,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.id_order, NULL) as id_order,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.date_add, NULL) as date_add,
+            LEAST(datediff(NOW(), c.date_add), datediff(NOW(), date_sub(NOW(), INTERVAL 1 year))) as full_year_or_subscription,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.total_paid_tax_excl, NULL) as total_paid_tax_excl,
+            averages . *
+    from
+        $PREFIX_customer c
+    left join $PREFIX_orders o1 ON c.id_customer = o1.id_customer
+        AND o1.date_add > date_sub(NOW(), INTERVAL 1 year)
+    left join $PREFIX_order_state os1 ON os1.id_order_state = o1.current_state, (select
+        365 / AVG(o2.nb_orders) as avg_order_period,
+            AVG(o2.nb_orders) as avg_orders,
+            AVG(o2.recency) as avg_recency,
+            SUM(o2.full_year_or_subscription) / SUM(o2.nb_orders) as avg_between_orders_period,
+            1 / (SUM(o2.full_year_or_subscription) / SUM(o2.nb_orders)) as avg_between_orders_frequency,
+            SUM(o2.total_paid) / SUM(nb_orders) as avg_total_paid
+    from
+        (select
+        COUNT(o1.id_order) as nb_orders,
+            MAX(o1.date_add) as date_add_last,
+            LEAST(datediff(NOW(), c1.date_add), datediff(NOW(), date_sub(NOW(), INTERVAL 1 year))) as full_year_or_subscription,
+            MIN(o1.date_add) date_add_first,
+            SUM(o1.total_paid_tax_excl) as total_paid,
+            datediff(NOW(), MAX(o1.date_add)) as recency
+    from
+        $PREFIX_orders o1
+    inner join $PREFIX_order_state os1 ON os1.id_order_state = o1.current_state
+    inner join $PREFIX_customer c1 ON c1.id_customer = o1.id_customer
+    where
+        os1.logable = 1 AND os1.paid = 1
+            AND o1.date_add > date_sub(NOW(), INTERVAL 1 year)
+    GROUP BY o1.id_customer) o2) as averages)",
+                    "on": "c_stats.id_customer=a.id_customer",
+                    "type": "LEFT"
+                }
+                ]
+            }
+        },
+        "admin_customers_score_final": {
+            "title": "Global score",
+            "description": "Score based on a blend of the three previous scores",
+            "align": "text-center",
+            "havingFilter": true,
+            "amb_callback": {
+                "method": "scoring"
+            },
+            "quick_select": "CASE
+        when  ((LEAST(2, ((count(id_order) - avg_orders) / avg_orders))
+        + (IF(count(id_order) <= 1,
+        0,
+        LEAST(2, ((1 / (c_stats.full_year_or_subscription / count(c_stats.id_order)) - avg_between_orders_frequency) / (avg_between_orders_frequency)))
+        + LEAST(2, (avg(total_paid_tax_excl) - avg_total_paid) / avg_total_paid))))/3) > 1 THEN 5
+        when  ((LEAST(2, ((count(id_order) - avg_orders) / avg_orders))
+        + (IF(count(id_order) <= 1,
+        0,
+        LEAST(2, ((1 / (c_stats.full_year_or_subscription / count(c_stats.id_order)) - avg_between_orders_frequency) / (avg_between_orders_frequency)))
+        + LEAST(2, (avg(total_paid_tax_excl) - avg_total_paid) / avg_total_paid))))/3) BETWEEN 0.6 AND 1 THEN 4
+        when  ((LEAST(2, ((count(id_order) - avg_orders) / avg_orders))
+        + (IF(count(id_order) <= 1,
+        0,
+        LEAST(2, ((1 / (c_stats.full_year_or_subscription / count(c_stats.id_order)) - avg_between_orders_frequency) / (avg_between_orders_frequency)))
+        + LEAST(2, (avg(total_paid_tax_excl) - avg_total_paid) / avg_total_paid))))/3) BETWEEN 0.2 AND 0.6 THEN 3
+        when  ((LEAST(2, ((count(id_order) - avg_orders) / avg_orders))
+        + (IF(count(id_order) <= 1,
+        0,
+        LEAST(2, ((1 / (c_stats.full_year_or_subscription / count(c_stats.id_order)) - avg_between_orders_frequency) / (avg_between_orders_frequency)))
+        + LEAST(2, (avg(total_paid_tax_excl) - avg_total_paid) / avg_total_paid))))/3) BETWEEN 0 AND 0.2 THEN 2
+        when  ((LEAST(2, ((count(id_order) - avg_orders) / avg_orders))
+        + (IF(count(id_order) <= 1,
+        0,
+        LEAST(2, ((1 / (c_stats.full_year_or_subscription / count(c_stats.id_order)) - avg_between_orders_frequency) / (avg_between_orders_frequency)))
+        + LEAST(2, (avg(total_paid_tax_excl) - avg_total_paid) / avg_total_paid))))/3) BETWEEN -0.2 AND 0 THEN 1
+        ELSE 0
+    END",
+            "query": {
+                "joins": [
+                {
+                    "alias": "c_stats",
+                    "select": "(select
+        c.id_customer,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.id_order, NULL) as id_order,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.date_add, NULL) as date_add,
+            LEAST(datediff(NOW(), c.date_add), datediff(NOW(), date_sub(NOW(), INTERVAL 1 year))) as full_year_or_subscription,
+            IF((o1.id_order IS NOT NULL
+                AND os1.logable = 1
+                AND os1.paid = 1), o1.total_paid_tax_excl, NULL) as total_paid_tax_excl,
+            averages . *
+    from
+        $PREFIX_customer c
+    left join $PREFIX_orders o1 ON c.id_customer = o1.id_customer
+        AND o1.date_add > date_sub(NOW(), INTERVAL 1 year)
+    left join $PREFIX_order_state os1 ON os1.id_order_state = o1.current_state, (select
+        365 / AVG(o2.nb_orders) as avg_order_period,
+            AVG(o2.nb_orders) as avg_orders,
+            AVG(o2.recency) as avg_recency,
+            SUM(o2.full_year_or_subscription) / SUM(o2.nb_orders) as avg_between_orders_period,
+            1 / (SUM(o2.full_year_or_subscription) / SUM(o2.nb_orders)) as avg_between_orders_frequency,
+            SUM(o2.total_paid) / SUM(nb_orders) as avg_total_paid
+    from
+        (select
+        COUNT(o1.id_order) as nb_orders,
+            MAX(o1.date_add) as date_add_last,
+            LEAST(datediff(NOW(), c1.date_add), datediff(NOW(), date_sub(NOW(), INTERVAL 1 year))) as full_year_or_subscription,
+            MIN(o1.date_add) date_add_first,
+            SUM(o1.total_paid_tax_excl) as total_paid,
+            datediff(NOW(), MAX(o1.date_add)) as recency
+    from
+        $PREFIX_orders o1
+    inner join $PREFIX_order_state os1 ON os1.id_order_state = o1.current_state
+    inner join $PREFIX_customer c1 ON c1.id_customer = o1.id_customer
+    where
+        os1.logable = 1 AND os1.paid = 1
+            AND o1.date_add > date_sub(NOW(), INTERVAL 1 year)
+    GROUP BY o1.id_customer) o2) as averages)",
+                    "on": "c_stats.id_customer=a.id_customer",
+                    "type": "LEFT"
+                }
+                ]
+            }
+        }
+    }
+}

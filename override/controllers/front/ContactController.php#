@@ -1,0 +1,29 @@
+<?php
+class ContactController extends ContactControllerCore
+{
+    /*
+    * module: contactformnospam
+    * date: 2018-08-20 12:43:16
+    * version: 0.0.1
+    */
+    public function postProcess()
+    {
+        if (Tools::isSubmit('submitMessage')) {
+            if (!Tools::getValue('contactformnospan')) {
+                return;
+            }
+        }
+        parent::postProcess();
+    }
+    /*
+    * module: contactformnospam
+    * date: 2018-08-20 12:43:16
+    * version: 0.0.1
+    */
+    public function setMedia()
+    {
+        parent::setMedia();
+        $this->addJS(_PS_MODULE_DIR_.'contactformnospam/nospam.js');
+    }
+}
+?>

@@ -1,0 +1,187 @@
+
+.amb_table_element {
+  text-align:left !important;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../fonts/fontawesome-webfont.eot?v=4.3.0");
+    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #777;
+  border-radius: 10px;
+}
+.badge:empty {
+  display: none;
+}
+
+
+i {
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.icon-eye:before {
+    content: ""
+}
+
+.icon-pencil:before {
+    content: ""
+}
+
+.icon-trash:before {
+    content: ""
+}
+
+i.process-icon-configure:before {
+    content: "";
+}
+
+[class^="process-icon-"] {
+    font-size: 1.7em
+}
+
+[class^="icon-"] {
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.icon-star:before {
+    content: ""
+}
+
+.icon-star-o:before,
+.icon-star-empty:before {
+    content: ""
+}
+
+.icon-search-plus:before {
+    content: ""
+}
+
+#view_selector.compat {
+    float:left;
+    margin-left:20px;
+}
+
+
+#content .process-icon-back:before {
+    content: ""
+}
+
+.process-icon-preview:before {
+    content: ""
+}
+
+.ambButton {
+    font-size:1.6em;
+}
+.ambButton i {
+    font-size:1em;
+}
+
+.icon-arrows:before,
+.icon-move:before,
+.table td.dragHandle .dragGroup:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: ""
+}
+
+.table td.dragHandle .dragGroup {
+    width: 80px;
+    cursor: move;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    padding: 4px 4px 4px 20px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+}
+
+.table td.dragHandle .dragGroup:hover {
+    color: #fff;
+    background-color: #00aff0 !important
+}
+
+.table td.dragHandle .dragGroup:before {
+    display: block;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 8px;
+    left: 6px
+}
+
+.table td.dragHandle .dragGroup .positions {
+    display: inline-block;
+    border: solid 1px #ccc;
+    background-color: #eee;
+    padding: 0 5px;
+    color: #aaa;
+    width: 43px;
+    text-shadow: #fff 1px 1px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px inset;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px inset
+}
+
+
+.btn-link {
+    color: #00aff0;
+    font-weight: normal;
+    cursor: pointer;
+    border-radius: 0
+}
+
+.btn-link,
+.btn-link:active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+    border-color: transparent
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    color: #0077a4;
+    text-decoration: underline;
+    background-color: transparent
+}
+
+.btn-link[disabled]:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:hover,
+fieldset[disabled] .btn-link:focus {
+    color: #999;
+    text-decoration: none
+}
+
+table.table td > a {
+    color:#268CCD;
+}
+
+table.table td > a:hover {
+    text-decoration: underline;
+}

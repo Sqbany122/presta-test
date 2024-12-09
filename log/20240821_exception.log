@@ -1,0 +1,59 @@
+*ERROR* 	2024/08/21 - 08:03:51: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 08:03:55: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 08:03:57: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 08:04:00: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 11:51:11: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:11: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:11: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:12: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:12: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:12: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:12: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:12: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:12: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:12: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:12: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:13: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:13: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:13: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:14: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:14: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:14: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:15: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:15: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:15: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:16: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:16: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:17: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:17: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 11:51:18: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/08/21 - 13:25:44: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:25:55: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:26:03: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:26:24: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:26:57: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:27:05: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:27:17: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:27:34: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:27:49: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:30:31: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:31:25: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:31:36: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:32:36: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:33:30: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:33:38: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:33:39: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:33:40: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 13:34:09: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 14:21:34: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 14:21:38: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 23:47:43: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 23:48:00: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 23:48:26: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 23:48:48: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 23:49:11: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 23:49:51: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 23:50:39: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/08/21 - 23:51:00: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php

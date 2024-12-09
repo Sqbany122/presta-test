@@ -1,0 +1,12 @@
+*ERROR* 	2023/06/27 - 13:56:02: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/06/27 - 13:56:02: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/06/27 - 13:56:03: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/06/27 - 13:56:03: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/06/27 - 13:56:03: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/06/27 - 13:56:03: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/06/27 - 13:56:03: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/06/27 - 13:56:03: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/06/27 - 13:56:04: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/06/27 - 13:56:04: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2023/06/27 - 23:54:06: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2023/06/27 - 23:54:15: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php

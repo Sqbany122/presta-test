@@ -1,0 +1,12 @@
+@import "compass";
+@import "theme_variables";
+
+.languages-block{
+	ul{
+		> li{
+			img{
+				vertical-align: -1px;
+			}
+		}
+	}
+}

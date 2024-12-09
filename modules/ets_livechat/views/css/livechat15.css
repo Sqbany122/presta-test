@@ -1,0 +1,57 @@
+.lc_send_another_msg {
+  background-color: #00aff0;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  padding: 11px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.criterions_livechat .star, .criterions_livechat .star a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  float: left;
+  height: 13px;
+  width: 12px;
+}
+.criterions_livechat .star > a::before {
+  margin-top: -1px;
+}
+.lc_error_start_chat .module_error {
+    color: red;
+}
+.criterions_livechat .star > a:before{
+    margin-top: 0;
+}
+.module-ets_livechat-form .form-fields input {
+    height: 28px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+.module-ets_livechat-form .form-fields label.form-control-label {
+    min-width: 100px;
+    margin-top: 5px;
+}
+.module-ets_livechat-form .form-fields textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    min-height: 100px;
+}
+.module-ets_livechat-form .submit_send_ticket {
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.module-ets_livechat-form .desc {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+

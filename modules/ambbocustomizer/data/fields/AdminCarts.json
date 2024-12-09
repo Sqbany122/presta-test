@@ -1,0 +1,137 @@
+{
+    "headers": {
+        "category": "Customers",
+        "name": "Shopping Carts"
+    },
+    "fields": {
+        "id_cart": {
+            "title":  "ID",
+            "description": "Cart identifier",
+            "is_core": true,
+            "mandatory": true
+        },
+        "status": {
+            "title":  "Order ID",
+            "description": "ID of the related order",
+            "is_core": true
+        },
+        "customer": {
+            "title":  "Customer",
+            "description": "Customer name",
+            "is_core": true
+        },
+        "total": {
+            "title":  "Total",
+            "description": "Total tax included of the cart",
+            "is_core": true
+        },
+        "carrier": {
+            "title":  "Carrier",
+            "description": "Carrier for this cart",
+            "is_core": true
+        },
+        "date_add": {
+            "title":  "Date",
+            "description": "Date of creation of the cart",
+            "is_core": true
+        },
+        "id_guest": {
+            "title":  "Online",
+            "description": "Indicates whether the customer is still online or not",
+            "is_core": true
+        },
+        "admin_carts_products_list": {
+            "title": "Products",
+            "description": "List of the products contained in the cart",
+            "translator": "AdminOrders",
+            "search": false,
+            "amb_callback": {
+                "method": "tooltip",
+                "export": "value",
+                "args": {
+                    "value": "IFNULL((SELECT SUM(quantity) FROM $PREFIX_cart_product cp WHERE cp.id_cart=a.id_cart), 0)",
+                    "method": "'fetchProductsFromCartId'",
+                    "id": "a.id_cart"
+                }
+            },
+            "align": "text-center"
+        },
+        "admin_carts_order_link": {
+            "title": "Order #",
+            "description": "Link to the related order",
+            "translator": "AdminCustomerThreads",
+            "search": false,
+            "amb_callback": {
+                "method": "adminLink",
+                "export": "value",
+                "args": {
+                    "value": "CONCAT('#', amb_o.id_order)",
+                    "controller": "'AdminOrders'",
+                    "params": "CONCAT('id_order=', amb_o.id_order, '&vieworder')"
+                }
+            },
+            "query": {
+                "joins": [
+                {
+                    "table": "orders",
+                    "alias": "amb_o",
+                    "type": "LEFT",
+                    "on": "amb_o.id_cart=a.id_cart"
+                }
+                ]
+            }
+        },
+        "admin_carts_create_order_link": {
+            "title": "Create order",
+            "description": "Link to create an order from the cart",
+            "translator": "AdminOrders",
+            "align": "text-center",
+            "search": false,
+            "amb_callback": {
+                "method": "adminLink",
+                "export": "skip",
+                "args": {
+                    "value": "IF(amb_o.id_order IS NULL, '<i class=\"process-icon-new\"></i>', '')",
+                    "controller": "'AdminOrders'",
+                    "params": "CONCAT('id_cart=', a.id_cart, '&addorder')",
+                    "class": "'toolbar_btn  pointer'"
+                }
+            },
+            "query": {
+                "joins": [
+                {
+                    "table": "orders",
+                    "alias": "amb_o",
+                    "type": "LEFT",
+                    "on": "amb_o.id_cart=a.id_cart"
+                }
+                ]
+            }
+        },
+        "admin_carts_customer_link": {
+            "title": "Customer",
+            "description": "Link to the customer profile",
+            "translator": "AdminCustomers",
+            "havingFilter":true,
+            "amb_callback": {
+                "method": "adminLink",
+                "export": "value",
+                "args": {
+                    "value": "amb_c.lastname",
+                    "controller": "'AdminCustomers'",
+                    "params": "CONCAT('id_customer=', amb_c.id_customer, '&viewcustomer')"
+                }
+            },
+            "query": {
+                "joins": [
+                {
+                    "table": "customer",
+                    "alias": "amb_c",
+                    "type": "LEFT",
+                    "on": "amb_c.id_customer=a.id_customer"
+                }
+                ]
+            }
+        }
+    }
+}

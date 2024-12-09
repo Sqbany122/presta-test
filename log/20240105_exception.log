@@ -1,0 +1,1 @@
+*ERROR* 	2024/01/05 - 11:06:14: Property OrderDetail->product_price is empty at line 917 in file classes/ObjectModel.php

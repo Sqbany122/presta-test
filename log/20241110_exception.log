@@ -1,0 +1,229 @@
+*ERROR* 	2024/11/10 - 10:04:16: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/10 - 10:04:19: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/10 - 10:04:32: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/10 - 10:04:45: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/10 - 10:05:17: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/10 - 13:51:33: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/10 - 13:51:46: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/10 - 13:52:11: Property Address->phone_mobile is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/10 - 13:55:21: Property Address->address2 is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2024/11/10 - 16:12:48: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:48: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:48: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:48: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:48: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:48: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:49: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:50: Link to database cannot be established:SQLSTATE[HY000] [1203] User parkur_pegazshop already has more than 'max_user_connections' active connections at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2006] MySQL server has gone away at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Resource temporarily unavailable at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:55: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:55: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:55: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:55: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:55: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:55: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:55: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:55: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:56: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:56: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:56: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:56: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:57: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:58: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:59: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:59: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:12:59: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:13:00: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:13:00: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:13:00: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2024/11/10 - 16:13:01: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php

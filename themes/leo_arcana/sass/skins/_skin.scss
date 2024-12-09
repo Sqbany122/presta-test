@@ -1,0 +1,34 @@
+
+//base
+a{
+    color: $text-color;
+    &:hover,
+    &:focus {
+        color: $link-hover-color;
+    }
+}
+//prestashop page
+.content_sortPagiBar{
+	.display{
+    .selected{
+  		a{	
+  			    background-color: $theme-color-default;
+  			    border: 1px solid $theme-color-default; 
+  			    .fa {
+  			         color: $white; 
+  			    }   
+  		}
+    }
+	}
+} 
+// BREADCRUMB
+.breadcrumb {
+	color: $breadcrumb-active-color;       
+	a {
+	  &:hover {
+	      color: $breadcrumb-active-color;
+	  }
+	}
+
+}
+   

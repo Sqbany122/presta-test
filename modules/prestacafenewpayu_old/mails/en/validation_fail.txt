@@ -1,0 +1,18 @@
+
+[{shop_url}]
+
+There is at least one PayU payment for which an order has not
+been created. This may mean that the PayU notifications are not
+making it to the store.
+
+This may also mean that the PayU servers are under heavy load and
+the notification will come at a later time. Please monitor the
+transaction below.
+
+Cart ID: {id_cart}
+Transaction ID: {payu_payment_id}
+PayU order ID: {payu_order_id}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]
+

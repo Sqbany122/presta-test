@@ -1,0 +1,18 @@
+
+[{shop_url}]
+
+Napotkano płatność PayU, dla której nie zostało utworzone zamówienie,
+co normalnie dzieje się po otrzymaniu powiadomienia z PayU. Może to
+oznaczać, że powiadomienia z PayU nie przychodzą do sklepu poprawnie.
+
+Może to też oznaczać, że PayU jest chwilowo mocno obciążone
+i powiadomienie przyjdzie później. Proszę monitorować stan poniższej
+transakcji.
+
+Cart ID: {id_cart}
+Transaction ID: {payu_payment_id}
+PayU order ID: {payu_order_id}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]
+

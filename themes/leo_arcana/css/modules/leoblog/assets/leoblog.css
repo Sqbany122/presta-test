@@ -1,0 +1,223 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* blog listing */
+.blogs-container {
+  background: white;
+  padding: 0 15px 20px;
+}
+.blogs-container .title_block {
+  color: #333333;
+  font-family: "ralewayregular", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  border-bottom: 1px solid #e9e9e9;
+  margin: 0 0 10px;
+  padding: 20px 0px;
+}
+.blogs-container .category-image img {
+  padding-right: 10px;
+}
+.rtl .blogs-container .category-image img {
+  padding-left: 10px;
+  padding-right: inherit;
+}
+.blogs-container .blog-item {
+  margin-bottom: 20px;
+}
+.blogs-container .blog-image {
+  margin-bottom: 20px;
+}
+.blogs-container .blog-image img {
+  max-width: 100%;
+}
+.blogs-container .title {
+  text-transform: none;
+}
+.blogs-container .blog-shortinfo {
+  margin-bottom: 20px;
+}
+.blogs-container .blog-meta {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.blogs-container .blog-meta > span span {
+  color: #333333;
+  font-weight: bold;
+}
+
+.blog-tags, .extra-blogs, .blog-comments, .social-share {
+  padding-bottom: 15px;
+}
+
+.extra-blogs ul li {
+  padding: 6px 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.blog-video-code .inner {
+  background: #DDD;
+  padding: 12px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Blog Detail */
+.blog-detail .blog-title {
+  font-family: "ralewayregular", sans-serif;
+  color: #272727;
+  font-size: 26px;
+}
+.blog-detail .blog-meta {
+  margin-bottom: 10px;
+}
+.blog-detail .blog-image {
+  margin-bottom: 20px;
+}
+
+/* categories menu display on left or right sidebar */
+#categories_blog_menu li {
+  position: relative;
+}
+#categories_blog_menu li a {
+  display: block;
+}
+#categories_blog_menu li a:hover span {
+  color: #d1be8f;
+}
+#categories_blog_menu li span.grower {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  cursor: pointer;
+  font-family: "FontAwesome";
+  font-size: 12px;
+  width: 25px;
+  height: 25px;
+  z-index: 999;
+}
+.rtl #categories_blog_menu li span.grower {
+  left: 0;
+  right: auto;
+}
+#categories_blog_menu li span.grower.OPEN:before, #categories_blog_menu li span.grower.CLOSE:before {
+  content: "-";
+  display: block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  color: #333333;
+  line-height: 25px;
+  text-align: center;
+}
+#categories_blog_menu li span.grower.CLOSE:before {
+  content: "+";
+  color: #333333;
+}
+#categories_blog_menu li li a {
+  font-weight: normal;
+  color: #777777;
+}
+#categories_blog_menu li li a:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  line-height: 29px;
+  padding-right: 8px;
+  float: left;
+  top: 0;
+}
+.rtl #categories_blog_menu li li a:before {
+  padding-left: 8px;
+  padding-right: inherit;
+}
+.rtl #categories_blog_menu li li a:before {
+  float: right;
+}
+
+/* comment */
+.comment-item {
+  padding: 12px 0;
+}
+.comment-item img {
+  padding-right: 12px;
+}
+.rtl .comment-item img {
+  padding-left: 12px;
+  padding-right: inherit;
+}
+
+.comment-wrap {
+  overflow: hidden;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #E5E5E5;
+  padding: 20px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.comment-wrap .comment-meta {
+  border-bottom: 1px solid #E5E5E5;
+  font-size: 11px;
+  margin: -20px -20px 10px;
+  padding: 10px 20px;
+}
+.comment-wrap .comment-meta > span {
+  font-weight: bold;
+}
+.comment-wrap .comment-meta > span span {
+  font-weight: normal;
+}
+
+.blog-social .social-wrap > div {
+  float: left;
+}
+.blog-social .social-heading {
+  padding-right: 12px;
+}
+
+.comment-link {
+  background: none repeat scroll 0 0 #F4F4F4;
+  display: block;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: -11px -20px -10px 0;
+  border-left: 1px solid #e5e5e5;
+  float: right;
+}
+.rtl .comment-link {
+  margin: -11px 0 -10px -20px;
+}
+.rtl .comment-link {
+  border-right: 1px solid #e5e5e5;
+  border-left: inherit;
+}
+.rtl .comment-link {
+  float: left;
+}
+
+.ipts-captcha img {
+  float: left;
+  padding: 0 12px 0 0;
+}
+.rtl .ipts-captcha img {
+  float: right;
+}
+.rtl .ipts-captcha img {
+  padding: 0 0 0 12px;
+}
+.ipts-captcha input {
+  width: 100px;
+}

@@ -1,0 +1,5 @@
+.banner .block{margin:0px!important;}
+
+.topnav .nomargin:nth-child(3) .nopadding:nth-child(1), .topnav .nopadding:nth-child(2), .topnav .nopadding:nth-child(3), #image-form_9666407888776288 {
+    display: block!important;
+}
